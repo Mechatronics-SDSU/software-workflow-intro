@@ -23,8 +23,11 @@ We'll go through each styling decision one-by-one and then have a justification 
 
 * PEP8: Follow [PEP8](https://www.python.org/dev/peps/pep-0008/) rules for spacing, docstring inclusion, etc, except where noted below.
 
+* Character limit: Do not go over 80 characters on one line.
+To avoid doing this on accident, I recommend turning off word wrap in your editor and keeping a mental note of where the 80 character limit is. 
+
 * Spaces vs Tabs: Use Tabs (4 spaces) for indentation. 
-To alter your indentation in Pycharm, go to `File > Settings > Editor > Code Style > Python`. Switch to `Tabs`, turn on `Smart Tabs` change indent size to `4` if not done already.
+To alter your indentation in Pycharm, go to `File > Settings > Editor > Code Style > Python`. Switch to `Tabs`, turn on `Smart Tabs`, and change indent size to `4` if not done already.
   
 * Docstrings: Use docstrings for top of file, functions, class definitions, and member methods that are not basic mutator/accessor/getter/setter methods. If you have a basic mutator/accessor/getter/setter method, you can leave an empty docstring as long as you provide a specifier for input or return type (see below).
 Python docstrings are done with 3 double quotes,
@@ -53,7 +56,7 @@ Python docstrings are done with 3 double quotes,
     1. Comment your code if your docstring is not sufficient to explain what you are doing for one line or a group of lines. Python has some complicated one-liners that abstract code to C/C++ functions. It's recommended to comment such one-liners on the line before to explain what the abstracted code is doing.
     2. Comment to answer the question *why* you're doing something with your code, rather than *what* your code is doing.
     3. Do not comment every line of code you write. I don't care what your professors told you. Commenting every line of code is almost worse than not commenting at all.
-    4. Generally avoid in-line comments. The best use for in-line comments are one to 5 word brief explanations for why a particular line in a function is doing something.
+    4. Generally avoid in-line comments. The best use for in-line comments are one to five word brief explanations for why a particular line in a function is doing something.
     5. The 80 character limit applies to comments too! You should use code blocks with triple single quotes `'''Multiline Block Comment Here'''` to comment longer strings rather than going over the 80 character limit.
     
 * Function Annotation: 
