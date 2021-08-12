@@ -56,7 +56,7 @@ This can be done locally but also done on GitHub and pulled, if you don't like w
 
 #### Git workflow with Pycharm
 
-The recommended IDE we use on the software team is Pycharm. It is not required, but recommended, and these instructions are written with Pycharm in mind. You will have to either use the no IDE workflow below or look into how you use similar Git features on your own IDE. If you haven't set up Pycharm or a Python environment on your computer, please refer to our Environment setup guide (link environment setup guide here).
+The recommended IDE we use on the software team is Pycharm. It is not required, but recommended, and these instructions are written with Pycharm in mind. You will have to either use the no IDE workflow below or look into how you use similar Git features on your own IDE. If you haven't set up Pycharm or a Python environment on your computer, please refer to our [Python setup guide](python_setup_guide.md).
 
 1. Open Pycharm and load your project.
 
