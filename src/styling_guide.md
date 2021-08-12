@@ -134,21 +134,21 @@ Use snake_case in Python for naming files, functions, member methods, and variab
 
 
 * Docstrings are also part of the PEP8 standard, but I've included a couple of exceptions for classes in the code style. Comments should serve a purpose instead of commenting just to comment something, and in some specific cases you're just commenting code for the sake of fullfilling the PEP8 parser and not seeing errors.
-You can take a look at example 0(link to example 0 here) for an Object-Oriented example in python to understand where you should use docstrings. Anything commented out with # is  my comments about styling and shouldn't be used in actual code.
+You can take a look at [example 0](example/styling_guide_ex_0.py) for an Object-Oriented example in python to understand where you should use docstrings. Anything commented out with # is  my comments about styling and shouldn't be used in actual code.
 
 * Meaningful variable names are important to improve code readability in all programming languages. In other programming languages where other problems persist more for readability such as namespaces in C++, but one of the main problems for readability we have to deal with in Python is good variable naming.
 
 * Comments are hard to enforce in a styling guide and are largely up to the judgement of the programmer for when to include. Some basic guidelines are necessary such as providing *meaningful* comments and not commenting every line. Often a docstring can cover your bases in smaller functions for why code is functioning in a certain way, but for longer parts of code it may be better to use comments throughout at logical breaks. You can refer to styling guide example 4(link to example 4 here) for examples of short functions that don't need comments, as docstrings suffice for these.
 
 
-* Function annotation is necessary in python. Python has many advantages when it comes to quickly developing code and abstracting away much of the direct memory management, but this can come costs like type errors. We can try to reduce some of these type errors by using function annotations. Let's look at an example of some C code(link to example 3 here) and compare it with some Python code(link to example 4 here) that both calculate the fibonacci sequence to 10 numbers to understand why these function annotations are important.
+* Function annotation is necessary in python. Python has many advantages when it comes to quickly developing code and abstracting away much of the direct memory management, but this can come costs like type errors. We can try to reduce some of these type errors by using function annotations. Let's look at an example of some [C code](example/styling_guide_ex_3.c) and compare it with some [Python code](example/styling_guide_ex_4.py) that both calculate the fibonacci sequence to 10 numbers to understand why these function annotations are important.
 
     ```c
     int* fibonacci(int num_a, int num_b) {
   
   }
     ```
-  If you've never seen or written C code before and have only seen Python you might be a bit lost at this function definition. What's important to note is the data types of the arguments, in this case `num_a` and `num_b` being ints, and the return type, in this case being an int pointer, are built into the function's definition. Sending an incorrect data type to the function while writing code will be caught by C's parser (most of the time) and you will get a syntax error before your code even runs. This is something python doesn't have, where for example an incorrect string concactenation from an int and string can result in an error at runtime. We can use try catch blocks to try and handle some of these errors, but we can also write code with data types in mind from the beginning, which is exactly what we do here.
+  If you've never seen or written C code before and have only seen Python you might be a bit lost at this function definition. What's important to note is the data types of the arguments, in this case `num_a` and `num_b` being ints, and the return type, in this case being an int pointer, are built into the function's definition. Sending an incorrect data type to the function while writing code will be caught by C's parser (most of the time), and you will get a syntax error before your code even runs. This is something python doesn't have, where for example an incorrect string concactenation from an int and string can result in an error at runtime. We can use try catch blocks to try to handle some of these errors, but we can also write code with data types in mind from the beginning, which is exactly what we do here.
 
 Now check out example 4 and note the two fibonacci sequence calculation functions. Run the code if you want to verify they both do the same thing,
 ```
@@ -166,7 +166,7 @@ This, again, is a very basic example, but it demonstrates the point being made h
 
 ### Compare and Contrast
 
-Now that we've gone through the entire style guide, let's look at examples 1 and 2(link to examples here) and see why the code in 1 is bad and why the code in 2 is good for this style. 
+Now that we've gone through the entire style guide, let's look at examples [of bad code](example/styling_guide_ex_1.py) and [of good code](example/styling_guide_ex_2.py) and see why the code in 1 is bad and why the code in 2 is good for this style. 
 
 ```python
 from collections import deque
