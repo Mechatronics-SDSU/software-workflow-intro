@@ -56,6 +56,9 @@ graphing_start = dt.utcnow()
 
 def animate(i) -> None:
     """Function called repeatedly to graph data at real time speed
+
+    :param i: frames passed
+    :return: None
     """
     # Lists to be plotted
     plot_x = []
