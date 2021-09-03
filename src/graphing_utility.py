@@ -9,6 +9,13 @@ import copy
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
+global begin
+global end
+global data_start
+global data
+global ax1
+global graphing_start
+
 def animate(i: int) -> None:
     """Function called repeatedly to graph data at real time speed
 
@@ -39,12 +46,7 @@ def main():
 
     :return: None
     """
-    global begin
-    global end
-    global data_start
-    global data
-    global ax1
-    global graphing_start
+
     ##########
 
     begin = 0
