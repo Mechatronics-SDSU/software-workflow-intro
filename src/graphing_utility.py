@@ -9,6 +9,31 @@ import copy
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
 
+def animate(i: int) -> None:
+    """Function called repeatedly to graph data at real time speed
+
+    :param i: frames passed
+    :return: None
+    """
+    # Lists to be plotted
+    plot_x = []
+    plot_y = []
+    # Iterating over data
+    for data_point in data:
+        # Check if point is before beginning of whats set to be shown
+        if data_point[0] - data_start >= datetime.timedelta(seconds=begin):
+            # Check if point is after end of whats set to be shown
+            if end is None or data_point[0] - data_start <= datetime.timedelta(seconds=end):
+                # Acts as if your beginning seconds ahead of the start to mimic starting the graph later
+                if data_point[0] - data_start <= dt.utcnow() - graphing_start + datetime.timedelta(seconds=begin):
+                    seconds = int((data_point[0] - data_start).total_seconds())
+                    plot_x.append(seconds)
+                    plot_y.append(data_point[1])
+
+    ax1.clear()
+    ax1.plot(plot_x, plot_y)
+
+
 def main():
     """Driver code for the graphing utility
 
@@ -69,32 +94,6 @@ def main():
     ani = animation.FuncAnimation(fig, animate, interval=100)
 
     plt.show()
-
-
-def animate(i) -> None:
-    """Function called repeatedly to graph data at real time speed
-
-    :param i: frames passed
-    :return: None
-    """
-    # Lists to be plotted
-    plot_x = []
-    plot_y = []
-    # Iterating over data
-    for data_point in data:
-        # Check if point is before beginning of whats set to be shown
-        if data_point[0] - data_start >= datetime.timedelta(seconds=begin):
-            # Check if point is after end of whats set to be shown
-            if end is None or data_point[0] - data_start <= datetime.timedelta(seconds=end):
-                # Acts as if your beginning seconds ahead of the start to mimic starting the graph later
-                if data_point[0] - data_start <= dt.utcnow() - graphing_start + datetime.timedelta(seconds=begin):
-                    seconds = int((data_point[0] - data_start).total_seconds())
-                    print(seconds)
-                    plot_x.append(seconds)
-                    plot_y.append(data_point[1])
-
-    ax1.clear()
-    ax1.plot(plot_x, plot_y)
 
 
 
