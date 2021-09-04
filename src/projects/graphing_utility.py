@@ -71,7 +71,7 @@ def main():
     # Write data to json file
     if file_name == "testjson":
         write_data = copy.deepcopy(data)
-        with open("testJSON.json", 'w') as file:
+        with open("../testJSON.json", 'w') as file:
             file.truncate(0)
             inc = 0
             while inc <= len(data) - 1:
@@ -79,7 +79,7 @@ def main():
                 inc += 1
 
             json.dump(write_data, file, indent=True)
-        file_name = "testJSON.json"
+        file_name = "../testJSON.json"
 
     # Open Json file and read in utc as string
     if file_name != "test":
