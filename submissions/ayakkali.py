@@ -16,6 +16,6 @@ After you push the code to your own branch, on the GitHub, go `[n] branches`, fi
 a Pull Request to the "introduction-submission" branch. Once that's been approved you're done! congrats!
 """
 
-print('John Doe, Freshman, Computer Science')
-print('I like hiking the trails in San Diego and I like Milk Toast.')
-print('I would like to learn more about mechatronics.')
+print('Abhiram Yakkali, Freshman, Computer Science')
+print('I love reading and playing tabletop/card games, such as D&D, Smash Up, and Boss Monster.')
+print('I want to apply my CS knowledge to something real-world and get experience working on a large-scale project.')
