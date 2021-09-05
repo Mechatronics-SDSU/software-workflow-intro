@@ -14,11 +14,12 @@ file_handler.setFormatter(logging.Formatter('%(asctime)s:%(processName)s:%(messa
 logger = logging.getLogger(__name__)
 logger.addHandler(file_handler)
 
-"""
-This function takes in either a String, or List of String. Creates multiple processes for input
-If argument is not List, it is converted so to keep executor.map() working
-"""
-def log_errors(error_msgs: str):
+
+def log_errors(error_msgs: any):
+    """
+    This function takes in either a String, or List of String. Creates multiple processes for input
+    If argument is not List, it is converted so to keep executor.map() working
+    """
     with concurrent.futures.ProcessPoolExecutor() as executor:
         if not isinstance(error_msgs, list):
             error_msgs = [error_msgs]
@@ -26,8 +27,8 @@ def log_errors(error_msgs: str):
         executor.map(log, error_msgs)
 
 
-"""
-This function takes in String and logs it to 'issues.log'
-"""
 def log(msg: str):
+    """
+    This function takes in String and logs it to 'issues.log'
+    """
     logger.warning(msg)
