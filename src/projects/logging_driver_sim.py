@@ -22,6 +22,4 @@ if __name__ == '__main__':
         for errors in programs:
             process = executor.submit(logging_multiprocess.log_errors, errors)
 
-            # .result() has processes' errors logged IN ORDER of when process was started
-            process.result()  # may not be needed if all processes are independent of each other
 
