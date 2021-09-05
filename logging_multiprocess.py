@@ -7,7 +7,7 @@ import logging
 import concurrent.futures
 
 # FORMAT: timestamp : processID : message
-file_handler = logging.FileHandler('../multiprocessLog/issues.log')
+file_handler = logging.FileHandler('issues.log')
 file_handler.setFormatter(logging.Formatter('%(asctime)s:%(processName)s:%(message)s'))
 
 # default level: 3, WARNING
