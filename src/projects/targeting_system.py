@@ -1,6 +1,6 @@
 """
-targetLock function calls to open a webcam and search for a given target name. When the target enters into the
-weapons hitbox, the targetLock function returns 1.  An escape from the targetLock will return a 0 value.
+targeting_system function calls to open a webcam and search for a given target name. When the target enters into the
+weapons hitbox, the targeting_system function returns 1.  An escape from the targeting_system will return a 0 value.
 
 The function has the ability to modify the weapon hitbox location and desired target name from main.
 
@@ -18,16 +18,31 @@ import numpy as np
 
 # Load Yolo model
 net = cv2.dnn.readNet('yolov3.weights', 'yolov3.cfg')
-#net = cv2.dnn.readNet('yolov3-tiny.weights','yolov3-tiny.cfg')
+# net = cv2.dnn.readNet('yolov3-tiny.weights','yolov3-tiny.cfg')
 net.setPreferableBackend(cv2.dnn.DNN_BACKEND_CUDA)
 net.setPreferableTarget(cv2.dnn.DNN_TARGET_CUDA)
 
-'''
-default parameters top left x,y and bottom right x,y of weapon's hitbox are the middle of a 720p webcam
-'''
 
+# default parameters top left x,y and bottom right x,y of weapon's hitbox are the middle of a 720p webcam
 
-def main(top_left_x=300, top_left_y=200, bottom_right_x=340, bottom_right_y=240, target_name='cell phone') -> int:
+def targeting_system(top_left_x: int = 300, top_left_y: int = 200, bottom_right_x: int = 340,
+                     bottom_right_y: int = 240, target_name: str = 'cell phone') -> int:
+    """
+    Driver which conducts object detection and calls function targeting which will return target lock
+    information on our given object.
+
+    Default object to track is a cellphone.  Can pass any of the object names located within coco.names.
+
+    input params:
+    top_left_x = default weapon coordinate for top left x of hitbox
+    top_left_y = default weapon coordinate for top left y of hitbox
+    bottom_right_x = default weapon coordinate for bottom right x of hitbox
+    bottom_right_y = default weapon coordinate for bottom right y of hitbox
+        the box is squared to match the above dimensions
+    target_name = user specified object to track (alternate object names can be found in coco.names)
+
+    return: int
+    """
     # net = cv2.dnn.readNet('tiny-yolo.weights','yolov3-tiny.cfg')
     classes = []
     with open("coco.names", "r") as f:
@@ -38,6 +53,8 @@ def main(top_left_x=300, top_left_y=200, bottom_right_x=340, bottom_right_y=240,
     layer_names = net.getLayerNames()
     outputLayers = [layer_names[i[0] - 1] for i in net.getUnconnectedOutLayers()]
     cap = cv2.VideoCapture(0)
+
+    # DEBUGGING CODE
     # width = cap.get(cv2.CAP_PROP_FRAME_WIDTH)
     # print('Width: ', width)
     # height = cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
@@ -45,7 +62,7 @@ def main(top_left_x=300, top_left_y=200, bottom_right_x=340, bottom_right_y=240,
 
     while True:
         _, frame = cap.read()
-        #frame = cv2.resize(frame, (224, 224))
+        # frame = cv2.resize(frame, (224, 224))
         # Get dimensions of webcam image
         height, width, channels = frame.shape
 
@@ -81,8 +98,10 @@ def main(top_left_x=300, top_left_y=200, bottom_right_x=340, bottom_right_y=240,
                     object_x = int(center_x - object_w / 2)
                     object_y = int(center_y - object_h / 2)
 
+                    # DEBUGGING CODE
                     # print("Target x: ", x)
                     # print("Target y: ", y)
+
                     boxes.append([object_x, object_y, object_w, object_h])
                     confidences.append(float(confidence))
                     class_ids.append(class_id)
@@ -90,10 +109,10 @@ def main(top_left_x=300, top_left_y=200, bottom_right_x=340, bottom_right_y=240,
         indexes = cv2.dnn.NMSBoxes(boxes, confidences, 0.4, 0.6)
 
         # call targeting system
-        targetingSystem(top_left_x=top_left_x, top_left_y=top_left_y, bottom_right_x=bottom_right_x,
-                        bottom_right_y=bottom_right_y, boxes=boxes, indexes=indexes, classes=classes,
-                        target_name=target_name, frame=frame, colors=colors, class_ids=class_ids,
-                        font=font)
+        target_lock(top_left_x=top_left_x, top_left_y=top_left_y, bottom_right_x=bottom_right_x,
+                    bottom_right_y=bottom_right_y, boxes=boxes, indexes=indexes, classes=classes,
+                    target_name=target_name, frame=frame, colors=colors, class_ids=class_ids,
+                    font=font)
 
         # Weapon hitbox
         start_pt = (top_left_x, top_left_y)
@@ -107,15 +126,27 @@ def main(top_left_x=300, top_left_y=200, bottom_right_x=340, bottom_right_y=240,
 
         # No target/close window by pressing 'q' on keyboard
         if cv2.waitKey(1) == ord('q'):
+            # DEBUGGING CODE
             # print('No target lock.  Exiting program.')
+
             return 0
 
 
-def targetingSystem(top_left_x, top_left_y, bottom_right_x, bottom_right_y,
-                    boxes, indexes, classes, target_name, frame, colors, class_ids, font) -> int:
+def target_lock(top_left_x: int, top_left_y: int, bottom_right_x: int, bottom_right_y: int,
+                boxes: any, indexes: any, classes: any, target_name: str, frame: any, colors: any,
+                class_ids: any, font: any) -> int:
     """
     Target locking function.  If the weapon system hitbox is within the bounding box of the object : weapons fire
     We declare which object we are tracking in main.  Default is a cell phone.
+
+    input params: top left,right and bottom left,right (x/y) position of weapon hitbox
+                  boxes,indexes,classes,frame,colors,class_ids,font are object tracking parameters from yolo
+                  target_name as specified by user for which object to track
+
+            input params are passed from targeting_system on method call
+
+    return: bool as int.  1 = True target lock
+                         0 = False target lock
     """
 
     # Get information from each of our objects
@@ -134,14 +165,13 @@ def targetingSystem(top_left_x, top_left_y, bottom_right_x, bottom_right_y,
                 # Check if weapon hitbox is within target bounding box
                 if top_left_x > target_x and top_left_y > target_y:
                     if bottom_right_x < target_x + target_w and bottom_right_y < target_y + target_h:
-                        # print("Target lock")
                         return 1
 
     # No target or hitbox not within bounding box
     else:
-        # print("No lock")
+
         return 0
 
 
 if __name__ == "__main__":
-    main()
+    targeting_system()
