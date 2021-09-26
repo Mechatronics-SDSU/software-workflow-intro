@@ -163,13 +163,14 @@ def target_lock(top_left_x: int, top_left_y: int, bottom_right_x: int, bottom_ri
                 cv2.putText(frame, label, (target_x, target_y + 30), font, 1, (255, 255, 255), 2)
 
                 # Check if weapon hitbox is within target bounding box
-                if top_left_x > target_x and top_left_y > target_y:
-                    if bottom_right_x < target_x + target_w and bottom_right_y < target_y + target_h:
+                if bottom_right_x > target_x and top_left_x < target_x + target_w:
+                    if top_left_y < target_y + target_h and bottom_right_y > target_y:
+                       #print('lock')
                         return 1
 
     # No target or hitbox not within bounding box
     else:
-
+        #print('no lock')
         return 0
 
 
