@@ -123,7 +123,7 @@ def targeting_system(top_left_x: int = 300, top_left_y: int = 200, bottom_right_
         # Shows the weapon hitbox and webcam feed
         cv2.rectangle(frame, start_pt, end_pt, color, thickness)
         cv2.imshow('frame', frame)
- 
+
         # No target/close window by pressing 'q' on keyboard
         if cv2.waitKey(1) == ord('q'):
             # DEBUGGING CODE
@@ -159,7 +159,7 @@ def target_lock(top_left_x: int, top_left_y: int, bottom_right_x: int, bottom_ri
             # Only print box of our desired object
             if label == str(target_name):
                 cv2.rectangle(frame, (target_x, target_y), (target_x + target_w,
-                                                            target_y + target_h), color, 2) 
+                                                            target_y + target_h), color, 2)
                 cv2.putText(frame, label, (target_x, target_y + 30), font, 1, (255, 255, 255), 2)
 
                 # Check if weapon hitbox is within target bounding box
