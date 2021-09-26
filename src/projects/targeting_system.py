@@ -123,7 +123,7 @@ def targeting_system(top_left_x: int = 300, top_left_y: int = 200, bottom_right_
         # Shows the weapon hitbox and webcam feed
         cv2.rectangle(frame, start_pt, end_pt, color, thickness)
         cv2.imshow('frame', frame)
-
+ 
         # No target/close window by pressing 'q' on keyboard
         if cv2.waitKey(1) == ord('q'):
             # DEBUGGING CODE
