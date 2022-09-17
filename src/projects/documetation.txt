@@ -1,0 +1,4 @@
+﻿https://learnopencv.com/how-to-find-frame-rate-or-frames-per-second-fps-in-opencv-python-cpp/
+
+
+https://www.youtube.com/watch?v=qCR2Weh64h4
