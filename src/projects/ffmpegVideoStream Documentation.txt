@@ -1,0 +1,15 @@
+OpenCV library is required to use many of its methods to stream the device's data and detect the objects in them.
+https://pypi.org/project/opencv-python/
+
+This link helps to understand what the methods requited to dtream the data do with detailed description and overview.what each line
+https://www.geeksforgeeks.org/python-displaying-real-time-fps-at-which-webcam-video-file-is-processed-using-opencv/
+
+This link helps understand how the object detection works and gives a more indepth understanding of the library.
+https://www.geeksforgeeks.org/detect-an-object-with-opencv-python/
+
+This link demonstrates how to successfully use the OpenCV library to stream data from videos and devices successfully and how to detect specific areas of it to marked the objects in them.
+https://www.youtube.com/watch?v=O3b8lVF93jU
+
+This is a written guide of the video above.
+https://pysource.com/2021/01/28/object-tracking-with-opencv-and-python/
+
