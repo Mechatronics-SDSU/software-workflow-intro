@@ -1,7 +1,14 @@
 
 import multiprocessing
 import random
-import datetime
+import logging
+
+# Create and configure logger
+LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
+logging.basicConfig(filename="logtest.log",
+                    level=logging.DEBUG,
+                    format=LOG_FORMAT)
+logger = logging.getLogger()
 
 
 def sender(conn, msgs):
@@ -24,11 +31,12 @@ def receiver(conn):
         if msg == "END":
             break
         print("Received the message: {}".format(msg))
+        logger.info("Received the message: {}".format(msg))
 
 
 if __name__ == "__main__":
     # messages to be sent
-    msgs = [datetime.datetime.today(), random.randrange(0, 100), "END"]
+    msgs = [random.randrange(0, 100), "END"]
 
     # creating a pipe
     parent_conn, child_conn = multiprocessing.Pipe()
