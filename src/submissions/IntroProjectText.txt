@@ -5,3 +5,5 @@ Modified the coding for the messages that are being sent to include the random n
 Date and time: https://www.geeksforgeeks.org/basic-datetime-operations-in-python/#:~:text=Let%E2%80%99s%20see%20different%20Functions%20with%20description%20under%20time,in%20time.struct%20...%20%203%20more%20rows%20
 
 Random number generator: https://www.educba.com/random-number-generator-in-python/
+
+Incorporated the logging methods used in this video: https://www.youtube.com/watch?v=g8nQ90Hk328
