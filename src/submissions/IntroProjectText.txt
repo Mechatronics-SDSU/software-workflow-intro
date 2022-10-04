@@ -1,19 +1,7 @@
-Followed this tutorial on how to transfer files between python files: https://www.youtube.com/watch?v=27qfn3Gco00&list=LL&index=5&t=639s
+Copied this multiprocessor GitHub file: https://github.com/nikhilkumarsingh/Parallel-Programming-in-Python/blob/master/09.%20Process%20communicaton%20using%20Pipe/pipes.py
 
+Modified the coding for the messages that are being sent to include the random number generator and the date and time the code was ran.
 
+Date and time: https://www.geeksforgeeks.org/basic-datetime-operations-in-python/#:~:text=Let%E2%80%99s%20see%20different%20Functions%20with%20description%20under%20time,in%20time.struct%20...%20%203%20more%20rows%20
 
-Followed this tutorial to learn how to create a log file with logging: https://www.youtube.com/watch?v=-ARI4Cz-awo&list=LL&index=6&t=453s
-
-
-
-Searched up python random number generator functions to then use the random.randrange() function
-
-
-
-With the log tutorial the log file is automatically created which then means that I simply need
-
-to log the random number that is created by the random.randrange() function and send that test.log file.
-
-I also learned through the log tutorial that one can embed the date and time in which the log was created
-
-within the log function using the logging.basicConfig() format configuration.
+Random number generator: https://www.educba.com/random-number-generator-in-python/
