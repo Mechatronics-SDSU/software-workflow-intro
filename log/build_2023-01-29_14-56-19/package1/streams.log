@@ -1,0 +1,30 @@
+[0.731s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8
+[0.889s] [35m[1mScanning dependencies of target talker[0m
+[1.018s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[7.624s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KPublisherClient::PublisherClient()[m[K’:
+[7.629s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:40:81:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::CallbackGroup::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::CallbackGroup>[m[K’} to ‘[01m[Kconst rmw_qos_profile_t&[m[K’
+[7.636s]    40 |  = this->create_client<time_types::srv::ConvertTime>("convert_time", [01;31m[Kclient_cb_group_[m[K);
+[7.640s]       |                                                                      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[7.642s]       |                                                                      [01;31m[K|[m[K
+[7.645s]       |                                                                      [01;31m[Krclcpp::CallbackGroup::SharedPtr {aka std::shared_ptr<rclcpp::CallbackGroup>}[m[K
+[7.647s] 
+[7.649s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[7.652s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.654s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[7.654s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[7.655s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:20[m[K:
+[7.658s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:126:29:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Ktypename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = time_types::srv::ConvertTime; typename rclcpp::Client<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Client<time_types::srv::ConvertTime> >; std::string = std::__cxx11::basic_string<char>; rmw_qos_profile_t = rmw_qos_profile_t; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K’
+[7.660s]   126 |   [01;36m[Kconst rmw_qos_profile_t & qos_profile[m[K,
+[7.661s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[7.976s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::timer_callback()[m[K’:
+[7.979s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:63:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult_future[m[K’ was not declared in this scope
+[7.981s]    63 |     std::future_status status = [01;31m[Kresult_future[m[K.wait_for(3s);  // timeout to guarantee a graceful finish
+[7.984s]       |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[8.045s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[8.047s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:82:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_node[m[K’ was not declared in this scope
+[8.048s]    82 |   executor.add_node([01;31m[Kclient_node[m[K);
+[8.050s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[11.951s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[11.952s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+[11.953s] make: *** [Makefile:141: all] Error 2
+[11.973s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8

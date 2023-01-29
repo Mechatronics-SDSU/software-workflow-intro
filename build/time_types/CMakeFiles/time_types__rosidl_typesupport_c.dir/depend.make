@@ -14,7 +14,9 @@ CMakeFiles/time_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/time_types/
 
 CMakeFiles/time_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/time_types/srv/convert_time__type_support.cpp.o: rosidl_typesupport_c/time_types/srv/convert_time__type_support.cpp
 CMakeFiles/time_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/time_types/srv/convert_time__type_support.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
+CMakeFiles/time_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/time_types/srv/convert_time__type_support.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h
 CMakeFiles/time_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/time_types/srv/convert_time__type_support.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/service_type_support_struct.h
+CMakeFiles/time_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/time_types/srv/convert_time__type_support.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/string.h
 CMakeFiles/time_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/time_types/srv/convert_time__type_support.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
 CMakeFiles/time_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/time_types/srv/convert_time__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_c/identifier.h
 CMakeFiles/time_types__rosidl_typesupport_c.dir/rosidl_typesupport_c/time_types/srv/convert_time__type_support.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_c/message_type_support_dispatch.h

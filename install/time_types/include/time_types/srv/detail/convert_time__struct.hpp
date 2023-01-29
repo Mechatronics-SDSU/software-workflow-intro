@@ -151,28 +151,28 @@ struct ConvertTime_Response_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->humantime = 0ll;
+      this->humantime = "";
     }
   }
 
   explicit ConvertTime_Response_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : humantime(_alloc)
   {
-    (void)_alloc;
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->humantime = 0ll;
+      this->humantime = "";
     }
   }
 
   // field types and members
   using _humantime_type =
-    int64_t;
+    std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>;
   _humantime_type humantime;
 
   // setters for named parameter idiom
   Type & set__humantime(
-    const int64_t & _arg)
+    const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other> & _arg)
   {
     this->humantime = _arg;
     return *this;

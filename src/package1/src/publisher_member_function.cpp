@@ -33,56 +33,79 @@ public:
   PublisherClient()
   : Node("timepublisher"), count_(0)
   {
+    client_cb_group_ = nullptr;
+    timer_cb_group_ = nullptr;
+
     publisher_ = this->create_publisher<time_types::msg::Time>("unix_epoch_time", 10);
-    client_ = this->create_client<time_types::srv::ConvertTime>("convert_time");
     timer_ = this->create_wall_timer(
-      5000ms, std::bind(&PublisherClient::timer_callback, this));
+      5000ms, std::bind(&PublisherClient::timer_callback, this), timer_cb_group_);
   }
 
 private:
-  long UnixEpochTime() 
-  {
-     return (long)std::time(0); //Returns UTC in Seconds
-  }
-    
-  void timer_callback()
-  {
-    // publisher
-    auto message = time_types::msg::Time();
-    // std::time_t unixEpochTime = UnixEpochTime();
-    message.time = this->UnixEpochTime();
-    RCLCPP_INFO(this->get_logger(), "Publishing: Unix Epoch Time");
-    publisher_->publish(message);
-
-    //client
-    auto request = std::make_shared<time_types::srv::ConvertTime::Request>();
-    request->unixtime = message.time;
-    auto result = client_->async_send_request(request);
-
-    
-    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Date/Time: %ld", result.get()->humantime);
-
-    // if (rclcpp::spin_until_future_complete(Node, result) ==
-    //     rclcpp::FutureReturnCode::SUCCESS)
-    // {
-    //     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Date/Time: %ld", result.get()->humantime);
-    // } 
-    // else 
-    // {
-    //     RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Failed to call service add_two_ints");
-    // }
-  }
-
+  rclcpp::CallbackGroup::SharedPtr client_cb_group_;
+  rclcpp::CallbackGroup::SharedPtr timer_cb_group_;
   rclcpp::TimerBase::SharedPtr timer_;
   rclcpp::Publisher<time_types::msg::Time>::SharedPtr publisher_;
   rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client_;
   size_t count_;
+
+
+  long UnixEpochTime() 
+  {
+     return (long)std::time(0); //Returns UTC in Seconds
+  }
+  void timer_callback()
+  {
+    // publisher
+    auto message = time_types::msg::Time();
+    message.time = this->UnixEpochTime();
+    RCLCPP_INFO(this->get_logger(), "Publishing: Unix Epoch Time - Expecting To Recieve Date/Time");
+    publisher_->publish(message);
+
+
+    std::shared_ptr<rclcpp::Node> node = rclcpp::Node::make_shared("convert_time");
+    rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client_ =
+    node->create_client<time_types::srv::ConvertTime>("convert_time", rmw_qos_profile_services_default, client_cb_group_);
+
+    //client
+    auto request = std::make_shared<time_types::srv::ConvertTime::Request>();
+    request->unixtime = message.time;
+    while (!client_->wait_for_service(1s)) {
+        if (!rclcpp::ok()) {
+            RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Interrupted while waiting for the service. Exiting.");
+        }
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "service not available, waiting again...");
+  }
+
+  auto result = client_->async_send_request(request);
+  // Wait for the result.
+  if (rclcpp::spin_until_future_complete(node, result) ==
+    rclcpp::FutureReturnCode::SUCCESS)
+  {
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Sum: %ld", result.get()->humantime);
+  } else {
+    RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Failed to call service add_two_ints");
+  }
+
+    // std::future_status status = result.wait_for(3s);  // timeout to guarantee a graceful finish
+    // if (status == std::future_status::ready) {
+    //     RCLCPP_INFO(this->get_logger(), "Received response");
+    //     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Sum: %ld", result.get()->humantime);
+    // }
+    // else {
+    //     RCLCPP_INFO(this->get_logger(), "Didn't recieve response");
+    // }
+  }
+
 };
 
 int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
-  rclcpp::spin(std::make_shared<PublisherClient>());
+  auto node = std::make_shared<PublisherClient>();
+  rclcpp::executors::MultiThreadedExecutor executor;
+  executor.add_node(node);
+  executor.spin();
   rclcpp::shutdown();
   return 0;
 }

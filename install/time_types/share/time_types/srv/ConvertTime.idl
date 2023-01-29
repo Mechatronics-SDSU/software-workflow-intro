@@ -9,7 +9,7 @@ module time_types {
       int64 unixtime;
     };
     struct ConvertTime_Response {
-      int64 humantime;
+      string humantime;
     };
   };
 };

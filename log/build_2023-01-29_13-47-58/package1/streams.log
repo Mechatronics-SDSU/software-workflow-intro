@@ -1,0 +1,25 @@
+[0.461s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8
+[0.575s] [35m[1mScanning dependencies of target talker[0m
+[0.642s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[3.009s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.009s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:72:10:[m[K [01;31m[Kerror: [m[K‘[01m[Krclpy[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp[m[K’?
+[3.010s]    72 |   while ([01;31m[Krclpy[m[K.ok()) {
+[3.010s]       |          [01;31m[K^~~~~[m[K
+[3.010s]       |          [32m[Krclcpp[m[K
+[3.015s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:74:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfuture[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::future[m[K’?
+[3.015s]    74 |     if ([01;31m[Kfuture[m[K.done()){
+[3.015s]       |         [01;31m[K^~~~~~[m[K
+[3.016s]       |         [32m[Kstd::future[m[K
+[3.016s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:18[m[K,
+[3.016s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[3.016s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:20[m[K:
+[3.016s] [01m[K/usr/include/c++/9/future:125:11:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::future[m[K’ declared here
+[3.016s]   125 |     class [01;36m[Kfuture[m[K;
+[3.017s]       |           [01;36m[K^~~~~~[m[K
+[3.018s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:75:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ was not declared in this scope
+[3.018s]    75 |         printf("%ld", [01;31m[Kresult[m[K.get()->humantime);
+[3.018s]       |                       [01;31m[K^~~~~~[m[K
+[4.802s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[4.804s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+[4.804s] make: *** [Makefile:141: all] Error 2
+[4.812s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8

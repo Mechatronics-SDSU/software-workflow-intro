@@ -36,10 +36,14 @@ typedef struct time_types__srv__ConvertTime_Request__Sequence
 
 // Constants defined in the message
 
+// Include directives for member types
+// Member 'humantime'
+#include "rosidl_runtime_c/string.h"
+
 // Struct defined in srv/ConvertTime in the package time_types.
 typedef struct time_types__srv__ConvertTime_Response
 {
-  int64_t humantime;
+  rosidl_runtime_c__String humantime;
 } time_types__srv__ConvertTime_Response;
 
 // Struct for a sequence of time_types__srv__ConvertTime_Response.

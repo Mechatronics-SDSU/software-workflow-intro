@@ -157,7 +157,7 @@ void ConvertTime_Response_fini_function(void * message_memory)
 static const ::rosidl_typesupport_introspection_cpp::MessageMember ConvertTime_Response_message_member_array[1] = {
   {
     "humantime",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_INT64,  // type
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array

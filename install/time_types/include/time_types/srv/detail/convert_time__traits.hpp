@@ -56,11 +56,11 @@ inline const char * name<time_types::srv::ConvertTime_Response>()
 
 template<>
 struct has_fixed_size<time_types::srv::ConvertTime_Response>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct has_bounded_size<time_types::srv::ConvertTime_Response>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct is_message<time_types::srv::ConvertTime_Response>

@@ -200,6 +200,8 @@ extern "C"
 {
 #endif
 
+#include "rosidl_runtime_c/string.h"  // humantime
+#include "rosidl_runtime_c/string_functions.h"  // humantime
 
 // forward declare type support functions
 
@@ -217,7 +219,16 @@ static bool _ConvertTime_Response__cdr_serialize(
   const _ConvertTime_Response__ros_msg_type * ros_message = static_cast<const _ConvertTime_Response__ros_msg_type *>(untyped_ros_message);
   // Field name: humantime
   {
-    cdr << ros_message->humantime;
+    const rosidl_runtime_c__String * str = &ros_message->humantime;
+    if (str->capacity == 0 || str->capacity <= str->size) {
+      fprintf(stderr, "string capacity not greater than size\n");
+      return false;
+    }
+    if (str->data[str->size] != '\0') {
+      fprintf(stderr, "string not null-terminated\n");
+      return false;
+    }
+    cdr << str->data;
   }
 
   return true;
@@ -234,7 +245,18 @@ static bool _ConvertTime_Response__cdr_deserialize(
   _ConvertTime_Response__ros_msg_type * ros_message = static_cast<_ConvertTime_Response__ros_msg_type *>(untyped_ros_message);
   // Field name: humantime
   {
-    cdr >> ros_message->humantime;
+    std::string tmp;
+    cdr >> tmp;
+    if (!ros_message->humantime.data) {
+      rosidl_runtime_c__String__init(&ros_message->humantime);
+    }
+    bool succeeded = rosidl_runtime_c__String__assign(
+      &ros_message->humantime,
+      tmp.c_str());
+    if (!succeeded) {
+      fprintf(stderr, "failed to assign string into field 'humantime'\n");
+      return false;
+    }
   }
 
   return true;
@@ -255,11 +277,9 @@ size_t get_serialized_size_time_types__srv__ConvertTime_Response(
   (void)wchar_size;
 
   // field.name humantime
-  {
-    size_t item_size = sizeof(ros_message->humantime);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message->humantime.size + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -288,8 +308,12 @@ size_t max_serialized_size_time_types__srv__ConvertTime_Response(
   {
     size_t array_size = 1;
 
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+    full_bounded = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
   }
 
   return current_alignment - initial_alignment;

@@ -53,6 +53,10 @@ time_types/srv/detail/convert_time__functions.h
 /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/time_types/rosidl_typesupport_fastrtps_c/time_types/srv/detail/time_types/srv/detail/convert_time__functions.h
 fastcdr/Cdr.h
 /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/time_types/rosidl_typesupport_fastrtps_c/time_types/srv/detail/fastcdr/Cdr.h
+rosidl_runtime_c/string.h
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/time_types/rosidl_typesupport_fastrtps_c/time_types/srv/detail/rosidl_runtime_c/string.h
+rosidl_runtime_c/string_functions.h
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/time_types/rosidl_typesupport_fastrtps_c/time_types/srv/detail/rosidl_runtime_c/string_functions.h
 rosidl_typesupport_fastrtps_cpp/service_type_support.h
 /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/time_types/rosidl_typesupport_fastrtps_c/time_types/srv/detail/rosidl_typesupport_fastrtps_cpp/service_type_support.h
 rosidl_typesupport_cpp/service_type_support.hpp
@@ -426,6 +430,20 @@ rosidl_runtime_c/visibility_control.h
 rosidl_typesupport_interface/macros.h
 /opt/ros/foxy/include/rosidl_runtime_c/rosidl_typesupport_interface/macros.h
 
+/opt/ros/foxy/include/rosidl_runtime_c/string.h
+stddef.h
+-
+rosidl_runtime_c/primitives_sequence.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
+
+/opt/ros/foxy/include/rosidl_runtime_c/string_functions.h
+stddef.h
+-
+rosidl_runtime_c/string.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/string.h
+rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
+
 /opt/ros/foxy/include/rosidl_runtime_c/u16string.h
 stddef.h
 -
@@ -521,6 +539,8 @@ stddef.h
 -
 stdint.h
 -
+rosidl_runtime_c/string.h
+rosidl_generator_c/time_types/srv/detail/rosidl_runtime_c/string.h
 
 rosidl_generator_c/time_types/srv/detail/convert_time__type_support.h
 rosidl_typesupport_interface/macros.h

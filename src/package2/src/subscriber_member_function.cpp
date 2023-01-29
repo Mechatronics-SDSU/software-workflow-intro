@@ -41,14 +41,13 @@ public:
   }
 
 private:
-  long HumanTime(long unixEpochTime) 
+  std::string HumanTime(long unixEpochTime) 
   {
-    // std::_Put_time<char> humantime = std::put_time(std::localtime(&unixEpochTime), "%D %H:%M");
-    // std::ostringstream stream;
-    // stream << humantime;
-    // std::string dateString = stream.str();
-    // return dateString;
-    return unixEpochTime;
+    std::_Put_time<char> humantime = std::put_time(std::localtime(&unixEpochTime), "%D %H:%M");
+    std::ostringstream stream;
+    stream << humantime;
+    std::string dateString = stream.str();
+    return dateString;
   }
 
   void send_response_message(const std::shared_ptr<time_types::srv::ConvertTime::Request> request,

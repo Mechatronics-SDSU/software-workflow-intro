@@ -230,6 +230,10 @@ time_types__srv__ConvertTime_Request__Sequence__copy(
 }
 
 
+// Include directives for member types
+// Member `humantime`
+#include "rosidl_runtime_c/string_functions.h"
+
 bool
 time_types__srv__ConvertTime_Response__init(time_types__srv__ConvertTime_Response * msg)
 {
@@ -237,6 +241,10 @@ time_types__srv__ConvertTime_Response__init(time_types__srv__ConvertTime_Respons
     return false;
   }
   // humantime
+  if (!rosidl_runtime_c__String__init(&msg->humantime)) {
+    time_types__srv__ConvertTime_Response__fini(msg);
+    return false;
+  }
   return true;
 }
 
@@ -247,6 +255,7 @@ time_types__srv__ConvertTime_Response__fini(time_types__srv__ConvertTime_Respons
     return;
   }
   // humantime
+  rosidl_runtime_c__String__fini(&msg->humantime);
 }
 
 bool
@@ -256,7 +265,9 @@ time_types__srv__ConvertTime_Response__are_equal(const time_types__srv__ConvertT
     return false;
   }
   // humantime
-  if (lhs->humantime != rhs->humantime) {
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->humantime), &(rhs->humantime)))
+  {
     return false;
   }
   return true;
@@ -271,7 +282,11 @@ time_types__srv__ConvertTime_Response__copy(
     return false;
   }
   // humantime
-  output->humantime = input->humantime;
+  if (!rosidl_runtime_c__String__copy(
+      &(input->humantime), &(output->humantime)))
+  {
+    return false;
+  }
   return true;
 }
 

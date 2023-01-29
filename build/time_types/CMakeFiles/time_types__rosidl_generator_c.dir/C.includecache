@@ -33,6 +33,8 @@ string.h
 -
 rcutils/allocator.h
 /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/time_types/rosidl_generator_c/time_types/srv/detail/rcutils/allocator.h
+rosidl_runtime_c/string_functions.h
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/time_types/rosidl_generator_c/time_types/srv/detail/rosidl_runtime_c/string_functions.h
 
 /opt/ros/foxy/include/rcutils/allocator.h
 stdbool.h
@@ -73,6 +75,28 @@ rcutils/visibility_control_macros.h
 /opt/ros/foxy/include/rcutils/rcutils/visibility_control_macros.h
 
 /opt/ros/foxy/include/rcutils/visibility_control_macros.h
+
+/opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h
+stdbool.h
+-
+stddef.h
+-
+stdint.h
+-
+
+/opt/ros/foxy/include/rosidl_runtime_c/string.h
+stddef.h
+-
+rosidl_runtime_c/primitives_sequence.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h
+
+/opt/ros/foxy/include/rosidl_runtime_c/string_functions.h
+stddef.h
+-
+rosidl_runtime_c/string.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/string.h
+rosidl_runtime_c/visibility_control.h
+/opt/ros/foxy/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h
 
 /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
 
@@ -117,4 +141,6 @@ stddef.h
 -
 stdint.h
 -
+rosidl_runtime_c/string.h
+rosidl_generator_c/time_types/srv/detail/rosidl_runtime_c/string.h
 

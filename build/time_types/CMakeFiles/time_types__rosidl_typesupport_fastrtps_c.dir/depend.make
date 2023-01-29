@@ -63,6 +63,8 @@ CMakeFiles/time_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fast
 CMakeFiles/time_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/time_types/srv/detail/convert_time__type_support_c.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/message_type_support_struct.h
 CMakeFiles/time_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/time_types/srv/detail/convert_time__type_support_c.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/primitives_sequence.h
 CMakeFiles/time_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/time_types/srv/detail/convert_time__type_support_c.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/service_type_support_struct.h
+CMakeFiles/time_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/time_types/srv/detail/convert_time__type_support_c.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/string.h
+CMakeFiles/time_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/time_types/srv/detail/convert_time__type_support_c.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/string_functions.h
 CMakeFiles/time_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/time_types/srv/detail/convert_time__type_support_c.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/u16string.h
 CMakeFiles/time_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/time_types/srv/detail/convert_time__type_support_c.cpp.o: /opt/ros/foxy/include/rosidl_runtime_c/visibility_control.h
 CMakeFiles/time_types__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/time_types/srv/detail/convert_time__type_support_c.cpp.o: /opt/ros/foxy/include/rosidl_typesupport_cpp/service_type_support.hpp

@@ -1,2 +1,2 @@
 
-int64 humantime
+string humantime

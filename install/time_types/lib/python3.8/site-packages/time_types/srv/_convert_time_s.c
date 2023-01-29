@@ -111,6 +111,9 @@ PyObject * time_types__srv__convert_time__request__convert_to_py(void * raw_ros_
 // already included above
 // #include "time_types/srv/detail/convert_time__functions.h"
 
+#include "rosidl_runtime_c/string.h"
+#include "rosidl_runtime_c/string_functions.h"
+
 
 ROSIDL_GENERATOR_C_EXPORT
 bool time_types__srv__convert_time__response__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -150,8 +153,14 @@ bool time_types__srv__convert_time__response__convert_from_py(PyObject * _pymsg,
     if (!field) {
       return false;
     }
-    assert(PyLong_Check(field));
-    ros_message->humantime = PyLong_AsLongLong(field);
+    assert(PyUnicode_Check(field));
+    PyObject * encoded_field = PyUnicode_AsUTF8String(field);
+    if (!encoded_field) {
+      Py_DECREF(field);
+      return false;
+    }
+    rosidl_runtime_c__String__assign(&ros_message->humantime, PyBytes_AS_STRING(encoded_field));
+    Py_DECREF(encoded_field);
     Py_DECREF(field);
   }
 
@@ -178,7 +187,13 @@ PyObject * time_types__srv__convert_time__response__convert_to_py(void * raw_ros
   time_types__srv__ConvertTime_Response * ros_message = (time_types__srv__ConvertTime_Response *)raw_ros_message;
   {  // humantime
     PyObject * field = NULL;
-    field = PyLong_FromLongLong(ros_message->humantime);
+    field = PyUnicode_DecodeUTF8(
+      ros_message->humantime.data,
+      strlen(ros_message->humantime.data),
+      "strict");
+    if (!field) {
+      return NULL;
+    }
     {
       int rc = PyObject_SetAttrString(_pymessage, "humantime", field);
       Py_DECREF(field);

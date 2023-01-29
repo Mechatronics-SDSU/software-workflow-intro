@@ -1,0 +1,21 @@
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::timer_callback()[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:67:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+   67 |     rclcpp::Client<[01;31m[Kexample_interfaces[m[K::srv::AddTwoInts>::SharedPtr client_ =
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                    [32m[Krcl_interfaces[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:67:55:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   67 |     rclcpp::Client<example_interfaces::srv::AddTwoInts[01;31m[K>[m[K::SharedPtr client_ =
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:67:68:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[Kclient_[m[K’
+   67 |     rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedPtr [01;31m[Kclient_[m[K =
+      |                                                                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:76:20:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K-fpermissive[m[K]
+   76 |             return [01;31m[K0[m[K;
+      |                    [01;31m[K^[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:81:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope; did you mean ‘[01m[Kclient_[m[K’?
+   81 |   auto result = [01;31m[Kclient[m[K->async_send_request(request);
+      |                 [01;31m[K^~~~~~[m[K
+      |                 [32m[Kclient_[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
