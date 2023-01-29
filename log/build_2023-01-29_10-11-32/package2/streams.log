@@ -1,0 +1,59 @@
+[0.027s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2 -- -j8 -l8
+[0.053s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.081s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.277s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.591s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.595s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.612s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.665s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.666s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.817s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[4.936s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[4.979s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[5.485s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[5.486s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name package2
+[5.486s]   --arguments-file
+[5.486s]   /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2/rosidl_adapter__arguments__package2.json
+[5.486s]   --output-dir
+[5.487s]   /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2/rosidl_adapter/package2
+[5.487s]   --output-file
+[5.487s]   /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2/rosidl_adapter/package2.idls)
+[5.487s]   returned error code 1:
+[5.487s] 
+[5.488s]   Error processing 'long Time' of 'package2/Time': ''long' is an invalid
+[5.488s]   message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[5.488s] 
+[5.488s]   Traceback (most recent call last):
+[5.488s] 
+[5.488s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[5.488s]       return _run_code(code, main_globals, None,
+[5.488s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[5.489s]       exec(code, run_globals)
+[5.489s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[5.489s]       sys.exit(main())
+[5.489s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[5.490s]       abs_idl_file = convert_to_idl(
+[5.490s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[5.490s]       return convert_msg_to_idl(
+[5.490s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[5.490s]       msg = parse_message_string(package_name, input_file.stem, content)
+[5.491s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string
+[5.491s]       Type(type_string, context_package_name=pkg_name),
+[5.491s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__
+[5.491s]       super(Type, self).__init__(
+[5.491s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[5.492s]       raise InvalidResourceName(
+[5.492s] 
+[5.492s]   rosidl_adapter.parser.InvalidResourceName: 'long' is an invalid message
+[5.492s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[5.492s] 
+[5.493s] Call Stack (most recent call first):
+[5.493s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[5.493s]   CMakeLists.txt:19 (rosidl_generate_interfaces)
+[5.493s] 
+[5.493s] 
+[5.494s] -- Configuring incomplete, errors occurred!
+[5.494s] See also "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2/CMakeFiles/CMakeOutput.log".
+[5.494s] See also "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2/CMakeFiles/CMakeError.log".
+[5.495s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[5.501s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2 -- -j8 -l8

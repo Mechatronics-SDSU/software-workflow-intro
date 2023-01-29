@@ -1,0 +1,34 @@
+[0.031s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8
+[0.084s] [35m[1mScanning dependencies of target client[0m
+[0.102s] [  2%] Built target package1__cpp
+[0.108s] [ 11%] Built target package1__rosidl_generator_c
+[0.112s] [ 13%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.141s] [ 16%] [32mBuilding CXX object CMakeFiles/client.dir/src/convert_time_client.cpp.o[0m
+[0.147s] [ 25%] Built target package1__rosidl_typesupport_cpp
+[0.149s] [ 34%] Built target package1__rosidl_typesupport_introspection_cpp
+[0.152s] [ 44%] Built target package1__rosidl_typesupport_fastrtps_cpp
+[0.155s] [ 62%] Built target package1__rosidl_typesupport_c
+[0.155s] [ 62%] Built target package1__rosidl_typesupport_introspection_c
+[0.197s] [ 72%] Built target package1__rosidl_typesupport_fastrtps_c
+[0.247s] [ 72%] Built target package1
+[0.311s] [ 74%] Built target package1__py
+[0.338s] [35m[1mScanning dependencies of target package1__python[0m
+[0.374s] [ 76%] [32mBuilding C object CMakeFiles/package1__python.dir/rosidl_generator_py/package1/msg/_time_s.c.o[0m
+[0.379s] [ 79%] [32mBuilding C object CMakeFiles/package1__python.dir/rosidl_generator_py/package1/srv/_convert_time_s.c.o[0m
+[0.379s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kstd:: No such file or directory
+[0.380s]     7 | #include [01;31m[K<std:>[m[K
+[0.380s]       |          [01;31m[K^~~~~~[m[K
+[0.380s] compilation terminated.
+[0.383s] make[2]: *** [CMakeFiles/client.dir/build.make:63: CMakeFiles/client.dir/src/convert_time_client.cpp.o] Error 1
+[0.384s] make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/client.dir/all] Error 2
+[0.385s] make[1]: *** Waiting for unfinished jobs....
+[0.588s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/package1/libpackage1__python.so[0m
+[0.881s] [ 81%] Built target package1__python
+[2.372s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[2.373s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:58:1:[m[K [01;31m[Kerror: [m[Kversion control conflict marker in file
+[2.373s]    58 | [01;31m[K>>>>>>>[m[K parent of 7aa59ed... client/server branch initial commit
+[2.374s]       | [01;31m[K^~~~~~~[m[K
+[3.809s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[3.810s] make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/talker.dir/all] Error 2
+[3.810s] make: *** [Makefile:141: all] Error 2
+[3.813s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8

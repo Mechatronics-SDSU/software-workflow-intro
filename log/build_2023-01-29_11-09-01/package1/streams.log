@@ -1,0 +1,25 @@
+[0.348s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8
+[0.383s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.429s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.430s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.651s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.799s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.802s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[6.741s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.788s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.790s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.952s] -- Found time_types: 0.0.0 (/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types/share/time_types/cmake)
+[6.961s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[6.971s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[6.971s]   rosidl_generate_interfaces() the passed file 'src/msg/Time.msg' doesn't
+[6.971s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[6.971s]   '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1'
+[6.972s] Call Stack (most recent call first):
+[6.972s]   CMakeLists.txt:21 (rosidl_generate_interfaces)
+[6.972s] 
+[6.972s] 
+[6.973s] -- Configuring incomplete, errors occurred!
+[6.973s] See also "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1/CMakeFiles/CMakeOutput.log".
+[6.973s] See also "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1/CMakeFiles/CMakeError.log".
+[6.980s] make: *** [Makefile:1032: cmake_check_build_system] Error 1
+[6.984s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8

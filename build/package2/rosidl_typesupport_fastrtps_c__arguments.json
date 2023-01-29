@@ -1,0 +1,21 @@
+{
+  "package_name": "package2",
+  "output_dir": "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2/rosidl_typesupport_fastrtps_c/package2",
+  "template_dir": "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource",
+  "idl_tuples": [
+    "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2/rosidl_adapter/package2:msg/Time.idl",
+    "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2/rosidl_adapter/package2:srv/ConvertTime.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/foxy/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
+    "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_c/__init__.py",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em",
+    "/opt/ros/foxy/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
+    "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2/rosidl_adapter/package2/msg/Time.idl",
+    "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2/rosidl_adapter/package2/srv/ConvertTime.idl"
+  ]
+}

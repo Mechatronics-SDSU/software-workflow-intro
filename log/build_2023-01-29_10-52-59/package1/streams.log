@@ -1,0 +1,25 @@
+[0.188s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8
+[0.237s] [35m[1mScanning dependencies of target talker[0m
+[0.249s] [ 12%] Built target package1__rosidl_generator_c
+[0.249s] [ 12%] Built target package1__cpp
+[0.265s] [ 14%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.272s] [ 24%] Built target package1__rosidl_typesupport_introspection_c
+[0.273s] [ 34%] Built target package1__rosidl_typesupport_c
+[0.296s] [ 48%] Built target package1__rosidl_typesupport_cpp
+[0.296s] [ 53%] Built target package1__rosidl_typesupport_introspection_cpp
+[0.299s] [ 63%] Built target package1__rosidl_typesupport_fastrtps_cpp
+[0.324s] [ 73%] Built target package1__rosidl_typesupport_fastrtps_c
+[0.351s] [ 73%] Built target package1
+[0.379s] [ 75%] Built target package1__py
+[0.410s] [ 82%] Built target package1__python
+[0.440s] [ 95%] Built target package1__rosidl_typesupport_c__pyext
+[0.441s] [ 97%] Built target package1__rosidl_typesupport_introspection_c__pyext
+[0.441s] [ 97%] Built target package1__rosidl_typesupport_fastrtps_c__pyext
+[1.966s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::timer_callback()[m[K’:
+[1.967s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:50:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct time_types::msg::Time_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdata[m[K’
+[1.967s]    50 |     message.[01;31m[Kdata[m[K = this->UnixEpochTime();
+[1.967s]       |             [01;31m[K^~~~[m[K
+[2.943s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[2.943s] make[1]: *** [CMakeFiles/Makefile2:123: CMakeFiles/talker.dir/all] Error 2
+[2.943s] make: *** [Makefile:141: all] Error 2
+[2.947s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8

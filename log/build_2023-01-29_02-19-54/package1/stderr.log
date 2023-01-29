@@ -1,0 +1,4 @@
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::timer_callback()[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:48:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KunixEpochTime[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   48 |     std::time_t [01;35m[KunixEpochTime[m[K = UnixEpochTime();
+      |                 [01;35m[K^~~~~~~~~~~~~[m[K

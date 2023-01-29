@@ -1,0 +1,245 @@
+[0.028s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2 -- -j8 -l8
+[0.055s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.079s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.079s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.276s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.548s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.551s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.070s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.117s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.119s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.251s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[4.359s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[4.399s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.552s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[8.909s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.921s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.952s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[8.954s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[9.341s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[9.341s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.341s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[9.341s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[9.371s] -- Found PythonExtra: .so  
+[9.536s] -- Configuring done
+[9.611s] -- Generating done
+[9.618s] -- Build files have been written to: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2
+[9.648s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.649s] [35m[1mScanning dependencies of target listener[0m
+[9.650s] [35m[1mScanning dependencies of target package2__cpp[0m
+[9.661s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[9.682s] [  7%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[10.139s] [  7%] Built target package2__cpp
+[10.152s] [35m[1mScanning dependencies of target package2__rosidl_generator_c[0m
+[10.152s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[10.153s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[10.153s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[10.167s] [ 17%] [32mBuilding C object CMakeFiles/package2__rosidl_generator_c.dir/rosidl_generator_c/package2/msg/detail/time__functions.c.o[0m
+[10.168s] [ 19%] [32mBuilding C object CMakeFiles/package2__rosidl_generator_c.dir/rosidl_generator_c/package2/srv/detail/convert_time__functions.c.o[0m
+[10.248s] [ 21%] [32m[1mLinking C shared library libpackage2__rosidl_generator_c.so[0m
+[10.395s] [ 21%] Built target package2__rosidl_generator_c
+[10.409s] [ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.409s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.525s] [35m[1mScanning dependencies of target package2__rosidl_typesupport_cpp[0m
+[10.543s] [ 29%] [32mBuilding CXX object CMakeFiles/package2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/package2/msg/time__type_support.cpp.o[0m
+[10.544s] [ 31%] [32mBuilding CXX object CMakeFiles/package2__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/package2/srv/convert_time__type_support.cpp.o[0m
+[10.609s] [35m[1mScanning dependencies of target package2__rosidl_typesupport_introspection_cpp[0m
+[10.633s] [ 34%] [32mBuilding CXX object CMakeFiles/package2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/package2/msg/detail/time__type_support.cpp.o[0m
+[10.645s] [ 36%] [32mBuilding CXX object CMakeFiles/package2__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/package2/srv/detail/convert_time__type_support.cpp.o[0m
+[10.663s] [35m[1mScanning dependencies of target package2__rosidl_typesupport_fastrtps_cpp[0m
+[10.750s] [ 39%] [32mBuilding CXX object CMakeFiles/package2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/package2/msg/detail/dds_fastrtps/time__type_support.cpp.o[0m
+[10.876s] [35m[1mScanning dependencies of target package2__rosidl_typesupport_c[0m
+[10.906s] [ 41%] [32mBuilding CXX object CMakeFiles/package2__rosidl_typesupport_c.dir/rosidl_typesupport_c/package2/msg/time__type_support.cpp.o[0m
+[10.975s] [ 43%] [32mBuilding CXX object CMakeFiles/package2__rosidl_typesupport_c.dir/rosidl_typesupport_c/package2/srv/convert_time__type_support.cpp.o[0m
+[10.993s] [35m[1mScanning dependencies of target package2__rosidl_typesupport_introspection_c[0m
+[11.031s] [ 46%] [32mBuilding C object CMakeFiles/package2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/package2/msg/detail/time__type_support.c.o[0m
+[11.086s] [ 48%] [32m[1mLinking CXX shared library libpackage2__rosidl_typesupport_c.so[0m
+[11.112s] [ 51%] [32mBuilding C object CMakeFiles/package2__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/package2/srv/detail/convert_time__type_support.c.o[0m
+[11.173s] [ 53%] [32mBuilding CXX object CMakeFiles/package2__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/package2/srv/detail/dds_fastrtps/convert_time__type_support.cpp.o[0m
+[11.197s] [ 56%] [32m[1mLinking C shared library libpackage2__rosidl_typesupport_introspection_c.so[0m
+[11.240s] [ 58%] [32m[1mLinking CXX shared library libpackage2__rosidl_typesupport_cpp.so[0m
+[11.349s] [ 58%] Built target package2__rosidl_typesupport_c
+[11.456s] [ 58%] Built target package2__rosidl_typesupport_introspection_c
+[11.462s] [ 60%] [32m[1mLinking CXX shared library libpackage2__rosidl_typesupport_introspection_cpp.so[0m
+[11.494s] [ 60%] Built target package2__rosidl_typesupport_cpp
+[11.625s] [ 60%] Built target package2__rosidl_typesupport_introspection_cpp
+[11.921s] [ 63%] [32m[1mLinking CXX shared library libpackage2__rosidl_typesupport_fastrtps_cpp.so[0m
+[12.082s] [ 63%] Built target package2__rosidl_typesupport_fastrtps_cpp
+[12.095s] [ 65%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[12.370s] [35m[1mScanning dependencies of target package2__rosidl_typesupport_fastrtps_c[0m
+[12.399s] [ 68%] [32mBuilding CXX object CMakeFiles/package2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/package2/srv/detail/convert_time__type_support_c.cpp.o[0m
+[12.399s] [ 70%] [32mBuilding CXX object CMakeFiles/package2__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/package2/msg/detail/time__type_support_c.cpp.o[0m
+[12.830s] [ 73%] [32m[1mLinking CXX shared library libpackage2__rosidl_typesupport_fastrtps_c.so[0m
+[12.994s] [ 73%] Built target package2__rosidl_typesupport_fastrtps_c
+[13.007s] [35m[1mScanning dependencies of target package2[0m
+[13.019s] [ 73%] Built target package2
+[13.031s] [35m[1mScanning dependencies of target package2__py[0m
+[13.047s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.670s] [ 75%] Built target package2__py
+[13.683s] [35m[1mScanning dependencies of target package2__python[0m
+[13.706s] [ 78%] [32mBuilding C object CMakeFiles/package2__python.dir/rosidl_generator_py/package2/srv/_convert_time_s.c.o[0m
+[13.707s] [ 80%] [32mBuilding C object CMakeFiles/package2__python.dir/rosidl_generator_py/package2/msg/_time_s.c.o[0m
+[13.802s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/package2/libpackage2__python.so[0m
+[13.930s] [ 82%] Built target package2__python
+[13.941s] [35m[1mScanning dependencies of target package2__rosidl_typesupport_fastrtps_c__pyext[0m
+[13.941s] [35m[1mScanning dependencies of target package2__rosidl_typesupport_c__pyext[0m
+[13.945s] [35m[1mScanning dependencies of target package2__rosidl_typesupport_introspection_c__pyext[0m
+[13.964s] [ 85%] [32mBuilding C object CMakeFiles/package2__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/package2/_package2_s.ep.rosidl_typesupport_c.c.o[0m
+[13.967s] [ 87%] [32mBuilding C object CMakeFiles/package2__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/package2/_package2_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.971s] [ 90%] [32mBuilding C object CMakeFiles/package2__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/package2/_package2_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.069s] [ 95%] [32m[1mLinking CXX shared library rosidl_generator_py/package2/package2_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[14.070s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/package2/package2_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[14.070s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/package2/package2_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[14.184s] [ 97%] Built target package2__rosidl_typesupport_c__pyext
+[14.207s] [ 97%] Built target package2__rosidl_typesupport_fastrtps_c__pyext
+[14.212s] [ 97%] Built target package2__rosidl_typesupport_introspection_c__pyext
+[16.484s] [100%] [32m[1mLinking CXX executable listener[0m
+[16.962s] [100%] Built target listener
+[16.978s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2 -- -j8 -l8
+[17.082s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2
+[17.092s] -- Install configuration: ""
+[17.092s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/ament_index/resource_index/rosidl_interfaces/package2
+[17.093s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2
+[17.093s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv
+[17.094s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/convert_time.h
+[17.094s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/detail
+[17.095s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/detail/convert_time__functions.c
+[17.095s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/detail/convert_time__type_support.h
+[17.095s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/detail/convert_time__functions.h
+[17.096s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/detail/convert_time__struct.h
+[17.096s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg
+[17.096s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/rosidl_generator_c__visibility_control.h
+[17.097s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/detail
+[17.097s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/detail/time__type_support.h
+[17.097s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/detail/time__functions.h
+[17.098s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/detail/time__functions.c
+[17.098s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/detail/time__struct.h
+[17.099s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/time.h
+[17.099s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/environment/library_path.sh
+[17.099s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/environment/library_path.dsv
+[17.100s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/libpackage2__rosidl_generator_c.so
+[17.100s] -- Set runtime path of "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/libpackage2__rosidl_generator_c.so" to ""
+[17.100s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2
+[17.101s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv
+[17.101s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/detail
+[17.101s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/detail/convert_time__rosidl_typesupport_fastrtps_c.h
+[17.101s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg
+[17.102s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.102s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/detail
+[17.102s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/detail/time__rosidl_typesupport_fastrtps_c.h
+[17.103s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/libpackage2__rosidl_typesupport_fastrtps_c.so
+[17.103s] -- Set runtime path of "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/libpackage2__rosidl_typesupport_fastrtps_c.so" to ""
+[17.104s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2
+[17.104s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv
+[17.104s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/detail
+[17.105s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/detail/dds_fastrtps
+[17.105s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/detail/convert_time__rosidl_typesupport_fastrtps_cpp.hpp
+[17.105s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg
+[17.106s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.106s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/detail
+[17.107s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/detail/dds_fastrtps
+[17.107s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/detail/time__rosidl_typesupport_fastrtps_cpp.hpp
+[17.108s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/libpackage2__rosidl_typesupport_fastrtps_cpp.so
+[17.108s] -- Set runtime path of "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/libpackage2__rosidl_typesupport_fastrtps_cpp.so" to ""
+[17.108s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2
+[17.108s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv
+[17.108s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/detail
+[17.109s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/detail/convert_time__type_support.c
+[17.109s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/detail/convert_time__rosidl_typesupport_introspection_c.h
+[17.110s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg
+[17.110s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.111s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/detail
+[17.111s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/detail/time__rosidl_typesupport_introspection_c.h
+[17.111s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/detail/time__type_support.c
+[17.111s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/libpackage2__rosidl_typesupport_introspection_c.so
+[17.112s] -- Set runtime path of "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/libpackage2__rosidl_typesupport_introspection_c.so" to ""
+[17.112s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/libpackage2__rosidl_typesupport_c.so
+[17.112s] -- Set runtime path of "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/libpackage2__rosidl_typesupport_c.so" to ""
+[17.112s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2
+[17.113s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv
+[17.113s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/convert_time.hpp
+[17.113s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/detail
+[17.113s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/detail/convert_time__struct.hpp
+[17.114s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/detail/convert_time__traits.hpp
+[17.114s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/detail/convert_time__builder.hpp
+[17.114s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg
+[17.114s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/time.hpp
+[17.114s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/detail
+[17.115s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/detail/time__builder.hpp
+[17.115s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/detail/time__traits.hpp
+[17.115s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/detail/time__struct.hpp
+[17.115s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2
+[17.115s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv
+[17.115s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/detail
+[17.116s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/detail/convert_time__rosidl_typesupport_introspection_cpp.hpp
+[17.116s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/srv/detail/convert_time__type_support.cpp
+[17.116s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg
+[17.116s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/detail
+[17.117s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/detail/time__rosidl_typesupport_introspection_cpp.hpp
+[17.117s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/include/package2/msg/detail/time__type_support.cpp
+[17.117s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/libpackage2__rosidl_typesupport_introspection_cpp.so
+[17.117s] -- Set runtime path of "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/libpackage2__rosidl_typesupport_introspection_cpp.so" to ""
+[17.117s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/libpackage2__rosidl_typesupport_cpp.so
+[17.117s] -- Set runtime path of "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/libpackage2__rosidl_typesupport_cpp.so" to ""
+[17.118s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/environment/pythonpath.sh
+[17.118s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/environment/pythonpath.dsv
+[17.118s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/python3.8/site-packages/package2/__init__.py
+[17.151s] Compiling '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/python3.8/site-packages/package2/__init__.py'...
+[17.156s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/python3.8/site-packages/package2/msg
+[17.156s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/python3.8/site-packages/package2/msg/_time.py
+[17.157s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/python3.8/site-packages/package2/msg/_time_s.c
+[17.157s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/python3.8/site-packages/package2/msg/__init__.py
+[17.158s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/python3.8/site-packages/package2/srv
+[17.158s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/python3.8/site-packages/package2/srv/_convert_time_s.c
+[17.158s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/python3.8/site-packages/package2/srv/__init__.py
+[17.158s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/python3.8/site-packages/package2/srv/_convert_time.py
+[17.160s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/python3.8/site-packages/package2/package2_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[17.161s] -- Set runtime path of "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/python3.8/site-packages/package2/package2_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[17.161s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/python3.8/site-packages/package2/package2_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[17.162s] -- Set runtime path of "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/python3.8/site-packages/package2/package2_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[17.162s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/python3.8/site-packages/package2/package2_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[17.163s] -- Set runtime path of "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/python3.8/site-packages/package2/package2_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[17.163s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/libpackage2__python.so
+[17.164s] -- Set runtime path of "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/libpackage2__python.so" to ""
+[17.164s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/msg/Time.idl
+[17.164s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/srv/ConvertTime.idl
+[17.165s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/msg/Time.msg
+[17.165s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/srv/ConvertTime.srv
+[17.165s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/srv/ConvertTime_Request.msg
+[17.166s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/srv/ConvertTime_Response.msg
+[17.166s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/package2/listener
+[17.180s] -- Set runtime path of "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/package2/listener" to ""
+[17.180s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/ament_index/resource_index/package_run_dependencies/package2
+[17.181s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/ament_index/resource_index/parent_prefix_path/package2
+[17.181s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/environment/ament_prefix_path.sh
+[17.181s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/environment/ament_prefix_path.dsv
+[17.181s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/environment/path.sh
+[17.182s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/environment/path.dsv
+[17.182s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/local_setup.bash
+[17.182s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/local_setup.sh
+[17.182s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/local_setup.zsh
+[17.183s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/local_setup.dsv
+[17.183s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/package.dsv
+[17.183s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/ament_index/resource_index/packages/package2
+[17.183s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/package2__rosidl_generator_cExport.cmake
+[17.184s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/package2__rosidl_generator_cExport-noconfig.cmake
+[17.184s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/package2__rosidl_typesupport_introspection_cExport.cmake
+[17.184s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/package2__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[17.185s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/package2__rosidl_typesupport_cExport.cmake
+[17.185s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/package2__rosidl_typesupport_cExport-noconfig.cmake
+[17.186s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/package2__rosidl_generator_cppExport.cmake
+[17.186s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/package2__rosidl_typesupport_introspection_cppExport.cmake
+[17.186s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/package2__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[17.187s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/package2__rosidl_typesupport_cppExport.cmake
+[17.187s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/package2__rosidl_typesupport_cppExport-noconfig.cmake
+[17.187s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/rosidl_cmake-extras.cmake
+[17.188s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.188s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/ament_cmake_export_libraries-extras.cmake
+[17.188s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/ament_cmake_export_targets-extras.cmake
+[17.189s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.190s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.190s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.190s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/package2Config.cmake
+[17.191s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/package2Config-version.cmake
+[17.191s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/package.xml
+[17.195s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2

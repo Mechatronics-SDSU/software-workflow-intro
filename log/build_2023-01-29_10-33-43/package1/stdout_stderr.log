@@ -1,0 +1,21 @@
+[35m[1mScanning dependencies of target talker[0m
+[  2%] Built target package1__cpp
+[ 12%] Built target package1__rosidl_generator_c
+[ 14%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[ 24%] Built target package1__rosidl_typesupport_cpp
+[ 34%] Built target package1__rosidl_typesupport_introspection_cpp
+[ 53%] Built target package1__rosidl_typesupport_introspection_c
+[ 53%] Built target package1__rosidl_typesupport_c
+[ 63%] Built target package1__rosidl_typesupport_fastrtps_cpp
+[ 73%] Built target package1__rosidl_typesupport_fastrtps_c
+[ 73%] Built target package1
+[ 75%] Built target package1__py
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:21:10:[m[K [01;31m[Kfatal error: [m[Ktime_types/src/msg/Time.msg: No such file or directory
+   21 | #include [01;31m[K"time_types/src/msg/Time.msg"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:123: CMakeFiles/talker.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 82%] Built target package1__python
+make: *** [Makefile:141: all] Error 2

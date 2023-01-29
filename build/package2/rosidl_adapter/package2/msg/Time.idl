@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from package2/src/msg/Time.msg
+// generated code does not contain a copyright notice
+
+
+module package2 {
+  module msg {
+    struct Time {
+      int64 time;
+    };
+  };
+};

@@ -1,0 +1,16 @@
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/lib/package1/talker
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/ament_index/resource_index/package_run_dependencies/package1
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/ament_index/resource_index/parent_prefix_path/package1
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/environment/ament_prefix_path.sh
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/environment/ament_prefix_path.dsv
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/environment/path.sh
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/environment/path.dsv
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/local_setup.bash
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/local_setup.sh
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/local_setup.zsh
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/local_setup.dsv
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/package.dsv
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/ament_index/resource_index/packages/package1
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/cmake/package1Config.cmake
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/cmake/package1Config-version.cmake
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/package.xml

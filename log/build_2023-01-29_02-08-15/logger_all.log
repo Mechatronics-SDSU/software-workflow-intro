@@ -1,0 +1,167 @@
+[0.595s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'package1']
+[0.596s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fd74f73f160>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['package1'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fd74f73f160>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fd74f73f6a0>)
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.638s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.639s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.639s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.666s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/package1) by extensions ['ignore', 'ignore_ament_install']
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/package1) by extension 'ignore'
+[0.667s] Level 1:colcon.colcon_core.package_identification:_identify(src/package1) by extension 'ignore_ament_install'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/package1) by extensions ['colcon_pkg']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/package1) by extension 'colcon_pkg'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/package1) by extensions ['colcon_meta']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/package1) by extension 'colcon_meta'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/package1) by extensions ['ros']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/package1) by extension 'ros'
+[0.674s] DEBUG:colcon.colcon_core.package_identification:Package 'src/package1' with type 'ros.ament_cmake' and name 'package1'
+[0.674s] Level 1:colcon.colcon_core.package_identification:_identify(src/package2) by extensions ['ignore', 'ignore_ament_install']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/package2) by extension 'ignore'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/package2) by extension 'ignore_ament_install'
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/package2) by extensions ['colcon_pkg']
+[0.675s] Level 1:colcon.colcon_core.package_identification:_identify(src/package2) by extension 'colcon_pkg'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/package2) by extensions ['colcon_meta']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/package2) by extension 'colcon_meta'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/package2) by extensions ['ros']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(src/package2) by extension 'ros'
+[0.678s] DEBUG:colcon.colcon_core.package_identification:Package 'src/package2' with type 'ros.ament_cmake' and name 'package2'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(storage) by extensions ['ignore', 'ignore_ament_install']
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(storage) by extension 'ignore'
+[0.678s] Level 1:colcon.colcon_core.package_identification:_identify(storage) by extension 'ignore_ament_install'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(storage) by extensions ['colcon_pkg']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(storage) by extension 'colcon_pkg'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(storage) by extensions ['colcon_meta']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(storage) by extension 'colcon_meta'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(storage) by extensions ['ros']
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(storage) by extension 'ros'
+[0.679s] Level 1:colcon.colcon_core.package_identification:_identify(storage) by extensions ['cmake', 'python']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(storage) by extension 'cmake'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(storage) by extension 'python'
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(storage) by extensions ['python_setup_py']
+[0.680s] Level 1:colcon.colcon_core.package_identification:_identify(storage) by extension 'python_setup_py'
+[0.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.680s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.681s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.731s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'package2' in 'src/package2'
+[0.732s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.732s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.741s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.864s] Level 5:colcon.colcon_core.verb:set package 'package1' build argument 'cmake_args' from command line to 'None'
+[0.865s] Level 5:colcon.colcon_core.verb:set package 'package1' build argument 'cmake_target' from command line to 'None'
+[0.865s] Level 5:colcon.colcon_core.verb:set package 'package1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.865s] Level 5:colcon.colcon_core.verb:set package 'package1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.865s] Level 5:colcon.colcon_core.verb:set package 'package1' build argument 'cmake_clean_first' from command line to 'False'
+[0.865s] Level 5:colcon.colcon_core.verb:set package 'package1' build argument 'cmake_force_configure' from command line to 'False'
+[0.865s] Level 5:colcon.colcon_core.verb:set package 'package1' build argument 'ament_cmake_args' from command line to 'None'
+[0.865s] Level 5:colcon.colcon_core.verb:set package 'package1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.865s] Level 5:colcon.colcon_core.verb:set package 'package1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.865s] DEBUG:colcon.colcon_core.verb:Building package 'package1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1', 'merge_install': False, 'path': '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1', 'symlink_install': False, 'test_result_base': None}
+[0.867s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.874s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.876s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1' with build type 'ament_cmake'
+[0.877s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1'
+[0.892s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.892s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.893s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.954s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8
+[23.680s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8
+[23.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1
+[23.807s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(package1)
+[23.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1
+[23.821s] Level 1:colcon.colcon_core.environment:checking '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1' for CMake module files
+[23.822s] Level 1:colcon.colcon_core.environment:checking '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1' for CMake config files
+[23.823s] Level 1:colcon.colcon_core.shell:create_environment_hook('package1', 'cmake_prefix_path')
+[23.826s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/hook/cmake_prefix_path.ps1'
+[23.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/hook/cmake_prefix_path.dsv'
+[23.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/hook/cmake_prefix_path.sh'
+[23.835s] Level 1:colcon.colcon_core.environment:checking '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/lib'
+[23.835s] Level 1:colcon.colcon_core.environment:checking '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/bin'
+[23.835s] Level 1:colcon.colcon_core.environment:checking '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/lib/pkgconfig/package1.pc'
+[23.836s] Level 1:colcon.colcon_core.environment:checking '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/lib/python3.8/site-packages'
+[23.837s] Level 1:colcon.colcon_core.environment:checking '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/bin'
+[23.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/package.ps1'
+[23.841s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/package.dsv'
+[23.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/package.sh'
+[23.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/package.bash'
+[23.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/package.zsh'
+[23.852s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/colcon-core/packages/package1)
+[23.902s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(package1)
+[23.906s] Level 1:colcon.colcon_core.environment:checking '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1' for CMake module files
+[23.907s] Level 1:colcon.colcon_core.environment:checking '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1' for CMake config files
+[23.908s] Level 1:colcon.colcon_core.shell:create_environment_hook('package1', 'cmake_prefix_path')
+[23.910s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/hook/cmake_prefix_path.ps1'
+[23.912s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/hook/cmake_prefix_path.dsv'
+[23.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/hook/cmake_prefix_path.sh'
+[23.917s] Level 1:colcon.colcon_core.environment:checking '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/lib'
+[23.917s] Level 1:colcon.colcon_core.environment:checking '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/bin'
+[23.918s] Level 1:colcon.colcon_core.environment:checking '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/lib/pkgconfig/package1.pc'
+[23.918s] Level 1:colcon.colcon_core.environment:checking '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/lib/python3.8/site-packages'
+[23.919s] Level 1:colcon.colcon_core.environment:checking '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/bin'
+[23.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/package.ps1'
+[23.924s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/package.dsv'
+[23.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/package.sh'
+[23.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/package.bash'
+[23.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/package.zsh'
+[23.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/colcon-core/packages/package1)
+[23.932s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[23.934s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[23.936s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[23.937s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[24.122s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[24.123s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[24.123s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[24.123s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[24.133s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[24.134s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[24.137s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/local_setup.ps1'
+[24.139s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/_local_setup_util_ps1.py'
+[24.145s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/setup.ps1'
+[24.148s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/local_setup.sh'
+[24.151s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/_local_setup_util_sh.py'
+[24.152s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/setup.sh'
+[24.156s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/local_setup.bash'
+[24.157s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/setup.bash'
+[24.160s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/local_setup.zsh'
+[24.161s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/setup.zsh'

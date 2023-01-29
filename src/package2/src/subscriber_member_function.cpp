@@ -17,41 +17,40 @@
 
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
+#include "time_types/msg/time.hpp"
 using std::placeholders::_1;
 
-class MinimalSubscriber : public rclcpp::Node
+class SubscriberServer : public rclcpp::Node
 {
 public:
-  MinimalSubscriber()
+  SubscriberServer()
   : Node("timesubscriber")
   {
-    subscription_ = this->create_subscription<std_msgs::msg::String>(
-      "unix_epoch_time", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+    subscription_ = this->create_subscription<time_types::msg::Time>(
+      "unix_epoch_time", 10, std::bind(&SubscriberServer::topic_callback, this, _1));
+    server_ = this->create_service<time_types::msg::Time>("convert_time", std::bind(&PublisherClient::send_response_message))
+
   }
 
 private:
-  void ConvertToHumanTime(long int UnixEpochTime) 
+  void send_response_message(const std::shared_ptr<time_types::srv::ConvertTime::Request> request,
+          std::shared_ptr<time_types::srv::ConvertTime::Response>      response) 
   {
-    long year = 1970 + (UnixEpochTime / 31536000);
-    long month = 1 + ((UnixEpochTime / 2628288) % 12);
-    long day = 1 + ((UnixEpochTime / 86400) % 30);
-    long hour = 0 + ((UnixEpochTime / 3600) % 24 );
-    long minute = 0 + ((UnixEpochTime / 60) % 60 );
 
-    printf("The Date Is: %ld/%ld/%ld and the time is %ld:%ld", year, month, day, hour, minute); 
   }
-  void topic_callback(const std_msgs::msg::String::SharedPtr msg) const
+ 
+
+  void topic_callback(const time_types::msg::Time::SharedPtr msg) const
   {
-    RCLCPP_INFO(this->get_logger(), "Unix Epoch Time: '%ld'", msg->data);
-    // ConvertToHumanTime(msg);
+    RCLCPP_INFO(this->get_logger(), "Unix Epoch Time: %ld", msg->time);
   }
-  rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+  rclcpp::Subscription<time_types::msg::Time>::SharedPtr subscription_;
 };
 
 int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
-  rclcpp::spin(std::make_shared<MinimalSubscriber>());
+  rclcpp::spin(std::make_shared<SubscriberServer>());
   rclcpp::shutdown();
   return 0;
 }

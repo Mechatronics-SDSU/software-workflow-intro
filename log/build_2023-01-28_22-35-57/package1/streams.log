@@ -1,0 +1,89 @@
+[0.040s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8
+[0.107s] [35m[1mScanning dependencies of target client[0m
+[0.120s] [  4%] Built target package1__cpp
+[0.121s] [ 11%] Built target package1__rosidl_generator_c
+[0.133s] [ 13%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.162s] [ 16%] [32mBuilding CXX object CMakeFiles/client.dir/src/convert_time_client.cpp.o[0m
+[0.165s] [ 34%] Built target package1__rosidl_typesupport_cpp
+[0.166s] [ 34%] Built target package1__rosidl_typesupport_introspection_c
+[0.169s] [ 51%] Built target package1__rosidl_typesupport_c
+[0.170s] [ 53%] Built target package1__rosidl_typesupport_introspection_cpp
+[0.174s] [ 62%] Built target package1__rosidl_typesupport_fastrtps_cpp
+[0.207s] [ 72%] Built target package1__rosidl_typesupport_fastrtps_c
+[0.238s] [ 72%] Built target package1
+[0.266s] [ 74%] Built target package1__py
+[0.300s] [ 81%] Built target package1__python
+[0.318s] [35m[1mScanning dependencies of target package1__rosidl_typesupport_introspection_c__pyext[0m
+[0.319s] [35m[1mScanning dependencies of target package1__rosidl_typesupport_c__pyext[0m
+[0.324s] [35m[1mScanning dependencies of target package1__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.355s] [ 83%] [32mBuilding C object CMakeFiles/package1__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/package1/_package1_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[0.360s] [ 86%] [32mBuilding C object CMakeFiles/package1__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/package1/_package1_s.ep.rosidl_typesupport_c.c.o[0m
+[0.362s] [ 88%] [32mBuilding C object CMakeFiles/package1__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/package1/_package1_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[0.639s] [ 90%] [32m[1mLinking CXX shared library rosidl_generator_py/package1/package1_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[0.652s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/package1/package1_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[0.681s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/package1/package1_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[0.885s] [ 95%] Built target package1__rosidl_typesupport_introspection_c__pyext
+[0.939s] [ 95%] Built target package1__rosidl_typesupport_fastrtps_c__pyext
+[0.947s] [ 95%] Built target package1__rosidl_typesupport_c__pyext
+[2.897s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[2.897s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:58:1:[m[K [01;31m[Kerror: [m[Kversion control conflict marker in file
+[2.898s]    58 | [01;31m[K>>>>>>>[m[K parent of 7aa59ed... client/server branch initial commit
+[2.898s]       | [01;31m[K^~~~~~~[m[K
+[3.102s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:[m[K In function ‘[01m[Kvoid printHumanTime(std::vector<long int, std::allocator<long int> >)[m[K’:
+[3.102s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:12:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kyear[m[K’ was not declared in this scope
+[3.102s]    12 |   printf("The Date Is: %ld/%ld/%ld and the time is %ld:%ld", [01;31m[Kyear[m[K, month, day, hour, minute);
+[3.102s]       |                                                              [01;31m[K^~~~[m[K
+[3.104s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:12:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kmonth[m[K’ was not declared in this scope
+[3.104s]    12 |   printf("The Date Is: %ld/%ld/%ld and the time is %ld:%ld", year, [01;31m[Kmonth[m[K, day, hour, minute);
+[3.104s]       |                                                                    [01;31m[K^~~~~[m[K
+[3.106s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:12:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kday[m[K’ was not declared in this scope
+[3.106s]    12 | ntf("The Date Is: %ld/%ld/%ld and the time is %ld:%ld", year, month, [01;31m[Kday[m[K, hour, minute);
+[3.107s]       |                                                                      [01;31m[K^~~[m[K
+[3.107s] 
+[3.109s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:12:80:[m[K [01;31m[Kerror: [m[K‘[01m[Khour[m[K’ was not declared in this scope
+[3.109s]    12 | f("The Date Is: %ld/%ld/%ld and the time is %ld:%ld", year, month, day, [01;31m[Khour[m[K, minute);
+[3.109s]       |                                                                         [01;31m[K^~~~[m[K
+[3.109s] 
+[3.111s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:12:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kminute[m[K’ was not declared in this scope; did you mean ‘[01m[Kfinite[m[K’?
+[3.112s]    12 | f("The Date Is: %ld/%ld/%ld and the time is %ld:%ld", year, month, day, hour, [01;31m[Kminute[m[K);
+[3.112s]       |                                                                               [01;31m[K^~~~~~[m[K
+[3.112s]       |                                                                               [32m[Kfinite[m[K
+[3.113s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:11:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KUnixEpochTIme[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.113s]    11 | void printHumanTime([01;35m[Kstd::vector<long> UnixEpochTIme[m[K) {
+[3.113s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[3.120s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.121s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:25:18:[m[K [01;31m[Kerror: [m[K‘[01m[KconvertTime[m[K’ was not declared in this scope
+[3.121s]    25 |   rclcpp::Client<[01;31m[KconvertTime[m[K>::SharedPtr client =
+[3.121s]       |                  [01;31m[K^~~~~~~~~~~[m[K
+[3.122s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:25:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.122s]    25 |   rclcpp::Client<convertTime[01;31m[K>[m[K::SharedPtr client =
+[3.122s]       |                             [01;31m[K^[m[K
+[3.122s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:25:42:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kclient[m[K’
+[3.122s]    25 |   rclcpp::Client<convertTime>::SharedPtr [01;31m[Kclient[m[K =
+[3.122s]       |                                          [01;31m[K^~~~~~[m[K
+[3.123s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:28:23:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.123s]    28 |   auto request = std::[01;31m[Kmake_shared<convertTime::Request>[m[K();
+[3.123s]       |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.123s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:28:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<convertTime>()[m[K’
+[3.124s]    28 |   auto request = std::make_shared<convertTime::Request>([01;31m[K)[m[K;
+[3.124s]       |                                                         [01;31m[K^[m[K
+[3.124s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[3.124s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+[3.125s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:1[m[K:
+[3.125s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[3.125s]   714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[3.125s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.125s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.126s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:32:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+[3.126s]    32 |   while (![01;31m[Kclient[m[K->wait_for_service(5s)) {
+[3.126s]       |           [01;31m[K^~~~~~[m[K
+[3.131s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:40:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+[3.131s]    40 |   auto result = [01;31m[Kclient[m[K->async_send_request(request);
+[3.132s]       |                 [01;31m[K^~~~~~[m[K
+[4.309s] make[2]: *** [CMakeFiles/client.dir/build.make:63: CMakeFiles/client.dir/src/convert_time_client.cpp.o] Error 1
+[4.310s] make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/client.dir/all] Error 2
+[4.310s] make[1]: *** Waiting for unfinished jobs....
+[5.239s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[5.239s] make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/talker.dir/all] Error 2
+[5.239s] make: *** [Makefile:141: all] Error 2
+[5.248s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8

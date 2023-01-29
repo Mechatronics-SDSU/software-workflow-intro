@@ -1,0 +1,61 @@
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:58:1:[m[K [01;31m[Kerror: [m[Kversion control conflict marker in file
+   58 | [01;31m[K>>>>>>>[m[K parent of 7aa59ed... client/server branch initial commit
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:[m[K In function ‘[01m[Kvoid printHumanTime(std::vector<long int, std::allocator<long int> >)[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:12:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kyear[m[K’ was not declared in this scope
+   12 |   printf("The Date Is: %ld/%ld/%ld and the time is %ld:%ld", [01;31m[Kyear[m[K, month, day, hour, minute);
+      |                                                              [01;31m[K^~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:12:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kmonth[m[K’ was not declared in this scope
+   12 |   printf("The Date Is: %ld/%ld/%ld and the time is %ld:%ld", year, [01;31m[Kmonth[m[K, day, hour, minute);
+      |                                                                    [01;31m[K^~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:12:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kday[m[K’ was not declared in this scope
+   12 | ntf("The Date Is: %ld/%ld/%ld and the time is %ld:%ld", year, month, [01;31m[Kday[m[K, hour, minute);
+      |                                                                      [01;31m[K^~~[m[K
+
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:12:80:[m[K [01;31m[Kerror: [m[K‘[01m[Khour[m[K’ was not declared in this scope
+   12 | f("The Date Is: %ld/%ld/%ld and the time is %ld:%ld", year, month, day, [01;31m[Khour[m[K, minute);
+      |                                                                         [01;31m[K^~~~[m[K
+
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:12:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kminute[m[K’ was not declared in this scope; did you mean ‘[01m[Kfinite[m[K’?
+   12 | f("The Date Is: %ld/%ld/%ld and the time is %ld:%ld", year, month, day, hour, [01;31m[Kminute[m[K);
+      |                                                                               [01;31m[K^~~~~~[m[K
+      |                                                                               [32m[Kfinite[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:11:39:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KUnixEpochTIme[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   11 | void printHumanTime([01;35m[Kstd::vector<long> UnixEpochTIme[m[K) {
+      |                     [01;35m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:25:18:[m[K [01;31m[Kerror: [m[K‘[01m[KconvertTime[m[K’ was not declared in this scope
+   25 |   rclcpp::Client<[01;31m[KconvertTime[m[K>::SharedPtr client =
+      |                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:25:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |   rclcpp::Client<convertTime[01;31m[K>[m[K::SharedPtr client =
+      |                             [01;31m[K^[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:25:42:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kclient[m[K’
+   25 |   rclcpp::Client<convertTime>::SharedPtr [01;31m[Kclient[m[K =
+      |                                          [01;31m[K^~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:28:23:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   28 |   auto request = std::[01;31m[Kmake_shared<convertTime::Request>[m[K();
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:28:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<convertTime>()[m[K’
+   28 |   auto request = std::make_shared<convertTime::Request>([01;31m[K)[m[K;
+      |                                                         [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:32:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+   32 |   while (![01;31m[Kclient[m[K->wait_for_service(5s)) {
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:40:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+   40 |   auto result = [01;31m[Kclient[m[K->async_send_request(request);
+      |                 [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/client.dir/build.make:63: CMakeFiles/client.dir/src/convert_time_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/client.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

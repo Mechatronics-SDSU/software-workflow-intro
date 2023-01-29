@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target client[0m
+[  4%] Built target package1__cpp
+[ 11%] Built target package1__rosidl_generator_c
+[ 13%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/client.dir/src/convert_time_client.cpp.o[0m
+[ 34%] Built target package1__rosidl_typesupport_cpp
+[ 34%] Built target package1__rosidl_typesupport_introspection_c
+[ 51%] Built target package1__rosidl_typesupport_c
+[ 53%] Built target package1__rosidl_typesupport_introspection_cpp
+[ 62%] Built target package1__rosidl_typesupport_fastrtps_cpp
+[ 72%] Built target package1__rosidl_typesupport_fastrtps_c
+[ 72%] Built target package1
+[ 74%] Built target package1__py
+[ 81%] Built target package1__python
+[35m[1mScanning dependencies of target package1__rosidl_typesupport_introspection_c__pyext[0m
+[35m[1mScanning dependencies of target package1__rosidl_typesupport_c__pyext[0m
+[35m[1mScanning dependencies of target package1__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 83%] [32mBuilding C object CMakeFiles/package1__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/package1/_package1_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 86%] [32mBuilding C object CMakeFiles/package1__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/package1/_package1_s.ep.rosidl_typesupport_c.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/package1__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/package1/_package1_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 90%] [32m[1mLinking CXX shared library rosidl_generator_py/package1/package1_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/package1/package1_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/package1/package1_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 95%] Built target package1__rosidl_typesupport_introspection_c__pyext
+[ 95%] Built target package1__rosidl_typesupport_fastrtps_c__pyext
+[ 95%] Built target package1__rosidl_typesupport_c__pyext

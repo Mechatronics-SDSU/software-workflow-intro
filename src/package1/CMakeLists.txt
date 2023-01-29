@@ -13,18 +13,21 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(example_interfaces REQUIRED)
+find_package(time_types REQUIRED)
+
+# find_package(example_interfaces REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
 
 add_executable(talker src/publisher_member_function.cpp)
-ament_target_dependencies(talker rclcpp std_msgs)
+ament_target_dependencies(talker rclcpp time_types)
 
-add_executable(client src/add_two_ints_client.cpp)
-ament_target_dependencies(client
-rclcpp example_interfaces)
+# add_executable(client src/convert_time_client.cpp)
+# ament_target_dependencies(client
+# rclcpp example_interfaces)
 
 install(TARGETS
   talker
-  client
+  # client
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

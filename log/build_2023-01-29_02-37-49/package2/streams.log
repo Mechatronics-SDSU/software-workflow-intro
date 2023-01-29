@@ -1,0 +1,22 @@
+[0.196s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2 -- -j8 -l8
+[0.681s] [35m[1mScanning dependencies of target listener[0m
+[0.852s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[12.194s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[12.195s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[12.196s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[12.196s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[12.197s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[12.197s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[12.198s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[12.199s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[12.199s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[12.200s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[12.201s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:18[m[K:
+[12.202s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid SubscriberServer::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[12.203s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:42:60:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’})
+[12.204s]    42 |     RCLCPP_INFO(this->get_logger(), "Unix Epoch Time: %s", [01;31m[K*msg->data[m[K);
+[12.204s]       |                                                            [01;31m[K^~~~~~~~~~[m[K
+[17.297s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[17.299s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/listener.dir/all] Error 2
+[17.300s] make: *** [Makefile:141: all] Error 2
+[17.317s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2 -- -j8 -l8

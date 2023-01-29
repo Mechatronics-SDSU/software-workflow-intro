@@ -1,0 +1,26 @@
+[0.032s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2 -- -j8 -l8
+[0.086s] [35m[1mScanning dependencies of target listener[0m
+[0.119s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[6.344s] [100%] [32m[1mLinking CXX executable listener[0m
+[6.786s] [100%] Built target listener
+[6.824s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2 -- -j8 -l8
+[6.890s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2
+[6.900s] -- Install configuration: ""
+[6.900s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/package2/listener
+[6.933s] -- Set runtime path of "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/package2/listener" to ""
+[6.933s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/ament_index/resource_index/package_run_dependencies/package2
+[6.934s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/ament_index/resource_index/parent_prefix_path/package2
+[6.934s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/environment/ament_prefix_path.sh
+[6.935s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/environment/ament_prefix_path.dsv
+[6.935s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/environment/path.sh
+[6.936s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/environment/path.dsv
+[6.936s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/local_setup.bash
+[6.936s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/local_setup.sh
+[6.937s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/local_setup.zsh
+[6.937s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/local_setup.dsv
+[6.937s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/package.dsv
+[6.938s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/ament_index/resource_index/packages/package2
+[6.938s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/package2Config.cmake
+[6.942s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/package2Config-version.cmake
+[6.944s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/package.xml
+[6.944s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2

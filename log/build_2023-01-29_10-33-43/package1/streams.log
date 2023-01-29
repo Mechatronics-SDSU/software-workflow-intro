@@ -1,0 +1,23 @@
+[0.024s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8
+[0.087s] [35m[1mScanning dependencies of target talker[0m
+[0.097s] [  2%] Built target package1__cpp
+[0.101s] [ 12%] Built target package1__rosidl_generator_c
+[0.123s] [ 14%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.124s] [ 24%] Built target package1__rosidl_typesupport_cpp
+[0.125s] [ 34%] Built target package1__rosidl_typesupport_introspection_cpp
+[0.127s] [ 53%] Built target package1__rosidl_typesupport_introspection_c
+[0.127s] [ 53%] Built target package1__rosidl_typesupport_c
+[0.129s] [ 63%] Built target package1__rosidl_typesupport_fastrtps_cpp
+[0.156s] [ 73%] Built target package1__rosidl_typesupport_fastrtps_c
+[0.176s] [ 73%] Built target package1
+[0.200s] [ 75%] Built target package1__py
+[0.212s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:21:10:[m[K [01;31m[Kfatal error: [m[Ktime_types/src/msg/Time.msg: No such file or directory
+[0.213s]    21 | #include [01;31m[K"time_types/src/msg/Time.msg"[m[K
+[0.213s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.213s] compilation terminated.
+[0.214s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[0.214s] make[1]: *** [CMakeFiles/Makefile2:123: CMakeFiles/talker.dir/all] Error 2
+[0.214s] make[1]: *** Waiting for unfinished jobs....
+[0.229s] [ 82%] Built target package1__python
+[0.230s] make: *** [Makefile:141: all] Error 2
+[0.235s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8

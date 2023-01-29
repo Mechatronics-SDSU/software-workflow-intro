@@ -1,0 +1,52 @@
+[0.025s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1 -DCMAKE_INSTALL_PREFIX=/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1
+[0.795s] -- The C compiler identification is GNU 9.4.0
+[1.486s] -- The CXX compiler identification is GNU 9.4.0
+[1.804s] -- Check for working C compiler: /usr/bin/cc
+[2.145s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.148s] -- Detecting C compiler ABI info
+[2.453s] -- Detecting C compiler ABI info - done
+[2.466s] -- Detecting C compile features
+[2.466s] -- Detecting C compile features - done
+[2.472s] -- Check for working CXX compiler: /usr/bin/c++
+[2.918s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.922s] -- Detecting CXX compiler ABI info
+[3.332s] -- Detecting CXX compiler ABI info - done
+[3.363s] -- Detecting CXX compile features
+[3.364s] -- Detecting CXX compile features - done
+[3.389s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.428s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.428s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.732s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.448s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.458s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[8.584s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[11.813s] -- Found FastRTPS: /opt/ros/foxy/include  
+[17.152s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.238s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[17.240s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[17.242s] -- Looking for pthread.h
+[17.553s] -- Looking for pthread.h - found
+[17.553s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[17.885s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[17.886s] -- Looking for pthread_create in pthreads
+[18.194s] -- Looking for pthread_create in pthreads - not found
+[18.194s] -- Looking for pthread_create in pthread
+[18.605s] -- Looking for pthread_create in pthread - found
+[18.606s] -- Found Threads: TRUE  
+[18.848s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[19.263s] -- Configuring done
+[19.267s] CMake Error at CMakeLists.txt:21 (add_executable):
+[19.267s]   Cannot find source file:
+[19.268s] 
+[19.269s]     src/add_two_ints_client.cpp
+[19.270s] 
+[19.271s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[19.271s]   .hpp .hxx .in .txx
+[19.272s] 
+[19.272s] 
+[19.273s] CMake Error at CMakeLists.txt:21 (add_executable):
+[19.273s]   No SOURCES given to target: client
+[19.274s] 
+[19.274s] 
+[19.275s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[19.289s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1 -DCMAKE_INSTALL_PREFIX=/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1

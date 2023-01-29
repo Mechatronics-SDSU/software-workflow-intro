@@ -1,0 +1,7 @@
+{
+  "package_name": "time_types",
+  "non_idl_tuples": [
+    "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/time_types:msg/Time.msg",
+    "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/time_types:srv/ConvertTime.srv"
+  ]
+}

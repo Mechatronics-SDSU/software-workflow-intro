@@ -1,0 +1,234 @@
+[0.000000] (-) TimerEvent: {}
+[0.003051] (-) JobUnselected: {'identifier': 'package1'}
+[0.003681] (package2) JobQueued: {'identifier': 'package2', 'dependencies': OrderedDict()}
+[0.004931] (package2) JobStarted: {'identifier': 'package2'}
+[0.044287] (package2) JobProgress: {'identifier': 'package2', 'progress': 'cmake'}
+[0.046913] (package2) JobProgress: {'identifier': 'package2', 'progress': 'build'}
+[0.050039] (package2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2', '--', '-j8', '-l8'], 'cwd': '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'conner'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/conner'), ('OLDPWD', '/home/conner/mechatronics'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'conner'), ('NAME', 'ConnerSurface'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/conner/apps/nvm:/mnt/c/conner/apps/nvm:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/conner/apps/Python/Python310/Scripts/:/mnt/c/conner/apps/Python/Python310/:/mnt/c/Users/conne/AppData/Local/Microsoft/WindowsApps:/mnt/c/conner/apps/vscode/bin:/mnt/c/Conner/Apps/nvm/v16.17.0:/mnt/c/Conner/Apps/nvm:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.095790] (-) TimerEvent: {}
+[0.197485] (-) TimerEvent: {}
+[0.297313] (package2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[0.299431] (-) TimerEvent: {}
+[0.401030] (-) TimerEvent: {}
+[0.467595] (package2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[0.501659] (-) TimerEvent: {}
+[0.603121] (-) TimerEvent: {}
+[0.704365] (-) TimerEvent: {}
+[0.805512] (-) TimerEvent: {}
+[0.906925] (-) TimerEvent: {}
+[1.008074] (-) TimerEvent: {}
+[1.109447] (-) TimerEvent: {}
+[1.210635] (-) TimerEvent: {}
+[1.312359] (-) TimerEvent: {}
+[1.413755] (-) TimerEvent: {}
+[1.514906] (-) TimerEvent: {}
+[1.616304] (-) TimerEvent: {}
+[1.717517] (-) TimerEvent: {}
+[1.818664] (-) TimerEvent: {}
+[1.919890] (-) TimerEvent: {}
+[2.021054] (-) TimerEvent: {}
+[2.122260] (-) TimerEvent: {}
+[2.223449] (-) TimerEvent: {}
+[2.324621] (-) TimerEvent: {}
+[2.425737] (-) TimerEvent: {}
+[2.527342] (-) TimerEvent: {}
+[2.628604] (-) TimerEvent: {}
+[2.729659] (-) TimerEvent: {}
+[2.830809] (-) TimerEvent: {}
+[2.931937] (-) TimerEvent: {}
+[3.033083] (-) TimerEvent: {}
+[3.134117] (-) TimerEvent: {}
+[3.235388] (-) TimerEvent: {}
+[3.339398] (-) TimerEvent: {}
+[3.441026] (-) TimerEvent: {}
+[3.543844] (-) TimerEvent: {}
+[3.646831] (-) TimerEvent: {}
+[3.749013] (-) TimerEvent: {}
+[3.852163] (-) TimerEvent: {}
+[3.954858] (-) TimerEvent: {}
+[4.057472] (-) TimerEvent: {}
+[4.160267] (-) TimerEvent: {}
+[4.262522] (-) TimerEvent: {}
+[4.365973] (-) TimerEvent: {}
+[4.468687] (-) TimerEvent: {}
+[4.570617] (-) TimerEvent: {}
+[4.672116] (-) TimerEvent: {}
+[4.773687] (-) TimerEvent: {}
+[4.874805] (-) TimerEvent: {}
+[4.977012] (-) TimerEvent: {}
+[5.079929] (-) TimerEvent: {}
+[5.181215] (-) TimerEvent: {}
+[5.282907] (-) TimerEvent: {}
+[5.384466] (-) TimerEvent: {}
+[5.485584] (-) TimerEvent: {}
+[5.586978] (-) TimerEvent: {}
+[5.688072] (-) TimerEvent: {}
+[5.789640] (-) TimerEvent: {}
+[5.891228] (-) TimerEvent: {}
+[5.992785] (-) TimerEvent: {}
+[6.094235] (-) TimerEvent: {}
+[6.196525] (-) TimerEvent: {}
+[6.298780] (-) TimerEvent: {}
+[6.400386] (-) TimerEvent: {}
+[6.501543] (-) TimerEvent: {}
+[6.602675] (-) TimerEvent: {}
+[6.703855] (-) TimerEvent: {}
+[6.805602] (-) TimerEvent: {}
+[6.906962] (-) TimerEvent: {}
+[7.008152] (-) TimerEvent: {}
+[7.109662] (-) TimerEvent: {}
+[7.210845] (-) TimerEvent: {}
+[7.312215] (-) TimerEvent: {}
+[7.414225] (-) TimerEvent: {}
+[7.516352] (-) TimerEvent: {}
+[7.617629] (-) TimerEvent: {}
+[7.718759] (-) TimerEvent: {}
+[7.819939] (-) TimerEvent: {}
+[7.920976] (-) TimerEvent: {}
+[8.022345] (-) TimerEvent: {}
+[8.123460] (-) TimerEvent: {}
+[8.224768] (-) TimerEvent: {}
+[8.325928] (-) TimerEvent: {}
+[8.427263] (-) TimerEvent: {}
+[8.528393] (-) TimerEvent: {}
+[8.629583] (-) TimerEvent: {}
+[8.730841] (-) TimerEvent: {}
+[8.832133] (-) TimerEvent: {}
+[8.933254] (-) TimerEvent: {}
+[9.034460] (-) TimerEvent: {}
+[9.135685] (-) TimerEvent: {}
+[9.236716] (-) TimerEvent: {}
+[9.337806] (-) TimerEvent: {}
+[9.438918] (-) TimerEvent: {}
+[9.540383] (-) TimerEvent: {}
+[9.642898] (-) TimerEvent: {}
+[9.744051] (-) TimerEvent: {}
+[9.845259] (-) TimerEvent: {}
+[9.946765] (-) TimerEvent: {}
+[10.048144] (-) TimerEvent: {}
+[10.150157] (-) TimerEvent: {}
+[10.252202] (-) TimerEvent: {}
+[10.353706] (-) TimerEvent: {}
+[10.455247] (-) TimerEvent: {}
+[10.557165] (-) TimerEvent: {}
+[10.658244] (-) TimerEvent: {}
+[10.759355] (-) TimerEvent: {}
+[10.860593] (-) TimerEvent: {}
+[10.961517] (-) TimerEvent: {}
+[11.062506] (-) TimerEvent: {}
+[11.163666] (-) TimerEvent: {}
+[11.265106] (-) TimerEvent: {}
+[11.366898] (-) TimerEvent: {}
+[11.468082] (-) TimerEvent: {}
+[11.569283] (-) TimerEvent: {}
+[11.670367] (-) TimerEvent: {}
+[11.771505] (-) TimerEvent: {}
+[11.872678] (-) TimerEvent: {}
+[11.973922] (-) TimerEvent: {}
+[12.075008] (-) TimerEvent: {}
+[12.176520] (-) TimerEvent: {}
+[12.277479] (-) TimerEvent: {}
+[12.379026] (-) TimerEvent: {}
+[12.480799] (-) TimerEvent: {}
+[12.582599] (-) TimerEvent: {}
+[12.684404] (-) TimerEvent: {}
+[12.787810] (-) TimerEvent: {}
+[12.888826] (-) TimerEvent: {}
+[12.989917] (-) TimerEvent: {}
+[13.091790] (-) TimerEvent: {}
+[13.193469] (-) TimerEvent: {}
+[13.295272] (-) TimerEvent: {}
+[13.396923] (-) TimerEvent: {}
+[13.498098] (-) TimerEvent: {}
+[13.599412] (-) TimerEvent: {}
+[13.701868] (-) TimerEvent: {}
+[13.804042] (-) TimerEvent: {}
+[13.905865] (-) TimerEvent: {}
+[14.007388] (-) TimerEvent: {}
+[14.109506] (-) TimerEvent: {}
+[14.212103] (-) TimerEvent: {}
+[14.314562] (-) TimerEvent: {}
+[14.416563] (-) TimerEvent: {}
+[14.517941] (-) TimerEvent: {}
+[14.619070] (-) TimerEvent: {}
+[14.720103] (-) TimerEvent: {}
+[14.821786] (-) TimerEvent: {}
+[14.924068] (-) TimerEvent: {}
+[15.025405] (-) TimerEvent: {}
+[15.126771] (-) TimerEvent: {}
+[15.228182] (-) TimerEvent: {}
+[15.333500] (-) TimerEvent: {}
+[15.434835] (-) TimerEvent: {}
+[15.536417] (-) TimerEvent: {}
+[15.638100] (-) TimerEvent: {}
+[15.739225] (-) TimerEvent: {}
+[15.840312] (-) TimerEvent: {}
+[15.941588] (-) TimerEvent: {}
+[16.042734] (-) TimerEvent: {}
+[16.143759] (-) TimerEvent: {}
+[16.245040] (-) TimerEvent: {}
+[16.346486] (-) TimerEvent: {}
+[16.447851] (-) TimerEvent: {}
+[16.548950] (-) TimerEvent: {}
+[16.650186] (-) TimerEvent: {}
+[16.751656] (-) TimerEvent: {}
+[16.852847] (-) TimerEvent: {}
+[16.953940] (-) TimerEvent: {}
+[17.055115] (-) TimerEvent: {}
+[17.156465] (-) TimerEvent: {}
+[17.257607] (-) TimerEvent: {}
+[17.359281] (-) TimerEvent: {}
+[17.460569] (-) TimerEvent: {}
+[17.561798] (-) TimerEvent: {}
+[17.662998] (-) TimerEvent: {}
+[17.767849] (-) TimerEvent: {}
+[17.869246] (-) TimerEvent: {}
+[17.970701] (-) TimerEvent: {}
+[18.072057] (-) TimerEvent: {}
+[18.173488] (-) TimerEvent: {}
+[18.274670] (-) TimerEvent: {}
+[18.377401] (-) TimerEvent: {}
+[18.478898] (-) TimerEvent: {}
+[18.580341] (-) TimerEvent: {}
+[18.681520] (-) TimerEvent: {}
+[18.750783] (package2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[18.781911] (-) TimerEvent: {}
+[18.883044] (-) TimerEvent: {}
+[18.984862] (-) TimerEvent: {}
+[19.085967] (-) TimerEvent: {}
+[19.187493] (-) TimerEvent: {}
+[19.289264] (-) TimerEvent: {}
+[19.390486] (-) TimerEvent: {}
+[19.492369] (-) TimerEvent: {}
+[19.593617] (-) TimerEvent: {}
+[19.694857] (-) TimerEvent: {}
+[19.795798] (-) TimerEvent: {}
+[19.869300] (package2) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[19.896399] (-) TimerEvent: {}
+[19.907247] (package2) CommandEnded: {'returncode': 0}
+[19.982389] (package2) JobProgress: {'identifier': 'package2', 'progress': 'install'}
+[19.996865] (-) TimerEvent: {}
+[20.025215] (package2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2'], 'cwd': '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'conner'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/conner'), ('OLDPWD', '/home/conner/mechatronics'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'conner'), ('NAME', 'ConnerSurface'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/conner/apps/nvm:/mnt/c/conner/apps/nvm:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/conner/apps/Python/Python310/Scripts/:/mnt/c/conner/apps/Python/Python310/:/mnt/c/Users/conne/AppData/Local/Microsoft/WindowsApps:/mnt/c/conner/apps/vscode/bin:/mnt/c/Conner/Apps/nvm/v16.17.0:/mnt/c/Conner/Apps/nvm:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[20.046424] (package2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.048022] (package2) StdoutLine: {'line': b'-- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/package2/listener\n'}
+[20.057582] (package2) StdoutLine: {'line': b'-- Set runtime path of "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/package2/listener" to ""\n'}
+[20.060075] (package2) StdoutLine: {'line': b'-- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/ament_index/resource_index/package_run_dependencies/package2\n'}
+[20.061532] (package2) StdoutLine: {'line': b'-- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/ament_index/resource_index/parent_prefix_path/package2\n'}
+[20.062424] (package2) StdoutLine: {'line': b'-- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/environment/ament_prefix_path.sh\n'}
+[20.063700] (package2) StdoutLine: {'line': b'-- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/environment/ament_prefix_path.dsv\n'}
+[20.064102] (package2) StdoutLine: {'line': b'-- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/environment/path.sh\n'}
+[20.064523] (package2) StdoutLine: {'line': b'-- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/environment/path.dsv\n'}
+[20.065021] (package2) StdoutLine: {'line': b'-- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/local_setup.bash\n'}
+[20.069123] (package2) StdoutLine: {'line': b'-- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/local_setup.sh\n'}
+[20.072884] (package2) StdoutLine: {'line': b'-- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/local_setup.zsh\n'}
+[20.080055] (package2) StdoutLine: {'line': b'-- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/local_setup.dsv\n'}
+[20.093069] (package2) StdoutLine: {'line': b'-- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/package.dsv\n'}
+[20.094783] (package2) StdoutLine: {'line': b'-- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/ament_index/resource_index/packages/package2\n'}
+[20.096188] (package2) StdoutLine: {'line': b'-- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/package2Config.cmake\n'}
+[20.098066] (-) TimerEvent: {}
+[20.098571] (package2) StdoutLine: {'line': b'-- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/package2Config-version.cmake\n'}
+[20.102261] (package2) StdoutLine: {'line': b'-- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/package.xml\n'}
+[20.107808] (package2) CommandEnded: {'returncode': 0}
+[20.199000] (-) TimerEvent: {}
+[20.267713] (package2) JobEnded: {'identifier': 'package2', 'rc': 0}
+[20.276862] (-) EventReactorShutdown: {}

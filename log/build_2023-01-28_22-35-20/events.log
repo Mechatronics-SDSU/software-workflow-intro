@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.001491] (-) JobUnselected: {'identifier': 'package2'}
+[0.002074] (package1) JobQueued: {'identifier': 'package1', 'dependencies': OrderedDict()}
+[0.002217] (package1) JobStarted: {'identifier': 'package1'}
+[0.019692] (package1) JobProgress: {'identifier': 'package1', 'progress': 'cmake'}
+[0.024071] (package1) JobProgress: {'identifier': 'package1', 'progress': 'build'}
+[0.024296] (package1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1', '--', '-j8', '-l8'], 'cwd': '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'conner'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/conner'), ('OLDPWD', '/home/conner/mechatronics'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'conner'), ('NAME', 'ConnerSurface'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/conner/apps/nvm:/mnt/c/conner/apps/nvm:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/conner/apps/Python/Python310/Scripts/:/mnt/c/conner/apps/Python/Python310/:/mnt/c/Users/conne/AppData/Local/Microsoft/WindowsApps:/mnt/c/conner/apps/vscode/bin:/mnt/c/Conner/Apps/nvm/v16.17.0:/mnt/c/Conner/Apps/nvm:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.086536] (package1) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target client\x1b[0m\n'}
+[0.097946] (-) TimerEvent: {}
+[0.103525] (package1) StdoutLine: {'line': b'[  2%] Built target package1__cpp\n'}
+[0.109849] (package1) StdoutLine: {'line': b'[ 11%] Built target package1__rosidl_generator_c\n'}
+[0.114141] (package1) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.142697] (package1) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/convert_time_client.cpp.o\x1b[0m\n'}
+[0.149311] (package1) StdoutLine: {'line': b'[ 25%] Built target package1__rosidl_typesupport_cpp\n'}
+[0.151073] (package1) StdoutLine: {'line': b'[ 34%] Built target package1__rosidl_typesupport_introspection_cpp\n'}
+[0.154064] (package1) StdoutLine: {'line': b'[ 44%] Built target package1__rosidl_typesupport_fastrtps_cpp\n'}
+[0.156574] (package1) StdoutLine: {'line': b'[ 62%] Built target package1__rosidl_typesupport_c\n'}
+[0.157094] (package1) StdoutLine: {'line': b'[ 62%] Built target package1__rosidl_typesupport_introspection_c\n'}
+[0.198182] (-) TimerEvent: {}
+[0.198887] (package1) StdoutLine: {'line': b'[ 72%] Built target package1__rosidl_typesupport_fastrtps_c\n'}
+[0.249271] (package1) StdoutLine: {'line': b'[ 72%] Built target package1\n'}
+[0.298488] (-) TimerEvent: {}
+[0.312930] (package1) StdoutLine: {'line': b'[ 74%] Built target package1__py\n'}
+[0.340072] (package1) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target package1__python\x1b[0m\n'}
+[0.376088] (package1) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/package1__python.dir/rosidl_generator_py/package1/msg/_time_s.c.o\x1b[0m\n'}
+[0.380280] (package1) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/package1__python.dir/rosidl_generator_py/package1/srv/_convert_time_s.c.o\x1b[0m\n'}
+[0.381226] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:7:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kstd:: No such file or directory\n'}
+[0.381650] (package1) StderrLine: {'line': b'    7 | #include \x1b[01;31m\x1b[K<std:>\x1b[m\x1b[K\n'}
+[0.382080] (package1) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[0.382494] (package1) StderrLine: {'line': b'compilation terminated.\n'}
+[0.385142] (package1) StderrLine: {'line': b'make[2]: *** [CMakeFiles/client.dir/build.make:63: CMakeFiles/client.dir/src/convert_time_client.cpp.o] Error 1\n'}
+[0.386072] (package1) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/client.dir/all] Error 2\n'}
+[0.386491] (package1) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[0.398737] (-) TimerEvent: {}
+[0.499637] (-) TimerEvent: {}
+[0.590265] (package1) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/package1/libpackage1__python.so\x1b[0m\n'}
+[0.599820] (-) TimerEvent: {}
+[0.700661] (-) TimerEvent: {}
+[0.801410] (-) TimerEvent: {}
+[0.882802] (package1) StdoutLine: {'line': b'[ 81%] Built target package1__python\n'}
+[0.901662] (-) TimerEvent: {}
+[1.002300] (-) TimerEvent: {}
+[1.102854] (-) TimerEvent: {}
+[1.203515] (-) TimerEvent: {}
+[1.304347] (-) TimerEvent: {}
+[1.405240] (-) TimerEvent: {}
+[1.506478] (-) TimerEvent: {}
+[1.607188] (-) TimerEvent: {}
+[1.707928] (-) TimerEvent: {}
+[1.808706] (-) TimerEvent: {}
+[1.909436] (-) TimerEvent: {}
+[2.009986] (-) TimerEvent: {}
+[2.110817] (-) TimerEvent: {}
+[2.211559] (-) TimerEvent: {}
+[2.312242] (-) TimerEvent: {}
+[2.373907] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.374799] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:58:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kversion control conflict marker in file\n'}
+[2.375280] (package1) StderrLine: {'line': b'   58 | \x1b[01;31m\x1b[K>>>>>>>\x1b[m\x1b[K parent of 7aa59ed... client/server branch initial commit\n'}
+[2.375654] (package1) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.412522] (-) TimerEvent: {}
+[2.513166] (-) TimerEvent: {}
+[2.614186] (-) TimerEvent: {}
+[2.714865] (-) TimerEvent: {}
+[2.815694] (-) TimerEvent: {}
+[2.916712] (-) TimerEvent: {}
+[3.017349] (-) TimerEvent: {}
+[3.117973] (-) TimerEvent: {}
+[3.218655] (-) TimerEvent: {}
+[3.319371] (-) TimerEvent: {}
+[3.420093] (-) TimerEvent: {}
+[3.520843] (-) TimerEvent: {}
+[3.621535] (-) TimerEvent: {}
+[3.722080] (-) TimerEvent: {}
+[3.811053] (package1) StderrLine: {'line': b'make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[3.811910] (package1) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/talker.dir/all] Error 2\n'}
+[3.812193] (package1) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.814690] (package1) CommandEnded: {'returncode': 2}
+[3.822444] (-) TimerEvent: {}
+[3.923199] (-) TimerEvent: {}
+[4.023933] (-) TimerEvent: {}
+[4.028200] (package1) JobEnded: {'identifier': 'package1', 'rc': 2}
+[4.040139] (-) EventReactorShutdown: {}

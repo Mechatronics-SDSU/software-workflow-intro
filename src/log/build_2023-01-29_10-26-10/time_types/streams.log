@@ -1,0 +1,35 @@
+[0.025s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/build/time_types': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/time_types -DCMAKE_INSTALL_PREFIX=/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/install/time_types
+[0.246s] -- The C compiler identification is GNU 9.4.0
+[0.499s] -- The CXX compiler identification is GNU 9.4.0
+[0.621s] -- Check for working C compiler: /usr/bin/cc
+[0.788s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.790s] -- Detecting C compiler ABI info
+[1.031s] -- Detecting C compiler ABI info - done
+[1.061s] -- Detecting C compile features
+[1.062s] -- Detecting C compile features - done
+[1.068s] -- Check for working CXX compiler: /usr/bin/c++
+[1.306s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.306s] -- Detecting CXX compiler ABI info
+[1.510s] -- Detecting CXX compiler ABI info - done
+[1.522s] -- Detecting CXX compile features
+[1.522s] -- Detecting CXX compile features - done
+[1.525s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.566s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.566s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.788s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[1.792s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.801s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.731s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.979s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.906s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.927s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[8.928s]   rosidl_generate_interfaces() the passed file 'msg/Num.msg' doesn't exist
+[8.928s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[8.928s]   '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/time_types'
+[8.928s] Call Stack (most recent call first):
+[8.928s]   CMakeLists.txt:17 (rosidl_generate_interfaces)
+[8.928s] 
+[8.928s] 
+[8.928s] -- Configuring incomplete, errors occurred!
+[8.928s] See also "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/build/time_types/CMakeFiles/CMakeOutput.log".
+[8.936s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/build/time_types' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/time_types -DCMAKE_INSTALL_PREFIX=/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/install/time_types

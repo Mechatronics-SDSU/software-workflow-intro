@@ -1,0 +1,45 @@
+[0.033s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8
+[0.068s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.098s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.098s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.287s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.592s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.595s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.733s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.785s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.787s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.953s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[4.989s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[5.135s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[10.635s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.643s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.672s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[10.673s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[10.696s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[10.696s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[10.696s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[10.727s] -- Configuring done
+[10.791s] -- Generating done
+[10.799s] -- Build files have been written to: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1
+[10.832s] [35m[1mScanning dependencies of target talker[0m
+[10.841s] [  2%] Built target package1__cpp
+[10.844s] [ 12%] Built target package1__rosidl_generator_c
+[10.863s] [ 14%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[10.866s] [ 24%] Built target package1__rosidl_typesupport_cpp
+[10.867s] [ 34%] Built target package1__rosidl_typesupport_introspection_cpp
+[10.871s] [ 53%] Built target package1__rosidl_typesupport_fastrtps_cpp
+[10.871s] [ 53%] Built target package1__rosidl_typesupport_c
+[10.873s] [ 63%] Built target package1__rosidl_typesupport_introspection_c
+[10.897s] [ 73%] Built target package1__rosidl_typesupport_fastrtps_c
+[10.921s] [ 73%] Built target package1
+[10.945s] [ 75%] Built target package1__py
+[10.966s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:21:10:[m[K [01;31m[Kfatal error: [m[Kmsg/Time.hpp: No such file or directory
+[10.966s]    21 | #include [01;31m[K"msg/Time.hpp"[m[K
+[10.966s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[10.966s] compilation terminated.
+[10.969s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[10.969s] make[1]: *** [CMakeFiles/Makefile2:123: CMakeFiles/talker.dir/all] Error 2
+[10.969s] make[1]: *** Waiting for unfinished jobs....
+[10.976s] [ 82%] Built target package1__python
+[10.977s] make: *** [Makefile:141: all] Error 2
+[10.982s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8

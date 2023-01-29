@@ -1,0 +1,14 @@
+[0.104s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2 -- -j8 -l8
+[0.387s] [35m[1mScanning dependencies of target listener[0m
+[0.548s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[7.020s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid SubscriberServer::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[7.021s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:42:12:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Ktypeof[m[K’
+[7.022s]    42 |     printf([01;31m[Ktypeof[m[K(msg));
+[7.024s]       |            [01;31m[K^~~~~~[m[K
+[7.025s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:43:12:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Ktypeof[m[K’
+[7.026s]    43 |     printf([01;31m[Ktypeof[m[K(msg->data));
+[7.026s]       |            [01;31m[K^~~~~~[m[K
+[11.778s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[11.780s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/listener.dir/all] Error 2
+[11.781s] make: *** [Makefile:141: all] Error 2
+[11.798s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2 -- -j8 -l8

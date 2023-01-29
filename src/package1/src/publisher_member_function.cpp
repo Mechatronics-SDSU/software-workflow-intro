@@ -18,21 +18,23 @@
 
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
+#include "time_types/msg/time.hpp"
 
 using namespace std::chrono_literals;
 
 /* This example creates a subclass of Node and uses std::bind() to register a
  * member function as a callback from the timer. */
 
-class MinimalPublisher : public rclcpp::Node
+class PublisherClient : public rclcpp::Node
 {
 public:
-  MinimalPublisher()
+  PublisherClient()
   : Node("timepublisher"), count_(0)
   {
-    publisher_ = this->create_publisher<std_msgs::msg::String>("unix_epoch_time", 10);
+    publisher_ = this->create_publisher<time_types::msg::Time>("unix_epoch_time", 10);
+    client_ = this->create_client<time_types::msg::Time>("convert_time");
     timer_ = this->create_wall_timer(
-      5000ms, std::bind(&MinimalPublisher::timer_callback, this));
+      5000ms, std::bind(&PublisherClient::timer_callback, this));
   }
 
 private:
@@ -40,33 +42,24 @@ private:
   {
      return (long)std::time(0); //Returns UTC in Seconds
   }
-  void ConvertToHumanTime(long int UnixEpochTime) 
-  {
-    long year = 1970 + (UnixEpochTime / 31536000);
-    long month = 1 + ((UnixEpochTime / 2628288) % 12);
-    long day = 1 + ((UnixEpochTime / 86400) % 30);
-    long hour = 0 + ((UnixEpochTime / 3600) % 24 );
-    long minute = 0 + ((UnixEpochTime / 60) % 60 );
-
-    printf("The Date Is: %ld/%ld/%ld and the time is %ld:%ld", year, month, day, hour, minute); 
-  }
+    
   void timer_callback()
   {
-    auto message = std_msgs::msg::String();
-    message.data = UnixEpochTime();
+    auto message = time_types::msg::Time();
+    // std::time_t unixEpochTime = UnixEpochTime();
+    message.time = this->UnixEpochTime();
     RCLCPP_INFO(this->get_logger(), "Publishing: Unix Epoch Time");
->>>>>>> parent of 7aa59ed... client/server branch initial commit
     publisher_->publish(message);
   }
   rclcpp::TimerBase::SharedPtr timer_;
-  rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
+  rclcpp::Publisher<time_types::msg::Time>::SharedPtr publisher_;
   size_t count_;
 };
 
 int main(int argc, char * argv[])
 {
   rclcpp::init(argc, argv);
-  rclcpp::spin(std::make_shared<MinimalPublisher>());
+  rclcpp::spin(std::make_shared<PublisherClient>());
   rclcpp::shutdown();
   return 0;
 }

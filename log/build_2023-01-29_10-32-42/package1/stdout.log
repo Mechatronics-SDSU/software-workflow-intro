@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target talker[0m
+[  9%] Built target package1__rosidl_generator_c
+[ 12%] Built target package1__cpp
+[ 14%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[ 48%] Built target package1__rosidl_typesupport_cpp
+[ 51%] Built target package1__rosidl_typesupport_c
+[ 51%] Built target package1__rosidl_typesupport_introspection_c
+[ 53%] Built target package1__rosidl_typesupport_introspection_cpp
+[ 63%] Built target package1__rosidl_typesupport_fastrtps_cpp
+[ 73%] Built target package1__rosidl_typesupport_fastrtps_c
+[ 73%] Built target package1
+[ 75%] Built target package1__py
+[ 82%] Built target package1__python

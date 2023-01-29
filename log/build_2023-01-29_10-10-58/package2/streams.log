@@ -1,0 +1,24 @@
+[0.028s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2 -- -j8 -l8
+[0.058s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.087s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.284s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.630s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.633s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.434s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.490s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.492s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.663s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[4.783s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[4.795s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[4.796s]   rosidl_generate_interfaces() the passed file 'msg/Num.msg' doesn't exist
+[4.796s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[4.796s]   '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2'
+[4.796s] Call Stack (most recent call first):
+[4.796s]   CMakeLists.txt:19 (rosidl_generate_interfaces)
+[4.797s] 
+[4.797s] 
+[4.797s] -- Configuring incomplete, errors occurred!
+[4.797s] See also "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2/CMakeFiles/CMakeOutput.log".
+[4.798s] See also "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2/CMakeFiles/CMakeError.log".
+[4.805s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[4.812s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2 -- -j8 -l8

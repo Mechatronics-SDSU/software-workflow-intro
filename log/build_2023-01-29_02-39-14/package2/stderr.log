@@ -1,0 +1,10 @@
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Kvoid SubscriberServer::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:42:12:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Ktypeof[m[K’
+   42 |     printf([01;31m[Ktypeof[m[K(msg));
+      |            [01;31m[K^~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:43:12:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Ktypeof[m[K’
+   43 |     printf([01;31m[Ktypeof[m[K(msg->data));
+      |            [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
