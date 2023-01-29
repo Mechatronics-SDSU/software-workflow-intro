@@ -57,33 +57,33 @@ include CMakeFiles/client.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/client.dir/flags.make
 
-CMakeFiles/client.dir/src/convert_time_client.cpp.o: CMakeFiles/client.dir/flags.make
-CMakeFiles/client.dir/src/convert_time_client.cpp.o: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/client.dir/src/convert_time_client.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/convert_time_client.cpp.o -c /home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp
+CMakeFiles/client.dir/src/publisher_member_function.cpp.o: CMakeFiles/client.dir/flags.make
+CMakeFiles/client.dir/src/publisher_member_function.cpp.o: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/client.dir/src/publisher_member_function.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/src/publisher_member_function.cpp.o -c /home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp
 
-CMakeFiles/client.dir/src/convert_time_client.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/convert_time_client.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp > CMakeFiles/client.dir/src/convert_time_client.cpp.i
+CMakeFiles/client.dir/src/publisher_member_function.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/src/publisher_member_function.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp > CMakeFiles/client.dir/src/publisher_member_function.cpp.i
 
-CMakeFiles/client.dir/src/convert_time_client.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/convert_time_client.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp -o CMakeFiles/client.dir/src/convert_time_client.cpp.s
+CMakeFiles/client.dir/src/publisher_member_function.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/src/publisher_member_function.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp -o CMakeFiles/client.dir/src/publisher_member_function.cpp.s
 
 # Object files for target client
 client_OBJECTS = \
-"CMakeFiles/client.dir/src/convert_time_client.cpp.o"
+"CMakeFiles/client.dir/src/publisher_member_function.cpp.o"
 
 # External object files for target client
 client_EXTERNAL_OBJECTS =
 
-client: CMakeFiles/client.dir/src/convert_time_client.cpp.o
+client: CMakeFiles/client.dir/src/publisher_member_function.cpp.o
 client: CMakeFiles/client.dir/build.make
 client: /opt/ros/foxy/lib/librclcpp.so
-client: /opt/ros/foxy/lib/libexample_interfaces__rosidl_typesupport_introspection_c.so
-client: /opt/ros/foxy/lib/libexample_interfaces__rosidl_typesupport_c.so
-client: /opt/ros/foxy/lib/libexample_interfaces__rosidl_typesupport_introspection_cpp.so
-client: /opt/ros/foxy/lib/libexample_interfaces__rosidl_typesupport_cpp.so
+client: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types/lib/libtime_types__rosidl_typesupport_introspection_c.so
+client: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types/lib/libtime_types__rosidl_typesupport_c.so
+client: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types/lib/libtime_types__rosidl_typesupport_introspection_cpp.so
+client: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types/lib/libtime_types__rosidl_typesupport_cpp.so
 client: /opt/ros/foxy/lib/liblibstatistics_collector.so
 client: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
 client: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
@@ -117,25 +117,15 @@ client: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_generator_c.so
 client: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so
 client: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
 client: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
-client: /opt/ros/foxy/lib/libtracetools.so
-client: /opt/ros/foxy/lib/libexample_interfaces__rosidl_generator_c.so
-client: /opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
-client: /opt/ros/foxy/lib/libaction_msgs__rosidl_generator_c.so
-client: /opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_c.so
-client: /opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
-client: /opt/ros/foxy/lib/libaction_msgs__rosidl_typesupport_cpp.so
 client: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 client: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 client: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 client: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 client: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-client: /opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so
-client: /opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_generator_c.so
-client: /opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
-client: /opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
+client: /opt/ros/foxy/lib/libtracetools.so
+client: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types/lib/libtime_types__rosidl_generator_c.so
 client: /opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so
 client: /opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so
-client: /opt/ros/foxy/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
 client: /opt/ros/foxy/lib/librosidl_typesupport_cpp.so
 client: /opt/ros/foxy/lib/librosidl_typesupport_c.so
 client: /opt/ros/foxy/lib/librcpputils.so

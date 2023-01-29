@@ -1,0 +1,148 @@
+[0.439s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8
+[0.952s] [35m[1mScanning dependencies of target talker[0m
+[1.018s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[3.162s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KPublisherClient::PublisherClient()[m[K’:
+[3.163s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+[3.164s]    35 |     [01;31m[Kclient_[m[K = this->create_client<time_types::msg::Time>("convert_time");
+[3.165s]       |     [01;31m[K^~~~~~~[m[K
+[3.165s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[3.165s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[3.166s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[3.166s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[3.166s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[3.166s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[3.167s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[3.167s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[3.167s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[3.168s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:19[m[K:
+[3.168s] /opt/ros/foxy/include/rclcpp/client.hpp: In instantiation of ‘[01m[Kclass rclcpp::Client<time_types::msg::Time_<std::allocator<void> > >[m[K’:
+[3.168s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:124:1:[m[K   required by substitution of ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr) [with ServiceT = time_types::msg::Time_<std::allocator<void> >][m[K’
+[3.169s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:35:72:[m[K   required from here
+[3.169s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:181:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct time_types::msg::Time_<std::allocator<void> >[m[K’
+[3.169s]   181 |   using [01;31m[KSharedRequest[m[K = typename ServiceT::Request::SharedPtr;
+[3.170s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[3.170s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:182:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct time_types::msg::Time_<std::allocator<void> >[m[K’
+[3.170s]   182 |   using [01;31m[KSharedResponse[m[K = typename ServiceT::Response::SharedPtr;
+[3.171s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.171s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:184:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct time_types::msg::Time_<std::allocator<void> >[m[K’
+[3.171s]   184 |   using [01;31m[KPromise[m[K = std::promise<SharedResponse>;
+[3.171s]       |         [01;31m[K^~~~~~~[m[K
+[3.172s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:185:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct time_types::msg::Time_<std::allocator<void> >[m[K’
+[3.172s]   185 |   using [01;31m[KPromiseWithRequest[m[K = std::promise<std::pair<SharedRequest, SharedResponse>>;
+[3.172s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.173s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:187:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct time_types::msg::Time_<std::allocator<void> >[m[K’
+[3.173s]   187 |   using [01;31m[KSharedPromise[m[K = std::shared_ptr<Promise>;
+[3.173s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[3.173s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:188:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct time_types::msg::Time_<std::allocator<void> >[m[K’
+[3.174s]   188 |   using [01;31m[KSharedPromiseWithRequest[m[K = std::shared_ptr<PromiseWithRequest>;
+[3.174s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.174s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:190:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct time_types::msg::Time_<std::allocator<void> >[m[K’
+[3.174s]   190 |   using [01;31m[KSharedFuture[m[K = std::shared_future<SharedResponse>;
+[3.174s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[3.175s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:191:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct time_types::msg::Time_<std::allocator<void> >[m[K’
+[3.175s]   191 |   using [01;31m[KSharedFutureWithRequest[m[K = std::shared_future<std::pair<SharedRequest, SharedResponse>>;
+[3.175s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.175s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:193:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct time_types::msg::Time_<std::allocator<void> >[m[K’
+[3.176s]   193 |   using [01;31m[KCallbackType[m[K = std::function<void (SharedFuture)>;
+[3.176s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[3.176s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:194:9:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct time_types::msg::Time_<std::allocator<void> >[m[K’
+[3.176s]   194 |   using [01;31m[KCallbackWithRequestType[m[K = std::function<void (SharedFutureWithRequest)>;
+[3.177s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.177s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:258:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct time_types::msg::Time_<std::allocator<void> >[m[K’
+[3.177s]   258 |   [01;31m[Ktake_response[m[K(typename ServiceT::Response & response_out, rmw_request_id_t & request_header_out)
+[3.177s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[3.178s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:333:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct time_types::msg::Time_<std::allocator<void> >[m[K’
+[3.178s]   333 |   [01;31m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[3.178s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.178s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:359:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KRequest[m[K’ in ‘[01m[Kstruct time_types::msg::Time_<std::allocator<void> >[m[K’
+[3.178s]   359 |   [01;31m[Kasync_send_request[m[K(SharedRequest request, CallbackT && cb)
+[3.179s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.179s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:378:76:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct time_types::msg::Time_<std::allocator<void> >[m[K’
+[3.179s]   378 | :map<int64_t, std::tuple<SharedPromise, CallbackType, SharedFuture>> [01;31m[Kpending_requests_[m[K;
+[3.179s]       |                                                                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.179s] 
+[3.189s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:38:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_interfaces[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces[m[K’?
+[3.190s]    38 |     auto request = std::make_shared<[01;31m[Kexample_interfaces[m[K::srv::AddTwoInts::Request>();
+[3.190s]       |                                     [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[3.191s]       |                                     [32m[Krcl_interfaces[m[K
+[3.191s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:38:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.191s]    38 |     auto request = std::[01;31m[Kmake_shared<example_interfaces::srv::AddTwoInts::Request>[m[K();
+[3.192s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.192s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:38:83:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[3.192s]    38 |     auto request = std::make_shared<example_interfaces::srv::AddTwoInts::Request>([01;31m[K)[m[K;
+[3.192s]       |                                                                                   [01;31m[K^[m[K
+[3.193s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[3.193s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:16[m[K:
+[3.193s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[3.194s]   714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[3.194s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.194s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.194s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:38:83:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.195s]    38 |     auto request = std::make_shared<example_interfaces::srv::AddTwoInts::Request>([01;31m[K)[m[K;
+[3.195s]       |                                                                                   [01;31m[K^[m[K
+[3.204s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::timer_callback()[m[K’:
+[3.205s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:56:37:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_type[m[K’ was not declared in this scope; did you mean ‘[01m[Ktime_types[m[K’?
+[3.205s]    56 |     auto request = std::make_shared<[01;31m[Ktime_type[m[K::srv::ConvertTime::Request>();
+[3.205s]       |                                     [01;31m[K^~~~~~~~~[m[K
+[3.206s]       |                                     [32m[Ktime_types[m[K
+[3.206s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:56:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.206s]    56 |     auto request = std::[01;31m[Kmake_shared<time_type::srv::ConvertTime::Request>[m[K();
+[3.207s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.208s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:56:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[3.208s]    56 |     auto request = std::make_shared<time_type::srv::ConvertTime::Request>([01;31m[K)[m[K;
+[3.209s]       |                                                                           [01;31m[K^[m[K
+[3.210s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[3.210s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:16[m[K:
+[3.210s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[3.211s]   714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[3.211s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.211s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.212s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:56:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.212s]    56 |     auto request = std::make_shared<time_type::srv::ConvertTime::Request>([01;31m[K)[m[K;
+[3.212s]       |                                                                           [01;31m[K^[m[K
+[3.213s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:58:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+[3.213s]    58 |     [01;31m[Kclient[m[K->wait_for_service(4s)
+[3.213s]       |     [01;31m[K^~~~~~[m[K
+[3.213s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:61:44:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+[3.213s]    61 |     if (rclcpp::spin_until_future_complete([01;31m[Knode[m[K, result) ==
+[3.214s]       |                                            [01;31m[K^~~~[m[K
+[3.214s]       |                                            [32m[KNode[m[K
+[3.214s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:61:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ was not declared in this scope
+[3.214s]    61 |     if (rclcpp::spin_until_future_complete(node, [01;31m[Kresult[m[K) ==
+[3.214s]       |                                                  [01;31m[K^~~~~~[m[K
+[4.366s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[4.366s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[4.367s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[4.367s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[4.368s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[4.368s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[4.368s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[4.368s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[4.368s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.369s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:19[m[K:
+[4.369s] /opt/ros/foxy/include/rclcpp/client.hpp: In instantiation of ‘[01m[Kstd::shared_ptr<void> rclcpp::Client<ServiceT>::create_response() [with ServiceT = time_types::msg::Time_<std::allocator<void> >][m[K’:
+[4.369s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:268:3:[m[K   required from here
+[4.370s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:270:34:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct time_types::msg::Time_<std::allocator<void> >[m[K’
+[4.370s]   270 |     return std::shared_ptr<void>([01;31m[Knew typename ServiceT::Response()[m[K);
+[4.370s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.370s] /opt/ros/foxy/include/rclcpp/client.hpp: In instantiation of ‘[01m[Kvoid rclcpp::Client<ServiceT>::handle_response(std::shared_ptr<rmw_request_id_t>, std::shared_ptr<void>) [with ServiceT = time_types::msg::Time_<std::allocator<void> >][m[K’:
+[4.371s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:291:3:[m[K   required from here
+[4.371s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:296:32:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[KResponse[m[K’ in ‘[01m[Kstruct time_types::msg::Time_<std::allocator<void> >[m[K’
+[4.371s]   296 |     auto typed_response = [01;31m[Kstd::static_pointer_cast<typename ServiceT::Response>[m[K(response);
+[4.372s]       |                           [01;31m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.372s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:299:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Client<time_types::msg::Time_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kpending_requests_[m[K’; did you mean ‘[01m[Kpending_requests_mutex_[m[K’?
+[4.372s]   299 |     if ([01;31m[Kthis->pending_requests_[m[K.count(sequence_number) == 0) {
+[4.372s]       |         [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[4.373s]       |         [32m[Kpending_requests_mutex_[m[K
+[4.373s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:305:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Client<time_types::msg::Time_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kpending_requests_[m[K’; did you mean ‘[01m[Kpending_requests_mutex_[m[K’?
+[4.373s]   305 |     auto tuple = [01;31m[Kthis->pending_requests_[m[K[sequence_number];
+[4.374s]       |                  [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[4.374s]       |                  [32m[Kpending_requests_mutex_[m[K
+[4.374s] [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:309:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Client<time_types::msg::Time_<std::allocator<void> > >[m[K’ has no member named ‘[01m[Kpending_requests_[m[K’; did you mean ‘[01m[Kpending_requests_mutex_[m[K’?
+[4.374s]   309 |     [01;31m[Kthis->pending_requests_[m[K.erase(sequence_number);
+[4.375s]       |     [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[4.375s]       |     [32m[Kpending_requests_mutex_[m[K
+[4.648s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[4.648s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+[4.648s] make: *** [Makefile:141: all] Error 2
+[4.653s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8

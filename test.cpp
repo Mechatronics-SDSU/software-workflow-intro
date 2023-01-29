@@ -10,18 +10,21 @@ long UnixEpochTime()
      return (long)std::time(0); //Returns UTC in Seconds
   }
 
-std::_Put_Time<char> HumanTime(std::time_t unixEpochTime) {
-    std::_Put_time<char> time = std::put_time(std::localtime(&unixEpochTime), "%D %H:%M");
-    return time;
+std::string HumanTime(long unixEpochTime) {
+    std::_Put_time<char> humantime = std::put_time(std::localtime(&unixEpochTime), "%D %H:%M");
+    std::ostringstream stream;
+    stream << humantime;
+    std::string dateString = stream.str();
+    return dateString;
 }
 
 
 int main()
 {
     while (true) {
-    std::time_t unixEpochTime = UnixEpochTime();
-    std::cout << unixEpochTime << std::endl;
-    HumanTime(unixEpochTime);
+    long unixEpochTime = UnixEpochTime();
+    std::cout << "Unix: " << unixEpochTime << std::endl;
+    std::cout <<  "Test: " << HumanTime(unixEpochTime) << std::endl;
     usleep(5000000);
     }
     return 0;

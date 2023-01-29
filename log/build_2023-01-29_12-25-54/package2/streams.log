@@ -1,0 +1,18 @@
+[0.035s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2 -- -j8 -l8
+[0.096s] [35m[1mScanning dependencies of target listener[0m
+[0.170s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[2.612s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:66:11:[m[K [01;31m[Kerror: [m[K‘[01m[KServer[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a template type
+[2.613s]    66 |   rclcpp::[01;31m[KServer[m[K<time_types::srv::ConvertTime>::SharedPtr server_;
+[2.613s]       |           [01;31m[K^~~~~~[m[K
+[2.635s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KSubscriberServer::SubscriberServer()[m[K’:
+[2.635s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kserver_[m[K’ was not declared in this scope
+[2.636s]    38 |     [01;31m[Kserver_[m[K = this->create_service<time_types::msg::Time>("convert_time", std::bind(&PublisherClient::send_response_message))
+[2.636s]       |     [01;31m[K^~~~~~~[m[K
+[2.636s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:38:86:[m[K [01;31m[Kerror: [m[K‘[01m[KPublisherClient[m[K’ has not been declared
+[2.636s]    38 | is->create_service<time_types::msg::Time>("convert_time", std::bind(&[01;31m[KPublisherClient[m[K::send_response_message))
+[2.637s]       |                                                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.637s] 
+[5.079s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[5.079s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/listener.dir/all] Error 2
+[5.080s] make: *** [Makefile:141: all] Error 2
+[5.084s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2 -- -j8 -l8

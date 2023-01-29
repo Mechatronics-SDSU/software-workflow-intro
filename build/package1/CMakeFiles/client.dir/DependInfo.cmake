@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp" "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1/CMakeFiles/client.dir/src/convert_time_client.cpp.o"
+  "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp" "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1/CMakeFiles/client.dir/src/publisher_member_function.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -12,12 +12,12 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_TARGET_DEFINITIONS_CXX
   "DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp"
   "RCUTILS_ENABLE_FAULT_INJECTION"
-  "ROS_PACKAGE_NAME=\"package1\""
   "SPDLOG_COMPILED_LIB"
   )
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types/include"
   "/opt/ros/foxy/include"
   )
 

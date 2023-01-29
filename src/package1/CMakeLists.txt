@@ -21,9 +21,8 @@ find_package(rosidl_default_generators REQUIRED)
 add_executable(talker src/publisher_member_function.cpp)
 ament_target_dependencies(talker rclcpp time_types)
 
-# add_executable(client src/convert_time_client.cpp)
-# ament_target_dependencies(client
-# rclcpp example_interfaces)
+# add_executable(client src/publisher_member_function.cpp)
+# ament_target_dependencies(client rclcpp time_types)
 
 install(TARGETS
   talker

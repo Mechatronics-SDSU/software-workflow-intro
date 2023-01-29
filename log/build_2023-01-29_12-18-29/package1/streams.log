@@ -1,0 +1,136 @@
+[0.520s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8
+[0.593s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.643s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.124s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.633s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.642s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[12.149s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.209s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[12.211s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.408s] -- Found time_types: 0.0.0 (/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types/share/time_types/cmake)
+[12.417s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[12.517s] -- Configuring done
+[12.536s] -- Generating done
+[12.548s] -- Build files have been written to: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1
+[12.630s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[14.487s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:74:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Ktime_types[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[14.488s]    74 |   rclcpp::Client<time_types::[01;31m[Ksrv[m[K::ConvertTime>::SharedPtr client_;
+[14.488s]       |                              [01;31m[K^~~[m[K
+[14.488s] In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+[14.489s]                  from [01m[K/opt/ros/foxy/include/rclcpp/parameter_client.hpp:26[m[K,
+[14.489s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:151[m[K,
+[14.489s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:19[m[K:
+[14.489s] [01m[K/opt/ros/foxy/include/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[14.489s]    26 | namespace [01;36m[Ksrv[m[K
+[14.490s]       |           [01;36m[K^~~[m[K
+[14.490s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:74:30:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Ktime_types[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[14.490s]    74 |   rclcpp::Client<time_types::[01;31m[Ksrv[m[K::ConvertTime>::SharedPtr client_;
+[14.490s]       |                              [01;31m[K^~~[m[K
+[14.490s] In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+[14.491s]                  from [01m[K/opt/ros/foxy/include/rclcpp/parameter_client.hpp:26[m[K,
+[14.491s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:151[m[K,
+[14.492s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:19[m[K:
+[14.492s] [01m[K/opt/ros/foxy/include/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[14.492s]    26 | namespace [01;36m[Ksrv[m[K
+[14.492s]       |           [01;36m[K^~~[m[K
+[14.493s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:74:46:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[14.493s]    74 |   rclcpp::Client<time_types::srv::ConvertTime[01;31m[K>[m[K::SharedPtr client_;
+[14.493s]       |                                              [01;31m[K^[m[K
+[14.493s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:74:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[14.493s]    74 |   rclcpp::Client<time_types::srv::ConvertTime>::[01;31m[KSharedPtr[m[K client_;
+[14.494s]       |                                                 [01;31m[K^~~~~~~~~[m[K
+[14.494s]       |                                                          [32m[K;[m[K
+[14.494s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:74:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ does not name a type
+[14.494s]    74 |   rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr [01;31m[Kclient_[m[K;
+[14.494s]       |                                                           [01;31m[K^~~~~~~[m[K
+[14.498s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KPublisherClient::PublisherClient()[m[K’:
+[14.498s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+[14.501s]    35 |     [01;31m[Kclient_[m[K = this->create_client<time_types::srv::ConvertTime>("convert_time");
+[14.501s]       |     [01;31m[K^~~~~~~[m[K
+[14.501s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:35:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Ktime_types[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[14.502s]    35 |     client_ = this->create_client<time_types::[01;31m[Ksrv[m[K::ConvertTime>("convert_time");
+[14.502s]       |                                               [01;31m[K^~~[m[K
+[14.502s] In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+[14.502s]                  from [01m[K/opt/ros/foxy/include/rclcpp/parameter_client.hpp:26[m[K,
+[14.502s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:151[m[K,
+[14.502s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:19[m[K:
+[14.503s] [01m[K/opt/ros/foxy/include/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[14.503s]    26 | namespace [01;36m[Ksrv[m[K
+[14.503s]       |           [01;36m[K^~~[m[K
+[14.503s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:35:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Ktime_types[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[14.503s]    35 |     client_ = this->create_client<time_types::[01;31m[Ksrv[m[K::ConvertTime>("convert_time");
+[14.503s]       |                                               [01;31m[K^~~[m[K
+[14.504s] In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+[14.504s]                  from [01m[K/opt/ros/foxy/include/rclcpp/parameter_client.hpp:26[m[K,
+[14.504s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:151[m[K,
+[14.504s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:19[m[K:
+[14.504s] [01m[K/opt/ros/foxy/include/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[14.504s]    26 | namespace [01;36m[Ksrv[m[K
+[14.504s]       |           [01;36m[K^~~[m[K
+[14.505s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:35:21:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[14.505s]    35 |     client_ = this->[01;31m[Kcreate_client<time_types::srv::ConvertTime>[m[K("convert_time");
+[14.505s]       |                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.505s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:35:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPublisherClient::create_client<<expression error> >(const char [13])[m[K’
+[14.505s]    35 |     client_ = this->create_client<time_types::srv::ConvertTime>("convert_time"[01;31m[K)[m[K;
+[14.505s]       |                                                                               [01;31m[K^[m[K
+[14.506s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[14.506s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[14.506s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[14.507s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:19[m[K:
+[14.507s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:246:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[14.507s]   246 |   [01;36m[Kcreate_client[m[K(
+[14.507s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[14.508s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:246:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.508s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:35:79:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[14.508s]    35 |     client_ = this->create_client<time_types::srv::ConvertTime>("convert_time"[01;31m[K)[m[K;
+[14.508s]       |                                                                               [01;31m[K^[m[K
+[14.538s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::timer_callback()[m[K’:
+[14.539s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:56:49:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Ktime_types[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[14.539s]    56 |     auto request = std::make_shared<time_types::[01;31m[Ksrv[m[K::ConvertTime::Request>();
+[14.540s]       |                                                 [01;31m[K^~~[m[K
+[14.540s] In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+[14.540s]                  from [01m[K/opt/ros/foxy/include/rclcpp/parameter_client.hpp:26[m[K,
+[14.540s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:151[m[K,
+[14.540s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:19[m[K:
+[14.541s] [01m[K/opt/ros/foxy/include/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[14.541s]    26 | namespace [01;36m[Ksrv[m[K
+[14.541s]       |           [01;36m[K^~~[m[K
+[14.541s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:56:49:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ is not a member of ‘[01m[Ktime_types[m[K’; did you mean ‘[01m[Krcl_interfaces::srv[m[K’?
+[14.541s]    56 |     auto request = std::make_shared<time_types::[01;31m[Ksrv[m[K::ConvertTime::Request>();
+[14.541s]       |                                                 [01;31m[K^~~[m[K
+[14.541s] In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/srv/describe_parameters.hpp:7[m[K,
+[14.542s]                  from [01m[K/opt/ros/foxy/include/rclcpp/parameter_client.hpp:26[m[K,
+[14.542s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:151[m[K,
+[14.542s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:19[m[K:
+[14.543s] [01m[K/opt/ros/foxy/include/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::srv[m[K’ declared here
+[14.543s]    26 | namespace [01;36m[Ksrv[m[K
+[14.543s]       |           [01;36m[K^~~[m[K
+[14.543s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:56:25:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[14.543s]    56 |     auto request = std::[01;31m[Kmake_shared<time_types::srv::ConvertTime::Request>[m[K();
+[14.544s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[14.544s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:56:76:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[14.544s]    56 |     auto request = std::make_shared<time_types::srv::ConvertTime::Request>([01;31m[K)[m[K;
+[14.545s]       |                                                                            [01;31m[K^[m[K
+[14.545s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[14.545s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:16[m[K:
+[14.546s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[14.546s]   714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[14.546s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[14.546s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[14.547s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:56:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[14.547s]    56 |     auto request = std::make_shared<time_types::srv::ConvertTime::Request>([01;31m[K)[m[K;
+[14.547s]       |                                                                            [01;31m[K^[m[K
+[14.547s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:58:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+[14.547s]    58 |     [01;31m[Kclient[m[K->wait_for_service(4s)
+[14.548s]       |     [01;31m[K^~~~~~[m[K
+[14.548s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:61:44:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+[14.548s]    61 |     if (rclcpp::spin_until_future_complete([01;31m[Knode[m[K, result) ==
+[14.549s]       |                                            [01;31m[K^~~~[m[K
+[14.549s]       |                                            [32m[KNode[m[K
+[14.550s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:61:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ was not declared in this scope
+[14.550s]    61 |     if (rclcpp::spin_until_future_complete(node, [01;31m[Kresult[m[K) ==
+[14.550s]       |                                                  [01;31m[K^~~~~~[m[K
+[16.214s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[16.214s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+[16.215s] make: *** [Makefile:141: all] Error 2
+[16.224s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8

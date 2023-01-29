@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/client.dir/src/convert_time_client.cpp.o"
+  "CMakeFiles/client.dir/src/publisher_member_function.cpp.o"
   "client"
   "client.pdb"
 )

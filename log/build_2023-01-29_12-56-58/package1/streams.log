@@ -1,0 +1,277 @@
+[0.488s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8
+[0.605s] [35m[1mScanning dependencies of target talker[0m
+[0.682s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.760s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::timer_callback()[m[K’:
+[2.760s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:15:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Kstd::ostream[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>[m[K’} and ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’)
+[2.761s]    62 |     [32m[Kstd::cout[m[K [01;31m[K<<[m[K [34m[Kresult[m[K;
+[2.761s]       |     [32m[K~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~~[m[K
+[2.761s]       |          [32m[K|[m[K       [34m[K|[m[K
+[2.761s]       |          [32m[K|[m[K       [34m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K
+[2.762s]       |          [32m[Kstd::ostream {aka std::basic_ostream<char>}[m[K
+[2.762s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.762s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:18[m[K:
+[2.762s] [01m[K/usr/include/c++/9/ostream:108:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[2.763s]   108 |       [01;36m[Koperator[m[K<<(__ostream_type& (*__pf)(__ostream_type&))
+[2.763s]       |       [01;36m[K^~~~~~~~[m[K
+[2.763s] [01m[K/usr/include/c++/9/ostream:108:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)[m[K’ {aka ‘[01m[Kstd::basic_ostream<char>& (*)(std::basic_ostream<char>&)[m[K’}
+[2.763s]   108 |       operator<<([01;36m[K__ostream_type& (*__pf)(__ostream_type&)[m[K)
+[2.764s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.764s] [01m[K/usr/include/c++/9/ostream:117:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>][m[K’
+[2.764s]   117 |       [01;36m[Koperator[m[K<<(__ios_type& (*__pf)(__ios_type&))
+[2.764s]       |       [01;36m[K^~~~~~~~[m[K
+[2.764s] [01m[K/usr/include/c++/9/ostream:117:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)[m[K’ {aka ‘[01m[Kstd::basic_ios<char>& (*)(std::basic_ios<char>&)[m[K’}
+[2.765s]   117 |       operator<<([01;36m[K__ios_type& (*__pf)(__ios_type&)[m[K)
+[2.765s]       |                  [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[2.765s] [01m[K/usr/include/c++/9/ostream:127:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[2.765s]   127 |       [01;36m[Koperator[m[K<<(ios_base& (*__pf) (ios_base&))
+[2.766s]       |       [01;36m[K^~~~~~~~[m[K
+[2.766s] [01m[K/usr/include/c++/9/ostream:127:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’ to ‘[01m[Kstd::ios_base& (*)(std::ios_base&)[m[K’
+[2.766s]   127 |       operator<<([01;36m[Kios_base& (*__pf) (ios_base&)[m[K)
+[2.766s]       |                  [01;36m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.767s] [01m[K/usr/include/c++/9/ostream:166:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[2.767s]   166 |       [01;36m[Koperator[m[K<<(long __n)
+[2.767s]       |       [01;36m[K^~~~~~~~[m[K
+[2.767s] [01m[K/usr/include/c++/9/ostream:166:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’ to ‘[01m[Klong int[m[K’
+[2.768s]   166 |       operator<<([01;36m[Klong __n[m[K)
+[2.768s]       |                  [01;36m[K~~~~~^~~[m[K
+[2.768s] [01m[K/usr/include/c++/9/ostream:170:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[2.768s]   170 |       [01;36m[Koperator[m[K<<(unsigned long __n)
+[2.769s]       |       [01;36m[K^~~~~~~~[m[K
+[2.769s] [01m[K/usr/include/c++/9/ostream:170:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’ to ‘[01m[Klong unsigned int[m[K’
+[2.769s]   170 |       operator<<([01;36m[Kunsigned long __n[m[K)
+[2.769s]       |                  [01;36m[K~~~~~~~~~~~~~~^~~[m[K
+[2.770s] [01m[K/usr/include/c++/9/ostream:174:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[2.770s]   174 |       [01;36m[Koperator[m[K<<(bool __n)
+[2.770s]       |       [01;36m[K^~~~~~~~[m[K
+[2.770s] [01m[K/usr/include/c++/9/ostream:174:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’ to ‘[01m[Kbool[m[K’
+[2.771s]   174 |       operator<<([01;36m[Kbool __n[m[K)
+[2.771s]       |                  [01;36m[K~~~~~^~~[m[K
+[2.771s] In file included from [01m[K/usr/include/c++/9/ostream:702[m[K,
+[2.771s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.772s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:18[m[K:
+[2.772s] [01m[K/usr/include/c++/9/bits/ostream.tcc:91:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+[2.773s]    91 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[2.773s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.774s] [01m[K/usr/include/c++/9/bits/ostream.tcc:92:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’ to ‘[01m[Kshort int[m[K’
+[2.774s]    92 |     operator<<([01;36m[Kshort __n[m[K)
+[2.775s]       |                [01;36m[K~~~~~~^~~[m[K
+[2.775s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.775s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:18[m[K:
+[2.775s] [01m[K/usr/include/c++/9/ostream:181:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[2.776s]   181 |       [01;36m[Koperator[m[K<<(unsigned short __n)
+[2.776s]       |       [01;36m[K^~~~~~~~[m[K
+[2.776s] [01m[K/usr/include/c++/9/ostream:181:33:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’ to ‘[01m[Kshort unsigned int[m[K’
+[2.776s]   181 |       operator<<([01;36m[Kunsigned short __n[m[K)
+[2.776s]       |                  [01;36m[K~~~~~~~~~~~~~~~^~~[m[K
+[2.776s] In file included from [01m[K/usr/include/c++/9/ostream:702[m[K,
+[2.776s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.777s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:18[m[K:
+[2.777s] [01m[K/usr/include/c++/9/bits/ostream.tcc:105:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>][m[K’
+[2.777s]   105 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[2.777s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.777s] [01m[K/usr/include/c++/9/bits/ostream.tcc:106:20:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’ to ‘[01m[Kint[m[K’
+[2.777s]   106 |     operator<<([01;36m[Kint __n[m[K)
+[2.777s]       |                [01;36m[K~~~~^~~[m[K
+[2.778s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.778s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:18[m[K:
+[2.778s] [01m[K/usr/include/c++/9/ostream:192:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[2.778s]   192 |       [01;36m[Koperator[m[K<<(unsigned int __n)
+[2.778s]       |       [01;36m[K^~~~~~~~[m[K
+[2.778s] [01m[K/usr/include/c++/9/ostream:192:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’ to ‘[01m[Kunsigned int[m[K’
+[2.778s]   192 |       operator<<([01;36m[Kunsigned int __n[m[K)
+[2.778s]       |                  [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[2.779s] [01m[K/usr/include/c++/9/ostream:201:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[2.779s]   201 |       [01;36m[Koperator[m[K<<(long long __n)
+[2.779s]       |       [01;36m[K^~~~~~~~[m[K
+[2.779s] [01m[K/usr/include/c++/9/ostream:201:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’ to ‘[01m[Klong long int[m[K’
+[2.779s]   201 |       operator<<([01;36m[Klong long __n[m[K)
+[2.779s]       |                  [01;36m[K~~~~~~~~~~^~~[m[K
+[2.779s] [01m[K/usr/include/c++/9/ostream:205:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[2.780s]   205 |       [01;36m[Koperator[m[K<<(unsigned long long __n)
+[2.780s]       |       [01;36m[K^~~~~~~~[m[K
+[2.780s] [01m[K/usr/include/c++/9/ostream:205:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’ to ‘[01m[Klong long unsigned int[m[K’
+[2.780s]   205 |       operator<<([01;36m[Kunsigned long long __n[m[K)
+[2.780s]       |                  [01;36m[K~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.780s] [01m[K/usr/include/c++/9/ostream:220:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[2.780s]   220 |       [01;36m[Koperator[m[K<<(double __f)
+[2.781s]       |       [01;36m[K^~~~~~~~[m[K
+[2.781s] [01m[K/usr/include/c++/9/ostream:220:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’ to ‘[01m[Kdouble[m[K’
+[2.781s]   220 |       operator<<([01;36m[Kdouble __f[m[K)
+[2.781s]       |                  [01;36m[K~~~~~~~^~~[m[K
+[2.781s] [01m[K/usr/include/c++/9/ostream:224:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[2.781s]   224 |       [01;36m[Koperator[m[K<<(float __f)
+[2.781s]       |       [01;36m[K^~~~~~~~[m[K
+[2.781s] [01m[K/usr/include/c++/9/ostream:224:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’ to ‘[01m[Kfloat[m[K’
+[2.782s]   224 |       operator<<([01;36m[Kfloat __f[m[K)
+[2.782s]       |                  [01;36m[K~~~~~~^~~[m[K
+[2.782s] [01m[K/usr/include/c++/9/ostream:232:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[2.782s]   232 |       [01;36m[Koperator[m[K<<(long double __f)
+[2.782s]       |       [01;36m[K^~~~~~~~[m[K
+[2.782s] [01m[K/usr/include/c++/9/ostream:232:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’ to ‘[01m[Klong double[m[K’
+[2.782s]   232 |       operator<<([01;36m[Klong double __f[m[K)
+[2.782s]       |                  [01;36m[K~~~~~~~~~~~~^~~[m[K
+[2.783s] [01m[K/usr/include/c++/9/ostream:245:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>][m[K’
+[2.783s]   245 |       [01;36m[Koperator[m[K<<(const void* __p)
+[2.783s]       |       [01;36m[K^~~~~~~~[m[K
+[2.783s] [01m[K/usr/include/c++/9/ostream:245:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’ to ‘[01m[Kconst void*[m[K’
+[2.783s]   245 |       operator<<([01;36m[Kconst void* __p[m[K)
+[2.783s]       |                  [01;36m[K~~~~~~~~~~~~^~~[m[K
+[2.783s] In file included from [01m[K/usr/include/c++/9/ostream:702[m[K,
+[2.783s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.784s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:18[m[K:
+[2.784s] [01m[K/usr/include/c++/9/bits/ostream.tcc:119:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>][m[K’
+[2.784s]   119 |     [01;36m[Kbasic_ostream<_CharT, _Traits>[m[K::
+[2.784s]       |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.784s] [01m[K/usr/include/c++/9/bits/ostream.tcc:120:34:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__streambuf_type*[m[K’ {aka ‘[01m[Kstd::basic_streambuf<char>*[m[K’}
+[2.784s]   120 |     operator<<([01;36m[K__streambuf_type* __sbin[m[K)
+[2.784s]       |                [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[2.784s] In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+[2.784s]                  from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+[2.785s]                  from [01m[K/usr/include/c++/9/array:39[m[K,
+[2.785s]                  from [01m[K/usr/include/c++/9/tuple:39[m[K,
+[2.785s]                  from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+[2.785s]                  from [01m[K/usr/include/c++/9/memory:80[m[K,
+[2.785s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:16[m[K:
+[2.785s] [01m[K/usr/include/c++/9/bits/basic_string.h:6419:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)[m[K’
+[2.785s]  6419 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os,
+[2.785s]       |     [01;36m[K^~~~~~~~[m[K
+[2.785s] [01m[K/usr/include/c++/9/bits/basic_string.h:6419:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.786s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+[2.786s]    62 |     std::cout << [01;36m[Kresult[m[K;
+[2.786s]       |                  [01;36m[K^~~~~~[m[K
+[2.786s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[2.786s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:16[m[K:
+[2.786s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:66:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+[2.786s]    66 |     [01;36m[Koperator[m[K<<(std::basic_ostream<_Ch, _Tr>& __os,
+[2.786s]       |     [01;36m[K^~~~~~~~[m[K
+[2.787s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:66:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.787s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’ is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+[2.787s]    62 |     std::cout << [01;36m[Kresult[m[K;
+[2.787s]       |                  [01;36m[K^~~~~~[m[K
+[2.787s] In file included from [01m[K/usr/include/c++/9/bits/ios_base.h:46[m[K,
+[2.787s]                  from [01m[K/usr/include/c++/9/ios:42[m[K,
+[2.787s]                  from [01m[K/usr/include/c++/9/ostream:38[m[K,
+[2.788s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.788s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:18[m[K:
+[2.788s] [01m[K/usr/include/c++/9/system_error:217:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)[m[K’
+[2.788s]   217 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)
+[2.788s]       |     [01;36m[K^~~~~~~~[m[K
+[2.788s] [01m[K/usr/include/c++/9/system_error:217:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.788s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:18:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kresult[m[K’ (type ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’) to type ‘[01m[Kconst std::error_code&[m[K’
+[2.788s]    62 |     std::cout << [01;36m[Kresult[m[K;
+[2.788s]       |                  [01;36m[K^~~~~~[m[K
+[2.789s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.789s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:18[m[K:
+[2.789s] [01m[K/usr/include/c++/9/ostream:506:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)[m[K’
+[2.789s]   506 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+[2.789s]       |     [01;36m[K^~~~~~~~[m[K
+[2.789s] [01m[K/usr/include/c++/9/ostream:506:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.789s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:18:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_CharT[m[K’ (‘[01m[Kchar[m[K’ and ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’)
+[2.790s]    62 |     std::cout << [01;36m[Kresult[m[K;
+[2.790s]       |                  [01;36m[K^~~~~~[m[K
+[2.790s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.790s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:18[m[K:
+[2.790s] [01m[K/usr/include/c++/9/ostream:511:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)[m[K’
+[2.790s]   511 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+[2.790s]       |     [01;36m[K^~~~~~~~[m[K
+[2.790s] [01m[K/usr/include/c++/9/ostream:511:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.790s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:18:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kresult[m[K’ (type ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’) to type ‘[01m[Kchar[m[K’
+[2.791s]    62 |     std::cout << [01;36m[Kresult[m[K;
+[2.791s]       |                  [01;36m[K^~~~~~[m[K
+[2.791s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.791s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:18[m[K:
+[2.791s] [01m[K/usr/include/c++/9/ostream:517:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)[m[K’
+[2.791s]   517 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, char __c)
+[2.791s]       |     [01;36m[K^~~~~~~~[m[K
+[2.791s] [01m[K/usr/include/c++/9/ostream:517:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.792s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:18:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kresult[m[K’ (type ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’) to type ‘[01m[Kchar[m[K’
+[2.792s]    62 |     std::cout << [01;36m[Kresult[m[K;
+[2.792s]       |                  [01;36m[K^~~~~~[m[K
+[2.792s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.792s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:18[m[K:
+[2.793s] [01m[K/usr/include/c++/9/ostream:523:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)[m[K’
+[2.793s]   523 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, signed char __c)
+[2.793s]       |     [01;36m[K^~~~~~~~[m[K
+[2.793s] [01m[K/usr/include/c++/9/ostream:523:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.793s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:18:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kresult[m[K’ (type ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’) to type ‘[01m[Ksigned char[m[K’
+[2.793s]    62 |     std::cout << [01;36m[Kresult[m[K;
+[2.794s]       |                  [01;36m[K^~~~~~[m[K
+[2.794s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.794s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:18[m[K:
+[2.794s] [01m[K/usr/include/c++/9/ostream:528:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)[m[K’
+[2.794s]   528 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+[2.794s]       |     [01;36m[K^~~~~~~~[m[K
+[2.795s] [01m[K/usr/include/c++/9/ostream:528:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.795s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:18:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kresult[m[K’ (type ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’) to type ‘[01m[Kunsigned char[m[K’
+[2.795s]    62 |     std::cout << [01;36m[Kresult[m[K;
+[2.795s]       |                  [01;36m[K^~~~~~[m[K
+[2.795s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.795s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:18[m[K:
+[2.796s] [01m[K/usr/include/c++/9/ostream:548:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)[m[K’
+[2.796s]   548 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+[2.796s]       |     [01;36m[K^~~~~~~~[m[K
+[2.796s] [01m[K/usr/include/c++/9/ostream:548:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.796s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:18:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’
+[2.796s]    62 |     std::cout << [01;36m[Kresult[m[K;
+[2.797s]       |                  [01;36m[K^~~~~~[m[K
+[2.797s] In file included from [01m[K/usr/include/c++/9/ostream:702[m[K,
+[2.797s]                  from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.797s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:18[m[K:
+[2.797s] [01m[K/usr/include/c++/9/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)[m[K’
+[2.797s]   321 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+[2.798s]       |     [01;36m[K^~~~~~~~[m[K
+[2.798s] [01m[K/usr/include/c++/9/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.798s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:18:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kresult[m[K’ (type ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’) to type ‘[01m[Kconst char*[m[K’
+[2.798s]    62 |     std::cout << [01;36m[Kresult[m[K;
+[2.798s]       |                  [01;36m[K^~~~~~[m[K
+[2.798s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.798s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:18[m[K:
+[2.799s] [01m[K/usr/include/c++/9/ostream:565:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)[m[K’
+[2.799s]   565 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const char* __s)
+[2.799s]       |     [01;36m[K^~~~~~~~[m[K
+[2.799s] [01m[K/usr/include/c++/9/ostream:565:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.799s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:18:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kresult[m[K’ (type ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’) to type ‘[01m[Kconst char*[m[K’
+[2.800s]    62 |     std::cout << [01;36m[Kresult[m[K;
+[2.800s]       |                  [01;36m[K^~~~~~[m[K
+[2.800s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.800s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:18[m[K:
+[2.800s] [01m[K/usr/include/c++/9/ostream:578:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)[m[K’
+[2.801s]   578 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+[2.801s]       |     [01;36m[K^~~~~~~~[m[K
+[2.801s] [01m[K/usr/include/c++/9/ostream:578:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.801s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:18:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kresult[m[K’ (type ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’) to type ‘[01m[Kconst signed char*[m[K’
+[2.801s]    62 |     std::cout << [01;36m[Kresult[m[K;
+[2.802s]       |                  [01;36m[K^~~~~~[m[K
+[2.802s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.802s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:18[m[K:
+[2.802s] [01m[K/usr/include/c++/9/ostream:583:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)[m[K’
+[2.802s]   583 |     [01;36m[Koperator[m[K<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+[2.802s]       |     [01;36m[K^~~~~~~~[m[K
+[2.802s] [01m[K/usr/include/c++/9/ostream:583:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.803s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:18:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kresult[m[K’ (type ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’) to type ‘[01m[Kconst unsigned char*[m[K’
+[2.803s]    62 |     std::cout << [01;36m[Kresult[m[K;
+[2.803s]       |                  [01;36m[K^~~~~~[m[K
+[2.803s] In file included from [01m[K/usr/include/c++/9/iostream:39[m[K,
+[2.803s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:18[m[K:
+[2.803s] [01m[K/usr/include/c++/9/ostream:691:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&)[m[K’
+[2.804s]   691 |     [01;36m[Koperator[m[K<<(_Ostream&& __os, const _Tp& __x)
+[2.804s]       |     [01;36m[K^~~~~~~~[m[K
+[2.804s] [01m[K/usr/include/c++/9/ostream:691:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.804s] /usr/include/c++/9/ostream: In substitution of ‘[01m[Ktemplate<class _Ostream, class _Tp> typename std::enable_if<std::__and_<std::__not_<std::is_lvalue_reference<_Tp> >, std::__is_convertible_to_basic_ostream<_Ostream>, std::__is_insertable<typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type, const _Tp&, void> >::value, typename std::__is_convertible_to_basic_ostream<_Tp>::__ostream_type>::type std::operator<<(_Ostream&&, const _Tp&) [with _Ostream = std::basic_ostream<char>&; _Tp = std::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >][m[K’:
+[2.804s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:18:[m[K   required from here
+[2.804s] [01m[K/usr/include/c++/9/ostream:691:5:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::basic_ostream<char>&>[m[K’
+[2.805s] In file included from [01m[K/usr/include/c++/9/future:39[m[K,
+[2.805s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:18[m[K,
+[2.805s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.805s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:20[m[K:
+[2.805s] [01m[K/usr/include/c++/9/thread:322:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::thread::id)[m[K’
+[2.805s]   322 |     [01;36m[Koperator[m[K<<(basic_ostream<_CharT, _Traits>& __out, thread::id __id)
+[2.805s]       |     [01;36m[K^~~~~~~~[m[K
+[2.806s] [01m[K/usr/include/c++/9/thread:322:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.806s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:18:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Kresult[m[K’ (type ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’) to type ‘[01m[Kstd::thread::id[m[K’
+[2.806s]    62 |     std::cout << [01;36m[Kresult[m[K;
+[2.806s]       |                  [01;36m[K^~~~~~[m[K
+[4.280s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[4.281s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+[4.281s] make: *** [Makefile:141: all] Error 2
+[4.288s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8

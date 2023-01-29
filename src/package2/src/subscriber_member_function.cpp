@@ -14,11 +14,19 @@
 
 #include <memory>
 #include <string>
+#include <ctime>
+#include <unistd.h>
+#include <iostream>
+#include <chrono>
+#include <iomanip>
 
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
 #include "time_types/msg/time.hpp"
+#include "time_types/srv/convert_time.hpp"
+
 using std::placeholders::_1;
+using std::placeholders::_2;
 
 class SubscriberServer : public rclcpp::Node
 {
@@ -28,23 +36,36 @@ public:
   {
     subscription_ = this->create_subscription<time_types::msg::Time>(
       "unix_epoch_time", 10, std::bind(&SubscriberServer::topic_callback, this, _1));
-    server_ = this->create_service<time_types::msg::Time>("convert_time", std::bind(&PublisherClient::send_response_message))
+    service_ = this->create_service<time_types::srv::ConvertTime>("convert_time", std::bind(&SubscriberServer::send_response_message, this, _1, _2));
 
   }
 
 private:
+  long HumanTime(long unixEpochTime) 
+  {
+    // std::_Put_time<char> humantime = std::put_time(std::localtime(&unixEpochTime), "%D %H:%M");
+    // std::ostringstream stream;
+    // stream << humantime;
+    // std::string dateString = stream.str();
+    // return dateString;
+    return unixEpochTime;
+  }
+
   void send_response_message(const std::shared_ptr<time_types::srv::ConvertTime::Request> request,
           std::shared_ptr<time_types::srv::ConvertTime::Response>      response) 
   {
-
+    response->humantime = HumanTime(request.get()->unixtime);
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Incoming request\n Unix Epoch Time: %ld",
+                request->unixtime);
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "sending back response: [%ld]", response->humantime);
   }
  
-
   void topic_callback(const time_types::msg::Time::SharedPtr msg) const
   {
     RCLCPP_INFO(this->get_logger(), "Unix Epoch Time: %ld", msg->time);
   }
   rclcpp::Subscription<time_types::msg::Time>::SharedPtr subscription_;
+  rclcpp::Service<time_types::srv::ConvertTime>::SharedPtr service_;
 };
 
 int main(int argc, char * argv[])

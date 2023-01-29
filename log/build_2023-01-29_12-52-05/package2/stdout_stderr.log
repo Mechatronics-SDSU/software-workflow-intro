@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target listener[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:[m[K In member function ‘[01m[Klong int SubscriberServer::HumanTime(long int)[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:51:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   51 |     return unixEpochTime
+      |                         [01;31m[K^[m[K
+      |                         [32m[K;[m[K
+   52 |   [32m[K}[m[K
+      |   [32m[K~[m[K                      
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,28 @@
+[0.351s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8
+[0.423s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.463s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.789s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.226s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.232s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[13.090s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.171s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[13.175s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.449s] -- Found time_types: 0.0.0 (/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types/share/time_types/cmake)
+[13.469s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[13.633s] -- Configuring done
+[13.638s] CMake Error at CMakeLists.txt:24 (add_executable):
+[13.638s]   Cannot find source file:
+[13.638s] 
+[13.638s]     src/convert_time_client.cpp
+[13.639s] 
+[13.639s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[13.639s]   .hpp .hxx .in .txx
+[13.639s] 
+[13.639s] 
+[13.643s] CMake Error at CMakeLists.txt:24 (add_executable):
+[13.644s]   No SOURCES given to target: client
+[13.644s] 
+[13.644s] 
+[13.645s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[13.652s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[13.657s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8

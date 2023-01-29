@@ -15,10 +15,12 @@
 #include <chrono>
 #include <memory>
 #include <ctime>
+#include <iostream>
 
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
 #include "time_types/msg/time.hpp"
+#include "time_types/srv/convert_time.hpp"
 
 using namespace std::chrono_literals;
 
@@ -32,7 +34,7 @@ public:
   : Node("timepublisher"), count_(0)
   {
     publisher_ = this->create_publisher<time_types::msg::Time>("unix_epoch_time", 10);
-    client_ = this->create_client<time_types::msg::Time>("convert_time");
+    client_ = this->create_client<time_types::srv::ConvertTime>("convert_time");
     timer_ = this->create_wall_timer(
       5000ms, std::bind(&PublisherClient::timer_callback, this));
   }
@@ -45,14 +47,35 @@ private:
     
   void timer_callback()
   {
+    // publisher
     auto message = time_types::msg::Time();
     // std::time_t unixEpochTime = UnixEpochTime();
     message.time = this->UnixEpochTime();
     RCLCPP_INFO(this->get_logger(), "Publishing: Unix Epoch Time");
     publisher_->publish(message);
+
+    //client
+    auto request = std::make_shared<time_types::srv::ConvertTime::Request>();
+    request->unixtime = message.time;
+    auto result = client_->async_send_request(request);
+
+    
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Date/Time: %ld", result.get()->humantime);
+
+    // if (rclcpp::spin_until_future_complete(Node, result) ==
+    //     rclcpp::FutureReturnCode::SUCCESS)
+    // {
+    //     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Date/Time: %ld", result.get()->humantime);
+    // } 
+    // else 
+    // {
+    //     RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Failed to call service add_two_ints");
+    // }
   }
+
   rclcpp::TimerBase::SharedPtr timer_;
   rclcpp::Publisher<time_types::msg::Time>::SharedPtr publisher_;
+  rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client_;
   size_t count_;
 };
 
