@@ -1,12 +1,12 @@
 ## Intro ##
 
-Hello! This is my intro assignment for the mechantronix time. Not really sure the exact procedure here but I figured I'd introduce myself. My name's Conner and I am a computer science major at SDSU. I really like programming so I wanted to join this club and actually do something useful with coding. 
+Hello! This is my intro assignment for the mechantronix time. Not really sure the exact procedure here but I figured I'd introduce myself. My name's Conner and I am a computer science major at SDSU. I really like programming so I wanted to join this club and actually do something useful with coding. Other than coding I enjoy playing music and going on walks. I also like to study languages sometimes.
 
 I wrote my project in C++ because I really don't like python syntax but I mean I can write in python if you need me too haha. I have proof on my github that I can write python. github.com/Repo-Factory
 
 ### Assignment Description ###
 
-In my project I have 3 packages. I had to read ALOT about this ROS2 to get this to work and was banging my head against the wall all day but it does work. I'll put a screenshot right here.
+In my project I have 3 packages. I had to read ALOT about this ROS2 to get this to work and was banging my head against the wall all day but it does work. I put a screenshot png in my project named EpochToHumanTimeScreenshot. 
 
 I'm not sure if it's the optimal solution but the assignment has a timing aspect and a call/response aspect so I decided that I would need to conform to some kind of publisher/subscriber model and a client/server model. Not sure if that's the best way but it's what I came up with haha.
 

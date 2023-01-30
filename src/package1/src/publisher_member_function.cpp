@@ -36,8 +36,6 @@ private:
     **/
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<time_types::msg::Time>::SharedPtr publisher_;
-    rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client_;
-
 
     long UnixEpochTime()
     /** 
@@ -77,17 +75,17 @@ private:
      * Node will have client functionality to send/accept request 
     **/
     {
-        rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client_ =
+        rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client =
         node->create_client<time_types::srv::ConvertTime>("convert_time"); 
-        return client_;
+        return client;
     }
 
-    void acceptRequest(rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client_ ) 
+    void acceptRequest(rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client) 
     /** 
      * client will wait for the service and update the user of its progress
     **/
     {
-        while (!client_->wait_for_service(1s)) 
+        while (!client->wait_for_service(1s)) 
         {
             if (!rclcpp::ok()) 
             {
@@ -104,18 +102,15 @@ private:
      * Executes helper functions to publish message, and then send/accept request for unix to human time conversion
     **/
     {
-        
         auto message = publishMessage();
-
         std::shared_ptr<rclcpp::Node> node = tempNode();
-        
-        rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client_ = buildClient(node);
+        rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client = buildClient(node);
 
         auto request = std::make_shared<time_types::srv::ConvertTime::Request>();
         request->unixtime = message.time;
 
-        auto result = client_->async_send_request(request);
-        acceptRequest(client_);
+        auto result = client->async_send_request(request);
+        acceptRequest(client);
         
         if (rclcpp::spin_until_future_complete(node, result) ==
             rclcpp::FutureReturnCode::SUCCESS)
