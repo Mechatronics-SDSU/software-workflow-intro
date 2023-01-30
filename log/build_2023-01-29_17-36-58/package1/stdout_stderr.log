@@ -1,0 +1,30 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kint64_t PublisherClient::publishMessage()[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:55:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktime_types::msg::Time[m[K’ {aka ‘[01m[Ktime_types::msg::Time_<std::allocator<void> >[m[K’} to ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} in initialization
+   55 |         int64_t message = time_types::msg::[01;31m[KTime()[m[K;
+      |                                            [01;31m[K^~~~~~[m[K
+      |                                            [01;31m[K|[m[K
+      |                                            [01;31m[Ktime_types::msg::Time {aka time_types::msg::Time_<std::allocator<void> >}[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:56:17:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ktime[m[K’ in ‘[01m[Kmessage[m[K’, which is of non-class type ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’}
+   56 |         message.[01;31m[Ktime[m[K = this->UnixEpochTime();
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::makeRequest(int64_t, rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr)[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:83:82:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::shared_ptr<time_types::srv::ConvertTime_Request_<std::allocator<void> > >[m[K’ to ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’} in initialization
+   83 |         int64_t request = [01;31m[Kstd::make_shared<time_types::srv::ConvertTime::Request>()[m[K;
+      |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+      |                                                                                  [01;31m[K|[m[K
+      |                                                                                  [01;31m[Kstd::shared_ptr<time_types::srv::ConvertTime_Request_<std::allocator<void> > >[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:84:16:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   84 |         request[01;31m[K->[m[Kunixtime = message.time;
+      |                [01;31m[K^~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:84:37:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ktime[m[K’ in ‘[01m[Kmessage[m[K’, which is of non-class type ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’}
+   84 |         request->unixtime = message.[01;31m[Ktime[m[K;
+      |                                     [01;31m[K^~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::timer_callback()[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:106:51:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ was not declared in this scope
+  106 |         auto result = client_->async_send_request([01;31m[Krequest[m[K);
+      |                                                   [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

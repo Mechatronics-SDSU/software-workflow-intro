@@ -1,0 +1,36 @@
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:37:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   62 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"[m[KPublishing Unix Epoch Time\n
+      |                                     [01;35m[K^[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:63:44:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   63 |     Expect To Recieve Human Readable Time\n[01;35m[K"[m[K);
+      |                                            [01;35m[K^[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:86:54:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   86 |     RCLCPP_INFO(rclcpp::get_logger("timepublisher"), [01;35m[K"[m[KHuman Time Generated\n
+      |                                                      [01;35m[K^[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:87:20:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+   87 |     Date/Time: %s\n[01;35m[K"[m[K, result.get()->humantime.c_str());
+      |                    [01;35m[K^[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:104:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+  104 | }
+      | 
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   62 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing Unix Epoch Time\n
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:31:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   31 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::timer_callback()[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+   62 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing Unix Epoch Time\n
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:58:3:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   58 |   [01;36m[K{[m[K
+      |   [01;36m[K^[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K At global scope:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   62 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing Unix Epoch Time\n
+      |     [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

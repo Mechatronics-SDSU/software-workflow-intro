@@ -1,0 +1,36 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:64:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpair[m[K’ does not name a type
+   64 |     [01;31m[Kpair[m[K<std::shared_ptr<rclcpp::Node>, rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr> clientNode()
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:80:22:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-fconcepts[m[K’
+   80 |     void makeRequest([01;35m[Kauto[m[K message, rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr> client)
+      |                      [01;35m[K^~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:80:91:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K>[m[K’ token
+   80 | Request(auto message, rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr[01;31m[K>[m[K client)
+      |                                                                              [01;31m[K^[m[K
+
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KPublisherClient::PublisherClient()[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:22:48:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KPublisherClient[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+   22 |     PublisherClient() : Node("timepublisher"), [01;31m[Kcount_[m[K(0)
+      |                                                [01;31m[K^~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::awaitResponse(std::shared_ptr<rclcpp::Node>)[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:97:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ was not declared in this scope
+   97 |         if (rclcpp::spin_until_future_complete(node, [01;31m[Kresult[m[K) == rclcpp::FutureReturnCode::SUCCESS)
+      |                                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::timer_callback()[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:115:9:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  115 |         [01;31m[Knode[m[K = clientNode().first;
+      |         [01;31m[K^~~~[m[K
+      |         [32m[KNode[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:115:16:[m[K [01;31m[Kerror: [m[K‘[01m[KclientNode[m[K’ was not declared in this scope; did you mean ‘[01m[Kclient_[m[K’?
+  115 |         node = [01;31m[KclientNode[m[K().first;
+      |                [01;31m[K^~~~~~~~~~[m[K
+      |                [32m[Kclient_[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:116:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope; did you mean ‘[01m[Kclient_[m[K’?
+  116 |         [01;31m[Kclient[m[K = clientNode().second;
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Kclient_[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
