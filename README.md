@@ -2,7 +2,7 @@
 
 Hello! This is my intro assignment for the mechantronix time. Not really sure the exact procedure here but I figured I'd introduce myself. My name's Conner and I am a computer science major at SDSU. I really like programming so I wanted to join this club and actually do something useful with coding. Other than coding I enjoy playing music and going on walks. I also like to study languages sometimes.
 
-I wrote my project in C++ because I really don't like python syntax but I mean I can write in python if you need me too haha. I have proof on my github that I can write python. github.com/Repo-Factory
+I wrote my project in C++ because I really don't like python syntax but I mean I can write in python if you need me to haha. I have proof on my github that I can write python. github.com/Repo-Factory
 
 ### Assignment Description ###
 
@@ -27,15 +27,15 @@ So what I didn't mention above is that Node1 (publisher) also sends a request to
 
 This is in a loop because the timer object calls it's callback function every 5 seconds. The publisher/client (I also called it talker to refer to both) main just spins the PublisherClient node which starts the timer. The listener (subscriber/server) simply responds whenever that callback function is called. When the message is being returned from Node2, the listener waits spins up another node to wait for the response.
 
-## How to Use ##
+### How to Use ###
 
 As mentioned, the project has two packages. If these need to be rebuild for whatever reason you can use this commands:
-    ```colcon build --packages-select package1```
-    ```colcon build --packages-select package2```
+    colcon build --packages-select package1
+    colcon build --packages-select package2
 
 When these are built, you can run them in two separate terminals using these commands (Make sure to source with . install/setup.bash first):
-    ```ros2 run package1 talker```
-    ```ros2 run package2 listener```
+    ros2 run package1 talker
+    ros2 run package2 listener
 
 From there you will see the two packages and nodes communicating with each other.
 
