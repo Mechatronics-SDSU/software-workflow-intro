@@ -29,7 +29,12 @@ This is in a loop because the timer object calls it's callback function every 5 
 
 ### How to Use ###
 
-As mentioned, the project has two packages. If these need to be rebuild for whatever reason you can use these commands:
+Clone the project using
+
+    https://github.com/Repo-Factory/MechatronixIntroProject.git
+
+
+As mentioned, the project has two ROS packages. If these need to be rebuild for whatever reason you can use these commands:
 
 Publisher/Client:
 
