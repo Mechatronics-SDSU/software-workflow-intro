@@ -106,9 +106,11 @@ private:
         std::shared_ptr<rclcpp::Node> node = tempNode();
         rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client = buildClient(node);
 
+        // Build request (unixtime)
         auto request = std::make_shared<time_types::srv::ConvertTime::Request>();
         request->unixtime = message.time;
 
+        // Send request to Node2 and print response if successfully sent
         auto result = client->async_send_request(request);
         acceptRequest(client);
         
