@@ -54,3 +54,10 @@ and
 
 From there you will see the two packages and nodes communicating with each other.
 
+### Navigating ###
+
+The .vscode, build, install, and log files can mainly be ignored.
+
+In src you will find the 3 packages I described above. package1 and package2 have src folders that contain the cpp source code for the two nodes. time_types will include the msg and srv folders needed for custom types in ROS2. Each package has its dependencies listed in package.xml as well as the make files.
+
+EpochToHumanTimeScreenshot.png is a picture of the output of the two nodes working side by side (hit download in after clicking on it because the magnification will cut off the majority of the picture).
