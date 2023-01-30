@@ -1,0 +1,31 @@
+[0.545s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8
+[0.652s] [35m[1mScanning dependencies of target talker[0m
+[0.722s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[3.275s] /home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp: In instantiation of ‘[01m[KT PublisherClient::acceptRequest(rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr, T) [with T = time_types::msg::Time_<std::allocator<void> >; rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr = std::shared_ptr<rclcpp::Client<time_types::srv::ConvertTime> >][m[K’:
+[3.276s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:118:38:[m[K   required from here
+[3.276s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:100:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[3.277s]   100 |     [01;35m[K}[m[K
+[3.277s]       |     [01;35m[K^[m[K
+[6.865s] [100%] [32m[1mLinking CXX executable talker[0m
+[7.426s] [100%] Built target talker
+[7.457s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8
+[7.527s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1
+[7.540s] -- Install configuration: ""
+[7.540s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/lib/package1/talker
+[7.545s] -- Set runtime path of "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/lib/package1/talker" to ""
+[7.546s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/ament_index/resource_index/package_run_dependencies/package1
+[7.546s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/ament_index/resource_index/parent_prefix_path/package1
+[7.547s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/environment/ament_prefix_path.sh
+[7.548s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/environment/ament_prefix_path.dsv
+[7.548s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/environment/path.sh
+[7.553s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/environment/path.dsv
+[7.553s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/local_setup.bash
+[7.553s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/local_setup.sh
+[7.554s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/local_setup.zsh
+[7.554s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/local_setup.dsv
+[7.557s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/package.dsv
+[7.558s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/ament_index/resource_index/packages/package1
+[7.560s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/cmake/package1Config.cmake
+[7.564s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/cmake/package1Config-version.cmake
+[7.567s] -- Up-to-date: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/share/package1/package.xml
+[7.568s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1

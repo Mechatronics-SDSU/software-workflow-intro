@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::timer_callback()[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:120:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ was not declared in this scope
+  120 |         if (rclcpp::spin_until_future_complete(node, [01;31m[Kresult[m[K) ==
+      |                                                      [01;31m[K^~~~~~[m[K
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp: In instantiation of ‘[01m[KT PublisherClient::acceptRequest(rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr, T) [with T = time_types::msg::Time_<std::allocator<void> >; rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr = std::shared_ptr<rclcpp::Client<time_types::srv::ConvertTime> >][m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:118:38:[m[K   required from here
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:100:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  100 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,14 @@
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::timer_callback()[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:106:39:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPublisherClient::publishMessage()[m[K’
+  106 |         auto message = publishMessage([01;31m[K)[m[K;
+      |                                       [01;31m[K^[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:49:13:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Message> Message PublisherClient::publishMessage()[m[K’
+   49 |     Message [01;36m[KpublishMessage[m[K()
+      |             [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:49:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:106:39:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KMessage[m[K’
+  106 |         auto message = publishMessage([01;36m[K)[m[K;
+      |                                       [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

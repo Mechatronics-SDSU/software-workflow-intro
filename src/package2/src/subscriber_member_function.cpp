@@ -7,8 +7,7 @@
 #include <iomanip>
 
 #include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/string.hpp"
-#include "time_types/msg/time.hpp"
+#include "time_types/msg/time.hpp"          // Custom message types defined in time_types package
 #include "time_types/srv/convert_time.hpp"
 
 using std::placeholders::_1;
@@ -23,7 +22,7 @@ class SubscriberServer : public rclcpp::Node
 
 public:
   /** 
-   * Create a subscriber to our unixTime messages and a service that will convert unixTime to humanTime 
+   * Create a subscriber to our unixTime messages from Node1 and a service that will convert unixTime to humanTime 
   **/
   SubscriberServer(): Node("timesubscriber")
   {
@@ -39,7 +38,7 @@ private:
 
   void topic_callback(const time_types::msg::Time::SharedPtr msg) const
   /** 
-   * Simple response from the subscriber that prints the unixTime that the publisher from Node1 sends in the beginning
+   * Subscriber binded function prints the unixTime whenever the publisher from Node1 sends it.
   **/ 
   {
     RCLCPP_INFO(this->get_logger(), "Received Epoch Time: %ld", msg->time);
@@ -61,8 +60,8 @@ private:
   void send_response_message(const std::shared_ptr<time_types::srv::ConvertTime::Request> request,
           std::shared_ptr<time_types::srv::ConvertTime::Response> response)
   /** 
-   * Pass request info from Node1 to our helper function and store the result to response.
-   *  This response will automatically be sent back to Node1 through node structure.
+   * Service binded function that passes request info from Node1 to our HumanTime() helper function and 
+   *  stores the result to response. This response will automatically be sent back to Node1.
   **/ 
   {
     response->humantime = HumanTime(request.get()->unixtime);

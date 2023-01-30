@@ -1,0 +1,19 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::timer_callback()[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:121:50:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ was not declared in this scope
+  121 |         auto result = client->async_send_request([01;31m[Krequest[m[K);
+      |                                                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:122:29:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPublisherClient::acceptRequest(rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr&)[m[K’
+  122 |         acceptRequest(client[01;31m[K)[m[K;
+      |                             [01;31m[K^[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:84:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void PublisherClient::acceptRequest(rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr, T)[m[K’
+   84 |     void [01;36m[KacceptRequest[m[K(rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client, T message)
+      |          [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:84:10:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:122:29:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+  122 |         acceptRequest(client[01;36m[K)[m[K;
+      |                             [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

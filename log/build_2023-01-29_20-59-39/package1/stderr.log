@@ -1,0 +1,5 @@
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp: In instantiation of ‘[01m[KT PublisherClient::acceptRequest(rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr, T) [with T = time_types::msg::Time_<std::allocator<void> >; rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr = std::shared_ptr<rclcpp::Client<time_types::srv::ConvertTime> >][m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:118:38:[m[K   required from here
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:100:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+  100 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K

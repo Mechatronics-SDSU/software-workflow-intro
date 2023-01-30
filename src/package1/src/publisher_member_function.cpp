@@ -4,7 +4,6 @@
 #include <iostream>
 
 #include "rclcpp/rclcpp.hpp"
-#include "std_msgs/msg/string.hpp"
 #include "time_types/msg/time.hpp"              // Custom message types defined in time_types package
 #include "time_types/srv/convert_time.hpp"
 
@@ -13,7 +12,7 @@ using namespace std::chrono_literals;
 
 
 /** Node Subclass will act as talker and use std::bind() with timer to periodically send/request info 
- *  Responsible for sending unixTime to Node2 and printing the date that is sent back
+ *  Responsible for sending unixTime to Node2 and printing the Human-Readable date that is sent back
 **/
 class PublisherClient : public rclcpp::Node
 {
@@ -32,7 +31,7 @@ public:
 
 private:
     /** 
-     * PublisherClient() node subclass I made up must declare pointers to a timer, publisher, and client object
+     * PublisherClient() node subclass I made up must declare pointer fields to a timer and publisher object
     **/
     rclcpp::TimerBase::SharedPtr timer_;
     rclcpp::Publisher<time_types::msg::Time>::SharedPtr publisher_;
@@ -48,8 +47,8 @@ private:
     auto publishMessage() 
     {
     /** 
-    * First the publisher builds its message to send node2 by calling UnixEpochTime()
-    * Also return message to be used in next step for client request
+    * First the publisher builds its message to send node2 by calling UnixEpochTime() (will look something like 160234897)
+    * Also return message to be used by other functions that will make the request for conversion
     **/
         auto message = time_types::msg::Time();
         message.time = this->UnixEpochTime();
@@ -72,7 +71,7 @@ private:
 
     rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr buildClient(std::shared_ptr<rclcpp::Node> node) 
     /** 
-     * Node will have client functionality to send/accept request 
+     * Must instantiate client functionality to send/accept request (this is different from publisher functionality)
     **/
     {
         rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client =
@@ -80,11 +79,16 @@ private:
         return client;
     }
 
-    void acceptRequest(rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client) 
+    template<typename T>
+    auto makeRequest(rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client, T message) 
     /** 
-     * client will wait for the service and update the user of its progress
+     * request containing unixtime will be built from message as they are identical, request sent to Node2
+     * client will wait for the service (Node 2) to convert unixtime to a date and capture response
+     * Returns this response to print later.
     **/
     {
+        auto request = std::make_shared<time_types::srv::ConvertTime::Request>();
+        request->unixtime = message.time;
         while (!client->wait_for_service(1s)) 
         {
             if (!rclcpp::ok()) 
@@ -93,27 +97,16 @@ private:
             }
             RCLCPP_INFO(rclcpp::get_logger("timepublisher"), "service not available, waiting again...");
         }
+        auto result = client->async_send_request(request);
+        return result;
     }
 
-
-    void timer_callback()
+    template<typename T>
+    void processResponse(std::shared_ptr<rclcpp::Node> node, T result) 
     /** 
-     * Function called from clock every five seconds
-     * Executes helper functions to publish message, and then send/accept request for unix to human time conversion
+     * If Node 1 successfully recieves response from Node 2, it will print the response string
     **/
     {
-        auto message = publishMessage();
-        std::shared_ptr<rclcpp::Node> node = tempNode();
-        rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client = buildClient(node);
-
-        // Build request (unixtime)
-        auto request = std::make_shared<time_types::srv::ConvertTime::Request>();
-        request->unixtime = message.time;
-
-        // Send request to Node2 and print response if successfully sent
-        auto result = client->async_send_request(request);
-        acceptRequest(client);
-        
         if (rclcpp::spin_until_future_complete(node, result) ==
             rclcpp::FutureReturnCode::SUCCESS)
         {
@@ -123,9 +116,28 @@ private:
         {
             RCLCPP_ERROR(rclcpp::get_logger("timepublisher"), "Failed to call ConvertTime service");
         }
-        }
-};
+    }
 
+    void timer_callback()
+    /** 
+     * Function called from clock every five seconds
+     * Executes helper functions to publish message, and then send/accept request for unix to human time conversion
+    **/
+    {
+        // Step 1: Node 1 sends unixtime to Node 2 to be printed
+        auto message = publishMessage();
+
+        // Step 2: Node 1 spins up temporary node with client that will make request and listen for the response
+        std::shared_ptr<rclcpp::Node> node = tempNode();
+        rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client = buildClient(node);
+        
+        // Step 3: Node 1 makes request to Node 2 and notes response
+        auto request = makeRequest(client, message);
+
+        // Step 4: If Node 1 recieves info from Node 2 successfully it will print the response
+        processResponse(node, request);
+    }
+};
 
 int main(int argc, char * argv[])
 {

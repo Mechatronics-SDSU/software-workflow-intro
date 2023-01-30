@@ -1,0 +1,155 @@
+[0.000000] (-) TimerEvent: {}
+[0.000476] (-) JobUnselected: {'identifier': 'package2'}
+[0.001151] (-) JobUnselected: {'identifier': 'time_types'}
+[0.001370] (package1) JobQueued: {'identifier': 'package1', 'dependencies': OrderedDict([('time_types', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types')])}
+[0.001564] (package1) JobStarted: {'identifier': 'package1'}
+[0.096177] (-) TimerEvent: {}
+[0.197459] (-) TimerEvent: {}
+[0.298409] (-) TimerEvent: {}
+[0.399870] (-) TimerEvent: {}
+[0.454686] (package1) JobProgress: {'identifier': 'package1', 'progress': 'cmake'}
+[0.457381] (package1) JobProgress: {'identifier': 'package1', 'progress': 'build'}
+[0.459828] (package1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1', '--', '-j8', '-l8'], 'cwd': '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'conner'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types/lib:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/conner'), ('OLDPWD', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/vcpkg'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'conner'), ('NAME', 'ConnerSurface'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/conner/apps/nvm:/mnt/c/conner/apps/nvm:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/conner/apps/Python/Python310/Scripts/:/mnt/c/conner/apps/Python/Python310/:/mnt/c/Users/conne/AppData/Local/Microsoft/WindowsApps:/mnt/c/conner/apps/vscode/bin:/mnt/c/Conner/Apps/nvm/v16.17.0:/mnt/c/Conner/Apps/nvm:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types/lib/python3.8/site-packages:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/python3.8/site-packages:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1:/opt/ros/foxy'), ('WSLENV', '')]), 'shell': False}
+[0.500107] (-) TimerEvent: {}
+[0.558265] (package1) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.600459] (-) TimerEvent: {}
+[0.641850] (package1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.700779] (-) TimerEvent: {}
+[0.801721] (-) TimerEvent: {}
+[0.902689] (-) TimerEvent: {}
+[1.003717] (-) TimerEvent: {}
+[1.104846] (-) TimerEvent: {}
+[1.205643] (-) TimerEvent: {}
+[1.306606] (-) TimerEvent: {}
+[1.407711] (-) TimerEvent: {}
+[1.508476] (-) TimerEvent: {}
+[1.609280] (-) TimerEvent: {}
+[1.710173] (-) TimerEvent: {}
+[1.811131] (-) TimerEvent: {}
+[1.911958] (-) TimerEvent: {}
+[2.012747] (-) TimerEvent: {}
+[2.113585] (-) TimerEvent: {}
+[2.214361] (-) TimerEvent: {}
+[2.315270] (-) TimerEvent: {}
+[2.416246] (-) TimerEvent: {}
+[2.517015] (-) TimerEvent: {}
+[2.617787] (-) TimerEvent: {}
+[2.718571] (-) TimerEvent: {}
+[2.811360] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KT PublisherClient::acceptRequest(rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr, T)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.811966] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:100:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.813063] (package1) StderrLine: {'line': b'  100 |         return T\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[2.813603] (package1) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.813825] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PublisherClient::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.814108] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:121:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kspin_until_future_complete(std::shared_ptr<rclcpp::Node>&, time_types::msg::Time_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.814390] (package1) StderrLine: {'line': b'  121 |         if (rclcpp::spin_until_future_complete(node, result\x1b[01;31m\x1b[K)\x1b[m\x1b[K ==\n'}
+[2.815199] (package1) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.815764] (package1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.816074] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:6\x1b[m\x1b[K:\n'}
+[2.816316] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:105:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, const std::shared_future<_Res>&, std::chrono::duration<_Rep, _Period>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.816557] (package1) StderrLine: {'line': b'  105 | \x1b[01;36m\x1b[Kspin_until_future_complete\x1b[m\x1b[K(\n'}
+[2.816825] (package1) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.817059] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:105:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.817307] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:121:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktime_types::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_future<_Res>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.817501] (package1) StderrLine: {'line': b'  121 |         if (rclcpp::spin_until_future_complete(node, result\x1b[01;36m\x1b[K)\x1b[m\x1b[K ==\n'}
+[2.817756] (package1) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.817984] (package1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.818250] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:6\x1b[m\x1b[K:\n'}
+[2.818502] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:117:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, const std::shared_future<ResponseT>&, std::chrono::duration<_Rep2, _Period2>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.818760] (-) TimerEvent: {}
+[2.819043] (package1) StderrLine: {'line': b'  117 | \x1b[01;36m\x1b[Kspin_until_future_complete\x1b[m\x1b[K(\n'}
+[2.819506] (package1) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.819798] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:117:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.820144] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:121:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Ktime_types::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_future<ResponseT>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.820413] (package1) StderrLine: {'line': b'  121 |         if (rclcpp::spin_until_future_complete(node, result\x1b[01;36m\x1b[K)\x1b[m\x1b[K ==\n'}
+[2.820647] (package1) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.821503] (package1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.822238] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[2.822622] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.823146] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[2.823730] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.824376] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.825324] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[2.825648] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[2.826035] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.826363] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.826708] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:6\x1b[m\x1b[K:\n'}
+[2.827176] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:125:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct time_types::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kget\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.827464] (package1) StderrLine: {'line': b'  125 | _INFO(rclcpp::get_logger("timepublisher"), "Date/Time: %s\\n", result.\x1b[01;31m\x1b[Kget\x1b[m\x1b[K()->humantime.c_str());\n'}
+[2.827912] (package1) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.828217] (package1) StderrLine: {'line': b'\n'}
+[2.918977] (-) TimerEvent: {}
+[3.016510] (package1) StderrLine: {'line': b'/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[KT PublisherClient::acceptRequest(rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr, T) [with T = time_types::msg::Time_<std::allocator<void> >; rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr = std::shared_ptr<rclcpp::Client<time_types::srv::ConvertTime> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.017009] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:119:52:\x1b[m\x1b[K   required from here\n'}
+[3.017308] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:89:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<time_types::srv::ConvertTime_Request_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 to non-scalar type \xe2\x80\x98\x1b[01m\x1b[Ktime_types::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 requested\n'}
+[3.018405] (package1) StderrLine: {'line': b'   89 |         T \x1b[01;31m\x1b[Krequest\x1b[m\x1b[K = std::make_shared<time_types::srv::ConvertTime::Request>();\n'}
+[3.018750] (package1) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.018912] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:90:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kbase operand of \xe2\x80\x98\x1b[01m\x1b[K->\x1b[m\x1b[K\xe2\x80\x99 has non-pointer type \xe2\x80\x98\x1b[01m\x1b[Ktime_types::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.019080] (-) TimerEvent: {}
+[3.019447] (package1) StderrLine: {'line': b'   90 |         \x1b[01;31m\x1b[Krequest\x1b[m\x1b[K->unixtime = message.time;\n'}
+[3.019713] (package1) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.020051] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:91:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<time_types::srv::ConvertTime>::async_send_request(time_types::msg::Time_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.020397] (package1) StderrLine: {'line': b'   91 |         T \x1b[01;31m\x1b[Kresult\x1b[m\x1b[K = client->async_send_request(request);\n'}
+[3.020716] (package1) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.020995] (package1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[3.021162] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.021489] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[3.021769] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.021926] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.022173] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[3.022477] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.022749] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.023279] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[3.023629] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:6\x1b[m\x1b[K:\n'}
+[3.023804] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:318:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<ServiceT>::SharedFuture rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest) [with ServiceT = time_types::srv::ConvertTime; rclcpp::Client<ServiceT>::SharedFuture = std::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >; typename ServiceT::Response::SharedPtr = std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > >; rclcpp::Client<ServiceT>::SharedRequest = std::shared_ptr<time_types::srv::ConvertTime_Request_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.024111] (package1) StderrLine: {'line': b'  318 |   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request)\n'}
+[3.024266] (package1) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.024499] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:318:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Ktime_types::msg::Time_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Client<time_types::srv::ConvertTime>::SharedRequest\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<time_types::srv::ConvertTime_Request_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.024784] (package1) StderrLine: {'line': b'  318 |   async_send_request(\x1b[01;36m\x1b[KSharedRequest request\x1b[m\x1b[K)\n'}
+[3.025094] (package1) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[3.025404] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:333:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFuture rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<typename ServiceT::Response::SharedPtr>)> >::value>::type* <anonymous> = <enumerator>; ServiceT = time_types::srv::ConvertTime]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.025966] (package1) StderrLine: {'line': b'  333 |   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request, CallbackT && cb)\n'}
+[3.026187] (package1) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.026467] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:333:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.026649] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:91:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[3.026865] (package1) StderrLine: {'line': b'   91 |         T \x1b[01;36m\x1b[Kresult\x1b[m\x1b[K = client->async_send_request(request);\n'}
+[3.027003] (package1) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.027283] (package1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[3.027415] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.027565] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[3.027685] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.027897] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.028105] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[3.028413] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[3.028548] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.028669] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[3.028880] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:6\x1b[m\x1b[K:\n'}
+[3.029016] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:359:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class CallbackT, typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<std::shared_ptr<time_types::srv::ConvertTime_Request_<std::allocator<void> > >, std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > > >)> >::value, void>::type* <anonymous> > rclcpp::Client<ServiceT>::SharedFutureWithRequest rclcpp::Client<ServiceT>::async_send_request(rclcpp::Client<ServiceT>::SharedRequest, CallbackT&&) [with CallbackT = CallbackT; typename std::enable_if<rclcpp::function_traits::same_arguments<CallbackT, std::function<void(std::shared_future<std::pair<typename ServiceT::Request::SharedPtr, typename ServiceT::Response::SharedPtr> >)> >::value>::type* <anonymous> = <enumerator>; ServiceT = time_types::srv::ConvertTime]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.029316] (package1) StderrLine: {'line': b'  359 |   \x1b[01;36m\x1b[Kasync_send_request\x1b[m\x1b[K(SharedRequest request, CallbackT && cb)\n'}
+[3.029566] (package1) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.029705] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:359:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.029923] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:91:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 1 provided\n'}
+[3.030168] (package1) StderrLine: {'line': b'   91 |         T \x1b[01;36m\x1b[Kresult\x1b[m\x1b[K = client->async_send_request(request);\n'}
+[3.030501] (package1) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.030661] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:91:11:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kresult\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[3.119360] (-) TimerEvent: {}
+[3.220229] (-) TimerEvent: {}
+[3.321151] (-) TimerEvent: {}
+[3.422009] (-) TimerEvent: {}
+[3.522759] (-) TimerEvent: {}
+[3.623478] (-) TimerEvent: {}
+[3.724179] (-) TimerEvent: {}
+[3.824914] (-) TimerEvent: {}
+[3.925682] (-) TimerEvent: {}
+[4.026550] (-) TimerEvent: {}
+[4.127219] (-) TimerEvent: {}
+[4.227898] (-) TimerEvent: {}
+[4.328765] (-) TimerEvent: {}
+[4.429721] (-) TimerEvent: {}
+[4.530475] (-) TimerEvent: {}
+[4.582547] (package1) StderrLine: {'line': b'make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[4.584527] (package1) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2\n'}
+[4.585526] (package1) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.593909] (package1) CommandEnded: {'returncode': 2}
+[4.630889] (-) TimerEvent: {}
+[4.693918] (package1) JobEnded: {'identifier': 'package1', 'rc': 2}
+[4.698408] (-) EventReactorShutdown: {}
