@@ -29,12 +29,22 @@ This is in a loop because the timer object calls it's callback function every 5 
 
 ### How to Use ###
 
-As mentioned, the project has two packages. If these need to be rebuild for whatever reason you can use this commands:
+As mentioned, the project has two packages. If these need to be rebuild for whatever reason you can use these commands:
+
+Publisher/Client:
+
     colcon build --packages-select package1
+
+Subscriber/Service:
+
     colcon build --packages-select package2
 
 When these are built, you can run them in two separate terminals using these commands (Make sure to source with . install/setup.bash first):
+
     ros2 run package1 talker
+
+and
+
     ros2 run package2 listener
 
 From there you will see the two packages and nodes communicating with each other.
