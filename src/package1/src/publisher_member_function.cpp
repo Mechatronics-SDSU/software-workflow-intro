@@ -11,8 +11,9 @@
 using namespace std::chrono_literals;
 
 
-/** Node Subclass will act as talker and use std::bind() with timer to periodically send/request info 
- *  Responsible for sending unixTime to Node2 and printing the Human-Readable date that is sent back
+/** 
+ * Node Subclass will act as talker and use std::bind() with timer to periodically send/request info 
+ * Responsible for sending unixTime to Node2 and printing the Human-Readable date that is sent back
 **/
 class PublisherClient : public rclcpp::Node
 {

@@ -14,8 +14,9 @@ using std::placeholders::_1;
 using std::placeholders::_2;
 
 
-/** Node sublcass will act as the listener/responder of our node pair that will wait for talker 
- *  Responsible for printing unixTime and converting to humanTime, then sending date back to Node1
+/** 
+ * Node sublcass will act as the listener/responder of our node pair that will wait for talker 
+ * Responsible for printing unixTime and converting to humanTime, then sending date back to Node1
 **/
 class SubscriberServer : public rclcpp::Node
 {

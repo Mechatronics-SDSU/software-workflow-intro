@@ -8,7 +8,7 @@ I wrote my project in C++ because I really don't like python syntax but I mean I
 
 In my project I have 3 packages. I had to read A LOT about this ROS2 to get this to work and was banging my head against the wall all day but it does work. I put a screenshot png in my project named EpochToHumanTimeScreenshot. 
 
-I'm not sure if it's the optimal solution but the assignment has a timing aspect and a call/response aspect so I decided that I would need to conform to some kind of publisher/subscriber model and a client/server model simultaneously. Not sure if that's the best way but it's what I came up with haha.
+I'm not sure if it's the optimal solution but the assignment has a timing aspect and a call/response aspect so I decided that I would need to conform to some kind of publisher/subscriber model and a client/server model at the same time. Not sure if that's the best way but it's what I came up with haha.
 
 So package1 is the publisher/client. Package2 is the subscriber/service. And package3 has my custom types that I built (msg and srv). msg is of int64 type (epoch time) and the srv request is int64 (epoch time) while the response is a string (human time)
 
@@ -34,17 +34,13 @@ Clone the project using
     https://github.com/Repo-Factory/MechatronixIntroProject.git
 
 
-As mentioned, the project has two ROS packages. If these need to be rebuild for whatever reason you can use these commands:
+You may have to build the project on your local machine so you can use
 
-Publisher/Client:
+    colcon build 
 
-    colcon build --packages-select package1
+This will start with the time_types and then move on to package1 and package2 which contain the contains.
 
-Subscriber/Service:
-
-    colcon build --packages-select package2
-
-When these are built, you can run them in two separate terminals using these commands (Make sure to source with . install/setup.bash first):
+When these are built, you can run the two nodes in two separate terminals using these commands (Make sure to source with . install/setup.bash first):
 
     ros2 run package1 talker
 
