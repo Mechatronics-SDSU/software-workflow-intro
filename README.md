@@ -9,6 +9,7 @@ If this is your first time here on the GitHub, welcome! Please refer to the Pyth
 
 ### Using Git
 [See our Git Guide here](src/git_guide.md)
+Please refer to this for creating a new branch.
 
 ### Introduce yourself
 For your first task, you'll write some basic Python hello world code using Pycharm or the Python environment you set up on your local machine and then push it to this repository. Please do `git checkout first-task` or, in Pycharm, right-click on the `first-task` branch and then click "Checkout". Your instructions for how to submit will be in the docstring in the top of the file `submissions/template.py`. If you want help, you can checkout the `submission-yizaguirre` branch to see what my own submission looks like. You can also message us in the Discord. Good luck!
