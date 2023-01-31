@@ -9,6 +9,7 @@ If this is your first time here on the GitHub, welcome! Please refer to the Pyth
 
 ### Using Git
 [See our Git Guide here](src/git_guide.md)
+
 Please refer to this for creating a new branch.
 
 ### Introduce yourself
