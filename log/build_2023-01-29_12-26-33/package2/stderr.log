@@ -1,0 +1,8 @@
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KSubscriberServer::SubscriberServer()[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:38:86:[m[K [01;31m[Kerror: [m[K‘[01m[KPublisherClient[m[K’ has not been declared
+   38 | is->create_service<time_types::msg::Time>("convert_time", std::bind(&[01;31m[KPublisherClient[m[K::send_response_message))
+      |                                                                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+
+make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/listener.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

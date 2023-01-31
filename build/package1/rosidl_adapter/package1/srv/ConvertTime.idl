@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from package1/src/srv/ConvertTime.srv
+// generated code does not contain a copyright notice
+
+
+module package1 {
+  module srv {
+    struct ConvertTime_Request {
+      int64 unixtime;
+    };
+    struct ConvertTime_Response {
+      int64 humantime;
+    };
+  };
+};

@@ -1,0 +1,32 @@
+[35m[1mScanning dependencies of target client[0m
+[  2%] Built target package1__cpp
+[ 11%] Built target package1__rosidl_generator_c
+[ 13%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/client.dir/src/convert_time_client.cpp.o[0m
+[ 25%] Built target package1__rosidl_typesupport_cpp
+[ 34%] Built target package1__rosidl_typesupport_introspection_cpp
+[ 44%] Built target package1__rosidl_typesupport_fastrtps_cpp
+[ 62%] Built target package1__rosidl_typesupport_c
+[ 62%] Built target package1__rosidl_typesupport_introspection_c
+[ 72%] Built target package1__rosidl_typesupport_fastrtps_c
+[ 72%] Built target package1
+[ 74%] Built target package1__py
+[35m[1mScanning dependencies of target package1__python[0m
+[ 76%] [32mBuilding C object CMakeFiles/package1__python.dir/rosidl_generator_py/package1/msg/_time_s.c.o[0m
+[ 79%] [32mBuilding C object CMakeFiles/package1__python.dir/rosidl_generator_py/package1/srv/_convert_time_s.c.o[0m
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kstd:: No such file or directory
+    7 | #include [01;31m[K<std:>[m[K
+      |          [01;31m[K^~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/client.dir/build.make:63: CMakeFiles/client.dir/src/convert_time_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/client.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 81%] [32m[1mLinking C shared library rosidl_generator_py/package1/libpackage1__python.so[0m
+[ 81%] Built target package1__python
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:58:1:[m[K [01;31m[Kerror: [m[Kversion control conflict marker in file
+   58 | [01;31m[K>>>>>>>[m[K parent of 7aa59ed... client/server branch initial commit
+      | [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

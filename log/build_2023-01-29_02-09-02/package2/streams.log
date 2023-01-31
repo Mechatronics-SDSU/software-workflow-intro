@@ -1,0 +1,65 @@
+[0.059s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2 -DCMAKE_INSTALL_PREFIX=/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2
+[0.944s] -- The C compiler identification is GNU 9.4.0
+[1.642s] -- The CXX compiler identification is GNU 9.4.0
+[1.977s] -- Check for working C compiler: /usr/bin/cc
+[2.388s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.391s] -- Detecting C compiler ABI info
+[2.813s] -- Detecting C compiler ABI info - done
+[2.839s] -- Detecting C compile features
+[2.841s] -- Detecting C compile features - done
+[2.849s] -- Check for working CXX compiler: /usr/bin/c++
+[3.278s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.283s] -- Detecting CXX compiler ABI info
+[3.682s] -- Detecting CXX compiler ABI info - done
+[3.704s] -- Detecting CXX compile features
+[3.705s] -- Detecting CXX compile features - done
+[3.720s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.770s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.770s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.149s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[4.652s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.668s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[9.246s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[17.526s] -- Found FastRTPS: /opt/ros/foxy/include  
+[28.505s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[28.665s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[28.670s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[28.675s] -- Looking for pthread.h
+[29.333s] -- Looking for pthread.h - found
+[29.335s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[30.310s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[30.311s] -- Looking for pthread_create in pthreads
+[31.032s] -- Looking for pthread_create in pthreads - not found
+[31.033s] -- Looking for pthread_create in pthread
+[31.675s] -- Looking for pthread_create in pthread - found
+[31.679s] -- Found Threads: TRUE  
+[32.509s] -- Configuring done
+[32.531s] -- Generating done
+[32.539s] -- Build files have been written to: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2
+[32.559s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2 -DCMAKE_INSTALL_PREFIX=/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2
+[32.575s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2 -- -j8 -l8
+[32.659s] [35m[1mScanning dependencies of target listener[0m
+[32.868s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[51.044s] [100%] [32m[1mLinking CXX executable listener[0m
+[52.010s] [100%] Built target listener
+[52.052s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2 -- -j8 -l8
+[52.156s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2
+[52.173s] -- Install configuration: ""
+[52.174s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/package2/listener
+[52.185s] -- Set runtime path of "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/package2/listener" to ""
+[52.187s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/ament_index/resource_index/package_run_dependencies/package2
+[52.188s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/ament_index/resource_index/parent_prefix_path/package2
+[52.192s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/environment/ament_prefix_path.sh
+[52.194s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/environment/ament_prefix_path.dsv
+[52.195s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/environment/path.sh
+[52.196s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/environment/path.dsv
+[52.198s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/local_setup.bash
+[52.199s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/local_setup.sh
+[52.199s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/local_setup.zsh
+[52.200s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/local_setup.dsv
+[52.201s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/package.dsv
+[52.202s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/ament_index/resource_index/packages/package2
+[52.203s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/package2Config.cmake
+[52.204s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/cmake/package2Config-version.cmake
+[52.204s] -- Installing: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/share/package2/package.xml
+[52.225s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2

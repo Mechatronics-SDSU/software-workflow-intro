@@ -1,0 +1,4 @@
+make[2]: *** No rule to make target '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp', needed by 'CMakeFiles/client.dir/src/convert_time_client.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/client.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

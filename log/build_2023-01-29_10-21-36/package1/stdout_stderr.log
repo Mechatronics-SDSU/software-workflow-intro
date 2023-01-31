@@ -1,0 +1,52 @@
+[35m[1mScanning dependencies of target talker[0m
+[  2%] Built target package1__cpp
+[ 12%] Built target package1__rosidl_generator_c
+[ 14%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[ 24%] Built target package1__rosidl_typesupport_c
+[ 34%] Built target package1__rosidl_typesupport_cpp
+[ 43%] Built target package1__rosidl_typesupport_introspection_c
+[ 53%] Built target package1__rosidl_typesupport_introspection_cpp
+[ 63%] Built target package1__rosidl_typesupport_fastrtps_cpp
+[ 73%] Built target package1__rosidl_typesupport_fastrtps_c
+[ 73%] Built target package1
+[ 75%] Built target package1__py
+[ 82%] Built target package1__python
+[ 87%] Built target package1__rosidl_typesupport_c__pyext
+[ 92%] Built target package1__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target package1__rosidl_typesupport_introspection_c__pyext
+In file included from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:21[m[K:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/msg/Time.msg:1:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kint64[m[K’ does not name a type; did you mean ‘[01m[Krintf64[m[K’?
+    1 | [01;31m[Kint64[m[K time
+      | [01;31m[K^~~~~[m[K
+      | [32m[Krintf64[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In constructor ‘[01m[KPublisherClient::PublisherClient()[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:34:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kpackage1[m[K’ was not declared in this scope
+   34 |     publisher_ = this->create_publisher<[01;31m[Kpackage1[m[K::msg::Time()>("unix_epoch_time", 10);
+      |                                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:34:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   34 |     publisher_ = this->[01;31m[Kcreate_publisher<package1::msg::Time()>[m[K("unix_epoch_time", 10);
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:34:85:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPublisherClient::create_publisher<<expression error> >(const char [16], int)[m[K’
+   34 |     publisher_ = this->create_publisher<package1::msg::Time()>("unix_epoch_time", 10[01;31m[K)[m[K;
+      |                                                                                     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:19[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:34:85:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   34 |     publisher_ = this->create_publisher<package1::msg::Time()>("unix_epoch_time", 10[01;31m[K)[m[K;
+      |                                                                                     [01;31m[K^[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:37:7:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   37 |       [01;31m[K5000ms[m[K, std::bind(&PublisherClient::timer_callback, this));
+      |       [01;31m[K^~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::timer_callback()[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:48:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kpackage1[m[K’ has not been declared
+   48 |     auto message = [01;31m[Kpackage1[m[K::msg::Time;
+      |                    [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:123: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

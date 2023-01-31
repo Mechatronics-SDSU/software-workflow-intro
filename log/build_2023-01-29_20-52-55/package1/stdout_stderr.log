@@ -1,0 +1,47 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::timer_callback()[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:121:60:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(std::shared_ptr<rclcpp::Node>&, time_types::msg::Time_<std::allocator<void> >&)[m[K’
+  121 |         if (rclcpp::spin_until_future_complete(node, result[01;31m[K)[m[K ==
+      |                                                            [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:6[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, const std::shared_future<_Res>&, std::chrono::duration<_Rep, _Period>)[m[K’
+  105 | [01;36m[Kspin_until_future_complete[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:121:60:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktime_types::msg::Time_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::shared_future<_Res>[m[K’
+  121 |         if (rclcpp::spin_until_future_complete(node, result[01;36m[K)[m[K ==
+      |                                                            [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:6[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:117:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, const std::shared_future<ResponseT>&, std::chrono::duration<_Rep2, _Period2>)[m[K’
+  117 | [01;36m[Kspin_until_future_complete[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:117:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:121:60:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktime_types::msg::Time_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kconst std::shared_future<ResponseT>[m[K’
+  121 |         if (rclcpp::spin_until_future_complete(node, result[01;36m[K)[m[K ==
+      |                                                            [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:6[m[K:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:125:88:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct time_types::msg::Time_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kget[m[K’
+  125 | _INFO(rclcpp::get_logger("timepublisher"), "Date/Time: %s\n", result.[01;31m[Kget[m[K()->humantime.c_str());
+      |                                                                      [01;31m[K^~~[m[K
+
+/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp: In instantiation of ‘[01m[KT PublisherClient::acceptRequest(rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr, T) [with T = time_types::msg::Time_<std::allocator<void> >; rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr = std::shared_ptr<rclcpp::Client<time_types::srv::ConvertTime> >][m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:119:52:[m[K   required from here
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:91:11:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Krclcpp::Client<time_types::srv::ConvertTime>::SharedFuture[m[K’ {aka ‘[01m[Kstd::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >[m[K’} to non-scalar type ‘[01m[Ktime_types::msg::Time_<std::allocator<void> >[m[K’ requested
+   91 |         T [01;31m[Kresult[m[K = client->async_send_request(request);
+      |           [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

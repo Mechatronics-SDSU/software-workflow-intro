@@ -1,0 +1,140 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1
+[35m[1mScanning dependencies of target package1__cpp[0m
+[35m[1mScanning dependencies of target talker[0m
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target client[0m
+[  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] [32mBuilding CXX object CMakeFiles/client.dir/src/convert_time_client.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[  9%] Built target package1__cpp
+[ 11%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 13%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target package1__rosidl_generator_c[0m
+[ 18%] [32mBuilding C object CMakeFiles/package1__rosidl_generator_c.dir/rosidl_generator_c/package1/msg/detail/time__functions.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/package1__rosidl_generator_c.dir/rosidl_generator_c/package1/srv/detail/convert_time__functions.c.o[0m
+[ 23%] [32m[1mLinking C shared library libpackage1__rosidl_generator_c.so[0m
+[ 23%] Built target package1__rosidl_generator_c
+[ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target package1__rosidl_typesupport_cpp[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/package1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/package1/srv/convert_time__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/package1__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/package1/msg/time__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target package1__rosidl_typesupport_introspection_cpp[0m
+[35m[1mScanning dependencies of target package1__rosidl_typesupport_fastrtps_cpp[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/package1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/package1/msg/detail/time__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/package1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/package1/msg/detail/dds_fastrtps/time__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target package1__rosidl_typesupport_c[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/package1__rosidl_typesupport_c.dir/rosidl_typesupport_c/package1/msg/time__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/package1__rosidl_typesupport_c.dir/rosidl_typesupport_c/package1/srv/convert_time__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/package1__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/package1/srv/detail/convert_time__type_support.cpp.o[0m
+[ 46%] [32m[1mLinking CXX shared library libpackage1__rosidl_typesupport_cpp.so[0m
+[35m[1mScanning dependencies of target package1__rosidl_typesupport_introspection_c[0m
+[ 48%] [32m[1mLinking CXX shared library libpackage1__rosidl_typesupport_c.so[0m
+[ 51%] [32mBuilding C object CMakeFiles/package1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/package1/msg/detail/time__type_support.c.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/package1__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/package1/srv/detail/convert_time__type_support.c.o[0m
+[ 55%] [32m[1mLinking C shared library libpackage1__rosidl_typesupport_introspection_c.so[0m
+[ 55%] Built target package1__rosidl_typesupport_cpp
+[ 58%] [32mBuilding CXX object CMakeFiles/package1__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/package1/srv/detail/dds_fastrtps/convert_time__type_support.cpp.o[0m
+[ 58%] Built target package1__rosidl_typesupport_c
+[ 58%] Built target package1__rosidl_typesupport_introspection_c
+[ 60%] [32m[1mLinking CXX shared library libpackage1__rosidl_typesupport_introspection_cpp.so[0m
+[ 60%] Built target package1__rosidl_typesupport_introspection_cpp
+[ 62%] [32m[1mLinking CXX shared library libpackage1__rosidl_typesupport_fastrtps_cpp.so[0m
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:11:21:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[KprintHumanTime[m[K’ declared void
+   11 | void printHumanTime([01;31m[Kvector[m[K<long> UnixEpochTIme) {
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:11:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kvector[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::vector[m[K’?
+   11 | void printHumanTime([01;31m[Kvector[m[K<long> UnixEpochTIme) {
+      |                     [01;31m[K^~~~~~[m[K
+      |                     [32m[Kstd::vector[m[K
+In file included from [01m[K/usr/include/c++/9/vector:67[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:27[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_vector.h:386:11:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::vector[m[K’ declared here
+  386 |     class [01;36m[Kvector[m[K : protected _Vector_base<_Tp, _Alloc>
+      |           [01;36m[K^~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:11:28:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Klong[m[K’
+   11 | void printHumanTime(vector<[01;31m[Klong[m[K> UnixEpochTIme) {
+      |                            [01;31m[K^~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:25:43:[m[K [01;31m[Kerror: [m[K‘[01m[KconvertTime[m[K’ is not a member of ‘[01m[Kexample_interfaces::srv[m[K’
+   25 |   rclcpp::Client<example_interfaces::srv::[01;31m[KconvertTime[m[K>::SharedPtr client =
+      |                                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:25:43:[m[K [01;31m[Kerror: [m[K‘[01m[KconvertTime[m[K’ is not a member of ‘[01m[Kexample_interfaces::srv[m[K’
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:25:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   25 |   rclcpp::Client<example_interfaces::srv::convertTime[01;31m[K>[m[K::SharedPtr client =
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:25:67:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kclient[m[K’
+   25 |   rclcpp::Client<example_interfaces::srv::convertTime>::SharedPtr [01;31m[Kclient[m[K =
+      |                                                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:28:60:[m[K [01;31m[Kerror: [m[K‘[01m[KconvertTime[m[K’ is not a member of ‘[01m[Kexample_interfaces::srv[m[K’
+   28 |   auto request = std::make_shared<example_interfaces::srv::[01;31m[KconvertTime[m[K::Request>();
+      |                                                            [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:28:60:[m[K [01;31m[Kerror: [m[K‘[01m[KconvertTime[m[K’ is not a member of ‘[01m[Kexample_interfaces::srv[m[K’
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:28:23:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   28 |   auto request = std::[01;31m[Kmake_shared<example_interfaces::srv::convertTime::Request>[m[K();
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:28:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   28 |   auto request = std::make_shared<example_interfaces::srv::convertTime::Request>([01;31m[K)[m[K;
+      |                                                                                  [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:144[m[K,
+                 from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:28:82:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   28 |   auto request = std::make_shared<example_interfaces::srv::convertTime::Request>([01;31m[K)[m[K;
+      |                                                                                  [01;31m[K^[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:58:1:[m[K [01;31m[Kerror: [m[Kversion control conflict marker in file
+   58 | [01;31m[K>>>>>>>[m[K parent of 7aa59ed... client/server branch initial commit
+      | [01;31m[K^~~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:32:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+   32 |   while (![01;31m[Kclient[m[K->wait_for_service(5s)) {
+      |           [01;31m[K^~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp:40:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient[m[K’ was not declared in this scope
+   40 |   auto result = [01;31m[Kclient[m[K->async_send_request(request);
+      |                 [01;31m[K^~~~~~[m[K
+[ 62%] Built target package1__rosidl_typesupport_fastrtps_cpp
+[ 65%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target package1__rosidl_typesupport_fastrtps_c[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/package1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/package1/msg/detail/time__type_support_c.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/package1__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/package1/srv/detail/convert_time__type_support_c.cpp.o[0m
+make[2]: *** [CMakeFiles/client.dir/build.make:63: CMakeFiles/client.dir/src/convert_time_client.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/client.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 72%] [32m[1mLinking CXX shared library libpackage1__rosidl_typesupport_fastrtps_c.so[0m
+[ 72%] Built target package1__rosidl_typesupport_fastrtps_c
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:152: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

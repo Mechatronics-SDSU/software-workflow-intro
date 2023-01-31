@@ -1,0 +1,28 @@
+[0.223s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8
+[0.276s] [35m[1mScanning dependencies of target talker[0m
+[0.315s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[1.889s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:81:22:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-fconcepts[m[K’
+[1.890s]    81 |     void makeRequest([01;35m[Kauto[m[K message, rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client)
+[1.890s]       |                      [01;35m[K^~~~[m[K
+[1.925s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::timer_callback()[m[K’:
+[1.926s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:102:87:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+[1.926s]   102 | lient<time_types::srv::ConvertTime>::SharedPtr client_ = buildClient([01;31m[Knode[m[K);
+[1.926s]       |                                                                      [01;31m[K^~~~[m[K
+[1.926s]       |                                                                      [32m[KNode[m[K
+[1.926s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:104:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPublisherClient::makeRequest(time_types::msg::Time_<std::allocator<void> >&)[m[K’
+[1.926s]   104 |         makeRequest(message[01;31m[K)[m[K;
+[1.926s]       |                            [01;31m[K^[m[K
+[1.927s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:81:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class auto:12> void PublisherClient::makeRequest(auto:12, rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr)[m[K’
+[1.927s]    81 |     void [01;36m[KmakeRequest[m[K(auto message, rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client)
+[1.927s]       |          [01;36m[K^~~~~~~~~~~[m[K
+[1.927s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:81:10:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.927s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:104:28:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.927s]   104 |         makeRequest(message[01;36m[K)[m[K;
+[1.927s]       |                            [01;36m[K^[m[K
+[1.929s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:106:51:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ was not declared in this scope
+[1.929s]   106 |         auto result = client_->async_send_request([01;31m[Krequest[m[K);
+[1.929s]       |                                                   [01;31m[K^~~~~~~[m[K
+[3.240s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[3.241s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+[3.242s] make: *** [Makefile:141: all] Error 2
+[3.247s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8

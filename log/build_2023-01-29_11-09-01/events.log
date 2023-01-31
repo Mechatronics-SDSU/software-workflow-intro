@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.003079] (-) JobUnselected: {'identifier': 'package2'}
+[0.003799] (-) JobUnselected: {'identifier': 'time_types'}
+[0.004198] (package1) JobQueued: {'identifier': 'package1', 'dependencies': OrderedDict([('time_types', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types')])}
+[0.004331] (package1) JobStarted: {'identifier': 'package1'}
+[0.099623] (-) TimerEvent: {}
+[0.200405] (-) TimerEvent: {}
+[0.301275] (-) TimerEvent: {}
+[0.327906] (package1) JobProgress: {'identifier': 'package1', 'progress': 'cmake'}
+[0.333718] (package1) JobProgress: {'identifier': 'package1', 'progress': 'build'}
+[0.335457] (package1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1', '--', '-j8', '-l8'], 'cwd': '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'conner'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types/lib:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/conner'), ('OLDPWD', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'conner'), ('NAME', 'ConnerSurface'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/conner/apps/nvm:/mnt/c/conner/apps/nvm:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/conner/apps/Python/Python310/Scripts/:/mnt/c/conner/apps/Python/Python310/:/mnt/c/Users/conne/AppData/Local/Microsoft/WindowsApps:/mnt/c/conner/apps/vscode/bin:/mnt/c/Conner/Apps/nvm/v16.17.0:/mnt/c/Conner/Apps/nvm:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types/lib/python3.8/site-packages:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/python3.8/site-packages:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1:/opt/ros/foxy'), ('WSLENV', '')]), 'shell': False}
+[0.386886] (package1) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.401451] (-) TimerEvent: {}
+[0.433433] (package1) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.433824] (package1) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.501615] (-) TimerEvent: {}
+[0.602140] (-) TimerEvent: {}
+[0.655349] (package1) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.702317] (-) TimerEvent: {}
+[0.802814] (package1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.803120] (-) TimerEvent: {}
+[0.805811] (package1) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.903531] (-) TimerEvent: {}
+[1.004379] (-) TimerEvent: {}
+[1.105341] (-) TimerEvent: {}
+[1.206149] (-) TimerEvent: {}
+[1.307033] (-) TimerEvent: {}
+[1.407826] (-) TimerEvent: {}
+[1.508328] (-) TimerEvent: {}
+[1.609004] (-) TimerEvent: {}
+[1.709831] (-) TimerEvent: {}
+[1.810658] (-) TimerEvent: {}
+[1.911550] (-) TimerEvent: {}
+[2.012290] (-) TimerEvent: {}
+[2.113124] (-) TimerEvent: {}
+[2.213788] (-) TimerEvent: {}
+[2.314617] (-) TimerEvent: {}
+[2.415395] (-) TimerEvent: {}
+[2.516307] (-) TimerEvent: {}
+[2.617114] (-) TimerEvent: {}
+[2.717970] (-) TimerEvent: {}
+[2.819013] (-) TimerEvent: {}
+[2.919821] (-) TimerEvent: {}
+[3.020567] (-) TimerEvent: {}
+[3.121383] (-) TimerEvent: {}
+[3.222090] (-) TimerEvent: {}
+[3.322662] (-) TimerEvent: {}
+[3.423192] (-) TimerEvent: {}
+[3.523678] (-) TimerEvent: {}
+[3.624263] (-) TimerEvent: {}
+[3.724715] (-) TimerEvent: {}
+[3.825216] (-) TimerEvent: {}
+[3.925853] (-) TimerEvent: {}
+[4.026699] (-) TimerEvent: {}
+[4.127278] (-) TimerEvent: {}
+[4.228022] (-) TimerEvent: {}
+[4.328636] (-) TimerEvent: {}
+[4.429338] (-) TimerEvent: {}
+[4.529972] (-) TimerEvent: {}
+[4.630508] (-) TimerEvent: {}
+[4.730940] (-) TimerEvent: {}
+[4.831415] (-) TimerEvent: {}
+[4.931847] (-) TimerEvent: {}
+[5.032252] (-) TimerEvent: {}
+[5.132736] (-) TimerEvent: {}
+[5.233161] (-) TimerEvent: {}
+[5.333787] (-) TimerEvent: {}
+[5.434827] (-) TimerEvent: {}
+[5.535696] (-) TimerEvent: {}
+[5.636606] (-) TimerEvent: {}
+[5.737428] (-) TimerEvent: {}
+[5.838422] (-) TimerEvent: {}
+[5.938880] (-) TimerEvent: {}
+[6.039452] (-) TimerEvent: {}
+[6.140123] (-) TimerEvent: {}
+[6.240997] (-) TimerEvent: {}
+[6.341883] (-) TimerEvent: {}
+[6.442706] (-) TimerEvent: {}
+[6.543262] (-) TimerEvent: {}
+[6.643739] (-) TimerEvent: {}
+[6.744656] (package1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.745144] (-) TimerEvent: {}
+[6.792103] (package1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[6.794109] (package1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.845474] (-) TimerEvent: {}
+[6.946334] (-) TimerEvent: {}
+[6.956404] (package1) StdoutLine: {'line': b'-- Found time_types: 0.0.0 (/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types/share/time_types/cmake)\n'}
+[6.964963] (package1) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[6.974908] (package1) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[6.975346] (package1) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'src/msg/Time.msg' doesn't\n"}
+[6.975534] (package1) StderrLine: {'line': b'  exist relative to the CMAKE_CURRENT_SOURCE_DIR\n'}
+[6.975700] (package1) StderrLine: {'line': b"  '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1'\n"}
+[6.975776] (package1) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.975913] (package1) StderrLine: {'line': b'  CMakeLists.txt:21 (rosidl_generate_interfaces)\n'}
+[6.976161] (package1) StderrLine: {'line': b'\n'}
+[6.976365] (package1) StderrLine: {'line': b'\n'}
+[6.976808] (package1) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.976910] (package1) StdoutLine: {'line': b'See also "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1/CMakeFiles/CMakeOutput.log".\n'}
+[6.977049] (package1) StdoutLine: {'line': b'See also "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1/CMakeFiles/CMakeError.log".\n'}
+[6.984534] (package1) StderrLine: {'line': b'make: *** [Makefile:1032: cmake_check_build_system] Error 1\n'}
+[6.987331] (package1) CommandEnded: {'returncode': 2}
+[7.046577] (-) TimerEvent: {}
+[7.139963] (package1) JobEnded: {'identifier': 'package1', 'rc': 2}
+[7.146739] (-) TimerEvent: {}
+[7.151710] (-) EventReactorShutdown: {}

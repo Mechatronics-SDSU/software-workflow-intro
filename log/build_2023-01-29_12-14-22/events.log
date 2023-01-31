@@ -1,0 +1,178 @@
+[0.000000] (-) TimerEvent: {}
+[0.001083] (-) JobUnselected: {'identifier': 'package2'}
+[0.001312] (-) JobUnselected: {'identifier': 'time_types'}
+[0.001490] (package1) JobQueued: {'identifier': 'package1', 'dependencies': OrderedDict([('time_types', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types')])}
+[0.001663] (package1) JobStarted: {'identifier': 'package1'}
+[0.094714] (-) TimerEvent: {}
+[0.195741] (-) TimerEvent: {}
+[0.296626] (-) TimerEvent: {}
+[0.349171] (package1) JobProgress: {'identifier': 'package1', 'progress': 'cmake'}
+[0.351431] (package1) JobProgress: {'identifier': 'package1', 'progress': 'build'}
+[0.353510] (package1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1', '--', '-j8', '-l8'], 'cwd': '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'conner'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types/lib:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/conner'), ('OLDPWD', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'conner'), ('NAME', 'ConnerSurface'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/conner/apps/nvm:/mnt/c/conner/apps/nvm:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/conner/apps/Python/Python310/Scripts/:/mnt/c/conner/apps/Python/Python310/:/mnt/c/Users/conne/AppData/Local/Microsoft/WindowsApps:/mnt/c/conner/apps/vscode/bin:/mnt/c/Conner/Apps/nvm/v16.17.0:/mnt/c/Conner/Apps/nvm:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types/lib/python3.8/site-packages:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2/lib/python3.8/site-packages:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package2:/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1:/opt/ros/foxy'), ('WSLENV', '')]), 'shell': False}
+[0.396963] (-) TimerEvent: {}
+[0.433138] (package1) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[0.497168] (-) TimerEvent: {}
+[0.512902] (package1) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[0.597374] (-) TimerEvent: {}
+[0.697998] (-) TimerEvent: {}
+[0.798726] (-) TimerEvent: {}
+[0.899609] (-) TimerEvent: {}
+[1.000585] (-) TimerEvent: {}
+[1.101343] (-) TimerEvent: {}
+[1.202250] (-) TimerEvent: {}
+[1.303033] (-) TimerEvent: {}
+[1.404498] (-) TimerEvent: {}
+[1.506271] (-) TimerEvent: {}
+[1.607483] (-) TimerEvent: {}
+[1.708793] (-) TimerEvent: {}
+[1.810145] (-) TimerEvent: {}
+[1.911011] (-) TimerEvent: {}
+[2.011834] (-) TimerEvent: {}
+[2.112681] (-) TimerEvent: {}
+[2.213407] (-) TimerEvent: {}
+[2.313986] (-) TimerEvent: {}
+[2.414676] (-) TimerEvent: {}
+[2.515219] (-) TimerEvent: {}
+[2.615960] (-) TimerEvent: {}
+[2.716774] (-) TimerEvent: {}
+[2.807597] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:74:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksrv\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ktime_types\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.808272] (package1) StderrLine: {'line': b'   74 |   rclcpp::Client<time_types::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::ConvertTime>::SharedPtr client_;\n'}
+[2.808925] (package1) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.809244] (package1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/srv/describe_parameters.hpp:7\x1b[m\x1b[K,\n'}
+[2.809458] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_client.hpp:26\x1b[m\x1b[K,\n'}
+[2.809768] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:151\x1b[m\x1b[K,\n'}
+[2.810079] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:19\x1b[m\x1b[K:\n'}
+[2.810351] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.810626] (package1) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Ksrv\x1b[m\x1b[K\n'}
+[2.810917] (package1) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.811442] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:74:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksrv\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ktime_types\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.811618] (package1) StderrLine: {'line': b'   74 |   rclcpp::Client<time_types::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::ConvertTime>::SharedPtr client_;\n'}
+[2.811697] (package1) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.811834] (package1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/srv/describe_parameters.hpp:7\x1b[m\x1b[K,\n'}
+[2.811966] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_client.hpp:26\x1b[m\x1b[K,\n'}
+[2.812040] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:151\x1b[m\x1b[K,\n'}
+[2.812109] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:19\x1b[m\x1b[K:\n'}
+[2.812181] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.812307] (package1) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Ksrv\x1b[m\x1b[K\n'}
+[2.812387] (package1) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.812464] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:74:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.812732] (package1) StderrLine: {'line': b'   74 |   rclcpp::Client<time_types::srv::ConvertTime\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr client_;\n'}
+[2.812849] (package1) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.812982] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:74:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.813060] (package1) StderrLine: {'line': b'   74 |   rclcpp::Client<time_types::srv::ConvertTime>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K client_;\n'}
+[2.813178] (package1) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.813318] (package1) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.813416] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:74:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[2.813567] (package1) StderrLine: {'line': b'   74 |   rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr \x1b[01;31m\x1b[Kclient_\x1b[m\x1b[K;\n'}
+[2.813639] (package1) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.817143] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KPublisherClient::PublisherClient()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.817696] (-) TimerEvent: {}
+[2.818234] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:35:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.819359] (package1) StderrLine: {'line': b'   35 |     \x1b[01;31m\x1b[Kclient_\x1b[m\x1b[K = this->create_client<time_types::srv::ConvertTime>("convert_time");\n'}
+[2.819688] (package1) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.820001] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:35:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksrv\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ktime_types\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.820322] (package1) StderrLine: {'line': b'   35 |     client_ = this->create_client<time_types::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::ConvertTime>("convert_time");\n'}
+[2.820627] (package1) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.820950] (package1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/srv/describe_parameters.hpp:7\x1b[m\x1b[K,\n'}
+[2.821166] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_client.hpp:26\x1b[m\x1b[K,\n'}
+[2.821454] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:151\x1b[m\x1b[K,\n'}
+[2.821764] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:19\x1b[m\x1b[K:\n'}
+[2.822061] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.822355] (package1) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Ksrv\x1b[m\x1b[K\n'}
+[2.822687] (package1) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.822956] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:35:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksrv\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ktime_types\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.823227] (package1) StderrLine: {'line': b'   35 |     client_ = this->create_client<time_types::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::ConvertTime>("convert_time");\n'}
+[2.823515] (package1) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.823850] (package1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/srv/describe_parameters.hpp:7\x1b[m\x1b[K,\n'}
+[2.824171] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_client.hpp:26\x1b[m\x1b[K,\n'}
+[2.824631] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:151\x1b[m\x1b[K,\n'}
+[2.824980] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:19\x1b[m\x1b[K:\n'}
+[2.825270] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.825543] (package1) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Ksrv\x1b[m\x1b[K\n'}
+[2.825871] (package1) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.826297] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:35:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[2.826617] (package1) StderrLine: {'line': b'   35 |     client_ = this->\x1b[01;31m\x1b[Kcreate_client<time_types::srv::ConvertTime>\x1b[m\x1b[K("convert_time");\n'}
+[2.826948] (package1) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.827603] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:35:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KPublisherClient::create_client<<expression error> >(const char [13])\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.828024] (package1) StderrLine: {'line': b'   35 |     client_ = this->create_client<time_types::srv::ConvertTime>("convert_time"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.828452] (package1) StderrLine: {'line': b'      |                                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.828901] (package1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.829327] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.829775] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.830208] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:19\x1b[m\x1b[K:\n'}
+[2.830639] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:246:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.831073] (package1) StderrLine: {'line': b'  246 |   \x1b[01;36m\x1b[Kcreate_client\x1b[m\x1b[K(\n'}
+[2.831503] (package1) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.831950] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:246:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.832383] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:35:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.833041] (package1) StderrLine: {'line': b'   35 |     client_ = this->create_client<time_types::srv::ConvertTime>("convert_time"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.833502] (package1) StderrLine: {'line': b'      |                                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.845567] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PublisherClient::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.846097] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:56:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksrv\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ktime_types\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.847024] (package1) StderrLine: {'line': b'   56 |     auto request = std::make_shared<time_types::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::ConvertTime::Request>();\n'}
+[2.847200] (package1) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.847368] (package1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/srv/describe_parameters.hpp:7\x1b[m\x1b[K,\n'}
+[2.847498] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_client.hpp:26\x1b[m\x1b[K,\n'}
+[2.847621] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:151\x1b[m\x1b[K,\n'}
+[2.847766] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:19\x1b[m\x1b[K:\n'}
+[2.847912] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.847991] (package1) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Ksrv\x1b[m\x1b[K\n'}
+[2.848125] (package1) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.848201] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:56:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksrv\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ktime_types\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.848333] (package1) StderrLine: {'line': b'   56 |     auto request = std::make_shared<time_types::\x1b[01;31m\x1b[Ksrv\x1b[m\x1b[K::ConvertTime::Request>();\n'}
+[2.848466] (package1) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.848575] (package1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/srv/describe_parameters.hpp:7\x1b[m\x1b[K,\n'}
+[2.848713] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_client.hpp:26\x1b[m\x1b[K,\n'}
+[2.848840] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:151\x1b[m\x1b[K,\n'}
+[2.848971] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:19\x1b[m\x1b[K:\n'}
+[2.849377] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:26:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::srv\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.849570] (package1) StderrLine: {'line': b'   26 | namespace \x1b[01;36m\x1b[Ksrv\x1b[m\x1b[K\n'}
+[2.849764] (package1) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.849942] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:56:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[2.850111] (package1) StderrLine: {'line': b'   56 |     auto request = std::\x1b[01;31m\x1b[Kmake_shared<time_types::srv::ConvertTime::Request>\x1b[m\x1b[K();\n'}
+[2.850272] (package1) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.850399] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:56:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.850537] (package1) StderrLine: {'line': b'   56 |     auto request = std::make_shared<time_types::srv::ConvertTime::Request>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.850700] (package1) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.850890] (package1) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[2.851054] (package1) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:16\x1b[m\x1b[K:\n'}
+[2.851156] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:714:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.851645] (package1) StderrLine: {'line': b'  714 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[2.851836] (package1) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.851998] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:714:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.852159] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:56:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.852271] (package1) StderrLine: {'line': b'   56 |     auto request = std::make_shared<time_types::srv::ConvertTime::Request>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.852416] (package1) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.852649] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:58:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclient\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.852843] (package1) StderrLine: {'line': b'   58 |     \x1b[01;31m\x1b[Kclient\x1b[m\x1b[K->wait_for_service(4s)\n'}
+[2.853040] (package1) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.853228] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:61:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KNode\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.853379] (package1) StderrLine: {'line': b'   61 |     if (rclcpp::spin_until_future_complete(\x1b[01;31m\x1b[Knode\x1b[m\x1b[K, result) ==\n'}
+[2.853543] (package1) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.853760] (package1) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[KNode\x1b[m\x1b[K\n'}
+[2.854221] (package1) StderrLine: {'line': b'\x1b[01m\x1b[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:61:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kresult\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.854393] (package1) StderrLine: {'line': b'   61 |     if (rclcpp::spin_until_future_complete(node, \x1b[01;31m\x1b[Kresult\x1b[m\x1b[K) ==\n'}
+[2.854563] (package1) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.917982] (-) TimerEvent: {}
+[3.018705] (-) TimerEvent: {}
+[3.119470] (-) TimerEvent: {}
+[3.220200] (-) TimerEvent: {}
+[3.320958] (-) TimerEvent: {}
+[3.421635] (-) TimerEvent: {}
+[3.522394] (-) TimerEvent: {}
+[3.623476] (-) TimerEvent: {}
+[3.724170] (-) TimerEvent: {}
+[3.824792] (-) TimerEvent: {}
+[3.925406] (-) TimerEvent: {}
+[4.026240] (-) TimerEvent: {}
+[4.127278] (-) TimerEvent: {}
+[4.227946] (-) TimerEvent: {}
+[4.328680] (-) TimerEvent: {}
+[4.429426] (-) TimerEvent: {}
+[4.468173] (package1) StderrLine: {'line': b'make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1\n'}
+[4.469271] (package1) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2\n'}
+[4.469689] (package1) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.473840] (package1) CommandEnded: {'returncode': 2}
+[4.529849] (-) TimerEvent: {}
+[4.610016] (package1) JobEnded: {'identifier': 'package1', 'rc': 2}
+[4.622285] (-) EventReactorShutdown: {}

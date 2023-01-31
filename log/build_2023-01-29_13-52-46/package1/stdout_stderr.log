@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:72:16:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+   72 |   while (rclcpp[01;31m[K.[m[Kok()) {
+      |                [01;31m[K^[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:73:11:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+   73 |     rclcpp[01;31m[K.[m[Kspin_once(std::make_shared<PublisherClient>());
+      |           [01;31m[K^[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:74:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfuture[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::future[m[K’?
+   74 |     if ([01;31m[Kfuture[m[K.done()){
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Kstd::future[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:20[m[K:
+[01m[K/usr/include/c++/9/future:125:11:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::future[m[K’ declared here
+  125 |     class [01;36m[Kfuture[m[K;
+      |           [01;36m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

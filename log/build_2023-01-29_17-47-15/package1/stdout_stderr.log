@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:93:60:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-fconcepts[m[K’
+   93 |     void processResult(std::shared_ptr<rclcpp::Node> node, [01;35m[Kauto[m[K result)
+      |                                                            [01;35m[K^~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::timer_callback()[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:117:21:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPublisherClient::makeRequest()[m[K’
+  117 |         makeRequest([01;31m[K)[m[K;
+      |                     [01;31m[K^[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:81:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid PublisherClient::makeRequest(rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr)[m[K’
+   81 |     void [01;36m[KmakeRequest[m[K(rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client_ )
+      |          [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:81:10:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

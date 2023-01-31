@@ -1,0 +1,24 @@
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:81:22:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-fconcepts[m[K’
+   81 |     void makeRequest([01;35m[Kauto[m[K message, rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client)
+      |                      [01;35m[K^~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::timer_callback()[m[K’:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:102:87:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  102 | lient<time_types::srv::ConvertTime>::SharedPtr client_ = buildClient([01;31m[Knode[m[K);
+      |                                                                      [01;31m[K^~~~[m[K
+      |                                                                      [32m[KNode[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:104:28:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPublisherClient::makeRequest(time_types::msg::Time_<std::allocator<void> >&)[m[K’
+  104 |         makeRequest(message[01;31m[K)[m[K;
+      |                            [01;31m[K^[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:81:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class auto:12> void PublisherClient::makeRequest(auto:12, rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr)[m[K’
+   81 |     void [01;36m[KmakeRequest[m[K(auto message, rclcpp::Client<time_types::srv::ConvertTime>::SharedPtr client)
+      |          [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:81:10:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:104:28:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+  104 |         makeRequest(message[01;36m[K)[m[K;
+      |                            [01;36m[K^[m[K
+[01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:106:51:[m[K [01;31m[Kerror: [m[K‘[01m[Krequest[m[K’ was not declared in this scope
+  106 |         auto result = client_->async_send_request([01;31m[Krequest[m[K);
+      |                                                   [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

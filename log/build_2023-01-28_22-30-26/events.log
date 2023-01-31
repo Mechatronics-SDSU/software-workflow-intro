@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.001797] (-) JobUnselected: {'identifier': 'package2'}
+[0.001953] (package1) JobQueued: {'identifier': 'package1', 'dependencies': OrderedDict()}
+[0.002096] (package1) JobStarted: {'identifier': 'package1'}
+[0.020407] (package1) JobProgress: {'identifier': 'package1', 'progress': 'cmake'}
+[0.022297] (package1) Command: {'cmd': ['/usr/bin/cmake', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1', '-DCMAKE_INSTALL_PREFIX=/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/package1'], 'cwd': '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'conner'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/conner'), ('OLDPWD', '/home/conner/mechatronics'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'conner'), ('NAME', 'ConnerSurface'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/conner/apps/nvm:/mnt/c/conner/apps/nvm:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/conner/apps/Python/Python310/Scripts/:/mnt/c/conner/apps/Python/Python310/:/mnt/c/Users/conne/AppData/Local/Microsoft/WindowsApps:/mnt/c/conner/apps/vscode/bin:/mnt/c/Conner/Apps/nvm/v16.17.0:/mnt/c/Conner/Apps/nvm:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.065725] (package1) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.097983] (-) TimerEvent: {}
+[0.117765] (package1) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.118545] (package1) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.198269] (-) TimerEvent: {}
+[0.299070] (-) TimerEvent: {}
+[0.399961] (-) TimerEvent: {}
+[0.405017] (package1) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.500296] (-) TimerEvent: {}
+[0.601365] (-) TimerEvent: {}
+[0.702059] (-) TimerEvent: {}
+[0.802737] (-) TimerEvent: {}
+[0.814219] (package1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.821598] (package1) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.903168] (-) TimerEvent: {}
+[1.004081] (-) TimerEvent: {}
+[1.104996] (-) TimerEvent: {}
+[1.205778] (-) TimerEvent: {}
+[1.306520] (-) TimerEvent: {}
+[1.407317] (-) TimerEvent: {}
+[1.508240] (-) TimerEvent: {}
+[1.608868] (-) TimerEvent: {}
+[1.709483] (-) TimerEvent: {}
+[1.810153] (-) TimerEvent: {}
+[1.910860] (-) TimerEvent: {}
+[2.011753] (-) TimerEvent: {}
+[2.112702] (-) TimerEvent: {}
+[2.213578] (-) TimerEvent: {}
+[2.314481] (-) TimerEvent: {}
+[2.415309] (-) TimerEvent: {}
+[2.516354] (-) TimerEvent: {}
+[2.617193] (-) TimerEvent: {}
+[2.717958] (-) TimerEvent: {}
+[2.818722] (-) TimerEvent: {}
+[2.919565] (-) TimerEvent: {}
+[3.020293] (-) TimerEvent: {}
+[3.121123] (-) TimerEvent: {}
+[3.222007] (-) TimerEvent: {}
+[3.322751] (-) TimerEvent: {}
+[3.423533] (-) TimerEvent: {}
+[3.524400] (-) TimerEvent: {}
+[3.625277] (-) TimerEvent: {}
+[3.726055] (-) TimerEvent: {}
+[3.826708] (-) TimerEvent: {}
+[3.927437] (-) TimerEvent: {}
+[4.028082] (-) TimerEvent: {}
+[4.128729] (-) TimerEvent: {}
+[4.229646] (-) TimerEvent: {}
+[4.330505] (-) TimerEvent: {}
+[4.431523] (-) TimerEvent: {}
+[4.532651] (-) TimerEvent: {}
+[4.633636] (-) TimerEvent: {}
+[4.734538] (-) TimerEvent: {}
+[4.835750] (-) TimerEvent: {}
+[4.936740] (-) TimerEvent: {}
+[5.037866] (-) TimerEvent: {}
+[5.138835] (-) TimerEvent: {}
+[5.239545] (-) TimerEvent: {}
+[5.340142] (-) TimerEvent: {}
+[5.440906] (-) TimerEvent: {}
+[5.541689] (-) TimerEvent: {}
+[5.642461] (-) TimerEvent: {}
+[5.743259] (-) TimerEvent: {}
+[5.844273] (-) TimerEvent: {}
+[5.945133] (-) TimerEvent: {}
+[6.046062] (-) TimerEvent: {}
+[6.146904] (-) TimerEvent: {}
+[6.247817] (-) TimerEvent: {}
+[6.348477] (-) TimerEvent: {}
+[6.449335] (-) TimerEvent: {}
+[6.550082] (-) TimerEvent: {}
+[6.650946] (-) TimerEvent: {}
+[6.751898] (-) TimerEvent: {}
+[6.852796] (-) TimerEvent: {}
+[6.956173] (-) TimerEvent: {}
+[7.057066] (-) TimerEvent: {}
+[7.157834] (-) TimerEvent: {}
+[7.258889] (-) TimerEvent: {}
+[7.359642] (-) TimerEvent: {}
+[7.460406] (-) TimerEvent: {}
+[7.561094] (-) TimerEvent: {}
+[7.661916] (-) TimerEvent: {}
+[7.762660] (-) TimerEvent: {}
+[7.863589] (-) TimerEvent: {}
+[7.964255] (-) TimerEvent: {}
+[8.065260] (-) TimerEvent: {}
+[8.166200] (-) TimerEvent: {}
+[8.267010] (-) TimerEvent: {}
+[8.368078] (-) TimerEvent: {}
+[8.469096] (-) TimerEvent: {}
+[8.570223] (-) TimerEvent: {}
+[8.670954] (-) TimerEvent: {}
+[8.771812] (-) TimerEvent: {}
+[8.872980] (-) TimerEvent: {}
+[8.973946] (-) TimerEvent: {}
+[9.074841] (-) TimerEvent: {}
+[9.175824] (-) TimerEvent: {}
+[9.276790] (-) TimerEvent: {}
+[9.377430] (-) TimerEvent: {}
+[9.478203] (-) TimerEvent: {}
+[9.579353] (-) TimerEvent: {}
+[9.680166] (-) TimerEvent: {}
+[9.780927] (-) TimerEvent: {}
+[9.881578] (-) TimerEvent: {}
+[9.982435] (-) TimerEvent: {}
+[10.082994] (-) TimerEvent: {}
+[10.183545] (-) TimerEvent: {}
+[10.284107] (-) TimerEvent: {}
+[10.385215] (-) TimerEvent: {}
+[10.485909] (-) TimerEvent: {}
+[10.587564] (-) TimerEvent: {}
+[10.688884] (-) TimerEvent: {}
+[10.789858] (-) TimerEvent: {}
+[10.890826] (-) TimerEvent: {}
+[10.989103] (package1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.990949] (-) TimerEvent: {}
+[11.091801] (-) TimerEvent: {}
+[11.094596] (package1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[11.096174] (package1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.192013] (-) TimerEvent: {}
+[11.259321] (package1) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)\n'}
+[11.295223] (-) TimerEvent: {}
+[11.382013] (package1) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[11.395394] (-) TimerEvent: {}
+[11.424435] (package1) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[11.495739] (-) TimerEvent: {}
+[11.596561] (-) TimerEvent: {}
+[11.697252] (-) TimerEvent: {}
+[11.702966] (package1) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[11.703865] (package1) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name package1\n'}
+[11.704229] (package1) StderrLine: {'line': b'  --arguments-file\n'}
+[11.704433] (package1) StderrLine: {'line': b'  /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1/rosidl_adapter__arguments__package1.json\n'}
+[11.705266] (package1) StderrLine: {'line': b'  --output-dir\n'}
+[11.705680] (package1) StderrLine: {'line': b'  /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1/rosidl_adapter/package1\n'}
+[11.705940] (package1) StderrLine: {'line': b'  --output-file\n'}
+[11.706156] (package1) StderrLine: {'line': b'  /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1/rosidl_adapter/package1.idls)\n'}
+[11.706362] (package1) StderrLine: {'line': b'  returned error code 1:\n'}
+[11.706615] (package1) StderrLine: {'line': b'\n'}
+[11.706822] (package1) StderrLine: {'line': b"  Error processing 'int64 UnixTime' of 'package1/ConvertTime_Request':\n"}
+[11.707032] (package1) StderrLine: {'line': b"  ''UnixTime' is an invalid field name.  It should have the pattern\n"}
+[11.707449] (package1) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''\n"}
+[11.708106] (package1) StderrLine: {'line': b'\n'}
+[11.708282] (package1) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[11.708550] (package1) StderrLine: {'line': b'\n'}
+[11.708773] (package1) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[11.709005] (package1) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[11.709249] (package1) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[11.709508] (package1) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[11.709743] (package1) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[11.709972] (package1) StderrLine: {'line': b'      sys.exit(main())\n'}
+[11.710246] (package1) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[11.710555] (package1) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[11.710821] (package1) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[11.711065] (package1) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[11.711458] (package1) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[11.711852] (package1) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[11.712643] (package1) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 852, in parse_service_string\n'}
+[11.714056] (package1) StderrLine: {'line': b'      request_message = parse_message_string(\n'}
+[11.714672] (package1) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 515, in parse_message_string\n'}
+[11.715089] (package1) StderrLine: {'line': b'      fields.append(Field(\n'}
+[11.715268] (package1) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 353, in __init__\n'}
+[11.715473] (package1) StderrLine: {'line': b'      raise NameError(\n'}
+[11.715933] (package1) StderrLine: {'line': b'\n'}
+[11.716110] (package1) StderrLine: {'line': b"  NameError: 'UnixTime' is an invalid field name.  It should have the pattern\n"}
+[11.716282] (package1) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[11.716599] (package1) StderrLine: {'line': b'\n'}
+[11.716950] (package1) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[11.717236] (package1) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[11.717476] (package1) StderrLine: {'line': b'  CMakeLists.txt:19 (rosidl_generate_interfaces)\n'}
+[11.717792] (package1) StderrLine: {'line': b'\n'}
+[11.717947] (package1) StderrLine: {'line': b'\n'}
+[11.718178] (package1) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[11.718375] (package1) StdoutLine: {'line': b'See also "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1/CMakeFiles/CMakeOutput.log".\n'}
+[11.718679] (package1) StdoutLine: {'line': b'See also "/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1/CMakeFiles/CMakeError.log".\n'}
+[11.727585] (package1) CommandEnded: {'returncode': 1}
+[11.776416] (package1) JobEnded: {'identifier': 'package1', 'rc': 1}
+[11.788510] (-) EventReactorShutdown: {}

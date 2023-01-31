@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target talker[0m
+[35m[1mScanning dependencies of target client[0m
+[  2%] Built target package1__cpp
+make[2]: *** No rule to make target '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp', needed by 'CMakeFiles/client.dir/src/convert_time_client.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/client.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 11%] Built target package1__rosidl_generator_c
+[ 20%] Built target package1__rosidl_typesupport_cpp
+[ 30%] Built target package1__rosidl_typesupport_introspection_cpp
+[ 39%] Built target package1__rosidl_typesupport_fastrtps_cpp
+[ 41%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[ 44%] [32m[1mLinking CXX executable talker[0m
+[ 44%] Built target talker
+make: *** [Makefile:141: all] Error 2

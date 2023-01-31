@@ -1,0 +1,29 @@
+[0.377s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8
+[0.444s] [35m[1mScanning dependencies of target talker[0m
+[0.487s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[2.738s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::timer_callback()[m[K’:
+[2.739s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:64:56:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin_until_future_complete(PublisherClient*, std::shared_future<std::shared_ptr<time_types::srv::ConvertTime_Response_<std::allocator<void> > > >&)[m[K’
+[2.739s]    64 |     if (rclcpp::spin_until_future_complete(this, result[01;31m[K)[m[K ==
+[2.739s]       |                                                        [01;31m[K^[m[K
+[2.740s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.740s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:20[m[K:
+[2.740s] [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, const std::shared_future<_Res>&, std::chrono::duration<_Rep, _Period>)[m[K’
+[2.740s]   105 | [01;36m[Kspin_until_future_complete[m[K(
+[2.741s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.741s] [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:105:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.741s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:64:56:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K(PublisherClient*)this[m[K’ (type ‘[01m[KPublisherClient*[m[K’) to type ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+[2.742s]    64 |     if (rclcpp::spin_until_future_complete(this, result[01;36m[K)[m[K ==
+[2.742s]       |                                                        [01;36m[K^[m[K
+[2.742s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.743s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:20[m[K:
+[2.743s] [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:117:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class FutureT, class TimeRepT, class TimeT> rclcpp::FutureReturnCode rclcpp::spin_until_future_complete(std::shared_ptr<_Tp>, const std::shared_future<ResponseT>&, std::chrono::duration<_Rep2, _Period2>)[m[K’
+[2.743s]   117 | [01;36m[Kspin_until_future_complete[m[K(
+[2.743s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.744s] [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:117:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.744s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:64:56:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::shared_ptr<_Tp>[m[K’ and ‘[01m[KPublisherClient*[m[K’
+[2.744s]    64 |     if (rclcpp::spin_until_future_complete(this, result[01;36m[K)[m[K ==
+[2.745s]       |                                                        [01;36m[K^[m[K
+[4.314s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[4.314s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+[4.315s] make: *** [Makefile:141: all] Error 2
+[4.323s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8

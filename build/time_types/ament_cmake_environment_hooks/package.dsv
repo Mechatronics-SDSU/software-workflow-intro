@@ -1,0 +1,4 @@
+source;share/time_types/local_setup.bash
+source;share/time_types/local_setup.dsv
+source;share/time_types/local_setup.sh
+source;share/time_types/local_setup.zsh

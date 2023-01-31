@@ -1,0 +1,82 @@
+[0.034s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2 -- -j8 -l8
+[0.064s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.092s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.092s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.308s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.639s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.642s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.499s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.544s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.545s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.713s] -- Found time_types: 0.0.0 (/home/conner/mechatronics/IntroWorkSpaceCSommerfield/install/time_types/share/time_types/cmake)
+[4.723s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[4.836s] -- Configuring done
+[4.854s] -- Generating done
+[4.860s] -- Build files have been written to: /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2
+[4.900s] [35m[1mScanning dependencies of target listener[0m
+[4.939s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[6.514s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:41:29:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_types[m[K’ does not name a type; did you mean ‘[01m[Ktimespec[m[K’?
+[6.514s]    41 |   void topic_callback(const [01;31m[Ktime_types[m[K::msg::Time::SharedPtr msg) const
+[6.514s]       |                             [01;31m[K^~~~~~~~~~[m[K
+[6.514s]       |                             [32m[Ktimespec[m[K
+[6.514s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:41:44:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[6.515s]    41 |   void topic_callback(const time_types::msg[01;31m[K::[m[KTime::SharedPtr msg) const
+[6.515s]       |                                            [01;31m[K^~[m[K
+[6.515s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:41:44:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[6.515s]    41 |   void topic_callback[34m[K([m[Kconst time_types::msg[01;31m[K:[m[K[32m[K:[m[KTime::SharedPtr msg) const
+[6.515s]       |                      [34m[K~[m[K                     [01;31m[K^[m[K[32m[K~[m[K
+[6.515s]       |                                            [32m[K)[m[K
+[6.515s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:41:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[6.515s]    41 |   void topic_callback(const time_types::[01;31m[Kmsg[m[K::Time::SharedPtr msg) const
+[6.516s]       |                                         [01;31m[K^~~[m[K
+[6.516s]       |                                            [32m[K;[m[K
+[6.516s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:41:46:[m[K [01;31m[Kerror: [m[K‘[01m[KTime[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type; did you mean ‘[01m[Ktime[m[K’?
+[6.516s]    41 |   void topic_callback(const time_types::msg::[01;31m[KTime[m[K::SharedPtr msg) const
+[6.516s]       |                                              [01;31m[K^~~~[m[K
+[6.516s]       |                                              [32m[Ktime[m[K
+[6.517s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:45:24:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_types[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimespec[m[K’?
+[6.517s]    45 |   rclcpp::Subscription<[01;31m[Ktime_types[m[K::msg::Time>::SharedPtr subscription_;
+[6.517s]       |                        [01;31m[K^~~~~~~~~~[m[K
+[6.517s]       |                        [32m[Ktimespec[m[K
+[6.518s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:45:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.518s]    45 |   rclcpp::Subscription<time_types::msg::Time[01;31m[K>[m[K::SharedPtr subscription_;
+[6.518s]       |                                             [01;31m[K^[m[K
+[6.518s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:45:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[6.518s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:45:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[6.518s]    45 |   rclcpp::Subscription<time_types::msg::Time>::[01;31m[KSharedPtr[m[K subscription_;
+[6.518s]       |                                                [01;31m[K^~~~~~~~~[m[K
+[6.519s]       |                                                         [32m[K;[m[K
+[6.520s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:45:58:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[6.520s]    45 |   rclcpp::Subscription<time_types::msg::Time>::SharedPtr [01;31m[Ksubscription_[m[K;
+[6.520s]       |                                                          [01;31m[K^~~~~~~~~~~~~[m[K
+[6.520s]       |                                                          [32m[Krcl_subscription_t[m[K
+[6.524s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KSubscriberServer::SubscriberServer()[m[K’:
+[6.524s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:29:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[6.524s]    29 |     [01;31m[Ksubscription_[m[K = this->create_subscription<time_type::msg::Time>(
+[6.524s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[6.524s]       |     [32m[Krcl_subscription_t[m[K
+[6.526s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:29:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ktime_type[m[K’ was not declared in this scope; did you mean ‘[01m[Ktime_t[m[K’?
+[6.526s]    29 |     subscription_ = this->create_subscription<[01;31m[Ktime_type[m[K::msg::Time>(
+[6.527s]       |                                               [01;31m[K^~~~~~~~~[m[K
+[6.527s]       |                                               [32m[Ktime_t[m[K
+[6.527s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:29:27:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[6.527s]    29 |     subscription_ = this->[01;31m[Kcreate_subscription<time_type::msg::Time>[m[K(
+[6.527s]       |                           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.538s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:30:84:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KSubscriberServer::create_subscription<<expression error> >(const char [16], int, std::_Bind_helper<false, void (SubscriberServer::*)(...), SubscriberServer*, const std::_Placeholder<1>&>::type)[m[K’
+[6.539s]    30 |       "unix_epoch_time", 10, std::bind(&SubscriberServer::topic_callback, this, _1)[01;31m[K)[m[K;
+[6.539s]       |                                                                                    [01;31m[K^[m[K
+[6.539s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.539s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[6.539s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.539s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:18[m[K:
+[6.540s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[6.540s]   213 |   [01;36m[Kcreate_subscription[m[K(
+[6.540s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[6.540s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.540s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:30:84:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.540s]    30 |       "unix_epoch_time", 10, std::bind(&SubscriberServer::topic_callback, this, _1)[01;31m[K)[m[K;
+[6.540s]       |                                                                                    [01;31m[K^[m[K
+[7.339s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[7.340s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/listener.dir/all] Error 2
+[7.340s] make: *** [Makefile:141: all] Error 2
+[7.344s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2 -- -j8 -l8

@@ -1,0 +1,40 @@
+[0.155s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8
+[0.208s] [35m[1mScanning dependencies of target talker[0m
+[0.239s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[0.352s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:37:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.352s]    62 |     RCLCPP_INFO(this->get_logger(), [01;35m[K"[m[KPublishing Unix Epoch Time\n
+[0.352s]       |                                     [01;35m[K^[m[K
+[0.352s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:63:44:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.352s]    63 |     Expect To Recieve Human Readable Time\n[01;35m[K"[m[K);
+[0.352s]       |                                            [01;35m[K^[m[K
+[0.353s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:86:54:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.353s]    86 |     RCLCPP_INFO(rclcpp::get_logger("timepublisher"), [01;35m[K"[m[KHuman Time Generated\n
+[0.353s]       |                                                      [01;35m[K^[m[K
+[0.353s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:87:20:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[0.353s]    87 |     Date/Time: %s\n[01;35m[K"[m[K, result.get()->humantime.c_str());
+[0.353s]       |                    [01;35m[K^[m[K
+[0.353s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:104:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[0.354s]   104 | }
+[0.354s]       | 
+[1.955s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.955s]    62 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing Unix Epoch Time\n
+[1.955s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.956s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:31:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.956s]    31 | [01;36m[K{[m[K
+[1.956s]       | [01;36m[K^[m[K
+[1.983s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid PublisherClient::timer_callback()[m[K’:
+[1.984s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:5:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[1.984s]    62 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing Unix Epoch Time\n
+[1.984s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[1.984s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.984s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:58:3:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.985s]    58 |   [01;36m[K{[m[K
+[1.985s]       |   [01;36m[K^[m[K
+[1.985s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:[m[K At global scope:
+[1.985s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/publisher_member_function.cpp:62:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[1.985s]    62 |     [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing Unix Epoch Time\n
+[1.985s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[2.909s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher_member_function.cpp.o] Error 1
+[2.910s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+[2.910s] make: *** [Makefile:141: all] Error 2
+[2.914s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8

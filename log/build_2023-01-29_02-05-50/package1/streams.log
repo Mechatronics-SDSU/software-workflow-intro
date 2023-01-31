@@ -1,0 +1,16 @@
+[0.152s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8
+[0.746s] [35m[1mScanning dependencies of target talker[0m
+[0.746s] [35m[1mScanning dependencies of target client[0m
+[0.750s] [  2%] Built target package1__cpp
+[0.768s] make[2]: *** No rule to make target '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package1/src/convert_time_client.cpp', needed by 'CMakeFiles/client.dir/src/convert_time_client.cpp.o'.  Stop.
+[0.768s] make[1]: *** [CMakeFiles/Makefile2:125: CMakeFiles/client.dir/all] Error 2
+[0.768s] make[1]: *** Waiting for unfinished jobs....
+[0.774s] [ 11%] Built target package1__rosidl_generator_c
+[0.824s] [ 20%] Built target package1__rosidl_typesupport_cpp
+[0.829s] [ 30%] Built target package1__rosidl_typesupport_introspection_cpp
+[0.853s] [ 39%] Built target package1__rosidl_typesupport_fastrtps_cpp
+[0.856s] [ 41%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[10.894s] [ 44%] [32m[1mLinking CXX executable talker[0m
+[11.784s] [ 44%] Built target talker
+[11.787s] make: *** [Makefile:141: all] Error 2
+[11.795s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package1 -- -j8 -l8

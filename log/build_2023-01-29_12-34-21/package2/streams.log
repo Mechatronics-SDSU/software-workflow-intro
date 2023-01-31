@@ -1,0 +1,22 @@
+[0.048s] Invoking command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2 -- -j8 -l8
+[0.141s] [35m[1mScanning dependencies of target listener[0m
+[0.203s] [ 50%] [32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o[0m
+[2.205s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:[m[K In constructor ‘[01m[KSubscriberServer::SubscriberServer()[m[K’:
+[2.205s] [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:38:145:[m[K [01;31m[Kerror: [m[K‘[01m[K_2[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_2[m[K’?
+[2.206s]    38 | time", std::bind(&SubscriberServer::send_response_message, this, _1, [01;31m[K_2[m[K));
+[2.206s]       |                                                                      [01;31m[K^~[m[K
+[2.206s]       |                                                                      [32m[Kstd::placeholders::_2[m[K
+[2.207s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/context.hpp:19[m[K,
+[2.207s]                  from [01m[K/opt/ros/foxy/include/rclcpp/contexts/default_context.hpp:18[m[K,
+[2.207s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:32[m[K,
+[2.207s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.208s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.208s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.208s]                  from [01m[K/home/conner/mechatronics/IntroWorkSpaceCSommerfield/src/package2/src/subscriber_member_function.cpp:23[m[K:
+[2.208s] [01m[K/usr/include/c++/9/functional:212:34:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_2[m[K’ declared here
+[2.209s]   212 |     extern const _Placeholder<2> [01;36m[K_2[m[K;
+[2.209s]       |                                  [01;36m[K^~[m[K
+[4.485s] make[2]: *** [CMakeFiles/listener.dir/build.make:63: CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o] Error 1
+[4.486s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/listener.dir/all] Error 2
+[4.486s] make: *** [Makefile:141: all] Error 2
+[4.499s] Invoked command in '/home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/conner/mechatronics/IntroWorkSpaceCSommerfield/build/package2 -- -j8 -l8
