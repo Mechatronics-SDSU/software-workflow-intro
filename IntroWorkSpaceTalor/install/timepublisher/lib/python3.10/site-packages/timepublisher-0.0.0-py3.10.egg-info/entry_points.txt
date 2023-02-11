@@ -1,0 +1,3 @@
+[console_scripts]
+service = timepublisher.publisher:main
+

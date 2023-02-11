@@ -1,0 +1,250 @@
+[0.433s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.433s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f27ca7faf20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f27cb114730>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f27cb114730>>)
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.449s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/root/IntroWorkSpaceTalor'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[0.460s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/timepublisher) by extensions ['ignore', 'ignore_ament_install']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/timepublisher) by extension 'ignore'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/timepublisher) by extension 'ignore_ament_install'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/timepublisher) by extensions ['colcon_pkg']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/timepublisher) by extension 'colcon_pkg'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/timepublisher) by extensions ['colcon_meta']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/timepublisher) by extension 'colcon_meta'
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/timepublisher) by extensions ['ros']
+[0.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/timepublisher) by extension 'ros'
+[0.461s] DEBUG:colcon.colcon_core.package_identification:Package 'src/timepublisher' with type 'ros.ament_python' and name 'timepublisher'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/timesubscriber) by extensions ['ignore', 'ignore_ament_install']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/timesubscriber) by extension 'ignore'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/timesubscriber) by extension 'ignore_ament_install'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/timesubscriber) by extensions ['colcon_pkg']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/timesubscriber) by extension 'colcon_pkg'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/timesubscriber) by extensions ['colcon_meta']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/timesubscriber) by extension 'colcon_meta'
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/timesubscriber) by extensions ['ros']
+[0.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/timesubscriber) by extension 'ros'
+[0.461s] DEBUG:colcon.colcon_core.package_identification:Package 'src/timesubscriber' with type 'ros.ament_python' and name 'timesubscriber'
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.479s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.484s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 343 installed packages in /root/ros2_foxy/ros2-linux
+[0.486s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.499s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.499s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/IntroWorkSpaceTalor/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/IntroWorkSpaceTalor/install/interfaces', 'merge_install': False, 'path': '/root/IntroWorkSpaceTalor/src/interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'timepublisher' build argument 'cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'timepublisher' build argument 'cmake_target' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'timepublisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'timepublisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'timepublisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'timepublisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'timepublisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'timepublisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'timepublisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.500s] DEBUG:colcon.colcon_core.verb:Building package 'timepublisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/IntroWorkSpaceTalor/build/timepublisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/IntroWorkSpaceTalor/install/timepublisher', 'merge_install': False, 'path': '/root/IntroWorkSpaceTalor/src/timepublisher', 'symlink_install': False, 'test_result_base': None}
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'timesubscriber' build argument 'cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'timesubscriber' build argument 'cmake_target' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'timesubscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'timesubscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'timesubscriber' build argument 'cmake_clean_first' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'timesubscriber' build argument 'cmake_force_configure' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'timesubscriber' build argument 'ament_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'timesubscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'timesubscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.502s] DEBUG:colcon.colcon_core.verb:Building package 'timesubscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/root/IntroWorkSpaceTalor/build/timesubscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/root/IntroWorkSpaceTalor/install/timesubscriber', 'merge_install': False, 'path': '/root/IntroWorkSpaceTalor/src/timesubscriber', 'symlink_install': False, 'test_result_base': None}
+[0.502s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.508s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.508s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/root/IntroWorkSpaceTalor/src/interfaces' with build type 'ament_cmake'
+[0.508s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/root/IntroWorkSpaceTalor/src/interfaces'
+[0.513s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.513s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.513s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.520s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/IntroWorkSpaceTalor/src/timepublisher' with build type 'ament_python'
+[0.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('timepublisher', 'ament_prefix_path')
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IntroWorkSpaceTalor/install/timepublisher/share/timepublisher/hook/ament_prefix_path.ps1'
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IntroWorkSpaceTalor/install/timepublisher/share/timepublisher/hook/ament_prefix_path.dsv'
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IntroWorkSpaceTalor/install/timepublisher/share/timepublisher/hook/ament_prefix_path.sh'
+[0.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.532s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/root/IntroWorkSpaceTalor/src/timesubscriber' with build type 'ament_python'
+[0.533s] Level 1:colcon.colcon_core.shell:create_environment_hook('timesubscriber', 'ament_prefix_path')
+[0.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IntroWorkSpaceTalor/install/timesubscriber/share/timesubscriber/hook/ament_prefix_path.ps1'
+[0.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IntroWorkSpaceTalor/install/timesubscriber/share/timesubscriber/hook/ament_prefix_path.dsv'
+[0.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IntroWorkSpaceTalor/install/timesubscriber/share/timesubscriber/hook/ament_prefix_path.sh'
+[0.538s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.538s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IntroWorkSpaceTalor/build/interfaces': /usr/local/bin/cmake --build /root/IntroWorkSpaceTalor/build/interfaces -- -j12 -l12
+[0.715s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/IntroWorkSpaceTalor/src/timepublisher'
+[0.718s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.718s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.897s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/root/IntroWorkSpaceTalor/src/timesubscriber'
+[0.900s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.900s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IntroWorkSpaceTalor/src/timesubscriber': PYTHONPATH=/root/IntroWorkSpaceTalor/build/timesubscriber/prefix_override:/root/IntroWorkSpaceTalor/install/timesubscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/timesubscriber build --build-base /root/IntroWorkSpaceTalor/build/timesubscriber/build install --record /root/IntroWorkSpaceTalor/build/timesubscriber/install.log --single-version-externally-managed
+[1.195s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IntroWorkSpaceTalor/src/timepublisher': PYTHONPATH=/root/IntroWorkSpaceTalor/build/timepublisher/prefix_override:/root/IntroWorkSpaceTalor/install/timepublisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/timepublisher build --build-base /root/IntroWorkSpaceTalor/build/timepublisher/build install --record /root/IntroWorkSpaceTalor/build/timepublisher/install.log --single-version-externally-managed
+[1.401s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IntroWorkSpaceTalor/src/timesubscriber' returned '0': PYTHONPATH=/root/IntroWorkSpaceTalor/build/timesubscriber/prefix_override:/root/IntroWorkSpaceTalor/install/timesubscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/timesubscriber build --build-base /root/IntroWorkSpaceTalor/build/timesubscriber/build install --record /root/IntroWorkSpaceTalor/build/timesubscriber/install.log --single-version-externally-managed
+[1.406s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/timesubscriber' for CMake module files
+[1.406s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/timesubscriber' for CMake config files
+[1.406s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/timesubscriber/lib'
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/timesubscriber/bin'
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/timesubscriber/lib/pkgconfig/timesubscriber.pc'
+[1.407s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/timesubscriber/lib/python3.10/site-packages'
+[1.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('timesubscriber', 'pythonpath')
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IntroWorkSpaceTalor/install/timesubscriber/share/timesubscriber/hook/pythonpath.ps1'
+[1.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IntroWorkSpaceTalor/install/timesubscriber/share/timesubscriber/hook/pythonpath.dsv'
+[1.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IntroWorkSpaceTalor/install/timesubscriber/share/timesubscriber/hook/pythonpath.sh'
+[1.410s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/timesubscriber/bin'
+[1.410s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(timesubscriber)
+[1.412s] INFO:colcon.colcon_core.shell:Creating package script '/root/IntroWorkSpaceTalor/install/timesubscriber/share/timesubscriber/package.ps1'
+[1.414s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/IntroWorkSpaceTalor/install/timesubscriber/share/timesubscriber/package.dsv'
+[1.414s] INFO:colcon.colcon_core.shell:Creating package script '/root/IntroWorkSpaceTalor/install/timesubscriber/share/timesubscriber/package.sh'
+[1.415s] INFO:colcon.colcon_core.shell:Creating package script '/root/IntroWorkSpaceTalor/install/timesubscriber/share/timesubscriber/package.bash'
+[1.415s] INFO:colcon.colcon_core.shell:Creating package script '/root/IntroWorkSpaceTalor/install/timesubscriber/share/timesubscriber/package.zsh'
+[1.416s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/IntroWorkSpaceTalor/install/timesubscriber/share/colcon-core/packages/timesubscriber)
+[1.420s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/timepublisher' for CMake module files
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/timepublisher' for CMake config files
+[1.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IntroWorkSpaceTalor/src/timepublisher' returned '0': PYTHONPATH=/root/IntroWorkSpaceTalor/build/timepublisher/prefix_override:/root/IntroWorkSpaceTalor/install/timepublisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/timepublisher build --build-base /root/IntroWorkSpaceTalor/build/timepublisher/build install --record /root/IntroWorkSpaceTalor/build/timepublisher/install.log --single-version-externally-managed
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/timepublisher/lib'
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/timepublisher/bin'
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/timepublisher/lib/pkgconfig/timepublisher.pc'
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/timepublisher/lib/python3.10/site-packages'
+[1.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('timepublisher', 'pythonpath')
+[1.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IntroWorkSpaceTalor/install/timepublisher/share/timepublisher/hook/pythonpath.ps1'
+[1.424s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IntroWorkSpaceTalor/install/timepublisher/share/timepublisher/hook/pythonpath.dsv'
+[1.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IntroWorkSpaceTalor/install/timepublisher/share/timepublisher/hook/pythonpath.sh'
+[1.425s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/timepublisher/bin'
+[1.425s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(timepublisher)
+[1.427s] INFO:colcon.colcon_core.shell:Creating package script '/root/IntroWorkSpaceTalor/install/timepublisher/share/timepublisher/package.ps1'
+[1.428s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/IntroWorkSpaceTalor/install/timepublisher/share/timepublisher/package.dsv'
+[1.428s] INFO:colcon.colcon_core.shell:Creating package script '/root/IntroWorkSpaceTalor/install/timepublisher/share/timepublisher/package.sh'
+[1.428s] INFO:colcon.colcon_core.shell:Creating package script '/root/IntroWorkSpaceTalor/install/timepublisher/share/timepublisher/package.bash'
+[1.428s] INFO:colcon.colcon_core.shell:Creating package script '/root/IntroWorkSpaceTalor/install/timepublisher/share/timepublisher/package.zsh'
+[1.429s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/IntroWorkSpaceTalor/install/timepublisher/share/colcon-core/packages/timepublisher)
+[3.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IntroWorkSpaceTalor/build/interfaces' returned '0': /usr/local/bin/cmake --build /root/IntroWorkSpaceTalor/build/interfaces -- -j12 -l12
+[3.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/root/IntroWorkSpaceTalor/build/interfaces': /usr/local/bin/cmake --install /root/IntroWorkSpaceTalor/build/interfaces
+[4.050s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[4.054s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/interfaces' for CMake module files
+[4.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/root/IntroWorkSpaceTalor/build/interfaces' returned '0': /usr/local/bin/cmake --install /root/IntroWorkSpaceTalor/build/interfaces
+[4.055s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/interfaces' for CMake config files
+[4.055s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[4.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[4.057s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[4.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[4.058s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/interfaces/lib'
+[4.058s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[4.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[4.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[4.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[4.060s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/interfaces/bin'
+[4.060s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/interfaces/lib/pkgconfig/interfaces.pc'
+[4.060s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/interfaces/lib/python3.10/site-packages'
+[4.061s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/interfaces/bin'
+[4.063s] INFO:colcon.colcon_core.shell:Creating package script '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/package.ps1'
+[4.063s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/package.dsv'
+[4.063s] INFO:colcon.colcon_core.shell:Creating package script '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/package.sh'
+[4.064s] INFO:colcon.colcon_core.shell:Creating package script '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/package.bash'
+[4.064s] INFO:colcon.colcon_core.shell:Creating package script '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/package.zsh'
+[4.064s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/IntroWorkSpaceTalor/install/interfaces/share/colcon-core/packages/interfaces)
+[4.130s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[4.133s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/interfaces' for CMake module files
+[4.133s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/interfaces' for CMake config files
+[4.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[4.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[4.136s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[4.136s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[4.137s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/interfaces/lib'
+[4.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[4.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[4.139s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[4.140s] INFO:colcon.colcon_core.shell:Creating environment hook '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[4.140s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/interfaces/bin'
+[4.140s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/interfaces/lib/pkgconfig/interfaces.pc'
+[4.140s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/interfaces/lib/python3.10/site-packages'
+[4.140s] Level 1:colcon.colcon_core.environment:checking '/root/IntroWorkSpaceTalor/install/interfaces/bin'
+[4.143s] INFO:colcon.colcon_core.shell:Creating package script '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/package.ps1'
+[4.144s] INFO:colcon.colcon_core.shell:Creating package descriptor '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/package.dsv'
+[4.144s] INFO:colcon.colcon_core.shell:Creating package script '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/package.sh'
+[4.144s] INFO:colcon.colcon_core.shell:Creating package script '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/package.bash'
+[4.145s] INFO:colcon.colcon_core.shell:Creating package script '/root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/package.zsh'
+[4.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/root/IntroWorkSpaceTalor/install/interfaces/share/colcon-core/packages/interfaces)
+[4.145s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.146s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.146s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.146s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.281s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.281s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.282s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.282s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.287s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[4.287s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.289s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/IntroWorkSpaceTalor/install/local_setup.ps1'
+[4.290s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/IntroWorkSpaceTalor/install/_local_setup_util_ps1.py'
+[4.291s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/IntroWorkSpaceTalor/install/setup.ps1'
+[4.292s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/IntroWorkSpaceTalor/install/local_setup.sh'
+[4.292s] INFO:colcon.colcon_core.shell:Creating prefix util module '/root/IntroWorkSpaceTalor/install/_local_setup_util_sh.py'
+[4.293s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/IntroWorkSpaceTalor/install/setup.sh'
+[4.294s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/IntroWorkSpaceTalor/install/local_setup.bash'
+[4.294s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/IntroWorkSpaceTalor/install/setup.bash'
+[4.295s] INFO:colcon.colcon_core.shell:Creating prefix script '/root/IntroWorkSpaceTalor/install/local_setup.zsh'
+[4.295s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/root/IntroWorkSpaceTalor/install/setup.zsh'

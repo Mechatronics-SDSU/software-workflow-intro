@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/Humantime.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module srv {
+    struct Humantime_Request {
+      int64 unixtime;
+    };
+    struct Humantime_Response {
+      string humantime;
+    };
+  };
+};

@@ -1,0 +1,3 @@
+[console_scripts]
+client = timesubscriber.subscriber:main
+

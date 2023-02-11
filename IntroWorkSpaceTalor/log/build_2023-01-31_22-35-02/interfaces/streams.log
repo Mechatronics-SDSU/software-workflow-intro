@@ -1,0 +1,31 @@
+[0.019s] Invoking command in '/root/IntroWorkSpaceTalor/build/interfaces': /usr/local/bin/cmake /root/IntroWorkSpaceTalor/src/interfaces -DCMAKE_INSTALL_PREFIX=/root/IntroWorkSpaceTalor/install/interfaces
+[0.292s] -- The C compiler identification is GNU 11.3.0
+[1.460s] -- The CXX compiler identification is GNU 11.3.0
+[2.391s] -- Detecting C compiler ABI info
+[2.640s] -- Detecting C compiler ABI info - done
+[2.647s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.647s] -- Detecting C compile features
+[2.647s] -- Detecting C compile features - done
+[2.649s] -- Detecting CXX compiler ABI info
+[2.900s] -- Detecting CXX compiler ABI info - done
+[2.906s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.907s] -- Detecting CXX compile features
+[2.907s] -- Detecting CXX compile features - done
+[2.909s] -- Found ament_cmake: 1.3.3 (/root/ros2_foxy/ros2-linux/share/ament_cmake/cmake)
+[9.051s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[9.115s] -- Found ament_lint_auto: 0.12.5 (/root/ros2_foxy/ros2-linux/share/ament_lint_auto/cmake)
+[9.194s] -- Found rosidl_default_generators: 1.2.0 (/root/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake)
+[9.196s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.203s] -- Found rosidl_adapter: 3.1.4 (/root/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)
+[9.557s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.586s] [31mCMake Error at /root/ros2_foxy/ros2-linux/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[9.586s]   rosidl_generate_interfaces() the passed file 'msg/Num.msg' doesn't exist
+[9.586s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[9.586s]   '/root/IntroWorkSpaceTalor/src/interfaces'
+[9.586s] Call Stack (most recent call first):
+[9.586s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[9.586s] 
+[9.586s] [0m
+[9.586s] -- Configuring incomplete, errors occurred!
+[9.586s] See also "/root/IntroWorkSpaceTalor/build/interfaces/CMakeFiles/CMakeOutput.log".
+[9.599s] Invoked command in '/root/IntroWorkSpaceTalor/build/interfaces' returned '1': /usr/local/bin/cmake /root/IntroWorkSpaceTalor/src/interfaces -DCMAKE_INSTALL_PREFIX=/root/IntroWorkSpaceTalor/install/interfaces

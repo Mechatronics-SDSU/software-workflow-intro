@@ -1,0 +1,314 @@
+[0.000000] (-) TimerEvent: {}
+[0.000949] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.001006] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.014317] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.015182] (interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '/root/IntroWorkSpaceTalor/src/interfaces', '-DCMAKE_INSTALL_PREFIX=/root/IntroWorkSpaceTalor/install/interfaces'], 'cwd': '/root/IntroWorkSpaceTalor/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/IntroWorkSpaceTalor/install/tutorial_interfaces/lib:/root/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/root/ros2_foxy/ros2-linux/lib'), ('HOME', '/root'), ('OLDPWD', '/root/IntroWorkSpaceTalor/src/interfaces/srv'), ('CONNEXTDDS_DIR', '/opt/rti.com/rti_connext_dds-6.0.1'), ('ROS_PYTHON_VERSION', '3'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-6.0.1'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/root/ros2_foxy/ros2-linux'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/IntroWorkSpaceTalor/install:/root/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'Ned'), ('WSL_INTEROP', '/run/WSL/9969_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/ros2_foxy/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/root/ros2_foxy/ros2-linux/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/root/ros2_foxy/ros2-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/Talor/.cargo/bin:/mnt/c/Users/Talor/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Talor/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Talor/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Talor/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Talor/.dotnet/tools:/mnt/c/Users/Talor/anaconda3/Scripts/:/mnt/c/Users/Talor/anaconda3:/mnt/c/Users/Talor/anaconda3/Library/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/heroku/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/IntroWorkSpaceTalor/install/tutorial_interfaces:/root/ros2_foxy/ros2-linux'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONNEXTDDS_ARCH', 'x64Linux4gcc7.3.0'), ('PWD', '/root/IntroWorkSpaceTalor/build/interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/IntroWorkSpaceTalor/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/root/ros2_foxy/ros2-linux/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/IntroWorkSpaceTalor/install/tutorial_interfaces:/root/ros2_foxy/ros2-linux'), ('WSLENV', '')]), 'shell': False}
+[0.040530] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/root/ros2_foxy/ros2-linux/share/ament_cmake/cmake)\n'}
+[0.099109] (-) TimerEvent: {}
+[0.116107] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/root/ros2_foxy/ros2-linux/share/ament_lint_auto/cmake)\n'}
+[0.161145] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/root/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake)\n'}
+[0.162187] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.164509] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/root/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)\n'}
+[0.199240] (-) TimerEvent: {}
+[0.299644] (-) TimerEvent: {}
+[0.400024] (-) TimerEvent: {}
+[0.455163] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500177] (-) TimerEvent: {}
+[0.557626] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/root/ros2_foxy/ros2-linux/share/ament_cmake_ros/cmake)\n'}
+[0.600446] (-) TimerEvent: {}
+[0.616504] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.692168] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.700571] (-) TimerEvent: {}
+[0.800970] (-) TimerEvent: {}
+[0.901373] (-) TimerEvent: {}
+[0.989263] (interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[0.990212] (interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/root/ros2_foxy/ros2-linux/share/python_cmake_module/cmake)\n'}
+[1.001480] (-) TimerEvent: {}
+[1.101775] (-) TimerEvent: {}
+[1.202170] (-) TimerEvent: {}
+[1.302569] (-) TimerEvent: {}
+[1.402966] (-) TimerEvent: {}
+[1.503392] (-) TimerEvent: {}
+[1.603920] (-) TimerEvent: {}
+[1.704446] (-) TimerEvent: {}
+[1.804945] (-) TimerEvent: {}
+[1.905365] (-) TimerEvent: {}
+[1.952415] (interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[1.952736] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.952817] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.952887] (interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.967331] (interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.005507] (-) TimerEvent: {}
+[2.089085] (interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.090033] (interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.095708] (interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.105636] (-) TimerEvent: {}
+[2.141120] (interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.144919] (interfaces) StdoutLine: {'line': b'-- Build files have been written to: /root/IntroWorkSpaceTalor/build/interfaces\n'}
+[2.153613] (interfaces) CommandEnded: {'returncode': 0}
+[2.154274] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'build'}
+[2.156345] (interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/IntroWorkSpaceTalor/build/interfaces', '--', '-j12', '-l12'], 'cwd': '/root/IntroWorkSpaceTalor/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/IntroWorkSpaceTalor/install/tutorial_interfaces/lib:/root/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/root/ros2_foxy/ros2-linux/lib'), ('HOME', '/root'), ('OLDPWD', '/root/IntroWorkSpaceTalor/src/interfaces/srv'), ('CONNEXTDDS_DIR', '/opt/rti.com/rti_connext_dds-6.0.1'), ('ROS_PYTHON_VERSION', '3'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-6.0.1'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/root/ros2_foxy/ros2-linux'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/IntroWorkSpaceTalor/install:/root/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'Ned'), ('WSL_INTEROP', '/run/WSL/9969_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/ros2_foxy/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/root/ros2_foxy/ros2-linux/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/root/ros2_foxy/ros2-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/Talor/.cargo/bin:/mnt/c/Users/Talor/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Talor/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Talor/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Talor/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Talor/.dotnet/tools:/mnt/c/Users/Talor/anaconda3/Scripts/:/mnt/c/Users/Talor/anaconda3:/mnt/c/Users/Talor/anaconda3/Library/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/heroku/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/IntroWorkSpaceTalor/install/tutorial_interfaces:/root/ros2_foxy/ros2-linux'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONNEXTDDS_ARCH', 'x64Linux4gcc7.3.0'), ('PWD', '/root/IntroWorkSpaceTalor/build/interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/IntroWorkSpaceTalor/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/root/ros2_foxy/ros2-linux/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/IntroWorkSpaceTalor/install/tutorial_interfaces:/root/ros2_foxy/ros2-linux'), ('WSLENV', '')]), 'shell': False}
+[2.184036] (interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.186555] (interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.188601] (interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_interfaces\n'}
+[2.205766] (-) TimerEvent: {}
+[2.306145] (-) TimerEvent: {}
+[2.349077] (interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.349508] (interfaces) StdoutLine: {'line': b'creating interfaces.egg-info\n'}
+[2.349941] (interfaces) StdoutLine: {'line': b'writing interfaces.egg-info/PKG-INFO\n'}
+[2.350183] (interfaces) StdoutLine: {'line': b'writing dependency_links to interfaces.egg-info/dependency_links.txt\n'}
+[2.350380] (interfaces) StdoutLine: {'line': b'writing top-level names to interfaces.egg-info/top_level.txt\n'}
+[2.351559] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[2.352987] (interfaces) StdoutLine: {'line': b"reading manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[2.353301] (interfaces) StdoutLine: {'line': b"writing manifest file 'interfaces.egg-info/SOURCES.txt'\n"}
+[2.373843] (interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_interfaces_egg\n'}
+[2.387002] (interfaces) StdoutLine: {'line': b'[  5%] Built target interfaces__cpp\n'}
+[2.390795] (interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.390989] (interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.391523] (interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.402701] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/unixtime__functions.c.o\x1b[0m\n'}
+[2.402932] (interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/humantime__functions.c.o\x1b[0m\n'}
+[2.406275] (-) TimerEvent: {}
+[2.442421] (interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_generator_c.so\x1b[0m\n'}
+[2.506414] (-) TimerEvent: {}
+[2.577011] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/unixtime__type_support.cpp.o\x1b[0m\n'}
+[2.577421] (interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/humantime__type_support.cpp.o\x1b[0m\n'}
+[2.596472] (interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/unixtime__type_support.cpp.o\x1b[0m\n'}
+[2.597024] (interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/humantime__type_support.cpp.o\x1b[0m\n'}
+[2.602278] (interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/humantime__type_support.cpp.o\x1b[0m\n'}
+[2.602658] (interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/unixtime__type_support.cpp.o\x1b[0m\n'}
+[2.606676] (-) TimerEvent: {}
+[2.707228] (-) TimerEvent: {}
+[2.728085] (interfaces) StdoutLine: {'line': b'[ 35%] Built target interfaces__rosidl_generator_c\n'}
+[2.732513] (interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.732819] (interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.733792] (interfaces) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.807428] (-) TimerEvent: {}
+[2.907947] (-) TimerEvent: {}
+[2.920208] (interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.008135] (-) TimerEvent: {}
+[3.108730] (-) TimerEvent: {}
+[3.116131] (interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/unixtime__type_support.c.o\x1b[0m\n'}
+[3.116527] (interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/humantime__type_support.c.o\x1b[0m\n'}
+[3.121890] (interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/unixtime__type_support.cpp.o\x1b[0m\n'}
+[3.122736] (interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/humantime__type_support.cpp.o\x1b[0m\n'}
+[3.133601] (interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.137487] (interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.152234] (interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/unixtime__type_support_c.cpp.o\x1b[0m\n'}
+[3.153208] (interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.153689] (interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.153912] (interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/humantime__type_support_c.cpp.o\x1b[0m\n'}
+[3.209293] (-) TimerEvent: {}
+[3.250875] (interfaces) StdoutLine: {'line': b'[ 71%] Built target interfaces__rosidl_typesupport_cpp\n'}
+[3.309479] (-) TimerEvent: {}
+[3.346547] (interfaces) StdoutLine: {'line': b'[ 71%] Built target interfaces__rosidl_typesupport_c\n'}
+[3.393762] (interfaces) StdoutLine: {'line': b'[ 71%] Built target interfaces__rosidl_typesupport_introspection_cpp\n'}
+[3.400414] (interfaces) StdoutLine: {'line': b'[ 71%] Built target interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[3.409605] (-) TimerEvent: {}
+[3.432332] (interfaces) StdoutLine: {'line': b'[ 71%] Built target interfaces__rosidl_typesupport_introspection_c\n'}
+[3.481922] (interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.509739] (-) TimerEvent: {}
+[3.610205] (-) TimerEvent: {}
+[3.710727] (-) TimerEvent: {}
+[3.715351] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces__rosidl_typesupport_fastrtps_c\n'}
+[3.721754] (interfaces) StdoutLine: {'line': b'[ 74%] Built target interfaces\n'}
+[3.727867] (interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.810883] (-) TimerEvent: {}
+[3.911244] (-) TimerEvent: {}
+[3.976590] (interfaces) StdoutLine: {'line': b'[ 76%] Built target interfaces__py\n'}
+[3.982071] (interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_unixtime_s.c.o\x1b[0m\n'}
+[3.982977] (interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_humantime_s.c.o\x1b[0m\n'}
+[4.011765] (-) TimerEvent: {}
+[4.044425] (interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so\x1b[0m\n'}
+[4.111896] (-) TimerEvent: {}
+[4.212316] (-) TimerEvent: {}
+[4.254605] (interfaces) StdoutLine: {'line': b'[ 84%] Built target interfaces__rosidl_generator_py\n'}
+[4.261193] (interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.261378] (interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.261441] (interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.312487] (-) TimerEvent: {}
+[4.317360] (interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.317681] (interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.318056] (interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.412652] (-) TimerEvent: {}
+[4.444549] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.445000] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[4.512827] (-) TimerEvent: {}
+[4.513242] (interfaces) StdoutLine: {'line': b'[100%] Built target interfaces__rosidl_typesupport_c__pyext\n'}
+[4.520278] (interfaces) CommandEnded: {'returncode': 0}
+[4.585254] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'install'}
+[4.607202] (interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/root/IntroWorkSpaceTalor/build/interfaces'], 'cwd': '/root/IntroWorkSpaceTalor/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/IntroWorkSpaceTalor/install/tutorial_interfaces/lib:/root/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/root/ros2_foxy/ros2-linux/lib'), ('HOME', '/root'), ('OLDPWD', '/root/IntroWorkSpaceTalor/src/interfaces/srv'), ('CONNEXTDDS_DIR', '/opt/rti.com/rti_connext_dds-6.0.1'), ('ROS_PYTHON_VERSION', '3'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-6.0.1'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/root/ros2_foxy/ros2-linux'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/IntroWorkSpaceTalor/install:/root/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'Ned'), ('WSL_INTEROP', '/run/WSL/9969_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/ros2_foxy/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/root/ros2_foxy/ros2-linux/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/root/ros2_foxy/ros2-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/Talor/.cargo/bin:/mnt/c/Users/Talor/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Talor/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Talor/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Talor/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Talor/.dotnet/tools:/mnt/c/Users/Talor/anaconda3/Scripts/:/mnt/c/Users/Talor/anaconda3:/mnt/c/Users/Talor/anaconda3/Library/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/heroku/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/IntroWorkSpaceTalor/install/tutorial_interfaces:/root/ros2_foxy/ros2-linux'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONNEXTDDS_ARCH', 'x64Linux4gcc7.3.0'), ('PWD', '/root/IntroWorkSpaceTalor/build/interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/IntroWorkSpaceTalor/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/root/ros2_foxy/ros2-linux/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/IntroWorkSpaceTalor/install/tutorial_interfaces:/root/ros2_foxy/ros2-linux'), ('WSLENV', '')]), 'shell': False}
+[4.612986] (-) TimerEvent: {}
+[4.623092] (interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.623683] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces\n'}
+[4.624036] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces\n'}
+[4.624364] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg\n'}
+[4.624495] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[4.624703] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/detail/unixtime__functions.h\n'}
+[4.624993] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/detail/unixtime__type_support.h\n'}
+[4.625283] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/detail/unixtime__functions.c\n'}
+[4.625395] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/detail/unixtime__struct.h\n'}
+[4.625578] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.625847] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/unixtime.h\n'}
+[4.625973] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv\n'}
+[4.626314] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/humantime.h\n'}
+[4.626384] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[4.626469] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/detail/humantime__struct.h\n'}
+[4.626563] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/detail/humantime__functions.h\n'}
+[4.626702] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/detail/humantime__type_support.h\n'}
+[4.626796] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/detail/humantime__functions.c\n'}
+[4.626885] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/environment/library_path.sh\n'}
+[4.627051] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/environment/library_path.dsv\n'}
+[4.627111] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/lib/libinterfaces__rosidl_generator_c.so\n'}
+[4.627208] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/IntroWorkSpaceTalor/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""\n'}
+[4.627298] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces\n'}
+[4.627377] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg\n'}
+[4.627557] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[4.627730] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/detail/unixtime__rosidl_typesupport_fastrtps_c.h\n'}
+[4.627879] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.628098] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv\n'}
+[4.628266] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[4.628406] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/detail/humantime__rosidl_typesupport_fastrtps_c.h\n'}
+[4.628529] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[4.628677] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/IntroWorkSpaceTalor/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.628832] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces\n'}
+[4.628962] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg\n'}
+[4.629030] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.629092] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[4.629149] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/detail/unixtime__rosidl_typesupport_introspection_c.h\n'}
+[4.629314] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/detail/unixtime__type_support.c\n'}
+[4.629580] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv\n'}
+[4.629737] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[4.629838] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/detail/humantime__type_support.c\n'}
+[4.629923] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/detail/humantime__rosidl_typesupport_introspection_c.h\n'}
+[4.630012] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so\n'}
+[4.630101] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/IntroWorkSpaceTalor/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.630189] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so\n'}
+[4.630272] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/IntroWorkSpaceTalor/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""\n'}
+[4.630360] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces\n'}
+[4.630448] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg\n'}
+[4.630536] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[4.630634] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/detail/unixtime__traits.hpp\n'}
+[4.630724] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/detail/unixtime__struct.hpp\n'}
+[4.630813] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/detail/unixtime__builder.hpp\n'}
+[4.630903] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/unixtime.hpp\n'}
+[4.630992] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv\n'}
+[4.631080] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/humantime.hpp\n'}
+[4.631313] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[4.631357] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/detail/humantime__struct.hpp\n'}
+[4.631515] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/detail/humantime__traits.hpp\n'}
+[4.631563] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/detail/humantime__builder.hpp\n'}
+[4.631601] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces\n'}
+[4.631636] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg\n'}
+[4.631670] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.631704] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[4.631737] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/detail/dds_fastrtps\n'}
+[4.631770] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/detail/unixtime__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.631802] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv\n'}
+[4.631834] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[4.631866] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/detail/dds_fastrtps\n'}
+[4.631898] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/detail/humantime__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.631931] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.631986] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/IntroWorkSpaceTalor/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.632076] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces\n'}
+[4.632165] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg\n'}
+[4.632296] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/detail\n'}
+[4.632390] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/detail/unixtime__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.632480] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/msg/detail/unixtime__type_support.cpp\n'}
+[4.632638] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv\n'}
+[4.632736] (interfaces) StdoutLine: {'line': b'-- Up-to-date: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/detail\n'}
+[4.632831] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/detail/humantime__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.632922] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/include/interfaces/interfaces/srv/detail/humantime__type_support.cpp\n'}
+[4.633013] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[4.633104] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/IntroWorkSpaceTalor/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.633195] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so\n'}
+[4.633301] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/IntroWorkSpaceTalor/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[4.633390] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/environment/pythonpath.sh\n'}
+[4.633479] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/environment/pythonpath.dsv\n'}
+[4.633577] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info\n'}
+[4.633668] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.633757] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.633973] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.634078] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.634178] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces\n'}
+[4.634270] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg\n'}
+[4.634361] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_unixtime_s.c\n'}
+[4.634456] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_unixtime.py\n'}
+[4.634494] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py\n'}
+[4.634530] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.634568] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.634606] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.634647] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[4.634683] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so\n'}
+[4.634717] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.634748] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.634780] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv\n'}
+[4.634813] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_humantime.py\n'}
+[4.634847] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_humantime_s.c\n'}
+[4.634879] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py\n'}
+[4.634946] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py\n'}
+[4.657113] (interfaces) StdoutLine: {'line': b"Listing '/root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...\n"}
+[4.657284] (interfaces) StdoutLine: {'line': b"Compiling '/root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...\n"}
+[4.657335] (interfaces) StdoutLine: {'line': b"Listing '/root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...\n"}
+[4.657376] (interfaces) StdoutLine: {'line': b"Compiling '/root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py'...\n"}
+[4.657414] (interfaces) StdoutLine: {'line': b"Compiling '/root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_unixtime.py'...\n"}
+[4.657450] (interfaces) StdoutLine: {'line': b"Listing '/root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...\n"}
+[4.657484] (interfaces) StdoutLine: {'line': b"Compiling '/root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py'...\n"}
+[4.657517] (interfaces) StdoutLine: {'line': b"Compiling '/root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_humantime.py'...\n"}
+[4.660734] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.660989] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.661167] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.661390] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.661541] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.661730] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/IntroWorkSpaceTalor/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.661887] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/lib/libinterfaces__rosidl_generator_py.so\n'}
+[4.662092] (interfaces) StdoutLine: {'line': b'-- Set runtime path of "/root/IntroWorkSpaceTalor/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""\n'}
+[4.662301] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/msg/Unixtime.idl\n'}
+[4.662477] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/srv/Humantime.idl\n'}
+[4.662625] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/msg/Unixtime.msg\n'}
+[4.662821] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/srv/Humantime.srv\n'}
+[4.663017] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/srv/Humantime_Request.msg\n'}
+[4.663103] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/srv/Humantime_Response.msg\n'}
+[4.663223] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces\n'}
+[4.663372] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces\n'}
+[4.663493] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/environment/ament_prefix_path.sh\n'}
+[4.663676] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv\n'}
+[4.663839] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/environment/path.sh\n'}
+[4.664019] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/environment/path.dsv\n'}
+[4.664216] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/local_setup.bash\n'}
+[4.664451] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/local_setup.sh\n'}
+[4.664628] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/local_setup.zsh\n'}
+[4.664739] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/local_setup.dsv\n'}
+[4.664908] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/package.dsv\n'}
+[4.665185] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/ament_index/resource_index/packages/interfaces\n'}
+[4.665352] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake\n'}
+[4.665470] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.665636] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.665786] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.665951] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.666032] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.666269] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake\n'}
+[4.666425] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.666606] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake\n'}
+[4.666740] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.667019] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.667185] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.667494] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.667644] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[4.667787] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.668009] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake\n'}
+[4.668068] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.668106] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[4.669478] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.670400] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.670560] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.670711] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.670856] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.671075] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.671451] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake\n'}
+[4.671801] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake\n'}
+[4.672777] (interfaces) StdoutLine: {'line': b'-- Installing: /root/IntroWorkSpaceTalor/install/interfaces/share/interfaces/package.xml\n'}
+[4.678486] (interfaces) CommandEnded: {'returncode': 0}
+[4.713154] (-) TimerEvent: {}
+[4.775181] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 0}
+[4.776365] (-) EventReactorShutdown: {}

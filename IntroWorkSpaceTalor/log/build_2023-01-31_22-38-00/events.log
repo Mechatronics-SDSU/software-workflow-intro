@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.000420] (interfaces) JobQueued: {'identifier': 'interfaces', 'dependencies': OrderedDict()}
+[0.001465] (interfaces) JobStarted: {'identifier': 'interfaces'}
+[0.015185] (interfaces) JobProgress: {'identifier': 'interfaces', 'progress': 'cmake'}
+[0.015872] (interfaces) Command: {'cmd': ['/usr/local/bin/cmake', '/root/IntroWorkSpaceTalor/src/interfaces', '-DCMAKE_INSTALL_PREFIX=/root/IntroWorkSpaceTalor/install/interfaces'], 'cwd': '/root/IntroWorkSpaceTalor/build/interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/IntroWorkSpaceTalor/install/tutorial_interfaces/lib:/root/ros2_foxy/ros2-linux/opt/rviz_ogre_vendor/lib:/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/root/ros2_foxy/ros2-linux/lib'), ('HOME', '/root'), ('OLDPWD', '/root/IntroWorkSpaceTalor/src/interfaces'), ('CONNEXTDDS_DIR', '/opt/rti.com/rti_connext_dds-6.0.1'), ('ROS_PYTHON_VERSION', '3'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-6.0.1'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('_colcon_cd_root', '/root/ros2_foxy/ros2-linux'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/root/IntroWorkSpaceTalor/install:/root/ros2_foxy/ros2-linux'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('NAME', 'Ned'), ('WSL_INTEROP', '/run/WSL/9969_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/root/ros2_foxy/ros2-linux/lib/x86_64-linux-gnu/pkgconfig:/root/ros2_foxy/ros2-linux/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/rti.com/rti_connext_dds-6.0.1/lib/x64Linux4gcc7.3.0:/opt/rti.com/rti_connext_dds-6.0.1/bin:/root/ros2_foxy/ros2-linux/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/Talor/.cargo/bin:/mnt/c/Users/Talor/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Talor/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Talor/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Talor/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Talor/.dotnet/tools:/mnt/c/Users/Talor/anaconda3/Scripts/:/mnt/c/Users/Talor/anaconda3:/mnt/c/Users/Talor/anaconda3/Library/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/heroku/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/IntroWorkSpaceTalor/install/tutorial_interfaces:/root/ros2_foxy/ros2-linux'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONNEXTDDS_ARCH', 'x64Linux4gcc7.3.0'), ('PWD', '/root/IntroWorkSpaceTalor/build/interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/root/IntroWorkSpaceTalor/install/tutorial_interfaces/local/lib/python3.10/dist-packages:/root/ros2_foxy/ros2-linux/lib/python3.10/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/root/IntroWorkSpaceTalor/install/tutorial_interfaces:/root/ros2_foxy/ros2-linux'), ('WSLENV', '')]), 'shell': False}
+[0.038992] (interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/root/ros2_foxy/ros2-linux/share/ament_cmake/cmake)\n'}
+[0.099694] (-) TimerEvent: {}
+[0.111923] (interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/root/ros2_foxy/ros2-linux/share/ament_lint_auto/cmake)\n'}
+[0.158070] (interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/root/ros2_foxy/ros2-linux/share/rosidl_default_generators/cmake)\n'}
+[0.159209] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.161557] (interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/root/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake)\n'}
+[0.199834] (-) TimerEvent: {}
+[0.300250] (-) TimerEvent: {}
+[0.400698] (-) TimerEvent: {}
+[0.483563] (interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500863] (-) TimerEvent: {}
+[0.601209] (-) TimerEvent: {}
+[0.623819] (interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /root/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[0.624102] (interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name\n'}
+[0.624262] (interfaces) StderrLine: {'line': b'  interfaces --arguments-file\n'}
+[0.624533] (interfaces) StderrLine: {'line': b'  /root/IntroWorkSpaceTalor/build/interfaces/rosidl_adapter__arguments__interfaces.json\n'}
+[0.624631] (interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[0.624708] (interfaces) StderrLine: {'line': b'  /root/IntroWorkSpaceTalor/build/interfaces/rosidl_adapter/interfaces\n'}
+[0.624770] (interfaces) StderrLine: {'line': b'  --output-file\n'}
+[0.624829] (interfaces) StderrLine: {'line': b'  /root/IntroWorkSpaceTalor/build/interfaces/rosidl_adapter/interfaces.idls)\n'}
+[0.624891] (interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.624951] (interfaces) StderrLine: {'line': b'\n'}
+[0.625038] (interfaces) StderrLine: {'line': b"  Error processing 'int64 Unixtime' of 'interfaces/Unixtime': ''Unixtime' is\n"}
+[0.625102] (interfaces) StderrLine: {'line': b'  an invalid field name.  It should have the pattern\n'}
+[0.625160] (interfaces) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''\n"}
+[0.625217] (interfaces) StderrLine: {'line': b'\n'}
+[0.625273] (interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.625328] (interfaces) StderrLine: {'line': b'\n'}
+[0.625456] (interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[0.625533] (interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.625572] (interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[0.625611] (interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.625644] (interfaces) StderrLine: {'line': b'    File "/root/ros2_foxy/ros2-linux/lib/python3.10/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.625682] (interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.625715] (interfaces) StderrLine: {'line': b'    File "/root/ros2_foxy/ros2-linux/lib/python3.10/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.625747] (interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.625783] (interfaces) StderrLine: {'line': b'    File "/root/ros2_foxy/ros2-linux/lib/python3.10/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[0.625826] (interfaces) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[0.625926] (interfaces) StderrLine: {'line': b'    File "/root/ros2_foxy/ros2-linux/lib/python3.10/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[0.625988] (interfaces) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[0.626031] (interfaces) StderrLine: {'line': b'    File "/root/ros2_foxy/ros2-linux/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 519, in parse_message_string\n'}
+[0.626075] (interfaces) StderrLine: {'line': b'      fields.append(Field(\n'}
+[0.626120] (interfaces) StderrLine: {'line': b'    File "/root/ros2_foxy/ros2-linux/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 354, in __init__\n'}
+[0.626157] (interfaces) StderrLine: {'line': b'      raise NameError(\n'}
+[0.626190] (interfaces) StderrLine: {'line': b'\n'}
+[0.626224] (interfaces) StderrLine: {'line': b"  NameError: 'Unixtime' is an invalid field name.  It should have the pattern\n"}
+[0.626262] (interfaces) StderrLine: {'line': b"  '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'\n"}
+[0.626300] (interfaces) StderrLine: {'line': b'\n'}
+[0.626338] (interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.626374] (interfaces) StderrLine: {'line': b'  /root/ros2_foxy/ros2-linux/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.626407] (interfaces) StderrLine: {'line': b'  CMakeLists.txt:28 (rosidl_generate_interfaces)\n'}
+[0.626442] (interfaces) StderrLine: {'line': b'\n'}
+[0.626476] (interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.626525] (interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.626573] (interfaces) StdoutLine: {'line': b'See also "/root/IntroWorkSpaceTalor/build/interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[0.635085] (interfaces) CommandEnded: {'returncode': 1}
+[0.669325] (interfaces) JobEnded: {'identifier': 'interfaces', 'rc': 1}
+[0.679701] (-) EventReactorShutdown: {}

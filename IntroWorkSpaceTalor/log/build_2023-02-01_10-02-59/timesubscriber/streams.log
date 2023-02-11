@@ -1,0 +1,26 @@
+[1.714s] Invoking command in '/root/IntroWorkSpaceTalor/src/timesubscriber': PYTHONPATH=/root/IntroWorkSpaceTalor/build/timesubscriber/prefix_override:/root/IntroWorkSpaceTalor/install/timesubscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/timesubscriber build --build-base /root/IntroWorkSpaceTalor/build/timesubscriber/build install --record /root/IntroWorkSpaceTalor/build/timesubscriber/install.log --single-version-externally-managed
+[1.973s] running egg_info
+[1.974s] writing ../../build/timesubscriber/timesubscriber.egg-info/PKG-INFO
+[1.974s] writing dependency_links to ../../build/timesubscriber/timesubscriber.egg-info/dependency_links.txt
+[1.975s] writing entry points to ../../build/timesubscriber/timesubscriber.egg-info/entry_points.txt
+[1.975s] writing requirements to ../../build/timesubscriber/timesubscriber.egg-info/requires.txt
+[1.976s] writing top-level names to ../../build/timesubscriber/timesubscriber.egg-info/top_level.txt
+[1.979s] reading manifest file '../../build/timesubscriber/timesubscriber.egg-info/SOURCES.txt'
+[1.980s] writing manifest file '../../build/timesubscriber/timesubscriber.egg-info/SOURCES.txt'
+[1.980s] running build
+[1.980s] running build_py
+[1.981s] copying timesubscriber/subscriber.py -> /root/IntroWorkSpaceTalor/build/timesubscriber/build/lib/timesubscriber
+[1.982s] running install
+[1.982s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.982s]   warnings.warn(
+[1.983s] running install_lib
+[1.984s] copying /root/IntroWorkSpaceTalor/build/timesubscriber/build/lib/timesubscriber/subscriber.py -> /root/IntroWorkSpaceTalor/install/timesubscriber/lib/python3.10/site-packages/timesubscriber
+[1.985s] byte-compiling /root/IntroWorkSpaceTalor/install/timesubscriber/lib/python3.10/site-packages/timesubscriber/subscriber.py to subscriber.cpython-310.pyc
+[1.986s] running install_data
+[1.987s] running install_egg_info
+[1.990s] removing '/root/IntroWorkSpaceTalor/install/timesubscriber/lib/python3.10/site-packages/timesubscriber-0.0.0-py3.10.egg-info' (and everything under it)
+[1.992s] Copying ../../build/timesubscriber/timesubscriber.egg-info to /root/IntroWorkSpaceTalor/install/timesubscriber/lib/python3.10/site-packages/timesubscriber-0.0.0-py3.10.egg-info
+[1.994s] running install_scripts
+[2.014s] Installing client script to /root/IntroWorkSpaceTalor/install/timesubscriber/lib/timesubscriber
+[2.015s] writing list of installed files to '/root/IntroWorkSpaceTalor/build/timesubscriber/install.log'
+[2.046s] Invoked command in '/root/IntroWorkSpaceTalor/src/timesubscriber' returned '0': PYTHONPATH=/root/IntroWorkSpaceTalor/build/timesubscriber/prefix_override:/root/IntroWorkSpaceTalor/install/timesubscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/timesubscriber build --build-base /root/IntroWorkSpaceTalor/build/timesubscriber/build install --record /root/IntroWorkSpaceTalor/build/timesubscriber/install.log --single-version-externally-managed

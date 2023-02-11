@@ -1,0 +1,7 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/root/IntroWorkSpaceTalor/src/interfaces:msg/Unixtime.msg",
+    "/root/IntroWorkSpaceTalor/src/interfaces:srv/Humantime.srv"
+  ]
+}

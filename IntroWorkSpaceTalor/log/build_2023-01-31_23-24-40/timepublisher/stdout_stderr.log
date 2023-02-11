@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/timepublisher/timepublisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/timepublisher/timepublisher.egg-info/dependency_links.txt
+writing entry points to ../../build/timepublisher/timepublisher.egg-info/entry_points.txt
+writing requirements to ../../build/timepublisher/timepublisher.egg-info/requires.txt
+writing top-level names to ../../build/timepublisher/timepublisher.egg-info/top_level.txt
+reading manifest file '../../build/timepublisher/timepublisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/timepublisher/timepublisher.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+running install_data
+running install_egg_info
+removing '/root/IntroWorkSpaceTalor/install/timepublisher/lib/python3.10/site-packages/timepublisher-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/timepublisher/timepublisher.egg-info to /root/IntroWorkSpaceTalor/install/timepublisher/lib/python3.10/site-packages/timepublisher-0.0.0-py3.10.egg-info
+running install_scripts
+Installing service script to /root/IntroWorkSpaceTalor/install/timepublisher/lib/timepublisher
+writing list of installed files to '/root/IntroWorkSpaceTalor/build/timepublisher/install.log'

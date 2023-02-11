@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/timepublisher/timepublisher.egg-info
+writing ../../build/timepublisher/timepublisher.egg-info/PKG-INFO
+writing dependency_links to ../../build/timepublisher/timepublisher.egg-info/dependency_links.txt
+writing entry points to ../../build/timepublisher/timepublisher.egg-info/entry_points.txt
+writing requirements to ../../build/timepublisher/timepublisher.egg-info/requires.txt
+writing top-level names to ../../build/timepublisher/timepublisher.egg-info/top_level.txt
+writing manifest file '../../build/timepublisher/timepublisher.egg-info/SOURCES.txt'
+reading manifest file '../../build/timepublisher/timepublisher.egg-info/SOURCES.txt'
+writing manifest file '../../build/timepublisher/timepublisher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/IntroWorkSpaceTalor/build/timepublisher/build
+creating /root/IntroWorkSpaceTalor/build/timepublisher/build/lib
+creating /root/IntroWorkSpaceTalor/build/timepublisher/build/lib/timepublisher
+copying timepublisher/publisher.py -> /root/IntroWorkSpaceTalor/build/timepublisher/build/lib/timepublisher
+copying timepublisher/__init__.py -> /root/IntroWorkSpaceTalor/build/timepublisher/build/lib/timepublisher
+running install
+running install_lib
+creating /root/IntroWorkSpaceTalor/install/timepublisher/lib/python3.10/site-packages/timepublisher
+copying /root/IntroWorkSpaceTalor/build/timepublisher/build/lib/timepublisher/publisher.py -> /root/IntroWorkSpaceTalor/install/timepublisher/lib/python3.10/site-packages/timepublisher
+copying /root/IntroWorkSpaceTalor/build/timepublisher/build/lib/timepublisher/__init__.py -> /root/IntroWorkSpaceTalor/install/timepublisher/lib/python3.10/site-packages/timepublisher
+byte-compiling /root/IntroWorkSpaceTalor/install/timepublisher/lib/python3.10/site-packages/timepublisher/publisher.py to publisher.cpython-310.pyc
+byte-compiling /root/IntroWorkSpaceTalor/install/timepublisher/lib/python3.10/site-packages/timepublisher/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/IntroWorkSpaceTalor/install/timepublisher/share/ament_index
+creating /root/IntroWorkSpaceTalor/install/timepublisher/share/ament_index/resource_index
+creating /root/IntroWorkSpaceTalor/install/timepublisher/share/ament_index/resource_index/packages
+copying resource/timepublisher -> /root/IntroWorkSpaceTalor/install/timepublisher/share/ament_index/resource_index/packages
+copying package.xml -> /root/IntroWorkSpaceTalor/install/timepublisher/share/timepublisher
+running install_egg_info
+Copying ../../build/timepublisher/timepublisher.egg-info to /root/IntroWorkSpaceTalor/install/timepublisher/lib/python3.10/site-packages/timepublisher-0.0.0-py3.10.egg-info
+running install_scripts
+Installing service script to /root/IntroWorkSpaceTalor/install/timepublisher/lib/timepublisher
+writing list of installed files to '/root/IntroWorkSpaceTalor/build/timepublisher/install.log'

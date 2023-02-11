@@ -1,0 +1,45 @@
+[31mCMake Error at /root/ros2_foxy/ros2-linux/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+  interfaces --arguments-file
+  /root/IntroWorkSpaceTalor/build/interfaces/rosidl_adapter__arguments__interfaces.json
+  --output-dir
+  /root/IntroWorkSpaceTalor/build/interfaces/rosidl_adapter/interfaces
+  --output-file
+  /root/IntroWorkSpaceTalor/build/interfaces/rosidl_adapter/interfaces.idls)
+  returned error code 1:
+
+  Error processing 'float unixtime' of 'interfaces/Humantime_Response':
+  ''float' is an invalid message name.  It should have the pattern
+  '^[A-Z][A-Za-z0-9]*$''
+
+  Traceback (most recent call last):
+
+    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+      return _run_code(code, main_globals, None,
+    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+      exec(code, run_globals)
+    File "/root/ros2_foxy/ros2-linux/lib/python3.10/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+      sys.exit(main())
+    File "/root/ros2_foxy/ros2-linux/lib/python3.10/site-packages/rosidl_adapter/main.py", line 53, in main
+      abs_idl_file = convert_to_idl(
+    File "/root/ros2_foxy/ros2-linux/lib/python3.10/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+      return convert_srv_to_idl(
+    File "/root/ros2_foxy/ros2-linux/lib/python3.10/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+      srv = parse_service_string(package_name, input_file.stem, content)
+    File "/root/ros2_foxy/ros2-linux/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 863, in parse_service_string
+      response_message = parse_message_string(
+    File "/root/ros2_foxy/ros2-linux/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 520, in parse_message_string
+      Type(type_string, context_package_name=pkg_name),
+    File "/root/ros2_foxy/ros2-linux/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 277, in __init__
+      super(Type, self).__init__(
+    File "/root/ros2_foxy/ros2-linux/lib/python3.10/site-packages/rosidl_adapter/parser.py", line 205, in __init__
+      raise InvalidResourceName(
+
+  rosidl_adapter.parser.InvalidResourceName: 'float' is an invalid message
+  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+
+Call Stack (most recent call first):
+  /root/ros2_foxy/ros2-linux/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+  CMakeLists.txt:28 (rosidl_generate_interfaces)
+
+[0m

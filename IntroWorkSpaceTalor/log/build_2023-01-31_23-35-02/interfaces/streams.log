@@ -1,0 +1,22 @@
+[0.034s] Invoking command in '/root/IntroWorkSpaceTalor/build/interfaces': /usr/local/bin/cmake --build /root/IntroWorkSpaceTalor/build/interfaces -- -j12 -l12
+[0.176s] -- Found ament_cmake: 1.3.3 (/root/ros2_foxy/ros2-linux/share/ament_cmake/cmake)
+[0.176s] -- Configuring incomplete, errors occurred!
+[0.176s] See also "/root/IntroWorkSpaceTalor/build/interfaces/CMakeFiles/CMakeOutput.log".
+[0.177s] Traceback (most recent call last):
+[0.177s]   File "/root/ros2_foxy/ros2-linux/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.177s]     from ament_package.templates import get_environment_hook_template_path
+[0.177s] ModuleNotFoundError: No module named 'ament_package'
+[0.178s] [31mCMake Error at /root/ros2_foxy/ros2-linux/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.178s]   execute_process(/usr/bin/python3.10
+[0.178s]   /root/ros2_foxy/ros2-linux/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.178s]   /root/IntroWorkSpaceTalor/build/interfaces/ament_cmake_package_templates/templates.cmake)
+[0.178s]   returned error code 1
+[0.178s] Call Stack (most recent call first):
+[0.178s]   /root/ros2_foxy/ros2-linux/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.179s]   /root/ros2_foxy/ros2-linux/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.179s]   /root/ros2_foxy/ros2-linux/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.179s]   CMakeLists.txt:9 (find_package)
+[0.179s] 
+[0.179s] [0m
+[0.179s] gmake: *** [Makefile:963: cmake_check_build_system] Error 1
+[0.305s] Invoked command in '/root/IntroWorkSpaceTalor/build/interfaces' returned '2': /usr/local/bin/cmake --build /root/IntroWorkSpaceTalor/build/interfaces -- -j12 -l12

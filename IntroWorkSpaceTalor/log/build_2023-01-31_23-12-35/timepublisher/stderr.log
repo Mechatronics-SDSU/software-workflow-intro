@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/root/IntroWorkSpaceTalor/install/timepublisher/lib/python3.10/site-packages/timepublisher/publisher.py", line 14
+    response.humantime = datetime.utcfromtimestamp(request.unixtime).strftime('%Y-%m-%d %H:%M:%S'))
+                                                                                                  ^
+SyntaxError: unmatched ')'
+

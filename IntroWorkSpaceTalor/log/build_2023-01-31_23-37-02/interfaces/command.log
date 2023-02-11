@@ -1,0 +1,2 @@
+Invoking command in '/root/IntroWorkSpaceTalor/build/interfaces': /usr/local/bin/cmake --build /root/IntroWorkSpaceTalor/build/interfaces -- -j12 -l12
+Invoked command in '/root/IntroWorkSpaceTalor/build/interfaces' returned '2': /usr/local/bin/cmake --build /root/IntroWorkSpaceTalor/build/interfaces -- -j12 -l12

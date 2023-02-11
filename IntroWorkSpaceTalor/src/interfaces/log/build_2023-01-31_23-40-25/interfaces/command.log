@@ -1,0 +1,2 @@
+Invoking command in '/root/IntroWorkSpaceTalor/src/interfaces/build/interfaces': /usr/local/bin/cmake /root/IntroWorkSpaceTalor/src/interfaces -DCMAKE_INSTALL_PREFIX=/root/IntroWorkSpaceTalor/src/interfaces/install/interfaces
+Invoked command in '/root/IntroWorkSpaceTalor/src/interfaces/build/interfaces' returned '1': /usr/local/bin/cmake /root/IntroWorkSpaceTalor/src/interfaces -DCMAKE_INSTALL_PREFIX=/root/IntroWorkSpaceTalor/src/interfaces/install/interfaces

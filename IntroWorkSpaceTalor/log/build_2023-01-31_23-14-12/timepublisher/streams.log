@@ -1,0 +1,26 @@
+[0.650s] Invoking command in '/root/IntroWorkSpaceTalor/src/timepublisher': PYTHONPATH=/root/IntroWorkSpaceTalor/build/timepublisher/prefix_override:/root/IntroWorkSpaceTalor/install/timepublisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/timepublisher build --build-base /root/IntroWorkSpaceTalor/build/timepublisher/build install --record /root/IntroWorkSpaceTalor/build/timepublisher/install.log --single-version-externally-managed
+[0.794s] running egg_info
+[0.794s] writing ../../build/timepublisher/timepublisher.egg-info/PKG-INFO
+[0.794s] writing dependency_links to ../../build/timepublisher/timepublisher.egg-info/dependency_links.txt
+[0.795s] writing entry points to ../../build/timepublisher/timepublisher.egg-info/entry_points.txt
+[0.795s] writing requirements to ../../build/timepublisher/timepublisher.egg-info/requires.txt
+[0.795s] writing top-level names to ../../build/timepublisher/timepublisher.egg-info/top_level.txt
+[0.796s] reading manifest file '../../build/timepublisher/timepublisher.egg-info/SOURCES.txt'
+[0.797s] writing manifest file '../../build/timepublisher/timepublisher.egg-info/SOURCES.txt'
+[0.797s] running build
+[0.797s] running build_py
+[0.797s] copying timepublisher/publisher.py -> /root/IntroWorkSpaceTalor/build/timepublisher/build/lib/timepublisher
+[0.798s] running install
+[0.798s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.798s]   warnings.warn(
+[0.798s] running install_lib
+[0.799s] copying /root/IntroWorkSpaceTalor/build/timepublisher/build/lib/timepublisher/publisher.py -> /root/IntroWorkSpaceTalor/install/timepublisher/lib/python3.10/site-packages/timepublisher
+[0.800s] byte-compiling /root/IntroWorkSpaceTalor/install/timepublisher/lib/python3.10/site-packages/timepublisher/publisher.py to publisher.cpython-310.pyc
+[0.800s] running install_data
+[0.800s] running install_egg_info
+[0.802s] removing '/root/IntroWorkSpaceTalor/install/timepublisher/lib/python3.10/site-packages/timepublisher-0.0.0-py3.10.egg-info' (and everything under it)
+[0.802s] Copying ../../build/timepublisher/timepublisher.egg-info to /root/IntroWorkSpaceTalor/install/timepublisher/lib/python3.10/site-packages/timepublisher-0.0.0-py3.10.egg-info
+[0.803s] running install_scripts
+[0.817s] Installing service script to /root/IntroWorkSpaceTalor/install/timepublisher/lib/timepublisher
+[0.818s] writing list of installed files to '/root/IntroWorkSpaceTalor/build/timepublisher/install.log'
+[0.848s] Invoked command in '/root/IntroWorkSpaceTalor/src/timepublisher' returned '0': PYTHONPATH=/root/IntroWorkSpaceTalor/build/timepublisher/prefix_override:/root/IntroWorkSpaceTalor/install/timepublisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/timepublisher build --build-base /root/IntroWorkSpaceTalor/build/timepublisher/build install --record /root/IntroWorkSpaceTalor/build/timepublisher/install.log --single-version-externally-managed

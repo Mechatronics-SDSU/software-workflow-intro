@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/timesubscriber/timesubscriber.egg-info
+writing ../../build/timesubscriber/timesubscriber.egg-info/PKG-INFO
+writing dependency_links to ../../build/timesubscriber/timesubscriber.egg-info/dependency_links.txt
+writing entry points to ../../build/timesubscriber/timesubscriber.egg-info/entry_points.txt
+writing requirements to ../../build/timesubscriber/timesubscriber.egg-info/requires.txt
+writing top-level names to ../../build/timesubscriber/timesubscriber.egg-info/top_level.txt
+writing manifest file '../../build/timesubscriber/timesubscriber.egg-info/SOURCES.txt'
+reading manifest file '../../build/timesubscriber/timesubscriber.egg-info/SOURCES.txt'
+writing manifest file '../../build/timesubscriber/timesubscriber.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/IntroWorkSpaceTalor/build/timesubscriber/build
+creating /root/IntroWorkSpaceTalor/build/timesubscriber/build/lib
+creating /root/IntroWorkSpaceTalor/build/timesubscriber/build/lib/timesubscriber
+copying timesubscriber/subscriber.py -> /root/IntroWorkSpaceTalor/build/timesubscriber/build/lib/timesubscriber
+copying timesubscriber/__init__.py -> /root/IntroWorkSpaceTalor/build/timesubscriber/build/lib/timesubscriber
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /root/IntroWorkSpaceTalor/install/timesubscriber/lib/python3.10/site-packages/timesubscriber
+copying /root/IntroWorkSpaceTalor/build/timesubscriber/build/lib/timesubscriber/subscriber.py -> /root/IntroWorkSpaceTalor/install/timesubscriber/lib/python3.10/site-packages/timesubscriber
+copying /root/IntroWorkSpaceTalor/build/timesubscriber/build/lib/timesubscriber/__init__.py -> /root/IntroWorkSpaceTalor/install/timesubscriber/lib/python3.10/site-packages/timesubscriber
+byte-compiling /root/IntroWorkSpaceTalor/install/timesubscriber/lib/python3.10/site-packages/timesubscriber/subscriber.py to subscriber.cpython-310.pyc
+byte-compiling /root/IntroWorkSpaceTalor/install/timesubscriber/lib/python3.10/site-packages/timesubscriber/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /root/IntroWorkSpaceTalor/install/timesubscriber/share/ament_index
+creating /root/IntroWorkSpaceTalor/install/timesubscriber/share/ament_index/resource_index
+creating /root/IntroWorkSpaceTalor/install/timesubscriber/share/ament_index/resource_index/packages
+copying resource/timesubscriber -> /root/IntroWorkSpaceTalor/install/timesubscriber/share/ament_index/resource_index/packages
+copying package.xml -> /root/IntroWorkSpaceTalor/install/timesubscriber/share/timesubscriber
+running install_egg_info
+Copying ../../build/timesubscriber/timesubscriber.egg-info to /root/IntroWorkSpaceTalor/install/timesubscriber/lib/python3.10/site-packages/timesubscriber-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client script to /root/IntroWorkSpaceTalor/install/timesubscriber/lib/timesubscriber
+writing list of installed files to '/root/IntroWorkSpaceTalor/build/timesubscriber/install.log'

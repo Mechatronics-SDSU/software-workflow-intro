@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/timesubscriber/timesubscriber.egg-info/PKG-INFO
+../../build/timesubscriber/timesubscriber.egg-info/SOURCES.txt
+../../build/timesubscriber/timesubscriber.egg-info/dependency_links.txt
+../../build/timesubscriber/timesubscriber.egg-info/entry_points.txt
+../../build/timesubscriber/timesubscriber.egg-info/requires.txt
+../../build/timesubscriber/timesubscriber.egg-info/top_level.txt
+../../build/timesubscriber/timesubscriber.egg-info/zip-safe
+resource/timesubscriber
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+timesubscriber/__init__.py
+timesubscriber/subscriber.py

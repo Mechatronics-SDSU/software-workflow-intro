@@ -1,0 +1,26 @@
+{
+  "package_name": "interfaces",
+  "output_dir": "/root/IntroWorkSpaceTalor/build/interfaces/rosidl_generator_c/interfaces",
+  "template_dir": "/root/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/root/IntroWorkSpaceTalor/build/interfaces/rosidl_adapter/interfaces:msg/Unixtime.idl",
+    "/root/IntroWorkSpaceTalor/build/interfaces/rosidl_adapter/interfaces:srv/Humantime.idl"
+  ],
+  "target_dependencies": [
+    "/root/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/root/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../../../lib/python3.10/site-packages/rosidl_generator_c/__init__.py",
+    "/root/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/root/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/root/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/root/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/root/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/root/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/root/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/root/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/root/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/root/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/root/ros2_foxy/ros2-linux/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/root/IntroWorkSpaceTalor/build/interfaces/rosidl_adapter/interfaces/msg/Unixtime.idl",
+    "/root/IntroWorkSpaceTalor/build/interfaces/rosidl_adapter/interfaces/srv/Humantime.idl"
+  ]
+}

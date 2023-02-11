@@ -1,0 +1,21 @@
+{
+  "package_name": "interfaces",
+  "output_dir": "/root/IntroWorkSpaceTalor/build/interfaces/rosidl_typesupport_introspection_cpp/interfaces",
+  "template_dir": "/root/ros2_foxy/ros2-linux/share/rosidl_typesupport_introspection_cpp/resource",
+  "idl_tuples": [
+    "/root/IntroWorkSpaceTalor/build/interfaces/rosidl_adapter/interfaces:msg/Unixtime.idl",
+    "/root/IntroWorkSpaceTalor/build/interfaces/rosidl_adapter/interfaces:srv/Humantime.idl"
+  ],
+  "target_dependencies": [
+    "/root/ros2_foxy/ros2-linux/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp",
+    "/root/ros2_foxy/ros2-linux/lib/python3.10/site-packages/rosidl_typesupport_introspection_cpp/__init__.py",
+    "/root/ros2_foxy/ros2-linux/share/rosidl_typesupport_introspection_cpp/resource/idl__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/root/ros2_foxy/ros2-linux/share/rosidl_typesupport_introspection_cpp/resource/idl__type_support.cpp.em",
+    "/root/ros2_foxy/ros2-linux/share/rosidl_typesupport_introspection_cpp/resource/msg__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/root/ros2_foxy/ros2-linux/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
+    "/root/ros2_foxy/ros2-linux/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
+    "/root/ros2_foxy/ros2-linux/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
+    "/root/IntroWorkSpaceTalor/build/interfaces/rosidl_adapter/interfaces/msg/Unixtime.idl",
+    "/root/IntroWorkSpaceTalor/build/interfaces/rosidl_adapter/interfaces/srv/Humantime.idl"
+  ]
+}
