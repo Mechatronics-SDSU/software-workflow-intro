@@ -22,4 +22,4 @@ window 2:
 6. ros2 run timesubscriber client
 
 ### What my program does:
-The client gets the current Unix time, then using a predefined interface (variable type cast), the client sends this Unix time to a service that converts the Unix time to a human-readable format (e.g., 2023-02-14 17:35:39.712339) and sends back the converted time using the same said interface; after the client, once it receives the converted Unix time, it prints out the converted Unix time.
+The client gets the current Unix time, then using a predefined interface (variable type cast), the client sends this Unix time to a service that converts the Unix time to a human-readable format (e.g., 2023-02-14 17:35:39) and sends back the converted time using the same said interface; after the client, once it receives the converted Unix time, it prints out the converted Unix time.
