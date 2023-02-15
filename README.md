@@ -1,7 +1,7 @@
 ### Hello!
 This is Talor Gittin, which you should be able to tell just from the name of the repository alone.
 ### Steps:
-So in order to run the program I have set up, you should clone the repository (duh) and then cd in to the right dictonary which should be IntroWorkSpaceTalor.
+So in order to run the program I have set up, you should clone the repository (duh) and then cd into the right dictonary which should be IntroWorkSpaceTalor.
 Then follow these simple steps:
 1. Open two windows then in each window follow these steps:
 window 1:
