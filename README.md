@@ -1,4 +1,4 @@
-### Hello!
+### Readme for intro project!
 This is Talor Gittin, which you should be able to tell just from the name of the repository alone.
 ### Steps:
 So in order to run the program I have set up, you should clone the repository (duh) and then cd into the right dictonary which should be IntroWorkSpaceTalor.
