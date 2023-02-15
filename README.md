@@ -1,22 +1,23 @@
-# Software Workflow Introduction
-Learn to use GitHub, Python, and the Mechatronics team's workflow!
+### Hello!
+This is Talor Gittin, which you should be able to tell just from the name of the repository alone if I prove myself wrong that I am not idiot.
+### Steps:
+So in order to run the program I have set up, you should clone the repository (duh) and then cd in to the right dictonary which should be IntroWorkSpaceTalor.
+Then follow these simple steps:
+1. Open two windows then in each window follow these steps:
+window 1:
+1. got to ubuntu command line
+2. cd IntroWorkSpaceTalor
+3. source install/setup.bash
+4. cd src
+5. cd timepublisher
+6. ros2 run timepublisher service
+window 2:
+1. got to ubuntu command line
+2. cd IntroWorkSpaceTalor
+3. source install/setup.bash
+4. cd src
+5. cd timesubscriber
+6. ros2 run timesubscriber client
 
-## Getting started
-If this is your first time here on the GitHub, welcome! Please refer to the Python environment setup below followed by the Git guide to get started with your introduction to our team's workflow.
-
-### Python environment setup
-[Get started our Python setup guide here](src/python_setup_guide.md)
-
-### Using Git
-[See our Git Guide here](src/git_guide.md)
-
-Please refer to this for creating a new branch.
-
-### Introduce yourself
-For your first task, you'll write some basic Python hello world code using Pycharm or the Python environment you set up on your local machine and then push it to this repository. Please do `git checkout first-task` or, in Pycharm, right-click on the `first-task` branch and then click "Checkout". Your instructions for how to submit will be in the docstring in the top of the file `submissions/template.py`. If you want help, you can checkout the `submission-yizaguirre` branch to see what my own submission looks like. You can also message us in the Discord. Good luck!
-
-## Projects
-If you're writing up a project and have already done the first task, please refer to our project list Trello board and read the styling guide before you begin developing.
-
-### Styling guide
-[See our Styling Guide here](src/styling_guide.md) before writing any Python code for projects.
+### What my program does:
+The client gets the current Unix time, then using a predefined interface (variable type cast), the client sends this Unix time to a service that converts the Unix time to a human-readable format (e.g., 2023-02-14 17:35:39.712339) and sends back the converted time using the same said interface; after the client, once it receives the converted Unix time, it prints out the converted Unix time.
