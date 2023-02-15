@@ -1,0 +1,26 @@
+running egg_info
+writing ../../build/time_pubsub/time_pubsub.egg-info/PKG-INFO
+writing dependency_links to ../../build/time_pubsub/time_pubsub.egg-info/dependency_links.txt
+writing entry points to ../../build/time_pubsub/time_pubsub.egg-info/entry_points.txt
+writing requirements to ../../build/time_pubsub/time_pubsub.egg-info/requires.txt
+writing top-level names to ../../build/time_pubsub/time_pubsub.egg-info/top_level.txt
+reading manifest file '../../build/time_pubsub/time_pubsub.egg-info/SOURCES.txt'
+writing manifest file '../../build/time_pubsub/time_pubsub.egg-info/SOURCES.txt'
+running build
+running build_py
+copying time_pubsub/timepublisher.py -> /home/alex/IntroWorkspaceProchazka/build/time_pubsub/build/lib/time_pubsub
+copying time_pubsub/timesubscriber.py -> /home/alex/IntroWorkspaceProchazka/build/time_pubsub/build/lib/time_pubsub
+running install
+running install_lib
+copying /home/alex/IntroWorkspaceProchazka/build/time_pubsub/build/lib/time_pubsub/timepublisher.py -> /home/alex/IntroWorkspaceProchazka/install/time_pubsub/lib/python3.8/site-packages/time_pubsub
+copying /home/alex/IntroWorkspaceProchazka/build/time_pubsub/build/lib/time_pubsub/timesubscriber.py -> /home/alex/IntroWorkspaceProchazka/install/time_pubsub/lib/python3.8/site-packages/time_pubsub
+byte-compiling /home/alex/IntroWorkspaceProchazka/install/time_pubsub/lib/python3.8/site-packages/time_pubsub/timepublisher.py to timepublisher.cpython-38.pyc
+byte-compiling /home/alex/IntroWorkspaceProchazka/install/time_pubsub/lib/python3.8/site-packages/time_pubsub/timesubscriber.py to timesubscriber.cpython-38.pyc
+running install_data
+copying package.xml -> /home/alex/IntroWorkspaceProchazka/install/time_pubsub/share/time_pubsub
+running install_egg_info
+Copying ../../build/time_pubsub/time_pubsub.egg-info to /home/alex/IntroWorkspaceProchazka/install/time_pubsub/lib/python3.8/site-packages/time_pubsub-1.0.0-py3.8.egg-info
+running install_scripts
+Installing pub script to /home/alex/IntroWorkspaceProchazka/install/time_pubsub/lib/time_pubsub
+Installing sub script to /home/alex/IntroWorkspaceProchazka/install/time_pubsub/lib/time_pubsub
+writing list of installed files to '/home/alex/IntroWorkspaceProchazka/build/time_pubsub/install.log'
