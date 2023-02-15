@@ -6,7 +6,7 @@ Then follow these simple steps:
 1. Open two windows then in each window follow these steps:
 
 window 1:
-1. got to ubuntu command line
+1. go to ubuntu command line
 2. cd IntroWorkSpaceTalor
 3. source install/setup.bash
 4. cd src
@@ -14,7 +14,7 @@ window 1:
 6. ros2 run timepublisher service
 
 window 2:
-1. got to ubuntu command line
+1. go to ubuntu command line
 2. cd IntroWorkSpaceTalor
 3. source install/setup.bash
 4. cd src
