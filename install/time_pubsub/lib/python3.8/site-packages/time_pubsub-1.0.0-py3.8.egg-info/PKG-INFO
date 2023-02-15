@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: time-pubsub
+Version: 1.0.0
+Summary: Contains 2 nodes which generate the unix epoch time and convert it to standard format
+Home-page: UNKNOWN
+Maintainer: Alex Prochazka
+Maintainer-email: alexprosd@gmail.com
+License: Apache 2.0
+Description: UNKNOWN
+Platform: UNKNOWN

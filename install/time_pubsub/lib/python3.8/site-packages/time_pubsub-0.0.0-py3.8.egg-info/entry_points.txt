@@ -1,0 +1,4 @@
+[console_scripts]
+pub = time_pubsub.timepublisher:main
+sub = time_pubsub.timesubscriber:main
+
