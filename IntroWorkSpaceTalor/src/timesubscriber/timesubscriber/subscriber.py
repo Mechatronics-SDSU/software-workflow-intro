@@ -24,11 +24,11 @@ class MinimalClientAsync(Node):
 
 def main(args=None):
     rclpy.init(args=args)
-
     minimal_client = MinimalClientAsync()
     while True:
+        #send unix time to service
         response = minimal_client.send_request(int(time.time()))
-
+        #print out response (converted time) from service
         minimal_client.get_logger().info('Unix to human time: %s' % str(response))
         time.sleep(5)
     minimal_client.destroy_node()
