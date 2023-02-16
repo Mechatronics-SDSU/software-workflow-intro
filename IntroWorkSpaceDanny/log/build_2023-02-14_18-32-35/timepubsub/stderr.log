@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/dani/IntroWorkSpaceDannyP/install/timepubsub/lib/python3.10/site-packages/timepubsub/timesubscriber.py", line 21
+    self.get_logger().info('datetime.datetime.fromtimestamp(int("1284105682")).striftime('%Y-%m-%d %H:%M:%S'))' % msg.data)
+                                                                                             ^
+SyntaxError: invalid syntax
+

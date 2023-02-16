@@ -1,0 +1,30 @@
+[0.546s] Invoking command in '/home/dani/IntroWorkSpaceDannyP/src/timepubsub': PYTHONPATH=/home/dani/IntroWorkSpaceDannyP/build/timepubsub/prefix_override:/home/dani/IntroWorkSpaceDannyP/install/timepubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/timepubsub build --build-base /home/dani/IntroWorkSpaceDannyP/build/timepubsub/build install --record /home/dani/IntroWorkSpaceDannyP/build/timepubsub/install.log --single-version-externally-managed
+[0.765s] running egg_info
+[0.766s] writing ../../build/timepubsub/timepubsub.egg-info/PKG-INFO
+[0.766s] writing dependency_links to ../../build/timepubsub/timepubsub.egg-info/dependency_links.txt
+[0.766s] writing entry points to ../../build/timepubsub/timepubsub.egg-info/entry_points.txt
+[0.766s] writing requirements to ../../build/timepubsub/timepubsub.egg-info/requires.txt
+[0.767s] writing top-level names to ../../build/timepubsub/timepubsub.egg-info/top_level.txt
+[0.768s] reading manifest file '../../build/timepubsub/timepubsub.egg-info/SOURCES.txt'
+[0.770s] writing manifest file '../../build/timepubsub/timepubsub.egg-info/SOURCES.txt'
+[0.770s] running build
+[0.770s] running build_py
+[0.770s] copying timepubsub/timepublisher.py -> /home/dani/IntroWorkSpaceDannyP/build/timepubsub/build/lib/timepubsub
+[0.770s] copying timepubsub/timesubscriber.py -> /home/dani/IntroWorkSpaceDannyP/build/timepubsub/build/lib/timepubsub
+[0.770s] running install
+[0.771s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.771s]   warnings.warn(
+[0.771s] running install_lib
+[0.772s] copying /home/dani/IntroWorkSpaceDannyP/build/timepubsub/build/lib/timepubsub/timepublisher.py -> /home/dani/IntroWorkSpaceDannyP/install/timepubsub/lib/python3.10/site-packages/timepubsub
+[0.772s] copying /home/dani/IntroWorkSpaceDannyP/build/timepubsub/build/lib/timepubsub/timesubscriber.py -> /home/dani/IntroWorkSpaceDannyP/install/timepubsub/lib/python3.10/site-packages/timepubsub
+[0.773s] byte-compiling /home/dani/IntroWorkSpaceDannyP/install/timepubsub/lib/python3.10/site-packages/timepubsub/timepublisher.py to timepublisher.cpython-310.pyc
+[0.774s] byte-compiling /home/dani/IntroWorkSpaceDannyP/install/timepubsub/lib/python3.10/site-packages/timepubsub/timesubscriber.py to timesubscriber.cpython-310.pyc
+[0.774s] running install_data
+[0.775s] running install_egg_info
+[0.777s] removing '/home/dani/IntroWorkSpaceDannyP/install/timepubsub/lib/python3.10/site-packages/timepubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[0.777s] Copying ../../build/timepubsub/timepubsub.egg-info to /home/dani/IntroWorkSpaceDannyP/install/timepubsub/lib/python3.10/site-packages/timepubsub-0.0.0-py3.10.egg-info
+[0.778s] running install_scripts
+[0.799s] Installing listener script to /home/dani/IntroWorkSpaceDannyP/install/timepubsub/lib/timepubsub
+[0.799s] Installing talker script to /home/dani/IntroWorkSpaceDannyP/install/timepubsub/lib/timepubsub
+[0.800s] writing list of installed files to '/home/dani/IntroWorkSpaceDannyP/build/timepubsub/install.log'
+[0.823s] Invoked command in '/home/dani/IntroWorkSpaceDannyP/src/timepubsub' returned '0': PYTHONPATH=/home/dani/IntroWorkSpaceDannyP/build/timepubsub/prefix_override:/home/dani/IntroWorkSpaceDannyP/install/timepubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/timepubsub build --build-base /home/dani/IntroWorkSpaceDannyP/build/timepubsub/build install --record /home/dani/IntroWorkSpaceDannyP/build/timepubsub/install.log --single-version-externally-managed
