@@ -1,0 +1,33 @@
+[0.551s] Invoking command in '/home/alex/IntroWorkspaceProchazka/src/time_pubsub': PYTHONPATH=/home/alex/IntroWorkspaceProchazka/build/time_pubsub/prefix_override:/home/alex/IntroWorkspaceProchazka/install/time_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/time_pubsub build --build-base /home/alex/IntroWorkspaceProchazka/build/time_pubsub/build install --record /home/alex/IntroWorkspaceProchazka/build/time_pubsub/install.log --install-scripts $base/lib/time_pubsub --single-version-externally-managed
+[0.713s] running egg_info
+[0.714s] creating ../../build/time_pubsub/time_pubsub.egg-info
+[0.714s] writing ../../build/time_pubsub/time_pubsub.egg-info/PKG-INFO
+[0.714s] writing dependency_links to ../../build/time_pubsub/time_pubsub.egg-info/dependency_links.txt
+[0.714s] writing entry points to ../../build/time_pubsub/time_pubsub.egg-info/entry_points.txt
+[0.714s] writing requirements to ../../build/time_pubsub/time_pubsub.egg-info/requires.txt
+[0.714s] writing top-level names to ../../build/time_pubsub/time_pubsub.egg-info/top_level.txt
+[0.715s] writing manifest file '../../build/time_pubsub/time_pubsub.egg-info/SOURCES.txt'
+[0.746s] reading manifest file '../../build/time_pubsub/time_pubsub.egg-info/SOURCES.txt'
+[0.746s] writing manifest file '../../build/time_pubsub/time_pubsub.egg-info/SOURCES.txt'
+[0.746s] running build
+[0.747s] running build_py
+[0.747s] creating /home/alex/IntroWorkspaceProchazka/build/time_pubsub/build
+[0.747s] creating /home/alex/IntroWorkspaceProchazka/build/time_pubsub/build/lib
+[0.747s] creating /home/alex/IntroWorkspaceProchazka/build/time_pubsub/build/lib/time_pubsub
+[0.747s] copying time_pubsub/__init__.py -> /home/alex/IntroWorkspaceProchazka/build/time_pubsub/build/lib/time_pubsub
+[0.748s] running install
+[0.748s] running install_lib
+[0.749s] creating /home/alex/IntroWorkspaceProchazka/install/time_pubsub/lib/python3.8/site-packages/time_pubsub
+[0.749s] copying /home/alex/IntroWorkspaceProchazka/build/time_pubsub/build/lib/time_pubsub/__init__.py -> /home/alex/IntroWorkspaceProchazka/install/time_pubsub/lib/python3.8/site-packages/time_pubsub
+[0.755s] byte-compiling /home/alex/IntroWorkspaceProchazka/install/time_pubsub/lib/python3.8/site-packages/time_pubsub/__init__.py to __init__.cpython-38.pyc
+[0.755s] running install_data
+[0.756s] creating /home/alex/IntroWorkspaceProchazka/install/time_pubsub/share/ament_index
+[0.756s] creating /home/alex/IntroWorkspaceProchazka/install/time_pubsub/share/ament_index/resource_index
+[0.756s] creating /home/alex/IntroWorkspaceProchazka/install/time_pubsub/share/ament_index/resource_index/packages
+[0.756s] copying resource/time_pubsub -> /home/alex/IntroWorkspaceProchazka/install/time_pubsub/share/ament_index/resource_index/packages
+[0.756s] copying package.xml -> /home/alex/IntroWorkspaceProchazka/install/time_pubsub/share/time_pubsub
+[0.756s] running install_egg_info
+[0.756s] Copying ../../build/time_pubsub/time_pubsub.egg-info to /home/alex/IntroWorkspaceProchazka/install/time_pubsub/lib/python3.8/site-packages/time_pubsub-0.0.0-py3.8.egg-info
+[0.756s] running install_scripts
+[0.769s] writing list of installed files to '/home/alex/IntroWorkspaceProchazka/build/time_pubsub/install.log'
+[0.787s] Invoked command in '/home/alex/IntroWorkspaceProchazka/src/time_pubsub' returned '0': PYTHONPATH=/home/alex/IntroWorkspaceProchazka/build/time_pubsub/prefix_override:/home/alex/IntroWorkspaceProchazka/install/time_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/time_pubsub build --build-base /home/alex/IntroWorkspaceProchazka/build/time_pubsub/build install --record /home/alex/IntroWorkspaceProchazka/build/time_pubsub/install.log --install-scripts $base/lib/time_pubsub --single-version-externally-managed
