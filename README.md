@@ -30,4 +30,4 @@ ros2 run time_pubsub pub
 ros2 run time_pubsub sub
 ```
 You should now see the publisher terminal displaying both the Unix Epoch Time and a formatted version. The subscriber displays only the Unix Time.
-Pressing '''ctrl + c''' in each terminal will terminate runtime.
+Pressing ```ctrl + c``` in each terminal will terminate runtime.
