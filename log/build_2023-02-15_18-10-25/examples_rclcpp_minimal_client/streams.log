@@ -1,0 +1,77 @@
+[0.039s] Invoking command in '/home/jkeus/ros2_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jkeus/ros2_ws/src/examples/rclcpp/services/minimal_client -DCMAKE_INSTALL_PREFIX=/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client
+[0.286s] -- The C compiler identification is GNU 9.4.0
+[0.450s] -- The CXX compiler identification is GNU 9.4.0
+[0.464s] -- Check for working C compiler: /usr/bin/cc
+[0.691s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.693s] -- Detecting C compiler ABI info
+[0.986s] -- Detecting C compiler ABI info - done
+[1.021s] -- Detecting C compile features
+[1.022s] -- Detecting C compile features - done
+[1.034s] -- Check for working CXX compiler: /usr/bin/c++
+[1.399s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.400s] -- Detecting CXX compiler ABI info
+[1.559s] -- Detecting CXX compiler ABI info - done
+[1.578s] -- Detecting CXX compile features
+[1.578s] -- Detecting CXX compile features - done
+[1.597s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.710s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.710s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.393s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[2.435s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.445s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.581s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.671s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.167s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.849s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.953s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.955s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.957s] -- Looking for pthread.h
+[4.090s] -- Looking for pthread.h - found
+[4.091s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.232s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.234s] -- Looking for pthread_create in pthreads
+[4.516s] -- Looking for pthread_create in pthreads - not found
+[4.517s] -- Looking for pthread_create in pthread
+[4.631s] -- Looking for pthread_create in pthread - found
+[4.632s] -- Found Threads: TRUE  
+[5.208s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.459s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.462s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.467s] -- Configured cppcheck include dirs: 
+[5.467s] -- Configured cppcheck exclude dirs and/or files: 
+[5.468s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.470s] -- Configured cpplint exclude dirs and/or files: 
+[5.471s] -- Added test 'lint_cmake' to check CMake code style
+[5.472s] -- Added test 'uncrustify' to check C / C++ code style
+[5.475s] -- Configured uncrustify additional arguments: 
+[5.484s] -- Added test 'xmllint' to check XML markup files
+[5.492s] -- Configuring done
+[5.534s] -- Generating done
+[5.551s] -- Build files have been written to: /home/jkeus/ros2_ws/build/examples_rclcpp_minimal_client
+[5.611s] Invoked command in '/home/jkeus/ros2_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jkeus/ros2_ws/src/examples/rclcpp/services/minimal_client -DCMAKE_INSTALL_PREFIX=/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client
+[5.616s] Invoking command in '/home/jkeus/ros2_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jkeus/ros2_ws/build/examples_rclcpp_minimal_client -- -j2 -l2
+[5.918s] [35m[1mScanning dependencies of target client_main[0m
+[6.027s] [ 50%] [32mBuilding CXX object CMakeFiles/client_main.dir/main.cpp.o[0m
+[11.702s] [100%] [32m[1mLinking CXX executable client_main[0m
+[12.067s] [100%] Built target client_main
+[12.084s] Invoked command in '/home/jkeus/ros2_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jkeus/ros2_ws/build/examples_rclcpp_minimal_client -- -j2 -l2
+[12.130s] Invoking command in '/home/jkeus/ros2_ws/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jkeus/ros2_ws/build/examples_rclcpp_minimal_client
+[12.147s] -- Install configuration: ""
+[12.147s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main
+[12.148s] -- Set runtime path of "/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client/lib/examples_rclcpp_minimal_client/client_main" to ""
+[12.149s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_client
+[12.149s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_client
+[12.150s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.sh
+[12.150s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/ament_prefix_path.dsv
+[12.150s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.sh
+[12.151s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/environment/path.dsv
+[12.151s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.bash
+[12.151s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.sh
+[12.152s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.zsh
+[12.152s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/local_setup.dsv
+[12.153s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.dsv
+[12.153s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_client
+[12.153s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig.cmake
+[12.154s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/cmake/examples_rclcpp_minimal_clientConfig-version.cmake
+[12.154s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client/share/examples_rclcpp_minimal_client/package.xml
+[12.164s] Invoked command in '/home/jkeus/ros2_ws/build/examples_rclcpp_minimal_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jkeus/ros2_ws/build/examples_rclcpp_minimal_client

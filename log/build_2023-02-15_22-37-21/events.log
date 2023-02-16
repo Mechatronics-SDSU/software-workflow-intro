@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.002258] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.002786] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.003046] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.003065] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.003077] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.003088] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.003098] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.003107] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.003116] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.003125] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.003138] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.003147] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.003155] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.003165] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.003348] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.003431] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.003468] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.003510] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.011742] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.105445] (-) TimerEvent: {}
+[0.206670] (-) TimerEvent: {}
+[0.308440] (-) TimerEvent: {}
+[0.412492] (-) TimerEvent: {}
+[0.521981] (-) TimerEvent: {}
+[0.636513] (-) TimerEvent: {}
+[0.737374] (-) TimerEvent: {}
+[0.838630] (-) TimerEvent: {}
+[0.940529] (-) TimerEvent: {}
+[1.042685] (-) TimerEvent: {}
+[1.143913] (-) TimerEvent: {}
+[1.245043] (-) TimerEvent: {}
+[1.353621] (-) TimerEvent: {}
+[1.462011] (-) TimerEvent: {}
+[1.571961] (-) TimerEvent: {}
+[1.680987] (-) TimerEvent: {}
+[1.790898] (-) TimerEvent: {}
+[1.895534] (-) TimerEvent: {}
+[1.955965] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/jkeus/ros2_ws/build/py_pubsub/build', 'install', '--record', '/home/jkeus/ros2_ws/build/py_pubsub/install.log', '--install-scripts', '$base/lib/py_pubsub', '--single-version-externally-managed'], 'cwd': '/home/jkeus/ros2_ws/src/py_pubsub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jkeus', 'SSH_AGENT_PID': '2694', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/jkeus/ros2_ws/install/turtlesim/lib:/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/jkeus', 'OLDPWD': '/home/jkeus', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2523', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/jkeus/ros2_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'jkeus', 'JOURNAL_STREAM': '8:56674', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jkeus', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/2807,unix/ubuntu:/tmp/.ICE-unix/2807', 'INVOCATION_ID': 'cc75fe4310a94afda2b1433b3d5df994', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/01db969f_f631_4593_937d_9c4fed504183', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.728', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/jkeus/ros2_ws/install/turtlesim:/home/jkeus/ros2_ws/install/py_pubsub:/home/jkeus/ros2_ws/install/examples_rclpy_minimal_subscriber:/home/jkeus/ros2_ws/install/examples_rclpy_minimal_service:/home/jkeus/ros2_ws/install/examples_rclpy_minimal_publisher:/home/jkeus/ros2_ws/install/examples_rclpy_minimal_client:/home/jkeus/ros2_ws/install/examples_rclpy_minimal_action_server:/home/jkeus/ros2_ws/install/examples_rclpy_minimal_action_client:/home/jkeus/ros2_ws/install/examples_rclpy_executors:/home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_timer:/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_service:/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition:/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client:/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_action_client:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jkeus/ros2_ws/build/py_pubsub', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jkeus/ros2_ws/build/py_pubsub/prefix_override:/home/jkeus/ros2_ws/install/py_pubsub/lib/python3.8/site-packages:/home/jkeus/ros2_ws/install/turtlesim/lib/python3.8/site-packages:/home/jkeus/ros2_ws/install/py_pubsub/lib/python3.8/site-packages:/home/jkeus/ros2_ws/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/jkeus/ros2_ws/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/jkeus/ros2_ws/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/jkeus/ros2_ws/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/jkeus/ros2_ws/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/jkeus/ros2_ws/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/jkeus/ros2_ws/install/examples_rclpy_executors/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/jkeus/ros2_ws/install/turtlesim:/home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor:/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_timer:/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_subscriber:/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_service:/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher:/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition:/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_client:/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_action_server:/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_action_client'}, 'shell': False}
+[1.996803] (-) TimerEvent: {}
+[2.108180] (-) TimerEvent: {}
+[2.218748] (-) TimerEvent: {}
+[2.331243] (-) TimerEvent: {}
+[2.440654] (-) TimerEvent: {}
+[2.506124] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[2.507988] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[2.509044] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[2.509936] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[2.510676] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[2.511324] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[2.547037] (-) TimerEvent: {}
+[2.614619] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[2.617181] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[2.618381] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[2.619690] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[2.619897] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/subscriber_member_function.py -> /home/jkeus/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[2.620040] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[2.622838] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[2.625155] (py_pubsub) StdoutLine: {'line': b'copying /home/jkeus/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/jkeus/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub\n'}
+[2.627011] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/jkeus/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc\n'}
+[2.630772] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[2.632118] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.636274] (py_pubsub) StdoutLine: {'line': b"removing '/home/jkeus/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.637277] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/jkeus/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info\n'}
+[2.639324] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[2.647316] (-) TimerEvent: {}
+[2.682853] (py_pubsub) StdoutLine: {'line': b'Installing timepublisher script to /home/jkeus/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[2.685100] (py_pubsub) StdoutLine: {'line': b'Installing timesubscriber script to /home/jkeus/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[2.685710] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/jkeus/ros2_ws/build/py_pubsub/install.log'\n"}
+[2.741274] (py_pubsub) CommandEnded: {'returncode': 0}
+[2.756545] (-) TimerEvent: {}
+[2.774647] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[2.776926] (-) EventReactorShutdown: {}

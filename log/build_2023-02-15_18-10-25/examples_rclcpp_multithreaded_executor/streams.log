@@ -1,0 +1,76 @@
+[0.028s] Invoking command in '/home/jkeus/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jkeus/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor
+[0.131s] -- The C compiler identification is GNU 9.4.0
+[0.213s] -- The CXX compiler identification is GNU 9.4.0
+[0.221s] -- Check for working C compiler: /usr/bin/cc
+[0.359s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.361s] -- Detecting C compiler ABI info
+[0.515s] -- Detecting C compiler ABI info - done
+[0.533s] -- Detecting C compile features
+[0.534s] -- Detecting C compile features - done
+[0.537s] -- Check for working CXX compiler: /usr/bin/c++
+[0.666s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.667s] -- Detecting CXX compiler ABI info
+[0.775s] -- Detecting CXX compiler ABI info - done
+[0.794s] -- Detecting CXX compile features
+[0.796s] -- Detecting CXX compile features - done
+[0.799s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.832s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.832s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.133s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.202s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.304s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.346s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.582s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.758s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.768s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.770s] -- Looking for pthread.h
+[1.981s] -- Looking for pthread.h - found
+[1.982s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.135s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.135s] -- Looking for pthread_create in pthreads
+[2.224s] -- Looking for pthread_create in pthreads - not found
+[2.225s] -- Looking for pthread_create in pthread
+[2.348s] -- Looking for pthread_create in pthread - found
+[2.349s] -- Found Threads: TRUE  
+[2.594s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.749s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.753s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.754s] -- Configured cppcheck include dirs: 
+[2.754s] -- Configured cppcheck exclude dirs and/or files: 
+[2.761s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.761s] -- Configured cpplint exclude dirs and/or files: 
+[2.762s] -- Added test 'lint_cmake' to check CMake code style
+[2.763s] -- Added test 'uncrustify' to check C / C++ code style
+[2.763s] -- Configured uncrustify additional arguments: 
+[2.764s] -- Added test 'xmllint' to check XML markup files
+[2.773s] -- Configuring done
+[2.797s] -- Generating done
+[2.799s] -- Build files have been written to: /home/jkeus/ros2_ws/build/examples_rclcpp_multithreaded_executor
+[2.815s] Invoked command in '/home/jkeus/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jkeus/ros2_ws/src/examples/rclcpp/executors/multithreaded_executor -DCMAKE_INSTALL_PREFIX=/home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor
+[2.820s] Invoking command in '/home/jkeus/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jkeus/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j2 -l2
+[2.884s] [35m[1mScanning dependencies of target multithreaded_executor[0m
+[2.930s] [ 50%] [32mBuilding CXX object CMakeFiles/multithreaded_executor.dir/multithreaded_executor.cpp.o[0m
+[10.902s] [100%] [32m[1mLinking CXX executable multithreaded_executor[0m
+[11.244s] [100%] Built target multithreaded_executor
+[11.260s] Invoked command in '/home/jkeus/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jkeus/ros2_ws/build/examples_rclcpp_multithreaded_executor -- -j2 -l2
+[11.302s] Invoking command in '/home/jkeus/ros2_ws/build/examples_rclcpp_multithreaded_executor': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jkeus/ros2_ws/build/examples_rclcpp_multithreaded_executor
+[11.334s] -- Install configuration: ""
+[11.335s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor
+[11.338s] -- Set runtime path of "/home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor/lib/examples_rclcpp_multithreaded_executor/multithreaded_executor" to ""
+[11.339s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_multithreaded_executor
+[11.339s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_multithreaded_executor
+[11.340s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.sh
+[11.340s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/ament_prefix_path.dsv
+[11.341s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.sh
+[11.341s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/environment/path.dsv
+[11.342s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.bash
+[11.342s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.sh
+[11.342s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.zsh
+[11.343s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/local_setup.dsv
+[11.343s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.dsv
+[11.343s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/ament_index/resource_index/packages/examples_rclcpp_multithreaded_executor
+[11.344s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig.cmake
+[11.344s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/cmake/examples_rclcpp_multithreaded_executorConfig-version.cmake
+[11.344s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_multithreaded_executor/share/examples_rclcpp_multithreaded_executor/package.xml
+[11.349s] Invoked command in '/home/jkeus/ros2_ws/build/examples_rclcpp_multithreaded_executor' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jkeus/ros2_ws/build/examples_rclcpp_multithreaded_executor

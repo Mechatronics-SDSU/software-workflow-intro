@@ -1,0 +1,88 @@
+[0.029s] Invoking command in '/home/jkeus/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jkeus/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher
+[0.164s] -- The C compiler identification is GNU 9.4.0
+[0.349s] -- The CXX compiler identification is GNU 9.4.0
+[0.358s] -- Check for working C compiler: /usr/bin/cc
+[0.546s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.548s] -- Detecting C compiler ABI info
+[0.699s] -- Detecting C compiler ABI info - done
+[0.731s] -- Detecting C compile features
+[0.732s] -- Detecting C compile features - done
+[0.743s] -- Check for working CXX compiler: /usr/bin/c++
+[1.057s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.058s] -- Detecting CXX compiler ABI info
+[1.220s] -- Detecting CXX compiler ABI info - done
+[1.240s] -- Detecting CXX compile features
+[1.241s] -- Detecting CXX compile features - done
+[1.243s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.272s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.273s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.587s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.691s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.708s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.820s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.901s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.011s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.153s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.158s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.159s] -- Looking for pthread.h
+[2.399s] -- Looking for pthread.h - found
+[2.399s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.559s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.559s] -- Looking for pthread_create in pthreads
+[2.770s] -- Looking for pthread_create in pthreads - not found
+[2.770s] -- Looking for pthread_create in pthread
+[3.190s] -- Looking for pthread_create in pthread - found
+[3.191s] -- Found Threads: TRUE  
+[3.535s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.799s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.806s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.807s] -- Configured cppcheck include dirs: 
+[3.807s] -- Configured cppcheck exclude dirs and/or files: 
+[3.810s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.813s] -- Configured cpplint exclude dirs and/or files: 
+[3.820s] -- Added test 'lint_cmake' to check CMake code style
+[3.827s] -- Added test 'uncrustify' to check C / C++ code style
+[3.827s] -- Configured uncrustify additional arguments: 
+[3.831s] -- Added test 'xmllint' to check XML markup files
+[3.841s] -- Configuring done
+[3.862s] -- Generating done
+[3.866s] -- Build files have been written to: /home/jkeus/ros2_ws/build/examples_rclcpp_minimal_publisher
+[3.883s] Invoked command in '/home/jkeus/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jkeus/ros2_ws/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher
+[3.885s] Invoking command in '/home/jkeus/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jkeus/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j2 -l2
+[3.954s] [35m[1mScanning dependencies of target publisher_not_composable[0m
+[3.999s] [35m[1mScanning dependencies of target publisher_member_function[0m
+[4.058s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[4.126s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[17.307s] [ 50%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[17.356s] [ 66%] [32m[1mLinking CXX executable publisher_member_function[0m
+[17.880s] [ 66%] Built target publisher_not_composable
+[17.886s] [ 66%] Built target publisher_member_function
+[17.903s] [35m[1mScanning dependencies of target publisher_lambda[0m
+[17.958s] [ 83%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[23.967s] [100%] [32m[1mLinking CXX executable publisher_lambda[0m
+[24.299s] [100%] Built target publisher_lambda
+[24.343s] Invoked command in '/home/jkeus/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jkeus/ros2_ws/build/examples_rclcpp_minimal_publisher -- -j2 -l2
+[24.436s] Invoking command in '/home/jkeus/ros2_ws/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jkeus/ros2_ws/build/examples_rclcpp_minimal_publisher
+[24.479s] -- Install configuration: ""
+[24.480s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[24.481s] -- Set runtime path of "/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda" to ""
+[24.481s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[24.483s] -- Set runtime path of "/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function" to ""
+[24.483s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[24.485s] -- Set runtime path of "/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable" to ""
+[24.485s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[24.486s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[24.486s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[24.486s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[24.487s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[24.487s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[24.487s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[24.488s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[24.490s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[24.491s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[24.492s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[24.492s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[24.493s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[24.493s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[24.494s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[24.503s] Invoked command in '/home/jkeus/ros2_ws/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jkeus/ros2_ws/build/examples_rclcpp_minimal_publisher

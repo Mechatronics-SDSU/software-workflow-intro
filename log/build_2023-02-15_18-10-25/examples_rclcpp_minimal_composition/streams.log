@@ -1,0 +1,98 @@
+[0.046s] Invoking command in '/home/jkeus/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jkeus/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition
+[0.196s] -- The C compiler identification is GNU 9.4.0
+[0.278s] -- The CXX compiler identification is GNU 9.4.0
+[0.294s] -- Check for working C compiler: /usr/bin/cc
+[0.540s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.540s] -- Detecting C compiler ABI info
+[0.712s] -- Detecting C compiler ABI info - done
+[0.749s] -- Detecting C compile features
+[0.750s] -- Detecting C compile features - done
+[0.754s] -- Check for working CXX compiler: /usr/bin/c++
+[0.883s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.884s] -- Detecting CXX compiler ABI info
+[0.999s] -- Detecting CXX compiler ABI info - done
+[1.018s] -- Detecting CXX compile features
+[1.018s] -- Detecting CXX compile features - done
+[1.022s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.061s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.062s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.412s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.518s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.644s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.733s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.968s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.126s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.129s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.132s] -- Looking for pthread.h
+[2.241s] -- Looking for pthread.h - found
+[2.241s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.366s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.367s] -- Looking for pthread_create in pthreads
+[2.601s] -- Looking for pthread_create in pthreads - not found
+[2.601s] -- Looking for pthread_create in pthread
+[2.753s] -- Looking for pthread_create in pthread - found
+[2.757s] -- Found Threads: TRUE  
+[3.002s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[3.129s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.268s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.271s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.272s] -- Configured cppcheck include dirs: /home/jkeus/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include
+[3.272s] -- Configured cppcheck exclude dirs and/or files: 
+[3.274s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.274s] -- Configured cpplint exclude dirs and/or files: 
+[3.275s] -- Added test 'lint_cmake' to check CMake code style
+[3.276s] -- Added test 'uncrustify' to check C / C++ code style
+[3.277s] -- Configured uncrustify additional arguments: 
+[3.278s] -- Added test 'xmllint' to check XML markup files
+[3.287s] -- Configuring done
+[3.330s] -- Generating done
+[3.339s] -- Build files have been written to: /home/jkeus/ros2_ws/build/examples_rclcpp_minimal_composition
+[3.371s] Invoked command in '/home/jkeus/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/jkeus/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition
+[3.379s] Invoking command in '/home/jkeus/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jkeus/ros2_ws/build/examples_rclcpp_minimal_composition -- -j2 -l2
+[3.485s] [35m[1mScanning dependencies of target composition_nodes[0m
+[3.606s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[3.616s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[21.011s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[21.369s] [ 33%] Built target composition_nodes
+[21.384s] [35m[1mScanning dependencies of target composition_composed[0m
+[21.443s] [ 44%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[25.407s] [ 55%] [32m[1mLinking CXX executable composition_composed[0m
+[25.766s] [ 55%] Built target composition_composed
+[25.787s] [35m[1mScanning dependencies of target composition_subscriber[0m
+[25.845s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[28.619s] [ 77%] [32m[1mLinking CXX executable composition_subscriber[0m
+[28.876s] [ 77%] Built target composition_subscriber
+[28.893s] [35m[1mScanning dependencies of target composition_publisher[0m
+[28.953s] [ 88%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[31.726s] [100%] [32m[1mLinking CXX executable composition_publisher[0m
+[31.940s] [100%] Built target composition_publisher
+[31.977s] Invoked command in '/home/jkeus/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/jkeus/ros2_ws/build/examples_rclcpp_minimal_composition -- -j2 -l2
+[32.057s] Invoking command in '/home/jkeus/ros2_ws/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jkeus/ros2_ws/build/examples_rclcpp_minimal_composition
+[32.074s] -- Install configuration: ""
+[32.075s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[32.075s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[32.076s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[32.080s] -- Set runtime path of "/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so" to ""
+[32.080s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[32.081s] -- Set runtime path of "/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher" to ""
+[32.082s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[32.082s] -- Set runtime path of "/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber" to ""
+[32.083s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[32.084s] -- Set runtime path of "/home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed" to ""
+[32.084s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[32.084s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[32.085s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[32.085s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[32.085s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[32.086s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[32.086s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[32.087s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[32.087s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[32.088s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[32.088s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[32.088s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[32.089s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[32.089s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[32.089s] -- Installing: /home/jkeus/ros2_ws/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[32.097s] Invoked command in '/home/jkeus/ros2_ws/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/jkeus/ros2_ws/build/examples_rclcpp_minimal_composition

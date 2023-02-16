@@ -1,0 +1,40 @@
+[0.876s] Invoking command in '/home/jkeus/ros2_ws/src/py_pubsub': PYTHONPATH=/home/jkeus/ros2_ws/build/py_pubsub/prefix_override:/home/jkeus/ros2_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/jkeus/ros2_ws/build/py_pubsub/build install --record /home/jkeus/ros2_ws/build/py_pubsub/install.log --install-scripts $base/lib/py_pubsub --single-version-externally-managed
+[1.124s] running egg_info
+[1.125s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[1.125s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.126s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.126s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[1.126s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.127s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.129s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.167s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.168s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.169s] running build
+[1.169s] running build_py
+[1.169s] creating /home/jkeus/ros2_ws/build/py_pubsub/build
+[1.169s] creating /home/jkeus/ros2_ws/build/py_pubsub/build/lib
+[1.169s] creating /home/jkeus/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[1.170s] copying py_pubsub/subscriber_member_function.py -> /home/jkeus/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[1.170s] copying py_pubsub/__init__.py -> /home/jkeus/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[1.170s] copying py_pubsub/publisher_member_function.py -> /home/jkeus/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[1.171s] running install
+[1.172s] running install_lib
+[1.174s] creating /home/jkeus/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[1.174s] copying /home/jkeus/ros2_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/jkeus/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[1.174s] copying /home/jkeus/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/jkeus/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[1.175s] copying /home/jkeus/ros2_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/jkeus/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub
+[1.176s] byte-compiling /home/jkeus/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[1.178s] byte-compiling /home/jkeus/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/__init__.py to __init__.cpython-38.pyc
+[1.178s] byte-compiling /home/jkeus/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[1.179s] running install_data
+[1.179s] creating /home/jkeus/ros2_ws/install/py_pubsub/share/ament_index
+[1.180s] creating /home/jkeus/ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[1.180s] creating /home/jkeus/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[1.180s] copying resource/py_pubsub -> /home/jkeus/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[1.181s] copying package.xml -> /home/jkeus/ros2_ws/install/py_pubsub/share/py_pubsub
+[1.182s] running install_egg_info
+[1.187s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/jkeus/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[1.189s] running install_scripts
+[1.215s] Installing nodeHR script to /home/jkeus/ros2_ws/install/py_pubsub/lib/py_pubsub
+[1.215s] writing list of installed files to '/home/jkeus/ros2_ws/build/py_pubsub/install.log'
+[1.251s] Invoked command in '/home/jkeus/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/jkeus/ros2_ws/build/py_pubsub/prefix_override:/home/jkeus/ros2_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/jkeus/ros2_ws/build/py_pubsub/build install --record /home/jkeus/ros2_ws/build/py_pubsub/install.log --install-scripts $base/lib/py_pubsub --single-version-externally-managed

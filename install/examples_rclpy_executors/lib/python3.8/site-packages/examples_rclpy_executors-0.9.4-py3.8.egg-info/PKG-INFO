@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: examples-rclpy-executors
+Version: 0.9.4
+Summary: Examples of creating and using exectors to run multiple nodes in rclpy.
+Home-page: UNKNOWN
+Author: Shane Loretz
+Author-email: sloretz@openrobotics.org
+Maintainer: Shane Loretz
+Maintainer-email: sloretz@openrobotics.org
+License: Apache License, Version 2.0
+Description: UNKNOWN
+Keywords: ROS
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development

@@ -1,0 +1,22 @@
+[1.693s] Invoking command in '/home/jkeus/ros2_ws/src/py_pubsub': PYTHONPATH=/home/jkeus/ros2_ws/build/py_pubsub/prefix_override:/home/jkeus/ros2_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/jkeus/ros2_ws/build/py_pubsub/build install --record /home/jkeus/ros2_ws/build/py_pubsub/install.log --install-scripts $base/lib/py_pubsub --single-version-externally-managed
+[2.198s] running egg_info
+[2.200s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[2.201s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[2.202s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[2.203s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[2.204s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[2.295s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.299s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.301s] running build
+[2.301s] running build_py
+[2.301s] running install
+[2.303s] running install_lib
+[2.307s] running install_data
+[2.308s] running install_egg_info
+[2.312s] removing '/home/jkeus/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[2.313s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/jkeus/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[2.315s] running install_scripts
+[2.360s] Installing timepublisher script to /home/jkeus/ros2_ws/install/py_pubsub/lib/py_pubsub
+[2.361s] Installing timesubscriber script to /home/jkeus/ros2_ws/install/py_pubsub/lib/py_pubsub
+[2.362s] writing list of installed files to '/home/jkeus/ros2_ws/build/py_pubsub/install.log'
+[2.409s] Invoked command in '/home/jkeus/ros2_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/jkeus/ros2_ws/build/py_pubsub/prefix_override:/home/jkeus/ros2_ws/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/jkeus/ros2_ws/build/py_pubsub/build install --record /home/jkeus/ros2_ws/build/py_pubsub/install.log --install-scripts $base/lib/py_pubsub --single-version-externally-managed
