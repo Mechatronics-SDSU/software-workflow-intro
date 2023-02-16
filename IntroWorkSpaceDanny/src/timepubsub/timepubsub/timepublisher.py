@@ -1,8 +1,7 @@
 import rclpy
+from datetime import datetime
 from rclpy.node import Node
-
 from std_msgs.msg import String
-
 
 class MinimalPublisher(Node):
 
@@ -15,7 +14,7 @@ class MinimalPublisher(Node):
 
     def timer_callback(self):
         msg = String()
-        msg.data = 'Hello World: %d' % self.i
+        msg.data = str(datetime.now().timestamp())
         self.publisher_.publish(msg)
         self.get_logger().info('UNIX Epoch Time: "%s"' % msg.data)
         self.i += 1
