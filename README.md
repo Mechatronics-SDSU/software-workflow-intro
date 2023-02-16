@@ -12,17 +12,17 @@ Clone the branch.
 ```
 git clone --branch aprochazka-dev --single-branch https://github.com/Mechatronics-SDSU/software-workflow-intro.git
 ```
-Source ROS2, then enter the workspace.
+Enter the workspace directory on two separate terminals. Then source ROS2.
 
 Build the packages using:
  ``` 
  colcon build
  ```
-source the packages using:
+Run the following command in both terminals:
 ```
 . install/setup.bash
 ```
-Run each node in a separate terminal window the commands for each are:
+Run one node in each terminal window. the commands for each are:
 ```
 ros2 run time_pubsub pub
 ```
