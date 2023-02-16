@@ -1,20 +1,32 @@
-# Software Workflow Introduction
-Learn to use GitHub, Python, and the Mechatronics team's workflow!
+# Introduction
+Hello. my name is Alex. I am a freshman computer science major. I have lived in San Diego my entire life. I joined the club because Jai dragged me to a meeting, and I actually really liked it. I'm looking to improve my programming skills and apply them, as well as make tons of friends and just hang out.
 
-## Getting started
-If this is your first time here on the GitHub, welcome! Please refer to the Python environment setup below followed by the Git guide to get started with your introduction to our team's workflow.
+# The Intro Project
+Going into this project, I had next to no experience with Linux, the terminal, or Github. In addition to learning ROS2, I also had to learn about the workings of those other tools as well. It took me a bit to learn each of them.
 
-### Python environment setup
-[Get started our Python setup guide here](src/python_setup_guide.md)
+## Layout/How it works
+The workspace is pretty simple actually. The src folder contains a single package, 'time_pubsub', which contains both the nodes timepublisher and timesubscriber. timepublisher generates the Unix Epoch Time every five seconds, then sends it to the topic 'epoch_time'. timesubscriber recieves it, displays it, converts it to a formatted system local time. It then publishes it to the topic 'formatted_time'. timepublisher is subscribed to that topic, and displays the formatted time in the terminal.
 
-### Using Git
-[See our Git Guide here](src/git_guide.md)
+## How to use the program
+Clone the branch.
+```
+git clone --branch aprochazka-dev --single-branch https://github.com/Mechatronics-SDSU/software-workflow-intro.git
+```
+Source ROS2, then enter the workspace.
 
-### Introduce yourself
-For your first task, you'll write some basic Python hello world code using Pycharm or the Python environment you set up on your local machine and then push it to this repository. Please do `git checkout first-task` or, in Pycharm, right-click on the `first-task` branch and then click "Checkout". Your instructions for how to submit will be in the docstring in the top of the file `submissions/template.py`. If you want help, you can checkout the `submission-yizaguirre` branch to see what my own submission looks like. You can also message us in the Discord. Good luck!
-
-## Projects
-If you're writing up a project and have already done the first task, please refer to our project list Trello board and read the styling guide before you begin developing.
-
-### Styling guide
-[See our Styling Guide here](src/styling_guide.md) before writing any Python code for projects.
+Build the packages using:
+ ``` 
+ colcon build
+ ```
+source the packages using:
+```
+. install/setup.bash
+```
+Run each node in a separate terminal window the commands for each are:
+```
+ros2 run time_pubsub pub
+```
+```
+ros2 run time_pubsub sub
+```
+You should now see the publisher terminal displaying both the Unix Epoch Time and a formatted version. The subscriber displays only the Unix Time
