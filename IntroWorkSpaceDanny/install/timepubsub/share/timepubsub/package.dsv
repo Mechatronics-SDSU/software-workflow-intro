@@ -1,0 +1,6 @@
+source;share/timepubsub/hook/pythonpath.ps1
+source;share/timepubsub/hook/pythonpath.dsv
+source;share/timepubsub/hook/pythonpath.sh
+source;share/timepubsub/hook/ament_prefix_path.ps1
+source;share/timepubsub/hook/ament_prefix_path.dsv
+source;share/timepubsub/hook/ament_prefix_path.sh
