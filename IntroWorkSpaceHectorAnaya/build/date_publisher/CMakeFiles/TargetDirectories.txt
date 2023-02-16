@@ -1,0 +1,10 @@
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher/CMakeFiles/install/strip.dir
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher/CMakeFiles/install/local.dir
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher/CMakeFiles/install.dir
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher/CMakeFiles/list_install_components.dir
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher/CMakeFiles/rebuild_cache.dir
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher/CMakeFiles/edit_cache.dir
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher/CMakeFiles/test.dir
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher/CMakeFiles/datetalker.dir
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher/CMakeFiles/date_publisher_uninstall.dir
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher/CMakeFiles/uninstall.dir

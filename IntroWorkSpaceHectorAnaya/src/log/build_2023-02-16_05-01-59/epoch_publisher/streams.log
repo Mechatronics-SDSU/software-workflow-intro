@@ -1,0 +1,77 @@
+[0.191s] Invoking command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/epoch_publisher': AMENT_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/epoch_publisher -DCMAKE_INSTALL_PREFIX=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher
+[0.451s] -- The C compiler identification is GNU 9.4.0
+[0.799s] -- The CXX compiler identification is GNU 9.4.0
+[0.938s] -- Check for working C compiler: /usr/bin/cc
+[1.144s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.145s] -- Detecting C compiler ABI info
+[1.348s] -- Detecting C compiler ABI info - done
+[1.368s] -- Detecting C compile features
+[1.369s] -- Detecting C compile features - done
+[1.375s] -- Check for working CXX compiler: /usr/bin/c++
+[1.607s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.610s] -- Detecting CXX compiler ABI info
+[1.840s] -- Detecting CXX compiler ABI info - done
+[1.864s] -- Detecting CXX compile features
+[1.865s] -- Detecting CXX compile features - done
+[1.868s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.915s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.915s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.304s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.569s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.584s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.082s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.626s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.461s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.585s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.587s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.589s] -- Looking for pthread.h
+[8.792s] -- Looking for pthread.h - found
+[8.792s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.002s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.002s] -- Looking for pthread_create in pthreads
+[9.238s] -- Looking for pthread_create in pthreads - not found
+[9.238s] -- Looking for pthread_create in pthread
+[9.452s] -- Looking for pthread_create in pthread - found
+[9.454s] -- Found Threads: TRUE  
+[9.757s] -- Found custom_interfaces: 0.0.0 (/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/share/custom_interfaces/cmake)
+[10.009s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[10.137s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.140s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.140s] -- Configured cppcheck include dirs: 
+[10.141s] -- Configured cppcheck exclude dirs and/or files: 
+[10.143s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.143s] -- Configured cpplint exclude dirs and/or files: 
+[10.144s] -- Added test 'lint_cmake' to check CMake code style
+[10.146s] -- Added test 'uncrustify' to check C / C++ code style
+[10.147s] -- Configured uncrustify additional arguments: 
+[10.148s] -- Added test 'xmllint' to check XML markup files
+[10.154s] -- Configuring done
+[10.175s] -- Generating done
+[10.177s] -- Build files have been written to: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/epoch_publisher
+[10.196s] Invoked command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/epoch_publisher' returned '0': AMENT_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/epoch_publisher -DCMAKE_INSTALL_PREFIX=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher
+[10.202s] Invoking command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/epoch_publisher': AMENT_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/epoch_publisher -- -j16 -l16
+[10.264s] [35m[1mScanning dependencies of target epochTalker[0m
+[10.331s] [ 50%] [32mBuilding CXX object CMakeFiles/epochTalker.dir/src/epochpublisher.cpp.o[0m
+[21.712s] [100%] [32m[1mLinking CXX executable epochTalker[0m
+[22.239s] [100%] Built target epochTalker
+[22.288s] Invoked command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/epoch_publisher' returned '0': AMENT_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/epoch_publisher -- -j16 -l16
+[22.348s] Invoking command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/epoch_publisher': AMENT_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/epoch_publisher
+[22.362s] -- Install configuration: ""
+[22.363s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/lib/epoch_publisher/epochTalker
+[22.366s] -- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/lib/epoch_publisher/epochTalker" to ""
+[22.367s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/ament_index/resource_index/package_run_dependencies/epoch_publisher
+[22.368s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/ament_index/resource_index/parent_prefix_path/epoch_publisher
+[22.369s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/environment/ament_prefix_path.sh
+[22.369s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/environment/ament_prefix_path.dsv
+[22.370s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/environment/path.sh
+[22.370s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/environment/path.dsv
+[22.371s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/local_setup.bash
+[22.371s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/local_setup.sh
+[22.372s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/local_setup.zsh
+[22.372s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/local_setup.dsv
+[22.373s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/package.dsv
+[22.373s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/ament_index/resource_index/packages/epoch_publisher
+[22.373s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/cmake/epoch_publisherConfig.cmake
+[22.374s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/cmake/epoch_publisherConfig-version.cmake
+[22.374s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/package.xml
+[22.378s] Invoked command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/epoch_publisher' returned '0': AMENT_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/epoch_publisher

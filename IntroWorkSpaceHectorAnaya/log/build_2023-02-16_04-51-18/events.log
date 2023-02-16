@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.001252] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.002313] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.028092] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.029412] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces'], 'cwd': '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bigman'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bigman'), ('OLDPWD', '/home/bigman'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bigman'), ('NAME', 'Hector'), ('WSL_INTEROP', '/run/WSL/3226_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_1.0.3.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/ha486/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ha486/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.103922] (-) TimerEvent: {}
+[0.205100] (-) TimerEvent: {}
+[0.313265] (-) TimerEvent: {}
+[0.407170] (custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.413934] (-) TimerEvent: {}
+[0.523007] (-) TimerEvent: {}
+[0.628915] (-) TimerEvent: {}
+[0.730434] (-) TimerEvent: {}
+[0.803845] (custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.832853] (-) TimerEvent: {}
+[0.941526] (-) TimerEvent: {}
+[0.994453] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[1.042685] (-) TimerEvent: {}
+[1.150969] (-) TimerEvent: {}
+[1.212588] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[1.253854] (-) TimerEvent: {}
+[1.258316] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.357527] (-) TimerEvent: {}
+[1.466507] (-) TimerEvent: {}
+[1.471697] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.534188] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.535930] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.542960] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[1.569082] (-) TimerEvent: {}
+[1.670294] (-) TimerEvent: {}
+[1.771511] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[1.771896] (-) TimerEvent: {}
+[1.773856] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.877363] (-) TimerEvent: {}
+[1.978694] (-) TimerEvent: {}
+[2.022475] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.048101] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.048870] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.054898] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.079615] (-) TimerEvent: {}
+[2.097175] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[2.097776] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.182312] (-) TimerEvent: {}
+[2.284951] (-) TimerEvent: {}
+[2.392712] (-) TimerEvent: {}
+[2.485823] (custom_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[2.493799] (-) TimerEvent: {}
+[2.598066] (-) TimerEvent: {}
+[2.703497] (-) TimerEvent: {}
+[2.729708] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.779244] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.805739] (-) TimerEvent: {}
+[2.914726] (-) TimerEvent: {}
+[3.023362] (-) TimerEvent: {}
+[3.126543] (-) TimerEvent: {}
+[3.235548] (-) TimerEvent: {}
+[3.337048] (-) TimerEvent: {}
+[3.446059] (-) TimerEvent: {}
+[3.555126] (-) TimerEvent: {}
+[3.664139] (-) TimerEvent: {}
+[3.773407] (-) TimerEvent: {}
+[3.882497] (-) TimerEvent: {}
+[3.991507] (-) TimerEvent: {}
+[4.096801] (-) TimerEvent: {}
+[4.198024] (-) TimerEvent: {}
+[4.281502] (custom_interfaces) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[4.299629] (-) TimerEvent: {}
+[4.408711] (-) TimerEvent: {}
+[4.517698] (-) TimerEvent: {}
+[4.626655] (-) TimerEvent: {}
+[4.735686] (-) TimerEvent: {}
+[4.838596] (-) TimerEvent: {}
+[4.943698] (-) TimerEvent: {}
+[5.051788] (-) TimerEvent: {}
+[5.152866] (-) TimerEvent: {}
+[5.262000] (-) TimerEvent: {}
+[5.371120] (-) TimerEvent: {}
+[5.480192] (-) TimerEvent: {}
+[5.589179] (-) TimerEvent: {}
+[5.698264] (-) TimerEvent: {}
+[5.807270] (-) TimerEvent: {}
+[5.830215] (custom_interfaces) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[5.908115] (-) TimerEvent: {}
+[6.009574] (-) TimerEvent: {}
+[6.112013] (-) TimerEvent: {}
+[6.213670] (-) TimerEvent: {}
+[6.318032] (-) TimerEvent: {}
+[6.427111] (-) TimerEvent: {}
+[6.536312] (-) TimerEvent: {}
+[6.645485] (-) TimerEvent: {}
+[6.754581] (-) TimerEvent: {}
+[6.863614] (-) TimerEvent: {}
+[6.972696] (-) TimerEvent: {}
+[7.081795] (-) TimerEvent: {}
+[7.190738] (-) TimerEvent: {}
+[7.299054] (-) TimerEvent: {}
+[7.408146] (-) TimerEvent: {}
+[7.513071] (-) TimerEvent: {}
+[7.622163] (-) TimerEvent: {}
+[7.731298] (-) TimerEvent: {}
+[7.840288] (-) TimerEvent: {}
+[7.949442] (-) TimerEvent: {}
+[8.058429] (-) TimerEvent: {}
+[8.167431] (-) TimerEvent: {}
+[8.274182] (-) TimerEvent: {}
+[8.381856] (-) TimerEvent: {}
+[8.490931] (-) TimerEvent: {}
+[8.599943] (-) TimerEvent: {}
+[8.681216] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[8.701759] (-) TimerEvent: {}
+[8.810774] (-) TimerEvent: {}
+[8.850417] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[8.869887] (custom_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):\n'}
+[8.870374] (custom_interfaces) StderrLine: {'line': b"  rosidl_generate_interfaces() the passed file 'srv/FormatEpochTime.srv'\n"}
+[8.870557] (custom_interfaces) StderrLine: {'line': b"  doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR\n"}
+[8.870777] (custom_interfaces) StderrLine: {'line': b"  '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/custom_interfaces'\n"}
+[8.870940] (custom_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[8.871115] (custom_interfaces) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[8.871282] (custom_interfaces) StderrLine: {'line': b'\n'}
+[8.871429] (custom_interfaces) StderrLine: {'line': b'\n'}
+[8.871901] (custom_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[8.872164] (custom_interfaces) StdoutLine: {'line': b'See also "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[8.886482] (custom_interfaces) CommandEnded: {'returncode': 1}
+[8.913165] (-) TimerEvent: {}
+[8.933425] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 1}
+[8.944908] (-) EventReactorShutdown: {}

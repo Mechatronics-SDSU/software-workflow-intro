@@ -1,0 +1,77 @@
+[0.184s] Invoking command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/epoch_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/epoch_publisher -DCMAKE_INSTALL_PREFIX=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher
+[0.418s] -- The C compiler identification is GNU 9.4.0
+[0.747s] -- The CXX compiler identification is GNU 9.4.0
+[0.908s] -- Check for working C compiler: /usr/bin/cc
+[1.116s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.117s] -- Detecting C compiler ABI info
+[1.331s] -- Detecting C compiler ABI info - done
+[1.350s] -- Detecting C compile features
+[1.351s] -- Detecting C compile features - done
+[1.356s] -- Check for working CXX compiler: /usr/bin/c++
+[1.599s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.601s] -- Detecting CXX compiler ABI info
+[1.828s] -- Detecting CXX compiler ABI info - done
+[1.851s] -- Detecting CXX compile features
+[1.852s] -- Detecting CXX compile features - done
+[1.857s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.904s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.904s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.276s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.532s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.547s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.034s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.488s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.112s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.221s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.224s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.225s] -- Looking for pthread.h
+[8.433s] -- Looking for pthread.h - found
+[8.433s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.703s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[8.703s] -- Looking for pthread_create in pthreads
+[8.937s] -- Looking for pthread_create in pthreads - not found
+[8.937s] -- Looking for pthread_create in pthread
+[9.132s] -- Looking for pthread_create in pthread - found
+[9.135s] -- Found Threads: TRUE  
+[9.480s] -- Found custom_interfaces: 0.0.0 (/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake)
+[9.707s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[9.838s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.841s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.841s] -- Configured cppcheck include dirs: 
+[9.841s] -- Configured cppcheck exclude dirs and/or files: 
+[9.843s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.843s] -- Configured cpplint exclude dirs and/or files: 
+[9.845s] -- Added test 'lint_cmake' to check CMake code style
+[9.847s] -- Added test 'uncrustify' to check C / C++ code style
+[9.847s] -- Configured uncrustify additional arguments: 
+[9.848s] -- Added test 'xmllint' to check XML markup files
+[9.853s] -- Configuring done
+[9.869s] -- Generating done
+[9.871s] -- Build files have been written to: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/epoch_publisher
+[9.890s] Invoked command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/epoch_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/epoch_publisher -DCMAKE_INSTALL_PREFIX=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher
+[9.898s] Invoking command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/epoch_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/epoch_publisher -- -j16 -l16
+[9.955s] [35m[1mScanning dependencies of target epochTalker[0m
+[10.017s] [ 50%] [32mBuilding CXX object CMakeFiles/epochTalker.dir/src/epochpublisher.cpp.o[0m
+[20.779s] [100%] [32m[1mLinking CXX executable epochTalker[0m
+[21.294s] [100%] Built target epochTalker
+[21.338s] Invoked command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/epoch_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/epoch_publisher -- -j16 -l16
+[21.399s] Invoking command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/epoch_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/epoch_publisher
+[21.409s] -- Install configuration: ""
+[21.410s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/lib/epoch_publisher/epochTalker
+[21.414s] -- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/lib/epoch_publisher/epochTalker" to ""
+[21.415s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/ament_index/resource_index/package_run_dependencies/epoch_publisher
+[21.416s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/ament_index/resource_index/parent_prefix_path/epoch_publisher
+[21.417s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/environment/ament_prefix_path.sh
+[21.418s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/environment/ament_prefix_path.dsv
+[21.418s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/environment/path.sh
+[21.418s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/environment/path.dsv
+[21.419s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/local_setup.bash
+[21.419s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/local_setup.sh
+[21.420s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/local_setup.zsh
+[21.420s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/local_setup.dsv
+[21.421s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/package.dsv
+[21.421s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/ament_index/resource_index/packages/epoch_publisher
+[21.421s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/cmake/epoch_publisherConfig.cmake
+[21.421s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/cmake/epoch_publisherConfig-version.cmake
+[21.422s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/package.xml
+[21.426s] Invoked command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/epoch_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/epoch_publisher

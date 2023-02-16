@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target epochTalker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/epochTalker.dir/src/epochpublisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable epochTalker[0m
+[100%] Built target epochTalker
+-- Install configuration: ""
+-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/lib/epoch_publisher/epochTalker
+-- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/lib/epoch_publisher/epochTalker" to ""
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/ament_index/resource_index/package_run_dependencies/epoch_publisher
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/ament_index/resource_index/parent_prefix_path/epoch_publisher
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/environment/ament_prefix_path.sh
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/environment/path.sh
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/environment/path.dsv
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/local_setup.bash
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/local_setup.sh
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/local_setup.zsh
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/local_setup.dsv
+-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/package.dsv
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/ament_index/resource_index/packages/epoch_publisher
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/cmake/epoch_publisherConfig.cmake
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/cmake/epoch_publisherConfig-version.cmake
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/epoch_publisher/share/epoch_publisher/package.xml

@@ -1,0 +1,427 @@
+[0.000000] (-) TimerEvent: {}
+[0.000408] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.002001] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.025882] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.027737] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces'], 'cwd': '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bigman'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bigman'), ('OLDPWD', '/home/bigman'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bigman'), ('NAME', 'Hector'), ('WSL_INTEROP', '/run/WSL/3226_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_1.0.3.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/ha486/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ha486/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.055281] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.093694] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099805] (-) TimerEvent: {}
+[0.209083] (-) TimerEvent: {}
+[0.312979] (-) TimerEvent: {}
+[0.419782] (-) TimerEvent: {}
+[0.444539] (custom_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.520306] (-) TimerEvent: {}
+[0.629302] (-) TimerEvent: {}
+[0.649740] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.655403] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.734624] (-) TimerEvent: {}
+[0.840505] (-) TimerEvent: {}
+[0.949492] (-) TimerEvent: {}
+[1.058451] (-) TimerEvent: {}
+[1.167549] (-) TimerEvent: {}
+[1.276626] (-) TimerEvent: {}
+[1.385672] (-) TimerEvent: {}
+[1.489203] (-) TimerEvent: {}
+[1.598277] (-) TimerEvent: {}
+[1.707292] (-) TimerEvent: {}
+[1.813250] (-) TimerEvent: {}
+[1.920287] (-) TimerEvent: {}
+[2.029288] (-) TimerEvent: {}
+[2.138328] (-) TimerEvent: {}
+[2.247357] (-) TimerEvent: {}
+[2.356407] (-) TimerEvent: {}
+[2.464818] (-) TimerEvent: {}
+[2.572840] (-) TimerEvent: {}
+[2.681802] (-) TimerEvent: {}
+[2.790913] (-) TimerEvent: {}
+[2.899992] (-) TimerEvent: {}
+[3.009068] (-) TimerEvent: {}
+[3.118135] (-) TimerEvent: {}
+[3.227185] (-) TimerEvent: {}
+[3.336326] (-) TimerEvent: {}
+[3.437804] (-) TimerEvent: {}
+[3.547047] (-) TimerEvent: {}
+[3.655214] (-) TimerEvent: {}
+[3.762646] (-) TimerEvent: {}
+[3.870129] (-) TimerEvent: {}
+[3.979259] (-) TimerEvent: {}
+[4.088291] (-) TimerEvent: {}
+[4.195047] (-) TimerEvent: {}
+[4.299619] (-) TimerEvent: {}
+[4.400792] (-) TimerEvent: {}
+[4.505117] (-) TimerEvent: {}
+[4.609854] (-) TimerEvent: {}
+[4.714640] (-) TimerEvent: {}
+[4.817948] (-) TimerEvent: {}
+[4.922780] (-) TimerEvent: {}
+[5.027652] (-) TimerEvent: {}
+[5.129151] (-) TimerEvent: {}
+[5.234013] (-) TimerEvent: {}
+[5.338917] (-) TimerEvent: {}
+[5.443861] (-) TimerEvent: {}
+[5.548697] (-) TimerEvent: {}
+[5.653582] (-) TimerEvent: {}
+[5.760936] (-) TimerEvent: {}
+[5.863182] (-) TimerEvent: {}
+[5.967838] (-) TimerEvent: {}
+[5.987188] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.070249] (-) TimerEvent: {}
+[6.141242] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[6.172849] (-) TimerEvent: {}
+[6.198026] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[6.279270] (-) TimerEvent: {}
+[6.380328] (-) TimerEvent: {}
+[6.482851] (-) TimerEvent: {}
+[6.533966] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[6.587129] (-) TimerEvent: {}
+[6.687854] (-) TimerEvent: {}
+[6.791985] (-) TimerEvent: {}
+[6.893235] (-) TimerEvent: {}
+[6.998213] (-) TimerEvent: {}
+[7.106422] (-) TimerEvent: {}
+[7.212895] (-) TimerEvent: {}
+[7.315295] (-) TimerEvent: {}
+[7.417873] (-) TimerEvent: {}
+[7.524369] (-) TimerEvent: {}
+[7.633450] (-) TimerEvent: {}
+[7.741580] (-) TimerEvent: {}
+[7.849249] (-) TimerEvent: {}
+[7.954146] (-) TimerEvent: {}
+[8.063190] (-) TimerEvent: {}
+[8.164394] (-) TimerEvent: {}
+[8.270680] (-) TimerEvent: {}
+[8.379796] (-) TimerEvent: {}
+[8.481528] (-) TimerEvent: {}
+[8.589179] (-) TimerEvent: {}
+[8.691972] (-) TimerEvent: {}
+[8.801211] (-) TimerEvent: {}
+[8.908918] (-) TimerEvent: {}
+[9.015055] (-) TimerEvent: {}
+[9.123991] (-) TimerEvent: {}
+[9.229141] (-) TimerEvent: {}
+[9.336582] (-) TimerEvent: {}
+[9.438075] (-) TimerEvent: {}
+[9.539621] (-) TimerEvent: {}
+[9.644525] (-) TimerEvent: {}
+[9.749234] (-) TimerEvent: {}
+[9.851298] (-) TimerEvent: {}
+[9.955632] (-) TimerEvent: {}
+[10.064743] (-) TimerEvent: {}
+[10.171756] (-) TimerEvent: {}
+[10.272988] (-) TimerEvent: {}
+[10.375053] (-) TimerEvent: {}
+[10.484230] (-) TimerEvent: {}
+[10.585601] (-) TimerEvent: {}
+[10.694660] (-) TimerEvent: {}
+[10.796109] (-) TimerEvent: {}
+[10.902571] (-) TimerEvent: {}
+[11.005211] (-) TimerEvent: {}
+[11.114306] (-) TimerEvent: {}
+[11.223354] (-) TimerEvent: {}
+[11.332429] (-) TimerEvent: {}
+[11.441662] (-) TimerEvent: {}
+[11.542698] (-) TimerEvent: {}
+[11.651802] (-) TimerEvent: {}
+[11.761069] (-) TimerEvent: {}
+[11.868293] (-) TimerEvent: {}
+[11.975749] (-) TimerEvent: {}
+[12.084777] (-) TimerEvent: {}
+[12.193786] (-) TimerEvent: {}
+[12.302870] (-) TimerEvent: {}
+[12.310923] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[12.404248] (-) TimerEvent: {}
+[12.513299] (-) TimerEvent: {}
+[12.542849] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.594952] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[12.597202] (custom_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[12.614367] (-) TimerEvent: {}
+[12.719664] (-) TimerEvent: {}
+[12.823418] (-) TimerEvent: {}
+[12.932420] (-) TimerEvent: {}
+[13.041481] (-) TimerEvent: {}
+[13.115631] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[13.116289] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[13.116509] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[13.116711] (custom_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[13.142820] (-) TimerEvent: {}
+[13.153281] (custom_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[13.243368] (-) TimerEvent: {}
+[13.344525] (-) TimerEvent: {}
+[13.407093] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[13.445286] (-) TimerEvent: {}
+[13.451042] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[13.455058] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.458255] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.465983] (custom_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.547008] (-) TimerEvent: {}
+[13.574251] (custom_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[13.578979] (custom_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces\n'}
+[13.592182] (custom_interfaces) CommandEnded: {'returncode': 0}
+[13.593615] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[13.597197] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bigman'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bigman'), ('OLDPWD', '/home/bigman'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bigman'), ('NAME', 'Hector'), ('WSL_INTEROP', '/run/WSL/3226_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_1.0.3.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/ha486/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ha486/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[13.647905] (-) TimerEvent: {}
+[13.660093] (custom_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[13.661113] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__cpp\x1b[0m\n'}
+[13.683029] (custom_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[13.748148] (-) TimerEvent: {}
+[13.852877] (-) TimerEvent: {}
+[13.954438] (-) TimerEvent: {}
+[14.055767] (-) TimerEvent: {}
+[14.159492] (-) TimerEvent: {}
+[14.205514] (custom_interfaces) StdoutLine: {'line': b'[  5%] Built target custom_interfaces__cpp\n'}
+[14.229506] (custom_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[14.229928] (custom_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.232005] (custom_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.249785] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_generator_c\x1b[0m\n'}
+[14.259849] (-) TimerEvent: {}
+[14.269047] (custom_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/send_epoch_time__functions.c.o\x1b[0m\n'}
+[14.272709] (custom_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/send_read_date__functions.c.o\x1b[0m\n'}
+[14.354843] (custom_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[14.360203] (-) TimerEvent: {}
+[14.461005] (-) TimerEvent: {}
+[14.519688] (custom_interfaces) StdoutLine: {'line': b'[ 20%] Built target custom_interfaces__rosidl_generator_c\n'}
+[14.535494] (custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.535878] (custom_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[14.563370] (-) TimerEvent: {}
+[14.659329] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[14.663860] (-) TimerEvent: {}
+[14.681575] (custom_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/send_read_date__type_support.cpp.o\x1b[0m\n'}
+[14.683383] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[14.684504] (custom_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/send_epoch_time__type_support.cpp.o\x1b[0m\n'}
+[14.704081] (custom_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/send_epoch_time__type_support.cpp.o\x1b[0m\n'}
+[14.704478] (custom_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/send_read_date__type_support.cpp.o\x1b[0m\n'}
+[14.752930] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[14.764532] (-) TimerEvent: {}
+[14.779005] (custom_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/send_epoch_time__type_support.cpp.o\x1b[0m\n'}
+[14.779537] (custom_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/send_read_date__type_support.cpp.o\x1b[0m\n'}
+[14.865303] (-) TimerEvent: {}
+[14.966739] (-) TimerEvent: {}
+[15.001372] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[15.056066] (custom_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/send_read_date__type_support.cpp.o\x1b[0m\n'}
+[15.056495] (custom_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/send_epoch_time__type_support.cpp.o\x1b[0m\n'}
+[15.067606] (-) TimerEvent: {}
+[15.145843] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[15.151152] (custom_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[15.167866] (-) TimerEvent: {}
+[15.192694] (custom_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/send_read_date__type_support.c.o\x1b[0m\n'}
+[15.193070] (custom_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/send_epoch_time__type_support.c.o\x1b[0m\n'}
+[15.268063] (custom_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[15.268474] (-) TimerEvent: {}
+[15.345202] (custom_interfaces) StdoutLine: {'line': b'[ 56%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[15.368764] (-) TimerEvent: {}
+[15.411787] (custom_interfaces) StdoutLine: {'line': b'[ 56%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[15.447760] (custom_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[15.469958] (-) TimerEvent: {}
+[15.527200] (custom_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[15.573651] (-) TimerEvent: {}
+[15.608114] (custom_interfaces) StdoutLine: {'line': b'[ 61%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[15.678306] (-) TimerEvent: {}
+[15.774233] (custom_interfaces) StdoutLine: {'line': b'[ 61%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[15.778748] (-) TimerEvent: {}
+[15.881237] (-) TimerEvent: {}
+[15.937143] (custom_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[15.981837] (-) TimerEvent: {}
+[16.083616] (-) TimerEvent: {}
+[16.188779] (-) TimerEvent: {}
+[16.231427] (custom_interfaces) StdoutLine: {'line': b'[ 64%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[16.250795] (custom_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[16.289490] (-) TimerEvent: {}
+[16.393063] (-) TimerEvent: {}
+[16.497786] (-) TimerEvent: {}
+[16.601316] (-) TimerEvent: {}
+[16.707616] (-) TimerEvent: {}
+[16.812749] (-) TimerEvent: {}
+[16.885234] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[16.915203] (-) TimerEvent: {}
+[16.916666] (custom_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/send_epoch_time__type_support_c.cpp.o\x1b[0m\n'}
+[16.918807] (custom_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/send_read_date__type_support_c.cpp.o\x1b[0m\n'}
+[17.016118] (-) TimerEvent: {}
+[17.118314] (-) TimerEvent: {}
+[17.225092] (-) TimerEvent: {}
+[17.332152] (-) TimerEvent: {}
+[17.439020] (-) TimerEvent: {}
+[17.540359] (-) TimerEvent: {}
+[17.690439] (-) TimerEvent: {}
+[17.739139] (custom_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[17.794922] (-) TimerEvent: {}
+[17.896365] (-) TimerEvent: {}
+[18.005300] (-) TimerEvent: {}
+[18.017177] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[18.033067] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces\x1b[0m\n'}
+[18.054816] (custom_interfaces) StdoutLine: {'line': b'[ 74%] Built target custom_interfaces\n'}
+[18.073043] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__py\x1b[0m\n'}
+[18.091584] (custom_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[18.105674] (-) TimerEvent: {}
+[18.207632] (-) TimerEvent: {}
+[18.309083] (-) TimerEvent: {}
+[18.418118] (-) TimerEvent: {}
+[18.525207] (-) TimerEvent: {}
+[18.626597] (-) TimerEvent: {}
+[18.731003] (-) TimerEvent: {}
+[18.837664] (-) TimerEvent: {}
+[18.944358] (-) TimerEvent: {}
+[19.051344] (-) TimerEvent: {}
+[19.158089] (-) TimerEvent: {}
+[19.264799] (-) TimerEvent: {}
+[19.281116] (custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target custom_interfaces__py\n'}
+[19.299169] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__python\x1b[0m\n'}
+[19.333740] (custom_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/msg/_send_read_date_s.c.o\x1b[0m\n'}
+[19.334599] (custom_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/msg/_send_epoch_time_s.c.o\x1b[0m\n'}
+[19.365604] (-) TimerEvent: {}
+[19.466955] (-) TimerEvent: {}
+[19.516742] (custom_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__python.so\x1b[0m\n'}
+[19.571387] (-) TimerEvent: {}
+[19.674061] (-) TimerEvent: {}
+[19.690620] (custom_interfaces) StdoutLine: {'line': b'[ 84%] Built target custom_interfaces__python\n'}
+[19.707026] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[19.707413] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[19.707923] (custom_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[19.738531] (custom_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[19.738962] (custom_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[19.740354] (custom_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[19.774772] (-) TimerEvent: {}
+[19.876131] (-) TimerEvent: {}
+[19.923933] (custom_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.925613] (custom_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.927375] (custom_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[19.977098] (-) TimerEvent: {}
+[20.045758] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[20.078889] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[20.079383] (-) TimerEvent: {}
+[20.095183] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[20.116980] (custom_interfaces) CommandEnded: {'returncode': 0}
+[20.184830] (-) TimerEvent: {}
+[20.223946] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[20.239662] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces'], 'cwd': '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bigman'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bigman'), ('OLDPWD', '/home/bigman'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bigman'), ('NAME', 'Hector'), ('WSL_INTEROP', '/run/WSL/3226_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_1.0.3.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/ha486/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ha486/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', ''), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[20.254161] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.255628] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[20.256275] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces\n'}
+[20.256550] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[20.257278] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/send_read_date.h\n'}
+[20.257597] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[20.258051] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__type_support.h\n'}
+[20.258685] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__struct.h\n'}
+[20.259009] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__struct.h\n'}
+[20.259154] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__functions.h\n'}
+[20.259702] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__functions.c\n'}
+[20.260253] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__functions.c\n'}
+[20.260616] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__type_support.h\n'}
+[20.260896] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__functions.h\n'}
+[20.261133] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[20.261695] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/send_epoch_time.h\n'}
+[20.262052] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[20.262192] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[20.262329] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[20.263052] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""\n'}
+[20.263528] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces\n'}
+[20.264064] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[20.264248] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[20.264466] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__rosidl_typesupport_fastrtps_c.h\n'}
+[20.264697] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__rosidl_typesupport_fastrtps_c.h\n'}
+[20.264978] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[20.265613] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[20.266152] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[20.266322] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces\n'}
+[20.266433] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[20.266539] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[20.266787] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/dds_fastrtps\n'}
+[20.267200] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.267908] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[20.268118] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[20.268247] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[20.268779] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[20.269439] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces\n'}
+[20.269782] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[20.270137] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[20.270477] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__rosidl_typesupport_introspection_c.h\n'}
+[20.270758] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__rosidl_typesupport_introspection_c.h\n'}
+[20.271303] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__type_support.c\n'}
+[20.271973] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__type_support.c\n'}
+[20.272310] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[20.272749] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[20.273287] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[20.273860] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[20.274446] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[20.275062] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces\n'}
+[20.275745] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[20.276186] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[20.276603] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__builder.hpp\n'}
+[20.277085] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__builder.hpp\n'}
+[20.277444] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__traits.hpp\n'}
+[20.277615] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__traits.hpp\n'}
+[20.278014] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__struct.hpp\n'}
+[20.278323] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__struct.hpp\n'}
+[20.278858] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/send_epoch_time.hpp\n'}
+[20.279138] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/send_read_date.hpp\n'}
+[20.279534] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces\n'}
+[20.279869] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg\n'}
+[20.280329] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail\n'}
+[20.280486] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__type_support.cpp\n'}
+[20.280663] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__type_support.cpp\n'}
+[20.280783] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.280889] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__rosidl_typesupport_introspection_cpp.hpp\n'}
+[20.281354] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[20.281535] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[20.281678] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[20.281803] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[20.281924] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[20.282058] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[20.282255] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py\n'}
+[20.285284] (-) TimerEvent: {}
+[20.334488] (custom_interfaces) StdoutLine: {'line': b"Compiling '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py'...\n"}
+[20.341798] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg\n'}
+[20.342529] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_send_read_date.py\n'}
+[20.343016] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_send_epoch_time.py\n'}
+[20.343156] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_send_read_date_s.c\n'}
+[20.343341] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_send_epoch_time_s.c\n'}
+[20.343631] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/__init__.py\n'}
+[20.344043] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[20.344423] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[20.344797] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[20.345809] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[20.346230] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[20.347112] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[20.347350] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__python.so\n'}
+[20.347785] (custom_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__python.so" to ""\n'}
+[20.348255] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/msg/SendEpochTime.idl\n'}
+[20.348796] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/msg/SendReadDate.idl\n'}
+[20.349283] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/msg/SendEpochTime.msg\n'}
+[20.349473] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/msg/SendReadDate.msg\n'}
+[20.350067] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[20.350626] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[20.351108] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[20.351611] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[20.352095] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[20.352290] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[20.352812] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[20.353155] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[20.353681] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[20.353836] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[20.353953] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[20.354305] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[20.354882] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[20.355340] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[20.355873] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[20.356266] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[20.356773] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[20.357166] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[20.357647] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[20.358220] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[20.358684] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[20.359105] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[20.359518] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[20.359950] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[20.360436] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[20.360734] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[20.361214] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[20.361476] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.361955] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[20.362250] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[20.363014] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[20.363188] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[20.363326] (custom_interfaces) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[20.366731] (custom_interfaces) CommandEnded: {'returncode': 0}
+[20.387501] (-) TimerEvent: {}
+[20.489690] (-) TimerEvent: {}
+[20.556470] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[20.558854] (-) EventReactorShutdown: {}

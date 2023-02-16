@@ -1,0 +1,36 @@
+[0.037s] Invoking command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces
+[0.405s] -- The C compiler identification is GNU 9.4.0
+[0.802s] -- The CXX compiler identification is GNU 9.4.0
+[0.992s] -- Check for working C compiler: /usr/bin/cc
+[1.210s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.256s] -- Detecting C compiler ABI info
+[1.470s] -- Detecting C compiler ABI info - done
+[1.532s] -- Detecting C compile features
+[1.534s] -- Detecting C compile features - done
+[1.541s] -- Check for working CXX compiler: /usr/bin/c++
+[1.769s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.772s] -- Detecting CXX compiler ABI info
+[2.020s] -- Detecting CXX compiler ABI info - done
+[2.046s] -- Detecting CXX compile features
+[2.047s] -- Detecting CXX compile features - done
+[2.053s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.095s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.096s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.484s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.728s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.777s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.279s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.828s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.679s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.848s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[8.868s] CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[8.868s]   rosidl_generate_interfaces() the passed file 'srv/FormatEpochTime.srv'
+[8.868s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[8.869s]   '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/custom_interfaces'
+[8.869s] Call Stack (most recent call first):
+[8.869s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[8.869s] 
+[8.869s] 
+[8.870s] -- Configuring incomplete, errors occurred!
+[8.870s] See also "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces/CMakeFiles/CMakeOutput.log".
+[8.885s] Invoked command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces

@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.002627] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.002733] (-) JobUnselected: {'identifier': 'epoch_publisher'}
+[0.002810] (date_publisher) JobQueued: {'identifier': 'date_publisher', 'dependencies': OrderedDict([('custom_interfaces', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces')])}
+[0.002898] (date_publisher) JobStarted: {'identifier': 'date_publisher'}
+[0.039047] (date_publisher) JobEnded: {'identifier': 'date_publisher', 'rc': 1}
+[0.050261] (-) EventReactorShutdown: {}

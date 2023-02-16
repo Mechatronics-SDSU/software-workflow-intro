@@ -1,0 +1,152 @@
+[0.000000] (-) TimerEvent: {}
+[0.001375] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.001483] (-) JobUnselected: {'identifier': 'epoch_publisher'}
+[0.001586] (date_publisher) JobQueued: {'identifier': 'date_publisher', 'dependencies': OrderedDict([('custom_interfaces', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces')])}
+[0.001699] (date_publisher) JobStarted: {'identifier': 'date_publisher'}
+[0.100150] (-) TimerEvent: {}
+[0.172644] (date_publisher) JobProgress: {'identifier': 'date_publisher', 'progress': 'cmake'}
+[0.174572] (date_publisher) JobProgress: {'identifier': 'date_publisher', 'progress': 'build'}
+[0.177502] (date_publisher) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher', '--', '-j16', '-l16'], 'cwd': '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bigman'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bigman'), ('OLDPWD', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bigman'), ('NAME', 'Hector'), ('WSL_INTEROP', '/run/WSL/3226_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_1.0.3.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/ha486/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ha486/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces:/opt/ros/foxy'), ('WSLENV', '')]), 'shell': False}
+[0.200448] (-) TimerEvent: {}
+[0.250251] (date_publisher) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target datetalker\x1b[0m\n'}
+[0.293775] (date_publisher) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/datetalker.dir/src/datepublisher.cpp.o\x1b[0m\n'}
+[0.300512] (-) TimerEvent: {}
+[0.401400] (-) TimerEvent: {}
+[0.503766] (-) TimerEvent: {}
+[0.605407] (-) TimerEvent: {}
+[0.707431] (-) TimerEvent: {}
+[0.808465] (-) TimerEvent: {}
+[0.910501] (-) TimerEvent: {}
+[1.012905] (-) TimerEvent: {}
+[1.114856] (-) TimerEvent: {}
+[1.216833] (-) TimerEvent: {}
+[1.318378] (-) TimerEvent: {}
+[1.419732] (-) TimerEvent: {}
+[1.521037] (-) TimerEvent: {}
+[1.622108] (-) TimerEvent: {}
+[1.724110] (-) TimerEvent: {}
+[1.826091] (-) TimerEvent: {}
+[1.926966] (-) TimerEvent: {}
+[2.031348] (-) TimerEvent: {}
+[2.132727] (-) TimerEvent: {}
+[2.233616] (-) TimerEvent: {}
+[2.335209] (-) TimerEvent: {}
+[2.436229] (-) TimerEvent: {}
+[2.543090] (-) TimerEvent: {}
+[2.644652] (-) TimerEvent: {}
+[2.746402] (-) TimerEvent: {}
+[2.847460] (-) TimerEvent: {}
+[2.948782] (-) TimerEvent: {}
+[3.049998] (-) TimerEvent: {}
+[3.154267] (-) TimerEvent: {}
+[3.255348] (-) TimerEvent: {}
+[3.359384] (-) TimerEvent: {}
+[3.460906] (-) TimerEvent: {}
+[3.563076] (-) TimerEvent: {}
+[3.664757] (-) TimerEvent: {}
+[3.766459] (-) TimerEvent: {}
+[3.868506] (-) TimerEvent: {}
+[3.969786] (-) TimerEvent: {}
+[4.071300] (-) TimerEvent: {}
+[4.172822] (-) TimerEvent: {}
+[4.273640] (-) TimerEvent: {}
+[4.374357] (-) TimerEvent: {}
+[4.475391] (-) TimerEvent: {}
+[4.578218] (-) TimerEvent: {}
+[4.685077] (-) TimerEvent: {}
+[4.787392] (-) TimerEvent: {}
+[4.893381] (-) TimerEvent: {}
+[4.999992] (-) TimerEvent: {}
+[5.106528] (-) TimerEvent: {}
+[5.213045] (-) TimerEvent: {}
+[5.319684] (-) TimerEvent: {}
+[5.426417] (-) TimerEvent: {}
+[5.533530] (-) TimerEvent: {}
+[5.635075] (-) TimerEvent: {}
+[5.741281] (-) TimerEvent: {}
+[5.847654] (-) TimerEvent: {}
+[5.950244] (-) TimerEvent: {}
+[6.056655] (-) TimerEvent: {}
+[6.159069] (-) TimerEvent: {}
+[6.265078] (-) TimerEvent: {}
+[6.371890] (-) TimerEvent: {}
+[6.475272] (-) TimerEvent: {}
+[6.584266] (-) TimerEvent: {}
+[6.688705] (-) TimerEvent: {}
+[6.794834] (-) TimerEvent: {}
+[6.901106] (-) TimerEvent: {}
+[7.007410] (-) TimerEvent: {}
+[7.114060] (-) TimerEvent: {}
+[7.220355] (-) TimerEvent: {}
+[7.326643] (-) TimerEvent: {}
+[7.433429] (-) TimerEvent: {}
+[7.539816] (-) TimerEvent: {}
+[7.641251] (-) TimerEvent: {}
+[7.747841] (-) TimerEvent: {}
+[7.854599] (-) TimerEvent: {}
+[7.960915] (-) TimerEvent: {}
+[8.067288] (-) TimerEvent: {}
+[8.173667] (-) TimerEvent: {}
+[8.280183] (-) TimerEvent: {}
+[8.386973] (-) TimerEvent: {}
+[8.490724] (-) TimerEvent: {}
+[8.597197] (-) TimerEvent: {}
+[8.703823] (-) TimerEvent: {}
+[8.810658] (-) TimerEvent: {}
+[8.917436] (-) TimerEvent: {}
+[9.024225] (-) TimerEvent: {}
+[9.130902] (-) TimerEvent: {}
+[9.237654] (-) TimerEvent: {}
+[9.344898] (-) TimerEvent: {}
+[9.448588] (-) TimerEvent: {}
+[9.558155] (-) TimerEvent: {}
+[9.660124] (-) TimerEvent: {}
+[9.766330] (-) TimerEvent: {}
+[9.872986] (-) TimerEvent: {}
+[9.979714] (-) TimerEvent: {}
+[10.086450] (-) TimerEvent: {}
+[10.193206] (-) TimerEvent: {}
+[10.299957] (-) TimerEvent: {}
+[10.406843] (-) TimerEvent: {}
+[10.513589] (-) TimerEvent: {}
+[10.620313] (-) TimerEvent: {}
+[10.727142] (-) TimerEvent: {}
+[10.830896] (-) TimerEvent: {}
+[10.937305] (-) TimerEvent: {}
+[11.044185] (-) TimerEvent: {}
+[11.148267] (-) TimerEvent: {}
+[11.250057] (-) TimerEvent: {}
+[11.290009] (date_publisher) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable datetalker\x1b[0m\n'}
+[11.350560] (-) TimerEvent: {}
+[11.452390] (-) TimerEvent: {}
+[11.561519] (-) TimerEvent: {}
+[11.663654] (-) TimerEvent: {}
+[11.766271] (-) TimerEvent: {}
+[11.861054] (date_publisher) StdoutLine: {'line': b'[100%] Built target datetalker\n'}
+[11.866894] (-) TimerEvent: {}
+[11.881971] (date_publisher) CommandEnded: {'returncode': 0}
+[11.925631] (date_publisher) JobProgress: {'identifier': 'date_publisher', 'progress': 'install'}
+[11.943683] (date_publisher) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher'], 'cwd': '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'bigman'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/bigman'), ('OLDPWD', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'bigman'), ('NAME', 'Hector'), ('WSL_INTEROP', '/run/WSL/3226_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_1.0.3.0_x64__8wekyb3d8bbwe:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Users/ha486/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ha486/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '1'), ('AMENT_PREFIX_PATH', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces:/opt/ros/foxy'), ('WSLENV', '')]), 'shell': False}
+[11.960127] (date_publisher) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.960872] (date_publisher) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/lib/date_publisher/datetalker\n'}
+[11.965025] (date_publisher) StdoutLine: {'line': b'-- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/lib/date_publisher/datetalker" to ""\n'}
+[11.966015] (date_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/ament_index/resource_index/package_run_dependencies/date_publisher\n'}
+[11.966628] (date_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/ament_index/resource_index/parent_prefix_path/date_publisher\n'}
+[11.966995] (-) TimerEvent: {}
+[11.967609] (date_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/environment/ament_prefix_path.sh\n'}
+[11.968073] (date_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/environment/ament_prefix_path.dsv\n'}
+[11.968211] (date_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/environment/path.sh\n'}
+[11.968328] (date_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/environment/path.dsv\n'}
+[11.968438] (date_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/local_setup.bash\n'}
+[11.968548] (date_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/local_setup.sh\n'}
+[11.968651] (date_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/local_setup.zsh\n'}
+[11.968751] (date_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/local_setup.dsv\n'}
+[11.968855] (date_publisher) StdoutLine: {'line': b'-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/package.dsv\n'}
+[11.969027] (date_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/ament_index/resource_index/packages/date_publisher\n'}
+[11.969142] (date_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/cmake/date_publisherConfig.cmake\n'}
+[11.969261] (date_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/cmake/date_publisherConfig-version.cmake\n'}
+[11.969454] (date_publisher) StdoutLine: {'line': b'-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/package.xml\n'}
+[11.972124] (date_publisher) CommandEnded: {'returncode': 0}
+[12.066339] (date_publisher) JobEnded: {'identifier': 'date_publisher', 'rc': 0}
+[12.068921] (-) TimerEvent: {}
+[12.069123] (-) EventReactorShutdown: {}

@@ -1,0 +1,16 @@
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/lib/epoch_publisher/epochTalker
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/ament_index/resource_index/package_run_dependencies/epoch_publisher
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/ament_index/resource_index/parent_prefix_path/epoch_publisher
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/environment/ament_prefix_path.sh
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/environment/ament_prefix_path.dsv
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/environment/path.sh
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/environment/path.dsv
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/local_setup.bash
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/local_setup.sh
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/local_setup.zsh
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/local_setup.dsv
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/package.dsv
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/ament_index/resource_index/packages/epoch_publisher
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/cmake/epoch_publisherConfig.cmake
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/cmake/epoch_publisherConfig-version.cmake
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/epoch_publisher/share/epoch_publisher/package.xml

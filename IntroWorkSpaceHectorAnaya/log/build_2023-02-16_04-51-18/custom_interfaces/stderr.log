@@ -1,0 +1,8 @@
+CMake Error at /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+  rosidl_generate_interfaces() the passed file 'srv/FormatEpochTime.srv'
+  doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/custom_interfaces'
+Call Stack (most recent call first):
+  CMakeLists.txt:25 (rosidl_generate_interfaces)
+
+

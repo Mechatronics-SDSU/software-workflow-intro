@@ -1,0 +1,224 @@
+[0.036s] Invoking command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces
+[0.054s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.092s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.443s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.648s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.654s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.985s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.140s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[6.196s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[6.532s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[12.309s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.541s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.593s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[12.595s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[13.114s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[13.114s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[13.115s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[13.115s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[13.152s] -- Found PythonExtra: .so  
+[13.405s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[13.449s] -- Added test 'copyright' to check source files copyright and LICENSE
+[13.453s] -- Added test 'lint_cmake' to check CMake code style
+[13.456s] -- Added test 'xmllint' to check XML markup files
+[13.464s] -- Configuring done
+[13.572s] -- Generating done
+[13.577s] -- Build files have been written to: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces
+[13.591s] Invoked command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces
+[13.596s] Invoking command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces -- -j16 -l16
+[13.658s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.659s] [35m[1mScanning dependencies of target custom_interfaces__cpp[0m
+[13.681s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[14.204s] [  5%] Built target custom_interfaces__cpp
+[14.228s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[14.228s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[14.230s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[14.248s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_generator_c[0m
+[14.267s] [ 15%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/send_epoch_time__functions.c.o[0m
+[14.271s] [ 17%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_generator_c.dir/rosidl_generator_c/custom_interfaces/msg/detail/send_read_date__functions.c.o[0m
+[14.353s] [ 20%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_generator_c.so[0m
+[14.518s] [ 20%] Built target custom_interfaces__rosidl_generator_c
+[14.534s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[14.534s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[14.658s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_cpp[0m
+[14.680s] [ 28%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/send_read_date__type_support.cpp.o[0m
+[14.681s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp[0m
+[14.683s] [ 30%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interfaces/msg/send_epoch_time__type_support.cpp.o[0m
+[14.702s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/send_epoch_time__type_support.cpp.o[0m
+[14.703s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interfaces/msg/detail/send_read_date__type_support.cpp.o[0m
+[14.751s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[14.777s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/send_epoch_time__type_support.cpp.o[0m
+[14.778s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interfaces/msg/detail/dds_fastrtps/send_read_date__type_support.cpp.o[0m
+[15.000s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_c[0m
+[15.054s] [ 43%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/send_read_date__type_support.cpp.o[0m
+[15.055s] [ 46%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interfaces/msg/send_epoch_time__type_support.cpp.o[0m
+[15.144s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_c[0m
+[15.149s] [ 48%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_c.so[0m
+[15.191s] [ 53%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/send_read_date__type_support.c.o[0m
+[15.191s] [ 53%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/msg/detail/send_epoch_time__type_support.c.o[0m
+[15.266s] [ 56%] [32m[1mLinking C shared library libcustom_interfaces__rosidl_typesupport_introspection_c.so[0m
+[15.344s] [ 56%] Built target custom_interfaces__rosidl_typesupport_c
+[15.410s] [ 56%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[15.446s] [ 58%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_cpp.so[0m
+[15.526s] [ 61%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[15.606s] [ 61%] Built target custom_interfaces__rosidl_typesupport_cpp
+[15.773s] [ 61%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[15.936s] [ 64%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.230s] [ 64%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[16.249s] [ 66%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[16.884s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c[0m
+[16.915s] [ 69%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/send_epoch_time__type_support_c.cpp.o[0m
+[16.917s] [ 71%] [32mBuilding CXX object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interfaces/msg/detail/send_read_date__type_support_c.cpp.o[0m
+[17.737s] [ 74%] [32m[1mLinking CXX shared library libcustom_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[18.015s] [ 74%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[18.031s] [35m[1mScanning dependencies of target custom_interfaces[0m
+[18.053s] [ 74%] Built target custom_interfaces
+[18.071s] [35m[1mScanning dependencies of target custom_interfaces__py[0m
+[18.090s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[19.279s] [ 76%] Built target custom_interfaces__py
+[19.297s] [35m[1mScanning dependencies of target custom_interfaces__python[0m
+[19.332s] [ 79%] [32mBuilding C object CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/msg/_send_read_date_s.c.o[0m
+[19.333s] [ 82%] [32mBuilding C object CMakeFiles/custom_interfaces__python.dir/rosidl_generator_py/custom_interfaces/msg/_send_epoch_time_s.c.o[0m
+[19.515s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/libcustom_interfaces__python.so[0m
+[19.689s] [ 84%] Built target custom_interfaces__python
+[19.705s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[19.705s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[19.706s] [35m[1mScanning dependencies of target custom_interfaces__rosidl_typesupport_c__pyext[0m
+[19.737s] [ 87%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[19.737s] [ 89%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[19.738s] [ 92%] [32mBuilding C object CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[19.922s] [ 94%] [32m[1mLinking CXX shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[19.924s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[19.926s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[20.044s] [100%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[20.077s] [100%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[20.093s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[20.116s] Invoked command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces -- -j16 -l16
+[20.238s] Invoking command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces
+[20.252s] -- Install configuration: ""
+[20.254s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[20.254s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces
+[20.255s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg
+[20.255s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/send_read_date.h
+[20.256s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail
+[20.256s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__type_support.h
+[20.257s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__struct.h
+[20.257s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__struct.h
+[20.257s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__functions.h
+[20.258s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__functions.c
+[20.258s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__functions.c
+[20.259s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__type_support.h
+[20.259s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__functions.h
+[20.259s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[20.260s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/send_epoch_time.h
+[20.260s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[20.260s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[20.260s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[20.261s] -- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so" to ""
+[20.262s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces
+[20.262s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg
+[20.262s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail
+[20.262s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__rosidl_typesupport_fastrtps_c.h
+[20.263s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__rosidl_typesupport_fastrtps_c.h
+[20.263s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[20.264s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[20.264s] -- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[20.264s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces
+[20.264s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg
+[20.265s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail
+[20.265s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/dds_fastrtps
+[20.265s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__rosidl_typesupport_fastrtps_cpp.hpp
+[20.266s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__rosidl_typesupport_fastrtps_cpp.hpp
+[20.266s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[20.266s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[20.267s] -- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[20.268s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces
+[20.268s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg
+[20.268s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail
+[20.269s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__rosidl_typesupport_introspection_c.h
+[20.269s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__rosidl_typesupport_introspection_c.h
+[20.270s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__type_support.c
+[20.270s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__type_support.c
+[20.270s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[20.271s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[20.272s] -- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[20.272s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[20.273s] -- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so" to ""
+[20.274s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces
+[20.274s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg
+[20.274s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail
+[20.275s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__builder.hpp
+[20.275s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__builder.hpp
+[20.276s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__traits.hpp
+[20.276s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__traits.hpp
+[20.276s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__struct.hpp
+[20.276s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__struct.hpp
+[20.277s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/send_epoch_time.hpp
+[20.277s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/send_read_date.hpp
+[20.278s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces
+[20.278s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg
+[20.278s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail
+[20.279s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__type_support.cpp
+[20.279s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__type_support.cpp
+[20.279s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_read_date__rosidl_typesupport_introspection_cpp.hpp
+[20.279s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/include/custom_interfaces/msg/detail/send_epoch_time__rosidl_typesupport_introspection_cpp.hpp
+[20.279s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[20.280s] -- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[20.280s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[20.280s] -- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so" to ""
+[20.280s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[20.280s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[20.280s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py
+[20.333s] Compiling '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/__init__.py'...
+[20.340s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg
+[20.341s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_send_read_date.py
+[20.341s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_send_epoch_time.py
+[20.341s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_send_read_date_s.c
+[20.341s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/_send_epoch_time_s.c
+[20.342s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/msg/__init__.py
+[20.342s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[20.343s] -- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[20.343s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[20.344s] -- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[20.344s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[20.345s] -- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/python3.8/site-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[20.345s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__python.so
+[20.346s] -- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/lib/libcustom_interfaces__python.so" to ""
+[20.346s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/msg/SendEpochTime.idl
+[20.347s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/msg/SendReadDate.idl
+[20.347s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/msg/SendEpochTime.msg
+[20.347s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/msg/SendReadDate.msg
+[20.348s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[20.349s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[20.349s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[20.350s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[20.350s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[20.350s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[20.351s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[20.351s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[20.352s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[20.352s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[20.352s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/package.dsv
+[20.352s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[20.353s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport.cmake
+[20.353s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[20.354s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[20.354s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.355s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[20.355s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[20.356s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_generator_cppExport.cmake
+[20.356s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[20.357s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.357s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[20.358s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[20.358s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[20.359s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.359s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[20.359s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[20.360s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.360s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.361s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.361s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[20.361s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[20.361s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/custom_interfaces/share/custom_interfaces/package.xml
+[20.365s] Invoked command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/custom_interfaces

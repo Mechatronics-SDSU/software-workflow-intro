@@ -1,0 +1,26 @@
+[0.171s] Invoking command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher -- -j16 -l16
+[0.245s] [35m[1mScanning dependencies of target datetalker[0m
+[0.298s] [ 50%] [32mBuilding CXX object CMakeFiles/datetalker.dir/src/datepublisher.cpp.o[0m
+[11.348s] [100%] [32m[1mLinking CXX executable datetalker[0m
+[11.854s] [100%] Built target datetalker
+[11.903s] Invoked command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher -- -j16 -l16
+[11.966s] Invoking command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher
+[11.978s] -- Install configuration: ""
+[11.979s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/lib/date_publisher/datetalker
+[11.983s] -- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/lib/date_publisher/datetalker" to ""
+[11.984s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/ament_index/resource_index/package_run_dependencies/date_publisher
+[11.984s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/ament_index/resource_index/parent_prefix_path/date_publisher
+[11.985s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/environment/ament_prefix_path.sh
+[11.985s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/environment/ament_prefix_path.dsv
+[11.985s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/environment/path.sh
+[11.986s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/environment/path.dsv
+[11.987s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/local_setup.bash
+[11.987s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/local_setup.sh
+[11.987s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/local_setup.zsh
+[11.987s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/local_setup.dsv
+[11.987s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/package.dsv
+[11.987s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/ament_index/resource_index/packages/date_publisher
+[11.988s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/cmake/date_publisherConfig.cmake
+[11.988s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/cmake/date_publisherConfig-version.cmake
+[11.988s] -- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/package.xml
+[11.992s] Invoked command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/build/date_publisher

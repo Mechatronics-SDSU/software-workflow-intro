@@ -1,0 +1,152 @@
+[0.410s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'date_publisher']
+[0.410s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3a4b9af0a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['date_publisher'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=16, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3a4b9af0a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3a4b9af5e0>)
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.456s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.457s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.458s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['ros']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'ros'
+[0.490s] DEBUG:colcon.colcon_core.package_identification:Package 'custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(date_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(date_publisher) by extension 'ignore'
+[0.491s] Level 1:colcon.colcon_core.package_identification:_identify(date_publisher) by extension 'ignore_ament_install'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(date_publisher) by extensions ['colcon_pkg']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(date_publisher) by extension 'colcon_pkg'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(date_publisher) by extensions ['colcon_meta']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(date_publisher) by extension 'colcon_meta'
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(date_publisher) by extensions ['ros']
+[0.492s] Level 1:colcon.colcon_core.package_identification:_identify(date_publisher) by extension 'ros'
+[0.494s] DEBUG:colcon.colcon_core.package_identification:Package 'date_publisher' with type 'ros.ament_cmake' and name 'date_publisher'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(epoch_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(epoch_publisher) by extension 'ignore'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(epoch_publisher) by extension 'ignore_ament_install'
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(epoch_publisher) by extensions ['colcon_pkg']
+[0.495s] Level 1:colcon.colcon_core.package_identification:_identify(epoch_publisher) by extension 'colcon_pkg'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(epoch_publisher) by extensions ['colcon_meta']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(epoch_publisher) by extension 'colcon_meta'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(epoch_publisher) by extensions ['ros']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(epoch_publisher) by extension 'ros'
+[0.498s] DEBUG:colcon.colcon_core.package_identification:Package 'epoch_publisher' with type 'ros.ament_cmake' and name 'epoch_publisher'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.498s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.499s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.550s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'custom_interfaces' in 'custom_interfaces'
+[0.550s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'epoch_publisher' in 'epoch_publisher'
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.551s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.559s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 263 installed packages in /opt/ros/foxy
+[0.563s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'date_publisher' build argument 'cmake_args' from command line to 'None'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'date_publisher' build argument 'cmake_target' from command line to 'None'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'date_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'date_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.715s] Level 5:colcon.colcon_core.verb:set package 'date_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'date_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'date_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'date_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.716s] Level 5:colcon.colcon_core.verb:set package 'date_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.716s] DEBUG:colcon.colcon_core.verb:Building package 'date_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher', 'merge_install': False, 'path': '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/date_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.718s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.726s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.726s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/date_publisher' with build type 'ament_cmake'
+[0.727s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/date_publisher'
+[0.739s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.739s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.739s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher': AMENT_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/date_publisher -DCMAKE_INSTALL_PREFIX=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher
+[10.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher' returned '0': AMENT_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/date_publisher -DCMAKE_INSTALL_PREFIX=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher
+[10.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher': AMENT_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher -- -j16 -l16
+[22.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher' returned '0': AMENT_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher -- -j16 -l16
+[22.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher': AMENT_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher
+[23.021s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(date_publisher)
+[23.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher' returned '0': AMENT_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher
+[23.036s] Level 1:colcon.colcon_core.environment:checking '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher' for CMake module files
+[23.037s] Level 1:colcon.colcon_core.environment:checking '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher' for CMake config files
+[23.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('date_publisher', 'cmake_prefix_path')
+[23.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/hook/cmake_prefix_path.ps1'
+[23.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/hook/cmake_prefix_path.dsv'
+[23.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/hook/cmake_prefix_path.sh'
+[23.046s] Level 1:colcon.colcon_core.environment:checking '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/lib'
+[23.046s] Level 1:colcon.colcon_core.environment:checking '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/bin'
+[23.047s] Level 1:colcon.colcon_core.environment:checking '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/lib/pkgconfig/date_publisher.pc'
+[23.047s] Level 1:colcon.colcon_core.environment:checking '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/lib/python3.8/site-packages'
+[23.048s] Level 1:colcon.colcon_core.environment:checking '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/bin'
+[23.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/package.ps1'
+[23.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/package.dsv'
+[23.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/package.sh'
+[23.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/package.bash'
+[23.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/package.zsh'
+[23.057s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/colcon-core/packages/date_publisher)
+[23.093s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(date_publisher)
+[23.097s] Level 1:colcon.colcon_core.environment:checking '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher' for CMake module files
+[23.098s] Level 1:colcon.colcon_core.environment:checking '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher' for CMake config files
+[23.099s] Level 1:colcon.colcon_core.shell:create_environment_hook('date_publisher', 'cmake_prefix_path')
+[23.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/hook/cmake_prefix_path.ps1'
+[23.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/hook/cmake_prefix_path.dsv'
+[23.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/hook/cmake_prefix_path.sh'
+[23.109s] Level 1:colcon.colcon_core.environment:checking '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/lib'
+[23.109s] Level 1:colcon.colcon_core.environment:checking '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/bin'
+[23.109s] Level 1:colcon.colcon_core.environment:checking '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/lib/pkgconfig/date_publisher.pc'
+[23.110s] Level 1:colcon.colcon_core.environment:checking '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/lib/python3.8/site-packages'
+[23.110s] Level 1:colcon.colcon_core.environment:checking '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/bin'
+[23.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/package.ps1'
+[23.114s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/package.dsv'
+[23.115s] INFO:colcon.colcon_core.shell:Creating package script '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/package.sh'
+[23.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/package.bash'
+[23.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/package.zsh'
+[23.118s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/colcon-core/packages/date_publisher)
+[23.118s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[23.120s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[23.121s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[23.121s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[23.178s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[23.178s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[23.178s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[23.179s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[23.188s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[23.188s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[23.191s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/local_setup.ps1'
+[23.193s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/_local_setup_util_ps1.py'
+[23.196s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/setup.ps1'
+[23.198s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/local_setup.sh'
+[23.199s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/_local_setup_util_sh.py'
+[23.200s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/setup.sh'
+[23.202s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/local_setup.bash'
+[23.203s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/setup.bash'
+[23.206s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/local_setup.zsh'
+[23.207s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/setup.zsh'

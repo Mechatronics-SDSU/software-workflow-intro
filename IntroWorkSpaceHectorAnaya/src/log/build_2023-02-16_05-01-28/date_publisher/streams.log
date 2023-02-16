@@ -1,0 +1,77 @@
+[0.166s] Invoking command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher': AMENT_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/date_publisher -DCMAKE_INSTALL_PREFIX=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher
+[0.383s] -- The C compiler identification is GNU 9.4.0
+[0.712s] -- The CXX compiler identification is GNU 9.4.0
+[0.849s] -- Check for working C compiler: /usr/bin/cc
+[1.045s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.047s] -- Detecting C compiler ABI info
+[1.262s] -- Detecting C compiler ABI info - done
+[1.285s] -- Detecting C compile features
+[1.286s] -- Detecting C compile features - done
+[1.290s] -- Check for working CXX compiler: /usr/bin/c++
+[1.518s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.520s] -- Detecting CXX compiler ABI info
+[1.740s] -- Detecting CXX compiler ABI info - done
+[1.780s] -- Detecting CXX compile features
+[1.781s] -- Detecting CXX compile features - done
+[1.786s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.826s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.826s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.196s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.472s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.482s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.013s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.553s] -- Found FastRTPS: /opt/ros/foxy/include  
+[8.376s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.518s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[8.521s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.565s] -- Looking for pthread.h
+[8.771s] -- Looking for pthread.h - found
+[8.771s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.041s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.042s] -- Looking for pthread_create in pthreads
+[9.288s] -- Looking for pthread_create in pthreads - not found
+[9.289s] -- Looking for pthread_create in pthread
+[9.493s] -- Looking for pthread_create in pthread - found
+[9.495s] -- Found Threads: TRUE  
+[9.839s] -- Found custom_interfaces: 0.0.0 (/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/share/custom_interfaces/cmake)
+[10.073s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[10.209s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.210s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.211s] -- Configured cppcheck include dirs: 
+[10.211s] -- Configured cppcheck exclude dirs and/or files: 
+[10.213s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.213s] -- Configured cpplint exclude dirs and/or files: 
+[10.215s] -- Added test 'lint_cmake' to check CMake code style
+[10.217s] -- Added test 'uncrustify' to check C / C++ code style
+[10.217s] -- Configured uncrustify additional arguments: 
+[10.218s] -- Added test 'xmllint' to check XML markup files
+[10.223s] -- Configuring done
+[10.240s] -- Generating done
+[10.243s] -- Build files have been written to: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher
+[10.258s] Invoked command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher' returned '0': AMENT_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/date_publisher -DCMAKE_INSTALL_PREFIX=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher
+[10.265s] Invoking command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher': AMENT_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher -- -j16 -l16
+[10.331s] [35m[1mScanning dependencies of target datetalker[0m
+[10.429s] [ 50%] [32mBuilding CXX object CMakeFiles/datetalker.dir/src/datepublisher.cpp.o[0m
+[21.652s] [100%] [32m[1mLinking CXX executable datetalker[0m
+[22.156s] [100%] Built target datetalker
+[22.203s] Invoked command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher' returned '0': AMENT_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher -- -j16 -l16
+[22.262s] Invoking command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher': AMENT_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher
+[22.275s] -- Install configuration: ""
+[22.276s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/lib/date_publisher/datetalker
+[22.280s] -- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/lib/date_publisher/datetalker" to ""
+[22.281s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/ament_index/resource_index/package_run_dependencies/date_publisher
+[22.281s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/ament_index/resource_index/parent_prefix_path/date_publisher
+[22.282s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/environment/ament_prefix_path.sh
+[22.282s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/environment/ament_prefix_path.dsv
+[22.283s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/environment/path.sh
+[22.283s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/environment/path.dsv
+[22.283s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/local_setup.bash
+[22.284s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/local_setup.sh
+[22.284s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/local_setup.zsh
+[22.285s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/local_setup.dsv
+[22.285s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/package.dsv
+[22.286s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/ament_index/resource_index/packages/date_publisher
+[22.286s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/cmake/date_publisherConfig.cmake
+[22.286s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/cmake/date_publisherConfig-version.cmake
+[22.287s] -- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/package.xml
+[22.295s] Invoked command in '/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher' returned '0': AMENT_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/build/date_publisher

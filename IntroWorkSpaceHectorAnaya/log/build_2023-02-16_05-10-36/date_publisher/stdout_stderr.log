@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target datetalker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/datetalker.dir/src/datepublisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable datetalker[0m
+[100%] Built target datetalker
+-- Install configuration: ""
+-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/lib/date_publisher/datetalker
+-- Set runtime path of "/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/lib/date_publisher/datetalker" to ""
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/ament_index/resource_index/package_run_dependencies/date_publisher
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/ament_index/resource_index/parent_prefix_path/date_publisher
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/environment/ament_prefix_path.sh
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/environment/path.sh
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/environment/path.dsv
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/local_setup.bash
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/local_setup.sh
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/local_setup.zsh
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/local_setup.dsv
+-- Installing: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/package.dsv
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/ament_index/resource_index/packages/date_publisher
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/cmake/date_publisherConfig.cmake
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/cmake/date_publisherConfig-version.cmake
+-- Up-to-date: /home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/install/date_publisher/share/date_publisher/package.xml

@@ -1,0 +1,16 @@
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/lib/date_publisher/datetalker
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/ament_index/resource_index/package_run_dependencies/date_publisher
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/ament_index/resource_index/parent_prefix_path/date_publisher
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/environment/ament_prefix_path.sh
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/environment/ament_prefix_path.dsv
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/environment/path.sh
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/environment/path.dsv
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/local_setup.bash
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/local_setup.sh
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/local_setup.zsh
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/local_setup.dsv
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/package.dsv
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/ament_index/resource_index/packages/date_publisher
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/cmake/date_publisherConfig.cmake
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/cmake/date_publisherConfig-version.cmake
+/home/bigman/repos/software-workflow-intro/IntroWorkSpaceHectorAnaya/src/install/date_publisher/share/date_publisher/package.xml
