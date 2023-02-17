@@ -5,7 +5,8 @@ Hello my name is Jackson Keus and I am a third year computer science student. I 
 
 
 ### Description
-First thing is to clone this branch. You should have a file called IntroWorkSpaceJacksonKeus. Once you have this you should follow these steps:
+First thing is to download all of the folder and files in this branch into a folder. This folder will be your workstation. 
+Once you have this you should follow these steps:
 
 How to use
 
@@ -13,7 +14,7 @@ How to use
 
 2. In each terminal run the following comands
 	
-		cd IntroWorkSpaceJacksonKeus
+		cd <name_workstation_folder>
 	
 	#going to root of the program
     
