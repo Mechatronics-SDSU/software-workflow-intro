@@ -36,7 +36,7 @@ How to use
 	
 		ros2 run py_pubsub timesubscriber
 		
-4. Give it 5 seconds to run and it should work. It will work every 5 seconds
+4. Give it 5 seconds to run and it should work. It will work every 5 seconds. To end the process press ctrl + c in the terminal.
 
 Extra notes
 Also in the workspace folder is a REAMDE file and a file called workingScreenshot. The screenshot is of my vm running the both nodes.
