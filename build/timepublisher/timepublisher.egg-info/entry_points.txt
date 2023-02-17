@@ -1,0 +1,4 @@
+[console_scripts]
+listener = timepublisher.subscriber_member_function:main
+talker = timepublisher.publisher_member_function:main
+

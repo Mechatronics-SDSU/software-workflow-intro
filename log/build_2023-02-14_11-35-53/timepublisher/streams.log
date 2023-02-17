@@ -1,0 +1,25 @@
+[3.592s] Invoking command in '/home/vboxuser/IntroWorkSpaceTylerSchwenk/src/timepublisher': PYTHONPATH=/home/vboxuser/IntroWorkSpaceTylerSchwenk/build/timepublisher/prefix_override:/home/vboxuser/IntroWorkSpaceTylerSchwenk/install/timepublisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/timepublisher build --build-base /home/vboxuser/IntroWorkSpaceTylerSchwenk/build/timepublisher/build install --record /home/vboxuser/IntroWorkSpaceTylerSchwenk/build/timepublisher/install.log --install-scripts $base/lib/timepublisher --single-version-externally-managed
+[5.031s] running egg_info
+[5.032s] writing ../../build/timepublisher/timepublisher.egg-info/PKG-INFO
+[5.035s] writing dependency_links to ../../build/timepublisher/timepublisher.egg-info/dependency_links.txt
+[5.037s] writing entry points to ../../build/timepublisher/timepublisher.egg-info/entry_points.txt
+[5.038s] writing requirements to ../../build/timepublisher/timepublisher.egg-info/requires.txt
+[5.039s] writing top-level names to ../../build/timepublisher/timepublisher.egg-info/top_level.txt
+[5.132s] reading manifest file '../../build/timepublisher/timepublisher.egg-info/SOURCES.txt'
+[5.135s] writing manifest file '../../build/timepublisher/timepublisher.egg-info/SOURCES.txt'
+[5.136s] running build
+[5.136s] running build_py
+[5.138s] copying timepublisher/subscriber_member_function.py -> /home/vboxuser/IntroWorkSpaceTylerSchwenk/build/timepublisher/build/lib/timepublisher
+[5.138s] running install
+[5.143s] running install_lib
+[5.145s] copying /home/vboxuser/IntroWorkSpaceTylerSchwenk/build/timepublisher/build/lib/timepublisher/subscriber_member_function.py -> /home/vboxuser/IntroWorkSpaceTylerSchwenk/install/timepublisher/lib/python3.8/site-packages/timepublisher
+[5.149s] byte-compiling /home/vboxuser/IntroWorkSpaceTylerSchwenk/install/timepublisher/lib/python3.8/site-packages/timepublisher/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[5.152s] running install_data
+[5.154s] running install_egg_info
+[5.159s] removing '/home/vboxuser/IntroWorkSpaceTylerSchwenk/install/timepublisher/lib/python3.8/site-packages/timepublisher-0.0.0-py3.8.egg-info' (and everything under it)
+[5.160s] Copying ../../build/timepublisher/timepublisher.egg-info to /home/vboxuser/IntroWorkSpaceTylerSchwenk/install/timepublisher/lib/python3.8/site-packages/timepublisher-0.0.0-py3.8.egg-info
+[5.161s] running install_scripts
+[5.210s] Installing listener script to /home/vboxuser/IntroWorkSpaceTylerSchwenk/install/timepublisher/lib/timepublisher
+[5.211s] Installing talker script to /home/vboxuser/IntroWorkSpaceTylerSchwenk/install/timepublisher/lib/timepublisher
+[5.213s] writing list of installed files to '/home/vboxuser/IntroWorkSpaceTylerSchwenk/build/timepublisher/install.log'
+[5.264s] Invoked command in '/home/vboxuser/IntroWorkSpaceTylerSchwenk/src/timepublisher' returned '0': PYTHONPATH=/home/vboxuser/IntroWorkSpaceTylerSchwenk/build/timepublisher/prefix_override:/home/vboxuser/IntroWorkSpaceTylerSchwenk/install/timepublisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/timepublisher build --build-base /home/vboxuser/IntroWorkSpaceTylerSchwenk/build/timepublisher/build install --record /home/vboxuser/IntroWorkSpaceTylerSchwenk/build/timepublisher/install.log --install-scripts $base/lib/timepublisher --single-version-externally-managed

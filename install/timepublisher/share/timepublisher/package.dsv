@@ -1,0 +1,6 @@
+source;share/timepublisher/hook/pythonpath.ps1
+source;share/timepublisher/hook/pythonpath.dsv
+source;share/timepublisher/hook/pythonpath.sh
+source;share/timepublisher/hook/ament_prefix_path.ps1
+source;share/timepublisher/hook/ament_prefix_path.dsv
+source;share/timepublisher/hook/ament_prefix_path.sh
