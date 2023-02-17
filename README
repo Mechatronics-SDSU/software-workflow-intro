@@ -1,24 +1,45 @@
-How to use
+### Introduction
+Hello my name is Jackson Keus and I am a third year computer science student. I joined this club to see what it is like to work with robots. I am looking forward to meeting all of you.
 
-Assuming that you have ros2 foxy and colcom installed
+
+
+
+### Description
+First thing is to clone this branch. You should have a file called IntroWorkSpaceJacksonKeus. Once you have this you should follow these steps:
+
+How to use
 
 1. Open two terminals, one to run the timepublisher node and the other to run the timesubscriber node
 
 2. In each terminal run the following comands
-	a. cd IntroWorkSpaceJacksonKeus
-		going to root of the program
-	b. rosdep install -i --from-path src --rosdistro foxy -y
-		this is to make sure you have the required dependancies
-	c. . install/setup.bash
-		run this because that is what it says in the foxy documentation
-	d. colcon build --packages-select py_pubsub
-		build our packages for use
+	
+		cd IntroWorkSpaceJacksonKeus
+	
+	#going to root of the program
+    
+		rosdep install -i --from-path src --rosdistro foxy -y
+	
+	#this is to make sure you have the required dependancies
+    
+		. install/setup.bash
+	
+	#run this because that is what it says in the foxy documentation
+    
+		colcon build --packages-select py_pubsub
+	
+	#builds our package for use
 
 3. Now chose which terminal should be which node
 	a. In the terminal where you want the timepublisher run
+	
 		ros2 run py_pubsub timepublihser
 		
 	b. In the other terminal where timesubscirber will be run
+	
 		ros2 run py_pubsub timesubscriber
 		
 4. Give it 5 seconds to run and it should work. It will work every 5 seconds
+
+### Extra notes
+Also in the workspace folder is a REAMDE file and a file called workingScreenshot. The screenshot is of my vm running the both nodes.
+The nodes are communicating the epoch unix time with eachother and printing it out accordingly.
