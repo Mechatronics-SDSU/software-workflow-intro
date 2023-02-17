@@ -1,0 +1,9 @@
+/home/aeron/IntroWorkSpaceAeronFlores/src/timepublisher/build/timepublisher/CMakeFiles/install/strip.dir
+/home/aeron/IntroWorkSpaceAeronFlores/src/timepublisher/build/timepublisher/CMakeFiles/install/local.dir
+/home/aeron/IntroWorkSpaceAeronFlores/src/timepublisher/build/timepublisher/CMakeFiles/install.dir
+/home/aeron/IntroWorkSpaceAeronFlores/src/timepublisher/build/timepublisher/CMakeFiles/list_install_components.dir
+/home/aeron/IntroWorkSpaceAeronFlores/src/timepublisher/build/timepublisher/CMakeFiles/rebuild_cache.dir
+/home/aeron/IntroWorkSpaceAeronFlores/src/timepublisher/build/timepublisher/CMakeFiles/edit_cache.dir
+/home/aeron/IntroWorkSpaceAeronFlores/src/timepublisher/build/timepublisher/CMakeFiles/test.dir
+/home/aeron/IntroWorkSpaceAeronFlores/src/timepublisher/build/timepublisher/CMakeFiles/timepublisher_uninstall.dir
+/home/aeron/IntroWorkSpaceAeronFlores/src/timepublisher/build/timepublisher/CMakeFiles/uninstall.dir

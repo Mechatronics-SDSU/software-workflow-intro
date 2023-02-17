@@ -1,0 +1,8 @@
+source;share/timepublisher/hook/cmake_prefix_path.ps1
+source;share/timepublisher/hook/cmake_prefix_path.dsv
+source;share/timepublisher/hook/cmake_prefix_path.sh
+source;share/timepublisher/local_setup.bash
+source;share/timepublisher/local_setup.dsv
+source;share/timepublisher/local_setup.ps1
+source;share/timepublisher/local_setup.sh
+source;share/timepublisher/local_setup.zsh

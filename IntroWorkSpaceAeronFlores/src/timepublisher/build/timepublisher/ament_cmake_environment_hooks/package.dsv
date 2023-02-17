@@ -1,0 +1,4 @@
+source;share/timepublisher/local_setup.bash
+source;share/timepublisher/local_setup.dsv
+source;share/timepublisher/local_setup.sh
+source;share/timepublisher/local_setup.zsh

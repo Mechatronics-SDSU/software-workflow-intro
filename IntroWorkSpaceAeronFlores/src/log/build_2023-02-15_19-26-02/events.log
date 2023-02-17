@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.006100] (-) JobUnselected: {'identifier': 'cpp_servcli'}
+[0.006272] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.006332] (-) JobUnselected: {'identifier': 'timepublisher'}
+[0.006376] (timesubscriber) JobQueued: {'identifier': 'timesubscriber', 'dependencies': OrderedDict([('custom_interfaces', '/home/aeron/IntroWorkSpaceAeronFlores/src/install/custom_interfaces')])}
+[0.006433] (timesubscriber) JobStarted: {'identifier': 'timesubscriber'}
+[0.102108] (-) TimerEvent: {}
+[0.145036] (timesubscriber) JobEnded: {'identifier': 'timesubscriber', 'rc': 1}
+[0.153777] (-) EventReactorShutdown: {}

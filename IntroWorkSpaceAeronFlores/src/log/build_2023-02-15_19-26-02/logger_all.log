@@ -1,0 +1,136 @@
+[1.873s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'timesubscriber']
+[1.873s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ffb4041ea30>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['timesubscriber'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=1, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ffb4041ea30>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ffb4041efa0>)
+[2.048s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.049s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.049s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/aeron/IntroWorkSpaceAeronFlores/src'
+[2.050s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.052s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.053s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_servcli) by extensions ['ignore', 'ignore_ament_install']
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_servcli) by extension 'ignore'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_servcli) by extension 'ignore_ament_install'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_servcli) by extensions ['colcon_pkg']
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_servcli) by extension 'colcon_pkg'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_servcli) by extensions ['colcon_meta']
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_servcli) by extension 'colcon_meta'
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_servcli) by extensions ['ros']
+[2.250s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_servcli) by extension 'ros'
+[2.281s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp_servcli' with type 'ros.ament_cmake' and name 'cpp_servcli'
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'ignore'
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'ignore_ament_install'
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['colcon_pkg']
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'colcon_pkg'
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['colcon_meta']
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'colcon_meta'
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extensions ['ros']
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(custom_interfaces) by extension 'ros'
+[2.290s] DEBUG:colcon.colcon_core.package_identification:Package 'custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[2.290s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.291s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.291s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.291s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(timepublisher) by extensions ['ignore', 'ignore_ament_install']
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(timepublisher) by extension 'ignore'
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(timepublisher) by extension 'ignore_ament_install'
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(timepublisher) by extensions ['colcon_pkg']
+[2.296s] Level 1:colcon.colcon_core.package_identification:_identify(timepublisher) by extension 'colcon_pkg'
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(timepublisher) by extensions ['colcon_meta']
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(timepublisher) by extension 'colcon_meta'
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(timepublisher) by extensions ['ros']
+[2.297s] Level 1:colcon.colcon_core.package_identification:_identify(timepublisher) by extension 'ros'
+[2.298s] DEBUG:colcon.colcon_core.package_identification:Package 'timepublisher' with type 'ros.ament_cmake' and name 'timepublisher'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(timesubscriber) by extensions ['ignore', 'ignore_ament_install']
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(timesubscriber) by extension 'ignore'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(timesubscriber) by extension 'ignore_ament_install'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(timesubscriber) by extensions ['colcon_pkg']
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(timesubscriber) by extension 'colcon_pkg'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(timesubscriber) by extensions ['colcon_meta']
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(timesubscriber) by extension 'colcon_meta'
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(timesubscriber) by extensions ['ros']
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(timesubscriber) by extension 'ros'
+[2.300s] DEBUG:colcon.colcon_core.package_identification:Package 'timesubscriber' with type 'ros.ament_cmake' and name 'timesubscriber'
+[2.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.413s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'custom_interfaces' in 'custom_interfaces'
+[2.413s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cpp_servcli' in 'cpp_servcli'
+[2.413s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'timepublisher' in 'timepublisher'
+[2.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.424s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[2.430s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.819s] Level 5:colcon.colcon_core.verb:set package 'timesubscriber' build argument 'cmake_args' from command line to 'None'
+[2.819s] Level 5:colcon.colcon_core.verb:set package 'timesubscriber' build argument 'cmake_target' from command line to 'None'
+[2.819s] Level 5:colcon.colcon_core.verb:set package 'timesubscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.819s] Level 5:colcon.colcon_core.verb:set package 'timesubscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[2.819s] Level 5:colcon.colcon_core.verb:set package 'timesubscriber' build argument 'cmake_clean_first' from command line to 'False'
+[2.819s] Level 5:colcon.colcon_core.verb:set package 'timesubscriber' build argument 'cmake_force_configure' from command line to 'False'
+[2.819s] Level 5:colcon.colcon_core.verb:set package 'timesubscriber' build argument 'ament_cmake_args' from command line to 'None'
+[2.819s] Level 5:colcon.colcon_core.verb:set package 'timesubscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[2.819s] Level 5:colcon.colcon_core.verb:set package 'timesubscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.820s] DEBUG:colcon.colcon_core.verb:Building package 'timesubscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/aeron/IntroWorkSpaceAeronFlores/src/build/timesubscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/aeron/IntroWorkSpaceAeronFlores/src/install/timesubscriber', 'merge_install': False, 'path': '/home/aeron/IntroWorkSpaceAeronFlores/src/timesubscriber', 'symlink_install': False, 'test_result_base': None}
+[2.821s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.837s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.838s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/aeron/IntroWorkSpaceAeronFlores/src/timesubscriber' with build type 'ament_cmake'
+[2.838s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/aeron/IntroWorkSpaceAeronFlores/src/timesubscriber'
+[2.892s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.892s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.892s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.900s] ERROR:colcon.colcon_cmake.task.cmake.build:Failed to find the following files:
+- /home/aeron/IntroWorkSpaceAeronFlores/src/install/custom_interfaces/share/custom_interfaces/package.sh
+Check that the following packages have been built:
+- custom_interfaces
+[2.903s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(timesubscriber)
+[2.929s] Level 1:colcon.colcon_core.environment:checking '/home/aeron/IntroWorkSpaceAeronFlores/src/install/timesubscriber' for CMake module files
+[2.932s] Level 1:colcon.colcon_core.environment:checking '/home/aeron/IntroWorkSpaceAeronFlores/src/install/timesubscriber' for CMake config files
+[2.934s] Level 1:colcon.colcon_core.environment:checking '/home/aeron/IntroWorkSpaceAeronFlores/src/install/timesubscriber/bin'
+[2.935s] Level 1:colcon.colcon_core.environment:checking '/home/aeron/IntroWorkSpaceAeronFlores/src/install/timesubscriber/lib/pkgconfig/timesubscriber.pc'
+[2.935s] Level 1:colcon.colcon_core.environment:checking '/home/aeron/IntroWorkSpaceAeronFlores/src/install/timesubscriber/lib/python3.8/site-packages'
+[2.935s] Level 1:colcon.colcon_core.environment:checking '/home/aeron/IntroWorkSpaceAeronFlores/src/install/timesubscriber/bin'
+[2.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeron/IntroWorkSpaceAeronFlores/src/install/timesubscriber/share/timesubscriber/package.ps1'
+[2.945s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/aeron/IntroWorkSpaceAeronFlores/src/install/timesubscriber/share/timesubscriber/package.dsv'
+[2.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeron/IntroWorkSpaceAeronFlores/src/install/timesubscriber/share/timesubscriber/package.sh'
+[2.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeron/IntroWorkSpaceAeronFlores/src/install/timesubscriber/share/timesubscriber/package.bash'
+[2.964s] INFO:colcon.colcon_core.shell:Creating package script '/home/aeron/IntroWorkSpaceAeronFlores/src/install/timesubscriber/share/timesubscriber/package.zsh'
+[2.970s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/aeron/IntroWorkSpaceAeronFlores/src/install/timesubscriber/share/colcon-core/packages/timesubscriber)
+[2.991s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.991s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.991s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.991s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.034s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.034s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.036s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.272s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.290s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aeron/IntroWorkSpaceAeronFlores/src/install/local_setup.ps1'
+[3.298s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aeron/IntroWorkSpaceAeronFlores/src/install/_local_setup_util_ps1.py'
+[3.305s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aeron/IntroWorkSpaceAeronFlores/src/install/setup.ps1'
+[3.314s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aeron/IntroWorkSpaceAeronFlores/src/install/local_setup.sh'
+[3.318s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/aeron/IntroWorkSpaceAeronFlores/src/install/_local_setup_util_sh.py'
+[3.319s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aeron/IntroWorkSpaceAeronFlores/src/install/setup.sh'
+[3.325s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aeron/IntroWorkSpaceAeronFlores/src/install/local_setup.bash'
+[3.327s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aeron/IntroWorkSpaceAeronFlores/src/install/setup.bash'
+[3.339s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/aeron/IntroWorkSpaceAeronFlores/src/install/local_setup.zsh'
+[3.342s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/aeron/IntroWorkSpaceAeronFlores/src/install/setup.zsh'
