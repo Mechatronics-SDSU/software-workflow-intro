@@ -1,0 +1,22 @@
+[1.890s] Invoking command in '/home/jkeus/IntroWorkSpaceJacksonKeus/src/py_pubsub': PYTHONPATH=/home/jkeus/IntroWorkSpaceJacksonKeus/build/py_pubsub/prefix_override:/home/jkeus/IntroWorkSpaceJacksonKeus/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/jkeus/IntroWorkSpaceJacksonKeus/build/py_pubsub/build install --record /home/jkeus/IntroWorkSpaceJacksonKeus/build/py_pubsub/install.log --install-scripts $base/lib/py_pubsub --single-version-externally-managed
+[2.538s] running egg_info
+[2.540s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[2.542s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[2.544s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[2.545s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[2.546s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[2.694s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.705s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.705s] running build
+[2.705s] running build_py
+[2.708s] running install
+[2.722s] running install_lib
+[2.730s] running install_data
+[2.740s] running install_egg_info
+[2.754s] removing '/home/jkeus/IntroWorkSpaceJacksonKeus/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)
+[2.756s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/jkeus/IntroWorkSpaceJacksonKeus/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info
+[2.766s] running install_scripts
+[2.829s] Installing timepublisher script to /home/jkeus/IntroWorkSpaceJacksonKeus/install/py_pubsub/lib/py_pubsub
+[2.830s] Installing timesubscriber script to /home/jkeus/IntroWorkSpaceJacksonKeus/install/py_pubsub/lib/py_pubsub
+[2.831s] writing list of installed files to '/home/jkeus/IntroWorkSpaceJacksonKeus/build/py_pubsub/install.log'
+[2.966s] Invoked command in '/home/jkeus/IntroWorkSpaceJacksonKeus/src/py_pubsub' returned '0': PYTHONPATH=/home/jkeus/IntroWorkSpaceJacksonKeus/build/py_pubsub/prefix_override:/home/jkeus/IntroWorkSpaceJacksonKeus/install/py_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/jkeus/IntroWorkSpaceJacksonKeus/build/py_pubsub/build install --record /home/jkeus/IntroWorkSpaceJacksonKeus/build/py_pubsub/install.log --install-scripts $base/lib/py_pubsub --single-version-externally-managed

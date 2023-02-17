@@ -29,12 +29,12 @@ class MinimalSubscriber(Node):
             self.listener_callback,
             10)
         self.subscription  # prevent unused variable warning
-        self.publisher_ = self.create_publisher(Float32, 'date', 10)
+        self.publisher_ = self.create_publisher(String, 'date', 10)
 
     def listener_callback(self, msg):
         self.get_logger().info('Epoch Unix Time(seconds) "%s"' % msg.data) #print the seconds
-        readable = Float32()
-        result = msg.data % 86400.00
+        readable = String()
+        result = time.ctime(msg.data)
         readable.data = result   #converts to readbale time and publishes to date(topic)
         self.publisher_.publish(readable) #
 

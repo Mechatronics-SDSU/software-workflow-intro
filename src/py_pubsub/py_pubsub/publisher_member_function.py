@@ -25,7 +25,7 @@ class MinimalPublisher(Node):
     def __init__(self):
         super().__init__('minimal_publisher')
         self.publisher_ = self.create_publisher(Float32, 'seconds', 10) #pubs epoch(sec)
-        self.subscription = self.create_subscription(Float32, 'date', self.listener_callback,
+        self.subscription = self.create_subscription(String, 'date', self.listener_callback,
         10) #this subs to nodeS pub topic
         self.subscription #avoid error idk
         timer_period = 5  # 5 seconds
@@ -40,7 +40,7 @@ class MinimalPublisher(Node):
         self.i += 1
 
     def listener_callback(self, msg):
-        self.get_logger().info('Epoch Time in days: "%s"' % msg.data)
+        self.get_logger().info('Epoch Time is: "%s"' % msg.data)
 
 def main(args=None):
     rclpy.init(args=args)

@@ -1,0 +1,24 @@
+How to use
+
+Assuming that you have ros2 foxy and colcom installed
+
+1. Open two terminals, one to run the timepublisher node and the other to run the timesubscriber node
+
+2. In each terminal run the following comands
+	a. cd IntroWorkSpaceJacksonKeus
+		going to root of the program
+	b. rosdep install -i --from-path src --rosdistro foxy -y
+		this is to make sure you have the required dependancies
+	c. . install/setup.bash
+		run this because that is what it says in the foxy documentation
+	d. colcon build --packages-select py_pubsub
+		build our packages for use
+
+3. Now chose which terminal should be which node
+	a. In the terminal where you want the timepublisher run
+		ros2 run py_pubsub timepublihser
+		
+	b. In the other terminal where timesubscirber will be run
+		ros2 run py_pubsub timesubscriber
+		
+4. Give it 5 seconds to run and it should work. It will work every 5 seconds
