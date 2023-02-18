@@ -67,12 +67,15 @@ For entry points, this is the format you will follow:
 Please save them once you're done editing
 
 ## Code (time to run it)
-In a new terminal, type ```source /opt/ros/foxy/setup.bash``` to source the environment so you can use ros2 commands
+In a new terminal, type ```source /opt/ros/foxy/setup.bash``` to source the environment so you can use ros2 commands.
+
 Then type ```colcon build --packages-select <package_name>``` (in root workspace you previously created)
+
 Open two new terminals, go into your works space through this command ```cd <your_workspace>``` then type this code in both terminals: ```install/setup.bash```
 
 When the colon building proccess is done, in one terminal, type
 ```ros2 run py_pubsub unix_epoch_time_publisher```
+
 In the other one, copy this line
 ```ros2 run py_pubsub unix_epoch_time_subscriber```
 
