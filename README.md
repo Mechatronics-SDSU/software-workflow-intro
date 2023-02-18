@@ -54,7 +54,8 @@ The callback() function is defined to convert the unix epoch time to a human-rea
 The main() function initializes the ROS2 system using rclpy.init(), creates an instance of the UnixEpochTimeSubscriber class, and enters the ROS2 event loop using rclpy.spin(). The event loop allows the subscriber to receive messages and the publisher to send messages. Finally, the node is destroyed using unix_epoch_time_subscriber.destroy_node(), and the ROS2 system is shutdown using rclpy.shutdown().
 
 ### Add Dependencies and Entry Points
-Make sure you follow the intructions to set them up correctly, otherwise the colon building proccess would fail (and obviously it will also fail if there're coding errors in your publisher/subscriber nodes, so double check it
+Make sure you follow the intructions to set them up correctly, otherwise the colon building proccess would fail (and obviously it will also fail if there're coding errors in your publisher/subscriber nodes, so double check it.
+
 For entry points, this is the format you will follow:
 
 ```entry_points={
