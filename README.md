@@ -1,20 +1,24 @@
-# Software Workflow Introduction
-Learn to use GitHub, Python, and the Mechatronics team's workflow!
+# Tyler Schwenk Intro Project
+The goal was to make a custom ROS2 workspace with two packages, each with a node.
 
-## Getting started
-If this is your first time here on the GitHub, welcome! Please refer to the Python environment setup below followed by the Git guide to get started with your introduction to our team's workflow.
+## Format
+The first node, 'timepublisher', will generate the unix epoch time and send it via 'topic1' to the other node, 'timesubscriber' every 5 seconds. The 'timesubscriber' prints the recieved time, then converts that time into MM/DD/YYYY HH:mm:ss format before sending it back to 'timepublisher' via 'topic2'. Finally, on recieveing the new time information, 'timepublisher' will print the time in that format
 
-### Python environment setup
-[Get started our Python setup guide here](src/python_setup_guide.md)
+## Execution
+Begin by creating the package 'timepublisher' in the src folder of your workspace via the command:
 
-### Using Git
-[See our Git Guide here](src/git_guide.md)
+```ros2 pkg create --build-type ament_python timepublisher```
 
-### Introduce yourself
-For your first task, you'll write some basic Python hello world code using Pycharm or the Python environment you set up on your local machine and then push it to this repository. Please do `git checkout first-task` or, in Pycharm, right-click on the `first-task` branch and then click "Checkout". Your instructions for how to submit will be in the docstring in the top of the file `submissions/template.py`. If you want help, you can checkout the `submission-yizaguirre` branch to see what my own submission looks like. You can also message us in the Discord. Good luck!
+Then in the root of the workspace build the package with:
 
-## Projects
-If you're writing up a project and have already done the first task, please refer to our project list Trello board and read the styling guide before you begin developing.
+```colcon build --packages-select timepublisher```
 
-### Styling guide
-[See our Styling Guide here](src/styling_guide.md) before writing any Python code for projects.
+Then open two new terminals and source the setup files:
+
+```. install/setup.bash```
+
+Finally, run the talker in one terminal then the listener in another:
+
+```ros2 run timepublisher talker```
+
+```ros2 run timepublisher listener```
