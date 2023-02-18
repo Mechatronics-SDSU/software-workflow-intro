@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Int64, String
+from std_msgs.msg import String
 import datetime
 
 class UnixEpochTimeSubscriber(Node):
@@ -8,7 +8,7 @@ class UnixEpochTimeSubscriber(Node):
     def __init__(self):
         super().__init__('unix_epoch_time_subscriber')
         self.subscription = self.create_subscription(
-            Int64,
+            String,
             'unix_epoch_time',
             self.callback,
             10)
