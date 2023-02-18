@@ -1,5 +1,5 @@
 # Tyler Schwenk Intro Project
-The goal was to make a custom ROS2 workspace with two packages, each with a node.
+The goal was to make a custom ROS2 workspace with two packages, each with a node that communicate over topics.
 
 ## Format
 The first node, 'timepublisher', will generate the unix epoch time and send it via 'topic1' to the other node, 'timesubscriber' every 5 seconds. The 'timesubscriber' prints the recieved time, then converts that time into MM/DD/YYYY HH:mm:ss format before sending it back to 'timepublisher' via 'topic2'. Finally, on recieveing the new time information, 'timepublisher' will print the time in that format
