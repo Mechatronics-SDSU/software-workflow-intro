@@ -20,9 +20,9 @@ class MinimalSubscriber(Node):
             
     def listener_callback(self, msg)-> None:
         self.get_logger().info('Unix Epoch Time: "%s"' % msg.data)
-        reply = String()
-        reply.data = self.time_converter(msg.data)
-        self.publisher.publish(reply)
+        respond = String()
+        respond.data = self.time_converter(msg.data)
+        self.publisher.publish(respond)
 
     def time_converter(self, unix_time) -> str:
     

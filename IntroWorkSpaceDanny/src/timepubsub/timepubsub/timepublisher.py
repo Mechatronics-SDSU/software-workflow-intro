@@ -23,8 +23,8 @@ class MinimalPublisher(Node):
         self.publisher_.publish(msg)
         self.get_logger().info('Unix Epoch Time: "%s"' % msg.data)
 
-    def listener_callback(self, reply) -> None:
-        self.get_logger().info('Real Date Time: "%s"\n' % reply.data)
+    def listener_callback(self, respond) -> None:
+        self.get_logger().info('Real Date Time: "%s"\n' % respond.data)
 
 def main(args=None):
     rclpy.init(args=args)
