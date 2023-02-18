@@ -1,24 +1,30 @@
 import rclpy
-from datetime import datetime
 from rclpy.node import Node
 from std_msgs.msg import String
+import time
 
 class MinimalPublisher(Node):
 
-    def __init__(self):
+    def __init__(self) -> None:
         super().__init__('timepublisher')
-        self.publisher_ = self.create_publisher(String, 'topic', 10)
+        self.publisher_ = self.create_publisher(String, 'epoch_time', 10)
         timer_period = 5  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
-        self.i = 0
 
-    def timer_callback(self):
+        self.subscription = self.create_subscription(
+            String,
+            'date_time',
+            self.listener_callback,
+            10)
+
+    def timer_callback(self) -> None:
         msg = String()
-        msg.data = str(datetime.now().timestamp())
+        msg.data = str(int(time.time()))
         self.publisher_.publish(msg)
-        self.get_logger().info('UNIX Epoch Time: "%s"' % msg.data)
-        self.i += 1
+        self.get_logger().info('Unix Epoch Time: "%s"' % msg.data)
 
+    def listener_callback(self, reply) -> None:
+        self.get_logger().info('Real Date Time: "%s"\n' % reply.data)
 
 def main(args=None):
     rclpy.init(args=args)
