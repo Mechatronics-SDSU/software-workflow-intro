@@ -65,6 +65,7 @@ For entry points, this is the format you will follow:
         ],
 },
 ```
+Note: omit the ".py" after the publisher/subscriber file name 
 Please save them once you're done editing
 
 ## Code (time to run it)
@@ -79,6 +80,8 @@ When the colon building proccess is done, in one terminal, type
 
 In the other one, copy this line
 ```ros2 run py_pubsub unix_epoch_time_subscriber```
+
+**In this case, 'py_pubsub' is the package name, and 'unix_epoch_time_publisher/subscriber' are the file names
 
 You're all done. 
 
