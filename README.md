@@ -17,39 +17,51 @@ The publisher will publish the unix epoch time (a system for representing a poin
 ### Publisher
 You will write the publisher node that gets the current unix epoch time and sends the message to the subscriber. In this case I base the code on this free sample program MinimalSubscriber(). You can install the file by copying this code to the terminal: ```wget https://raw.githubusercontent.com/ros2/examples/foxy/rclpy/topics/minimal_subscriber/examples_rclpy_minimal_subscriber/subscriber_member_function.py```
 
-This code defines a ROS (Robot Operating System) node in Python that publishes the current Unix epoch time to a topic using the std_msgs/Int64 message type.
+This is a Python program that creates a ROS2 node that periodically publishes the current Unix epoch time.
 
-Here's a breakdown of the code:
+Here's a detailed explanation of what the code is doing:
 
-    The code starts by importing the necessary modules: rclpy, time, Node from rclpy.node, and Int64 from std_msgs.msg.
+    Importing necessary modules and packages:
 
-    Next, a class called UnixEpochTimePublisher is defined. This class inherits from rclpy.node.Node and defines the behavior of the ROS node.
+    rclpy is a Python package for using ROS2 in Python.
+    time is a standard Python library for handling time-related operations.
+    Node is a class from rclpy.node module for creating a ROS2 node.
+    String is a message type from std_msgs.msg module that we will be publishing.
 
-    In the constructor of the UnixEpochTimePublisher class, a publisher is created that publishes messages of type Int64 to the 'unix_epoch_time' topic. A timer is also created that calls the timer_callback function every 5 seconds.
+    Creating a class UnixEpochTime that inherits from Node class:
 
-    The timer_callback function is defined to get the current Unix epoch time using the time.time() function, create a new Int64 message, set its data field to the current time, publish the message, and log a message to the console.
+    The __init__ method initializes the node and creates a publisher to publish the current Unix epoch time.
+    The timer_period variable sets the time interval between successive calls to the timer_callback() method.
+    The timer_callback() method gets the current Unix epoch time and publishes it as a String message. It also logs the message to the console.
 
-    The main function is defined to initialize the ROS system, create an instance of the UnixEpochTimePublisher class, spin the node to keep it running, destroy the node when it's done, and shut down the ROS system.
+    Defining a main function:
 
-    Finally, the main function is called if the script is being run as the main program.
+    rclpy.init(args=args) initializes the ROS2 client library.
+    unix_epoch_time = UnixEpochTime() creates an instance of the UnixEpochTime class.
+    rclpy.spin(unix_epoch_time) starts spinning the ROS2 node to handle callbacks.
+    unix_epoch_time.destroy_node() destroys the node and its associated resources.
+    rclpy.shutdown() shuts down the ROS2 client library.
 
-In summary, this code defines a ROS node that publishes the current Unix epoch time to a topic using the std_msgs/Int64 message type, which can be used by other nodes in a ROS system for time synchronization or other purposes.
+    Running the main function if the Python script is being executed directly (i.e., not imported as a module).
+
+In summary, this program creates a ROS2 node that periodically publishes the current Unix epoch time as a string message on a specified topic. The node is implemented as a class, and the rclpy library is used to manage the ROS2-related functionality.
 
 ### Subscriber
-This code defines a ROS2 subscriber node that listens to a topic called "unix_epoch_time" which should publish messages of type Int64. When a message is received, the callback function callback() is executed, which converts the unix epoch time (a timestamp measured in seconds since January 1, 1970) to a human-readable date string of the format "YYYY-MM-DD HH:MM:SS". The human-readable date string is then published to another topic called "human_readable_date" as a message of type String.
+This code defines a ROS2 subscriber node that listens to a topic called "unix_epoch_time" which should publish messages of type Int64. When a message is received, the callback function callback() is executed, which converts the unix epoch time (a timestamp measured in seconds since January 1, 1970) to a human-readable date string of the format "YYYY-MM-DD HH:MM:SS". The human-readable date string is then published to another topic called "human_readable_date" as a message of type String. Below is more detailed explanation of the code:
+    Creating a class HumanReadableDate that inherits from Node class:
 
-The class UnixEpochTimeSubscriber inherits from the Node class, which is part of the rclpy package. The Node class provides the basic functionality for creating a ROS2 node, including creating publishers and subscribers, and handling the communication with the ROS2 middleware.
+    The __init__ method initializes the node and creates a subscription to the 'current_unix_epoch_time' topic with a callback method listener_callback.
+    The listener_callback method gets the received message, extracts the seconds and nanoseconds from the message data, and converts them to a Unix epoch time value.
+    It then converts the Unix epoch time value to a datetime object and converts the datetime object to a human-readable date string.
+    The date string is logged to the console.
 
-In the __init__ method of the UnixEpochTimeSubscriber class, the subscriber is created using the create_subscription() method of the Node class. This method takes the following arguments:
+    Defining a main function:
 
-    the message type (in this case Int64)
-    the topic name to subscribe to (unix_epoch_time)
-    the callback function to be executed when a message is received (callback)
-    the queue size, which determines how many messages can be buffered before the oldest messages are dropped (in this case, 10)
-
-A publisher is also created using the create_publisher() method of the Node class. This method takes the message type (String) and the topic name (human_readable_date) as arguments.
-
-The callback() function is defined to convert the unix epoch time to a human-readable date using the fromtimestamp() and strftime() methods of the datetime module. The resulting human-readable date is then published to the "human_readable_date" topic using the publisher created earlier.
+    rclpy.init(args=args) initializes the ROS2 client library.
+    human_readable_date = HumanReadableDate() creates an instance of the HumanReadableDate class.
+    rclpy.spin(human_readable_date) starts spinning the ROS2 node to handle callbacks.
+    human_readable_date.destroy_node() destroys the node and its associated resources.
+    rclpy.shutdown() shuts down the ROS2 client library.
 
 The main() function initializes the ROS2 system using rclpy.init(), creates an instance of the UnixEpochTimeSubscriber class, and enters the ROS2 event loop using rclpy.spin(). The event loop allows the subscriber to receive messages and the publisher to send messages. Finally, the node is destroyed using unix_epoch_time_subscriber.destroy_node(), and the ROS2 system is shutdown using rclpy.shutdown().
 
