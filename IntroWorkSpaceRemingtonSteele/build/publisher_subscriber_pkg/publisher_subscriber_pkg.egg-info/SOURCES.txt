@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/PKG-INFO
+../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/SOURCES.txt
+../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/dependency_links.txt
+../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/entry_points.txt
+../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/requires.txt
+../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/top_level.txt
+../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/zip-safe
+publisher_subscriber_pkg/__init__.py
+publisher_subscriber_pkg/timepublisher.py
+publisher_subscriber_pkg/timesubscriber.py
+resource/publisher_subscriber_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

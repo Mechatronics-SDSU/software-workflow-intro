@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/requires.txt
+writing top-level names to ../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/top_level.txt
+reading manifest file '../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying publisher_subscriber_pkg/timesubscriber.py -> /home/remington/IntroWorkSpaceRemingtonSteele/build/publisher_subscriber_pkg/build/lib/publisher_subscriber_pkg
+running install
+running install_lib
+copying /home/remington/IntroWorkSpaceRemingtonSteele/build/publisher_subscriber_pkg/build/lib/publisher_subscriber_pkg/timesubscriber.py -> /home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/lib/python3.8/site-packages/publisher_subscriber_pkg
+byte-compiling /home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/lib/python3.8/site-packages/publisher_subscriber_pkg/timesubscriber.py to timesubscriber.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/lib/python3.8/site-packages/publisher_subscriber_pkg-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info to /home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/lib/python3.8/site-packages/publisher_subscriber_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+Installing listener script to /home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/lib/publisher_subscriber_pkg
+Installing talker script to /home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/lib/publisher_subscriber_pkg
+writing list of installed files to '/home/remington/IntroWorkSpaceRemingtonSteele/build/publisher_subscriber_pkg/install.log'

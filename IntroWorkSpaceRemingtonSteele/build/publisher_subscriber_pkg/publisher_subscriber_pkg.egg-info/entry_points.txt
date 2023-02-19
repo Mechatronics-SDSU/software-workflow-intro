@@ -1,0 +1,4 @@
+[console_scripts]
+listener = publisher_subscriber_pkg.timesubscriber:main
+talker = publisher_subscriber_pkg.timepublisher:main
+

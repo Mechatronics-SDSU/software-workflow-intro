@@ -1,0 +1,41 @@
+[0.481s] Invoking command in '/home/remington/IntroWorkSpaceRemingtonSteele/src/publisher_subscriber_pkg': PYTHONPATH=/home/remington/IntroWorkSpaceRemingtonSteele/build/publisher_subscriber_pkg/prefix_override:/home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_subscriber_pkg build --build-base /home/remington/IntroWorkSpaceRemingtonSteele/build/publisher_subscriber_pkg/build install --record /home/remington/IntroWorkSpaceRemingtonSteele/build/publisher_subscriber_pkg/install.log --install-scripts $base/lib/publisher_subscriber_pkg --single-version-externally-managed
+[0.642s] running egg_info
+[0.642s] creating ../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info
+[0.642s] writing ../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/PKG-INFO
+[0.642s] writing dependency_links to ../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/dependency_links.txt
+[0.643s] writing entry points to ../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/entry_points.txt
+[0.643s] writing requirements to ../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/requires.txt
+[0.652s] writing top-level names to ../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/top_level.txt
+[0.653s] writing manifest file '../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/SOURCES.txt'
+[0.678s] reading manifest file '../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/SOURCES.txt'
+[0.680s] writing manifest file '../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info/SOURCES.txt'
+[0.680s] running build
+[0.680s] running build_py
+[0.682s] creating /home/remington/IntroWorkSpaceRemingtonSteele/build/publisher_subscriber_pkg/build
+[0.682s] creating /home/remington/IntroWorkSpaceRemingtonSteele/build/publisher_subscriber_pkg/build/lib
+[0.682s] creating /home/remington/IntroWorkSpaceRemingtonSteele/build/publisher_subscriber_pkg/build/lib/publisher_subscriber_pkg
+[0.682s] copying publisher_subscriber_pkg/timesubscriber.py -> /home/remington/IntroWorkSpaceRemingtonSteele/build/publisher_subscriber_pkg/build/lib/publisher_subscriber_pkg
+[0.682s] copying publisher_subscriber_pkg/timepublisher.py -> /home/remington/IntroWorkSpaceRemingtonSteele/build/publisher_subscriber_pkg/build/lib/publisher_subscriber_pkg
+[0.682s] copying publisher_subscriber_pkg/__init__.py -> /home/remington/IntroWorkSpaceRemingtonSteele/build/publisher_subscriber_pkg/build/lib/publisher_subscriber_pkg
+[0.682s] running install
+[0.683s] running install_lib
+[0.684s] creating /home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/lib/python3.8/site-packages/publisher_subscriber_pkg
+[0.684s] copying /home/remington/IntroWorkSpaceRemingtonSteele/build/publisher_subscriber_pkg/build/lib/publisher_subscriber_pkg/timesubscriber.py -> /home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/lib/python3.8/site-packages/publisher_subscriber_pkg
+[0.685s] copying /home/remington/IntroWorkSpaceRemingtonSteele/build/publisher_subscriber_pkg/build/lib/publisher_subscriber_pkg/timepublisher.py -> /home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/lib/python3.8/site-packages/publisher_subscriber_pkg
+[0.685s] copying /home/remington/IntroWorkSpaceRemingtonSteele/build/publisher_subscriber_pkg/build/lib/publisher_subscriber_pkg/__init__.py -> /home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/lib/python3.8/site-packages/publisher_subscriber_pkg
+[0.686s] byte-compiling /home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/lib/python3.8/site-packages/publisher_subscriber_pkg/timesubscriber.py to timesubscriber.cpython-38.pyc
+[0.688s] byte-compiling /home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/lib/python3.8/site-packages/publisher_subscriber_pkg/timepublisher.py to timepublisher.cpython-38.pyc
+[0.688s] byte-compiling /home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/lib/python3.8/site-packages/publisher_subscriber_pkg/__init__.py to __init__.cpython-38.pyc
+[0.689s] running install_data
+[0.689s] creating /home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/share/ament_index
+[0.689s] creating /home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/share/ament_index/resource_index
+[0.690s] creating /home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/share/ament_index/resource_index/packages
+[0.690s] copying resource/publisher_subscriber_pkg -> /home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/share/ament_index/resource_index/packages
+[0.690s] copying package.xml -> /home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/share/publisher_subscriber_pkg
+[0.690s] running install_egg_info
+[0.691s] Copying ../../build/publisher_subscriber_pkg/publisher_subscriber_pkg.egg-info to /home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/lib/python3.8/site-packages/publisher_subscriber_pkg-0.0.0-py3.8.egg-info
+[0.692s] running install_scripts
+[0.706s] Installing listener script to /home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/lib/publisher_subscriber_pkg
+[0.706s] Installing talker script to /home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/lib/publisher_subscriber_pkg
+[0.706s] writing list of installed files to '/home/remington/IntroWorkSpaceRemingtonSteele/build/publisher_subscriber_pkg/install.log'
+[0.728s] Invoked command in '/home/remington/IntroWorkSpaceRemingtonSteele/src/publisher_subscriber_pkg' returned '0': PYTHONPATH=/home/remington/IntroWorkSpaceRemingtonSteele/build/publisher_subscriber_pkg/prefix_override:/home/remington/IntroWorkSpaceRemingtonSteele/install/publisher_subscriber_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/publisher_subscriber_pkg build --build-base /home/remington/IntroWorkSpaceRemingtonSteele/build/publisher_subscriber_pkg/build install --record /home/remington/IntroWorkSpaceRemingtonSteele/build/publisher_subscriber_pkg/install.log --install-scripts $base/lib/publisher_subscriber_pkg --single-version-externally-managed
