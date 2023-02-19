@@ -1,32 +1,33 @@
 import rclpy
 import time
 from rclpy.node import Node
-from std_msgs.msg import Int64
+from std_msgs.msg import String
 
-class UnixEpochTimePublisher(Node):
-
+class UnixEpochTime(Node):
     def __init__(self):
-        super().__init__('unix_epoch_time_publisher')
-        self.publisher_ = self.create_publisher(Int64, 'unix_epoch_time', 10)
+        super().__init__('unix_epoch_time')
+        self.publisher_ = self.create_publisher(String, 'current_unix_epoch_time', 10)
         timer_period = 5  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
+        self.i = 0
 
     def timer_callback(self):
-        # Get the current unix epoch time
-        current_time = int(time.time())
-        # Publish the current unix epoch time
-        msg = Int64()
-        msg.data = current_time
+        date = int(time.time_ns())
+        msg = String()
+        msg.data = 'Current unix epoch time: %d.%09d' % (date // 10**9, date % 10**9)
         self.publisher_.publish(msg)
-        self.get_logger().info('Published unix epoch time: %d' % current_time)
+        self.get_logger().info('Publishing: "%s"' % msg.data)
+        self.i += 1
 
 def main(args=None):
     rclpy.init(args=args)
-    unix_epoch_time_publisher = UnixEpochTimePublisher()
-    rclpy.spin(unix_epoch_time_publisher)
-    unix_epoch_time_publisher.destroy_node()
+    unix_epoch_time = UnixEpochTime()
+    rclpy.spin(unix_epoch_time)
+    # Destroy the node explicitly
+    # (optional - otherwise it will be done automatically
+    # when the garbage collector destroys the node object)
+    unix_epoch_time.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
-
