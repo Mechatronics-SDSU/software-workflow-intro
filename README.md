@@ -7,6 +7,7 @@ colcon build --packages-select publisher_subscriber_pkg
 
 #### Then, open two terminals and run these 2 commands in each:
 source /opt/ros/foxy/setup.bash
+
 . install/setup.bash
 
 #### Then, start the talker node in one terminal:
