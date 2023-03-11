@@ -1,0 +1,18 @@
+
+Code Explanation:
+
+1) Type in "cd ~/ros2_ws"
+
+Navigate to "ros2_ws" directory.
+
+2) Type in "colcon build --packages-select cpp_pubsub"
+
+
+3) Type in ". install/setup.bash"
+
+
+4) Type in "ros2 run cpp_pubsub talker"
+
+
+5) Type in "ros2 run cpp_pubsub listener"
+
