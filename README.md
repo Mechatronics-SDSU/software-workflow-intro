@@ -53,7 +53,7 @@ The result should show terminal 1, the publisher, stating the following:
 
 And terminal 2, the subscriber, the following:
 
-`In human readable time: '53 years : 3 months : 1 weeks : 4 days : 17 hrs : 47 min : 5 secs`
+`In human readable time: '53 years : 3 months : X weeks : XX days : X hrs : XX min : XX secs`
 
 And should be printing out these statements at a rate of 1 transmission / 5 seconds.
 
