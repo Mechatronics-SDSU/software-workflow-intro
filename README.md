@@ -1,20 +1,59 @@
-# Software Workflow Introduction
-Learn to use GitHub, Python, and the Mechatronics team's workflow!
 
-## Getting started
-If this is your first time here on the GitHub, welcome! Please refer to the Python environment setup below followed by the Git guide to get started with your introduction to our team's workflow.
+# Introduction Project
 
-### Python environment setup
-[Get started our Python setup guide here](src/python_setup_guide.md)
+## Function:
+This project's primary purpose is to get two nodes to "communicate" with each other,
+which was done through a publisher/subscriber system. In my variation of the project,
+my publisher is given the name "talker" while my subscriber was given "listener".
+Both of their programs can be found under the src folder that's inside the project's
+folder called "cpp_pubsub".
 
-### Using Git
-[See our Git Guide here](src/git_guide.md)
+## Initial setup:
 
-### Introduce yourself
-For your first task, you'll write some basic Python hello world code using Pycharm or the Python environment you set up on your local machine and then push it to this repository. Please do `git checkout first-task` or, in Pycharm, right-click on the `first-task` branch and then click "Checkout". Your instructions for how to submit will be in the docstring in the top of the file `submissions/template.py`. If you want help, you can checkout the `submission-yizaguirre` branch to see what my own submission looks like. You can also message us in the Discord. Good luck!
+All these instructions assume that the computer running these functions have all the
+required dependencies that came with the Ros 2 work space.
 
-## Projects
-If you're writing up a project and have already done the first task, please refer to our project list Trello board and read the styling guide before you begin developing.
+1) Type in `cd ~/ros2_ws`
 
-### Styling guide
-[See our Styling Guide here](src/styling_guide.md) before writing any Python code for projects.
+Navigate to "ros2_ws" directory.
+
+2) Type in `colcon build --packages-select cpp_pubsub`
+
+Builds the package "cpp_pubsub".
+
+
+
+## Getting the two nodes to communicate:
+
+1) In one terminal (T1), type in `. install/setup.bash`
+
+Sources the workspace for this terminal.
+
+2) Type in `ros2 run cpp_pubsub talker` in (T1)
+
+Opens the "talking" terminal which prints out the time in Epoch and sends the
+"listener" the time in human-readable format.
+
+3) In another terminal (T2), type in `. install/setup.bash`
+
+Sources the workspace for this terminal again.
+
+4) And type in `ros2 run cpp_pubsub listener` again in (T2)
+
+Opens the "listening" terminal that receives what the publisher has sent it 
+and prints out the time in human-readable format.
+
+
+-----------
+
+
+The result should show terminal 1, the publisher, stating the following:
+
+`Unix Enpoch Time in seconds: 16785XXXXX`
+
+And terminal 2, the subscriber, the following:
+
+`In human readable time: '53 years : 3 months : 1 weeks : 4 days : 17 hrs : 47 min : 5 secs`
+
+And should be printing out these statements at a rate of 1 transmission / 5 seconds.
+
